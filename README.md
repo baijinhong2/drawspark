@@ -1,2 +1,2 @@
-# drawing-ideas
+# drawspark
 Discover creative drawing ideas and prompts with AI.
