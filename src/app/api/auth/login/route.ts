@@ -1,0 +1,79 @@
+import { NextRequest, NextResponse } from "next/server";
+import {
+  generateToken,
+  setAuthCookie,
+  toAuthUser,
+  verifyPassword,
+} from "@/lib/auth";
+import { verifyCaptcha } from "@/lib/captcha";
+import { getPrisma } from "@/lib/prisma";
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json().catch(() => ({}));
+    const { email, password, captchaId, captchaCode } = body ?? {};
+
+    if (
+      typeof email !== "string" ||
+      typeof password !== "string" ||
+      typeof captchaId !== "string" ||
+      typeof captchaCode !== "string"
+    ) {
+      return NextResponse.json(
+        { success: false, error: "BAD_REQUEST" },
+        { status: 400 },
+      );
+    }
+
+    if (!verifyCaptcha(captchaId, captchaCode)) {
+      return NextResponse.json(
+        { success: false, error: "CAPTCHA_INVALID" },
+        { status: 400 },
+      );
+    }
+
+    const normalizedEmail = email.trim().toLowerCase();
+    if (!EMAIL_RE.test(normalizedEmail)) {
+      return NextResponse.json(
+        { success: false, error: "EMAIL_INVALID" },
+        { status: 400 },
+      );
+    }
+
+    const prisma = getPrisma();
+    const user = await prisma.user.findUnique({
+      where: { email: normalizedEmail },
+    });
+    if (!user || !user.passwordHash) {
+      // Either no such user, or this account was created via Google OAuth
+      // and has no password set — both present as "wrong credentials" to
+      // the caller. We deliberately do NOT distinguish them so an attacker
+      // can't enumerate which emails have Google-only accounts.
+      return NextResponse.json(
+        { success: false, error: "INVALID_CREDENTIALS" },
+        { status: 401 },
+      );
+    }
+
+    const ok = await verifyPassword(password, user.passwordHash);
+    if (!ok) {
+      return NextResponse.json(
+        { success: false, error: "INVALID_CREDENTIALS" },
+        { status: 401 },
+      );
+    }
+
+    const token = generateToken(user.id);
+    await setAuthCookie(token);
+
+    return NextResponse.json({ success: true, user: toAuthUser(user) });
+  } catch (error) {
+    console.error("POST /api/auth/login error:", error);
+    return NextResponse.json(
+      { success: false, error: "LOGIN_FAILED" },
+      { status: 500 },
+    );
+  }
+}

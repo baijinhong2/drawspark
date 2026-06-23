@@ -1,0 +1,1605 @@
+{
+  "nav": {
+    "home": "首页",
+    "generate": "生成灵感",
+    "explore": "探索",
+    "about": "关于",
+    "myInspirations": "我的灵感"
+  },
+  "home": {
+    "heroTitle": "再也不用担心没有绘画灵感",
+    "heroSubtitle": "DrawSpark 能瞬间生成可爱、简单又美观的绘画创意——可按主题（如动物、纹身）和风格（如简约、素描、卡通）筛选——免费且只需几秒钟。",
+    "ctaGenerate": "生成灵感",
+    "ctaExplore": "探索灵感",
+    "popularTitle": "热门灵感",
+    "categoriesTitle": "按分类探索",
+    "viewAll": "查看全部",
+    "seoTitle": "可爱又简单的绘画灵感生成器 – 免费素描提示 | DrawSpark",
+    "seoDescription": "不知道画什么？DrawSpark 瞬间生成可爱、简单又酷炫的绘画灵感和可画之物——动物、纹身、自然、美学素描等。立即免费开始用 DrawSpark 素描。",
+    "seoKeywords": "绘画灵感, 简单绘画创意, 可爱绘画创意, 素描创意, 美学绘画创意, 我该画什么",
+    "head1": {
+      "title": "再也不用担心没有绘画灵感",
+      "description": "DrawSpark 能瞬间生成可爱、简单又美观的绘画创意——可按主题（如动物、纹身）和风格（如简约、素描、卡通）筛选——免费且只需几秒钟。",
+      "buttonText": "生成绘画灵感",
+      "buttonRoute": "/home",
+      "photo": "",
+      "photoThumbnail": ""
+    },
+    "Whatis": {
+      "title": "什么是 DrawSpark？",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "description": "DrawSpark 是一款免费的绘画灵感生成器，专为那些面对空白页面不知画什么、或只是无聊时找东西画的人而设计。无需在 Pinterest 上无休止地滚动，DrawSpark 使用 AI 按需生成新颖、具体的绘画创意，并按主题（动物、人物、自然、花卉、龙、纹身、汽车、动漫）和风格（可爱、酷炫、简单素描、美学绘画）分类。无论你是想要简单的绘画创意快速热身，还是想要酷炫美学风格的纹身草图概念，DrawSpark 都能提供易于想象、不空洞的提示。每个创意都带有高亮关键词，一目了然地显示主题、姿势、场景和风格。DrawSpark 还维护了一个公共画廊，展示社区生成的绘画创意，你可以按主题和风格搜索或筛选，这样当你的速写本枯竭时，总有新的地方可看。",
+          "buttonText": "免费试用 DrawSpark"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "DrawSpark 的绘画灵感生成器如何工作？",
+      "buttonText": "立即生成",
+      "content": [
+        {
+          "title": "第一步：选择主题和风格（可选）",
+          "description": "选择主题（如动物、自然、纹身或人物）和风格（如可爱、简约、酷炫或美学）。完全跳过此步骤，DrawSpark 将为你提供多样化、原创的绘画创意，带来惊喜。"
+        },
+        {
+          "title": "第二步：即时生成绘画灵感",
+          "description": "点击生成按钮，DrawSpark 立即创建五个绘画创意，每个都包含标题、简短描述以及高亮关键词，显示素描的主题、姿势、场景和风格。"
+        },
+        {
+          "title": "第三步：编辑、搜索或探索更多",
+          "description": "调整任何创意的措辞以符合你的构想，通过关键词搜索公共画廊获取更多绘画灵感，或在灵感枯竭时再次生成一批新的素描提示。"
+        }
+      ]
+    },
+    "doWith": {
+      "title": "你能用 DrawSpark 做什么？",
+      "description": "DrawSpark 适应你想要的任何素描方式，从快速可爱的涂鸦到专注的主题研究以及纹身概念。",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "生成简单易画的绘画创意",
+          "description": "筛选“简单”或“简约”以获得适合初学者的绘画创意，非常适合快速热身素描，是日常速写练习或突破创意瓶颈的理想选择，无需过度思考主题。",
+          "buttonText": "获取简单创意"
+        },
+        {
+          "title": "探索可爱和美学绘画创意",
+          "description": "筛选“可爱”或“美学”以生成迷人、风格化的绘画创意，适合心情板、日记素描或社交媒体艺术，具有鲜明的视觉风格。",
+          "buttonText": "探索风格"
+        },
+        {
+          "title": "寻找纹身和动物绘画创意",
+          "description": "将“纹身”、“动物”或“自然”等主题与风格标签结合，一次性生成专注于纹身草图、宠物肖像或植物素描的绘画创意。",
+          "buttonText": "寻找主题创意"
+        },
+        {
+          "title": "在画廊中浏览社区绘画创意",
+          "description": "搜索或筛选公共画廊，查看其他用户生成的绘画创意，发现你喜欢的重复主题和风格，并找到你自己想不到的素描提示。",
+          "buttonText": "浏览画廊"
+        }
+      ]
+    },
+    "Whois": {
+      "title": "DrawSpark 适合谁？",
+      "buttonText": "找到你的创意",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "初学者",
+          "description": "刚学绘画不知从何开始？DrawSpark 的简单易画创意消除了猜测，为初次尝试者提供可实现的目标，一次一幅画地建立信心。"
+        },
+        {
+          "title": "儿童和年轻艺术家",
+          "description": "寻找适合孩子的可爱绘画创意？DrawSpark 生成简单友好的素描提示——动物、花卉、日常物品——有趣且易于上手，适合在家或课堂上练习的年轻艺术家。"
+        },
+        {
+          "title": "画到一半感到无聊的速写本爱好者",
+          "description": "当你无聊地盯着空白速写本页面时，DrawSpark 能即时生成新颖、具体的绘画创意，涵盖任何主题或风格，让你继续素描而不是停滞不前。"
+        }
+      ]
+    },
+    "youNeed": {
+      "title": "为什么选择 DrawSpark 获取绘画灵感？",
+      "buttonText": "免费生成创意",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "即时、具体的绘画创意",
+          "description": "DrawSpark 在几秒钟内生成五个具体、可视化的绘画创意，并带有高亮关键词显示主题、姿势、场景和风格——不再有“画一只动物”这样毫无方向的模糊提示。"
+        },
+        {
+          "title": "基于真实主题和风格构建",
+          "description": "DrawSpark 的标签——涵盖动物、自然、纹身等主题，以及可爱、简约、酷炫、美学等风格——基于真实的绘画相关搜索行为构建，因此每个筛选都反映人们实际寻找的内容。"
+        },
+        {
+          "title": "免费，无需注册即可开始",
+          "description": "DrawSpark 允许你无需创建账户即可生成绘画创意并浏览社区画廊，为任何只想快速获得素描提示的人消除了障碍。"
+        }
+      ]
+    },
+    "realVoices": {
+      "title": "真实用户评价",
+      "buttonText": "加入 DrawSpark",
+      "buttonRoute": "/home",
+      "ext1": "4.9",
+      "ext2": "来自 1842 条评价",
+      "content": [
+        {
+          "title": "终于治好了我的速写本瓶颈",
+          "description": "以前我打开速写本，因为无聊盯着页面十分钟然后放弃。DrawSpark 几秒钟内给我五个扎实、简单的绘画创意，高亮关键词真的帮我在开始前想象场景。这个月我几乎每天都用。",
+          "ext1": "5",
+          "ext2": "Maria Chen",
+          "ext3": "插画学生"
+        },
+        {
+          "title": "纹身草图热身的好工具",
+          "description": "我经营自己的纹身工作室，在客户预约前用 DrawSpark 的纹身和美学标签热身。这些创意足够具体，可以快速素描，不是泛泛的填充。它已成为我开店前日常流程的一部分。",
+          "ext1": "5",
+          "ext2": "Jason Miller",
+          "ext3": "纹身艺术家"
+        },
+        {
+          "title": "我的孩子们主动要求用它",
+          "description": "我教一个课后美术班，DrawSpark 的可爱简单绘画创意非常适合让一群八岁孩子对绘画保持热情。提示对初学者来说足够简单，但仍然有趣且具体，不会无聊。",
+          "ext1": "5",
+          "ext2": "Karen Walsh",
+          "ext3": "美术老师"
+        },
+        {
+          "title": "比刷 Pinterest 几小时好多了",
+          "description": "以前我整晚刷 Pinterest 找绘画灵感，结果什么都没画。DrawSpark 直接给我一个酷炫、具体的创意，让我把时间花在素描而不是搜索上。大大节省时间。",
+          "ext1": "5",
+          "ext2": "Devon Brooks",
+          "ext3": "业余素描爱好者"
+        },
+        {
+          "title": "喜欢主题和风格的组合",
+          "description": "能够将自然等主题与简约等风格结合，这让我很满意。大多数绘画灵感生成器只允许选择一个类别，但 DrawSpark 让我叠加筛选，直到得到我想要的提示类型。",
+          "ext1": "5",
+          "ext2": "Priya Nair",
+          "ext3": "数字艺术家"
+        },
+        {
+          "title": "简单、快速且真正有用",
+          "description": "无需账户，没有杂乱，只有一个按钮给我真正的绘画创意。我曾怀疑 AI 生成器能否给出足够具体的提示，但关键词高亮在构图想象时确实有帮助。",
+          "ext1": "4.9",
+          "ext2": "Tomás Ferreira",
+          "ext3": "自由插画师"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "buttonText": "开始使用",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "如果没有灵感，我该画什么？",
+          "description": "点击 DrawSpark 的生成按钮，不选择任何标签，它会立即创建五个原创绘画创意，涵盖动物、人物、自然等不同主题，让你总有具体的起点，而不是面对空白页面。"
+        },
+        {
+          "title": "无聊时有什么好东西可画？",
+          "description": "DrawSpark 在你无聊时生成具体的可画之物，从快速的动物素描到可爱的日常物品，让你立即开始绘画，而不是滚动寻找灵感。"
+        },
+        {
+          "title": "DrawSpark 的绘画灵感生成器真的免费吗？",
+          "description": "是的，在 DrawSpark 上生成绘画创意和浏览社区画廊完全免费，无需账户或注册即可开始探索素描提示和绘画灵感。"
+        },
+        {
+          "title": "我能获得可爱又简单的绘画创意吗？",
+          "description": "可以，在生成前选择“可爱”或“简单”标签，DrawSpark 将返回迷人、适合初学者的绘画创意，易于在短时间内素描，非常适合刚开始绘画的人。"
+        },
+        {
+          "title": "生成绘画创意时能组合主题和风格吗？",
+          "description": "可以，DrawSpark 支持同时选择多个标签，例如“动物”和“可爱”，每个生成的创意都将匹配你选择的所有标签，而不仅仅是其中一个。"
+        },
+        {
+          "title": "DrawSpark 能为哪些主题生成绘画创意？",
+          "description": "DrawSpark 涵盖广泛的主题，包括动物、人物、自然、花卉、龙、动漫和纹身绘画创意，每个创意都是按需新鲜生成，而非来自静态列表。"
+        },
+        {
+          "title": "DrawSpark 支持哪些绘画风格？",
+          "description": "DrawSpark 可以生成可爱、酷炫、简约、素描、美学和卡通等风格的绘画创意，让你将提示与你实际想创作的艺术类型相匹配。"
+        },
+        {
+          "title": "生成后我能编辑绘画创意吗？",
+          "description": "可以，每个生成的绘画创意卡片都可编辑，你可以在保存或分享前调整标题或描述的措辞，以更好地匹配你实际想素描的内容。"
+        },
+        {
+          "title": "DrawSpark 会展示其他用户的绘画创意吗？",
+          "description": "是的，DrawSpark 有一个公共画廊，所有生成的绘画创意都会出现，你可以通过关键词搜索浏览由更广泛的 DrawSpark 社区创作的绘画灵感。"
+        },
+        {
+          "title": "DrawSpark 一次生成多少个绘画创意？",
+          "description": "每次点击生成按钮，DrawSpark 生成五个绘画创意，提供多样化的主题和风格供你选择，而不是只给你一个建议。"
+        },
+        {
+          "title": "生成绘画创意有次数限制吗？",
+          "description": "DrawSpark 对每个网络应用公平使用限制以防止滥用，但典型访客可以在一天内反复生成绘画创意，正常使用下不会遇到限制。"
+        }
+      ]
+    }
+  },
+  "generate": {
+    "title": "DrawSpark 的免费 AI 绘画创意生成器",
+    "subtitle": "描述你的心情、场景或主题。DrawSpark 的 AI 会立即生成 5 个独特的绘画创意，激发你的创造力。",
+    "placeholder": "例如：太空里的狐狸、温馨咖啡馆、魔法森林...",
+    "button": "生成 5 条灵感",
+    "generating": "生成中...",
+    "remaining": "今日剩余 {count} 次",
+    "limitReached": "已达每日上限（30次/天），明天再来吧！",
+    "resultsTitle": "你的灵感",
+    "empty": "点击生成，获取第一批灵感。",
+    "seoTitle": "免费 AI 绘画创意生成器 - 无聊时画什么 | DrawSpark",
+    "seoDescription": "不知道画什么？DrawSpark 的 AI 绘画创意生成器可创建无限独特的绘画提示。立即获取可爱、简单、酷炫和纹身绘画灵感。免费，无需登录。今天就开始你的创意之旅。",
+    "seoKeywords": "绘画创意, 画什么, 绘画灵感, 绘画提示, AI 绘画生成器, 可爱画作, 简单画作, 酷炫画作, 纹身设计创意, 素描, 无聊时画什么",
+    "head1": {
+      "title": "DrawSpark 的免费 AI 绘画创意生成器",
+      "description": "描述你的心情、场景或主题。DrawSpark 的 AI 会立即生成 5 个独特的绘画创意，激发你的创造力。",
+      "buttonText": "生成绘画创意",
+      "buttonRoute": "/generate",
+      "photo": "",
+      "photoThumbnail": ""
+    },
+    "Whatis": {
+      "title": "什么是 DrawSpark 的 AI 绘画创意生成器？",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "description": "DrawSpark 是一个免费的 AI 驱动的绘画创意生成器，帮助艺术家、初学者和任何热爱绘画的人立即找到灵感。与静态的绘画提示列表不同，DrawSpark 使用先进的 AI 根据你的感受、心情或绘画对象生成个性化、独特的绘画创意。无论你是在寻找可爱画作、酷炫素描、简单易画的东西，还是纹身设计灵感，DrawSpark 每次都能提供 5 个独特且可操作的创意。它是克服创作瓶颈和回答“今天画什么？”这一古老问题的终极工具。",
+          "buttonText": "尝试绘画生成器",
+          "buttonRoute": "/generate"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "如何使用 DrawSpark 的 AI 绘画生成器",
+      "buttonText": "生成灵感",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "第一步：表达你的心情或主题",
+          "description": "输入你的感受或想画的内容。例如：“可爱又简单的东西”、“送给女朋友的纹身设计”、“无聊时画什么”，或者留空以获得随机惊喜。DrawSpark 的 AI 理解自然语言，所以只需说出你的想法。"
+        },
+        {
+          "title": "第二步：AI 生成 5 个绘画创意",
+          "description": "DrawSpark 的 AI 会根据你的输入立即创建 5 个独特的绘画提示。每个创意都包含一个吸引人的标题、详细描述、主题、风格、难度级别、预计时间和相关标签，帮助你立即开始。"
+        },
+        {
+          "title": "第三步：选择、保存并开始绘画",
+          "description": "浏览 5 个创意，找到最让你兴奋的一个，然后开始绘画。收藏你喜欢的创意以便稍后使用，或复制提示与朋友分享。每次生成都会产生你无法在其他地方找到的全新原创绘画灵感。"
+        }
+      ]
+    },
+    "doWith": {
+      "title": "使用 DrawSpark 的绘画创意生成器可以创作什么？",
+      "description": "DrawSpark 生成涵盖所有主要类别的绘画创意——从可爱的动物和酷炫的素描到适合初学者的涂鸦和复杂的纹身设计。无论你是在培养素描习惯、设计礼物，还是消磨时间，这里都有无限可能。",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "可爱画作与 Kawaii 艺术",
+          "description": "生成适合初学者、儿童或任何喜爱可爱艺术的人的迷人绘画创意。获取动物、角色和日常物品的 kawaii 风格提示，简单易画，保证带来微笑。",
+          "buttonText": "获取可爱绘画创意",
+          "buttonRoute": "/generate"
+        },
+        {
+          "title": "纹身设计与身体艺术灵感",
+          "description": "探索各种风格的独特纹身绘画创意——极简、传统、几何和暗黑。非常适合纹身艺术家设计定制作品或任何计划下一个纹身的人。立即生成详细且风格合适的纹身概念。",
+          "buttonText": "发现纹身创意",
+          "buttonRoute": "/generate"
+        },
+        {
+          "title": "酷炫素描与都市艺术",
+          "description": "获取前卫、街头风格的绘画提示，用于涂鸦、漫画和酷炫角色设计。从动漫风格的插画到都市素描，DrawSpark 生成的创意挑战你的技能并扩展你的创作范围。",
+          "buttonText": "获取酷炫素描创意",
+          "buttonRoute": "/generate"
+        },
+        {
+          "title": "适合初学者的简单画作",
+          "description": "非常适合新手艺术家和儿童——简单、易上手且有趣的绘画提示。获取动物、花卉、食物和日常物品的即用型创意，帮助你建立信心和技能，而不会感到沮丧。",
+          "buttonText": "从简单画作开始",
+          "buttonRoute": "/generate"
+        }
+      ]
+    },
+    "Whois": {
+      "title": "谁从 DrawSpark 的绘画灵感工具中受益？",
+      "buttonText": "生成你的创意",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "艺术家与插画师",
+          "description": "专业艺术家和插画师使用 DrawSpark 突破创作瓶颈，发现新主题，并通过新风格扩展作品集。生成推动边界、激发新系列作品的灵感。"
+        },
+        {
+          "title": "初学者与爱好者",
+          "description": "任何学习绘画的人都会发现 DrawSpark 的宝贵价值。获取适合年龄和技能水平的绘画提示，逐步建立信心。从简单的涂鸦到更复杂的构图，总有适合你技能水平的创意。"
+        },
+        {
+          "title": "纹身艺术家与设计师",
+          "description": "纹身艺术家使用 DrawSpark 为客户生成定制设计创意或克服创作瓶颈。凭借涵盖数千种风格和主题的提示，你将发现独特的设计概念，使你的作品集脱颖而出。"
+        }
+      ]
+    },
+    "youNeed": {
+      "title": "为什么选择 DrawSpark 的 AI 绘画创意生成器？",
+      "buttonText": "立即获取绘画创意",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "无限的新鲜灵感",
+          "description": "DrawSpark 每次生成独特的绘画创意——没有重复，没有 recycled 提示。AI 创建主题、风格、心情和难度的原创组合，你在任何静态绘画提示列表中都找不到。"
+        },
+        {
+          "title": "免费且无需登录",
+          "description": "DrawSpark 100% 免费，无需账户或信用卡。立即开始生成绘画创意，零障碍。非常适合课堂、工作坊或自发的创意活动。"
+        },
+        {
+          "title": "智能意图匹配",
+          "description": "DrawSpark 理解自然语言。输入你的心情、场景或主题——AI 将其映射到正确的主题、风格和难度级别。说“我想给妈妈画一份礼物”，即可获得即时相关的创意。"
+        }
+      ]
+    },
+    "realVoices": {
+      "title": "艺术家们对 DrawSpark 绘画灵感的评价",
+      "buttonText": "立即尝试 DrawSpark",
+      "buttonRoute": "/generate",
+      "ext1": "4.9",
+      "ext2": "来自 1127 条评论",
+      "content": [
+        {
+          "title": "终于有了源源不断的绘画创意",
+          "description": "作为一名专业插画师，我有时会花几个小时决定画什么。DrawSpark 在几秒钟内给我新鲜、相关的创意。种类令人惊叹——可爱、酷炫、写实、纹身设计——应有尽有。",
+          "ext1": "5",
+          "ext2": "Emma Rodriguez",
+          "ext3": "插画师"
+        },
+        {
+          "title": "我的学生喜欢这些绘画提示",
+          "description": "我每天在美术课上使用 DrawSpark。当学生说‘我不知道画什么’时，我们一起生成 5 个创意。难度级别帮助我将提示与每个学生的技能水平相匹配。完全改变了游戏规则。",
+          "ext1": "5",
+          "ext2": "Marcus Thompson",
+          "ext3": "美术老师"
+        },
+        {
+          "title": "纹身艺术家的必备工具",
+          "description": "我是一名纹身艺术家，DrawSpark 现在是我创作过程的一部分。AI 生成的设计概念我从未想到过——从极简线条艺术到复杂的暗黑奇幻作品。我的客户喜欢看到多种选择。",
+          "ext1": "5",
+          "ext2": "Lena Chen",
+          "ext3": "纹身艺术家"
+        },
+        {
+          "title": "胜过所有我试过的绘画提示列表",
+          "description": "我试过所有绘画创意网站和书籍。DrawSpark 不同——它不只是给你一个创意列表，而是根据你的心情智能生成。质量始终如一且原创。",
+          "ext1": "5",
+          "ext2": "David Park",
+          "ext3": "数字艺术家"
+        },
+        {
+          "title": "创意瓶颈日的完美选择",
+          "description": "每个艺术家都知道盯着空白页的感觉。DrawSpark 让我重新动起来。每次生成 5 个创意给了我选择，如果都不合适可以重新生成。就像一个随叫随到的创意伙伴。",
+          "ext1": "5",
+          "ext2": "Sophie Keller",
+          "ext3": "自由艺术家"
+        },
+        {
+          "title": "帮助我快速找到简单的绘画创意",
+          "description": "我是绘画新手，过去花在决定画什么上的时间比实际画画还多。DrawSpark 给我清晰、简单的创意，符合我的初学者水平。我的素描本从未这么满过。",
+          "ext1": "5",
+          "ext2": "James O'Brien",
+          "ext3": "初学者"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于 DrawSpark 绘画创意生成器的常见问题",
+      "buttonText": "生成绘画创意",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "什么是 DrawSpark？绘画创意生成器如何工作？",
+          "description": "DrawSpark 是一个免费的 AI 驱动的绘画创意生成器，可创建个性化的绘画提示。只需描述你的心情、主题或场景——或者留空以获得随机灵感——DrawSpark 的 AI 会立即生成 5 个独特且详细的绘画创意。"
+        },
+        {
+          "title": "DrawSpark 的绘画灵感工具真的免费吗？",
+          "description": "是的！DrawSpark 完全免费使用，无隐藏费用，无需信用卡，也无需登录。你可以根据需要频繁生成绘画创意，每天最多 30 次。"
+        },
+        {
+          "title": "DrawSpark 与其他绘画创意生成器有何不同？",
+          "description": "DrawSpark 使用 AI 根据你的输入生成个性化、多样化的绘画创意。与静态的绘画提示列表不同，DrawSpark 理解自然语言，并将你的心情或主题映射到完美的主题、风格和难度级别。"
+        },
+        {
+          "title": "我可以从 DrawSpark 获得什么样的绘画创意？",
+          "description": "DrawSpark 生成所有主要类别的绘画创意：可爱和 kawaii 艺术、酷炫素描和都市绘画、适合初学者的简单画作、写实画作、动漫和卡通风格、纹身设计、奇幻生物、花卉艺术等等。"
+        },
+        {
+          "title": "无聊时应该画什么？",
+          "description": "DrawSpark 是消除无聊的完美工具！只需点击生成或输入“我无聊”，即可获得 5 个独特的绘画创意，专为治愈创意无聊而设计。从快速素描到详细插画，总有新鲜创意在等待。"
+        },
+        {
+          "title": "我可以获得适合初学者的简单绘画创意吗？",
+          "description": "是的！DrawSpark 可以生成任何技能水平的绘画创意。对于初学者，AI 会创建简单、可实现的提示，并附有清晰描述，帮助你建立信心和技能，而不会感到不知所措。"
+        },
+        {
+          "title": "我可以使用 DrawSpark 生成纹身设计创意吗？",
+          "description": "当然可以。DrawSpark 生成多种风格的详细纹身设计概念——包括极简、几何、传统、暗黑和奇幻。非常适合纹身艺术家规划定制设计或任何探索纹身创意的人。"
+        },
+        {
+          "title": "每天可以生成多少个绘画创意？",
+          "description": "DrawSpark 每天允许最多 30 次免费绘画创意生成。每次生成产生 5 个独特的绘画提示，每天最多 150 个新鲜绘画创意——足以满足一生的创意灵感。"
+        },
+        {
+          "title": "我可以获得可爱和 kawaii 风格的绘画创意吗？",
+          "description": "是的！DrawSpark 擅长生成可爱和 kawaii 风格的绘画创意。无论你想画可爱的动物、Q 版角色还是 kawaii 食物艺术，DrawSpark 都能提供无限的可爱绘画灵感。"
+        },
+        {
+          "title": "DrawSpark 也适合专业艺术家吗？",
+          "description": "是的。专业艺术家、插画师和纹身设计师使用 DrawSpark 来突破创作边界，发现新的主题和风格，或克服创作瓶颈。它是一个在任何技能水平上生成新鲜概念的强大工具。"
+        }
+      ]
+    },
+    "inputPlaceholder": "描述你的想法（可选）",
+    "generateButton": "生成绘画创意",
+    "quickOptionsLabel": "快速选项",
+    "tagCute": "可爱",
+    "tagEasy": "简单",
+    "tagCool": "酷炫",
+    "tagSketch": "素描",
+    "tagBored": "无聊",
+    "tagRandom": "随机",
+    "fallbackHeading": "热门灵感",
+    "todayInspiration": "今日灵感",
+    "generatedCount": "已生成 {count} 个创意",
+    "shuffleAgain": "重新生成",
+    "viewAll": "查看所有灵感",
+    "tagAnime": "动漫",
+    "tagAnimal": "动物",
+    "getMore": "获取更多",
+    "exploreMore": "探索更多灵感"
+  },
+  "explore": {
+    "title": "探索社区绘画灵感",
+    "subtitle": "浏览 DrawSpark 上生成的所有绘画创意——可爱、简单、唯美、纹身等——可按关键词搜索，按标签筛选。",
+    "searchPlaceholder": "搜索灵感...",
+    "sortLatest": "最新",
+    "sortLikes": "最多点赞",
+    "sortCopies": "最多复制",
+    "filterSubject": "主题",
+    "filterStyle": "风格",
+    "filterDifficulty": "难度",
+    "filterMood": "情绪",
+    "filterScene": "场景",
+    "filterTime": "耗时",
+    "all": "全部",
+    "clearAll": "清除全部",
+    "sortLabel": "排序",
+    "expandMore": "更多",
+    "expandMoreCount": "更多（{count}）",
+    "collapse": "收起",
+    "noResults": "没有找到灵感，换个筛选试试。",
+    "loadMore": "加载更多",
+    "filterAudience": "受众",
+    "sortFavorites": "最多收藏",
+    "filterTitle": "筛选",
+    "filterButton": "筛选",
+    "filterLabel": "筛选",
+    "refreshTags": "换一批标签",
+    "apply": "应用",
+    "cancel": "取消",
+    "emptyMessage": "输入关键词或点标签来查找灵感。",
+    "loadingMore": "加载中…",
+    "endOfList": "到底啦 ✨",
+    "seoTitle": "探索绘画创意 – 浏览素描灵感 | DrawSpark",
+    "seoDescription": "浏览 DrawSpark 社区分享的数千个绘画创意和素描提示。按关键词或标签搜索，随时找到可爱、简单、唯美和纹身绘画灵感。",
+    "seoKeywords": "绘画创意, Pinterest 绘画创意, 绘画灵感, 唯美绘画创意, 素描创意, 浏览绘画创意",
+    "head1": {
+      "title": "探索社区绘画灵感",
+      "description": "浏览 DrawSpark 上生成的所有绘画创意——可爱、简单、唯美、纹身等——可按关键词搜索，按标签筛选。",
+      "buttonText": "浏览绘画创意",
+      "buttonRoute": "/explore",
+      "photo": "",
+      "photoThumbnail": ""
+    },
+    "Whatis": {
+      "title": "什么是 DrawSpark 探索画廊？",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "description": "DrawSpark 探索画廊是一个由社区生成的绘画创意活态集合，随着更多人搜索绘画素材而日益增长。无需浏览零散的 Pinterest 板块或过时的绘画灵感列表，探索画廊将每一个创意——可爱绘画创意、简单素描提示、唯美概念、纹身灵感、动物和自然主题——汇集到一个可搜索的地方。每张卡片一目了然地展示主题、姿势、场景和风格，让你快速浏览数十个绘画创意，无需阅读整段文字来弄清楚每个创意的实际内容。使用搜索栏按关键词查找绘画创意，或按标签筛选，将画廊缩小到你所寻找的确切素描灵感。探索画廊持续更新，所以你今天看到的绘画创意永远不会是静态 Pinterest 板块上那些陈旧列表。",
+          "buttonText": "开始浏览",
+          "buttonRoute": "/explore"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "如何在 DrawSpark 的探索页面上找到绘画创意？",
+      "buttonText": "立即浏览",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "第 1 步：按关键词搜索或按标签筛选",
+          "description": "在搜索栏中输入关键词——如“可爱”、“纹身”或“自然”——或选择一个标签，将画廊筛选为与你寻找的主题或风格相匹配的绘画创意。"
+        },
+        {
+          "title": "第 2 步：浏览绘画创意画廊",
+          "description": "浏览加载的卡片，每张卡片显示绘画创意的标题、突出关键词和标签，让你快速判断哪些符合你实际想要素描的内容。"
+        },
+        {
+          "title": "第 3 步：如果没有合适的，自己生成",
+          "description": "没有找到合适的绘画创意？返回生成器，立即创建五个全新的素描提示，这些提示随后也会加入探索画廊，供其他人发现。"
+        }
+      ]
+    },
+    "doWith": {
+      "title": "在探索页面上你能做什么？",
+      "description": "探索不是一个静态的绘画创意列表——它是一个不断增长、可搜索和筛选的画廊，每当你不知道画什么时，可以随时从中汲取新鲜灵感。",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "按关键词搜索绘画创意",
+          "description": "在搜索栏中输入任何词语——动物、情绪、风格如唯美或酷炫——即可立即在画廊中显示与你的搜索匹配的绘画创意，涵盖标题和标签。",
+          "buttonText": "搜索创意",
+          "buttonRoute": "/explore"
+        },
+        {
+          "title": "按主题或风格标签筛选",
+          "description": "将画廊缩小到特定主题如纹身、动物或自然，或特定风格如可爱、简单或唯美，从而浏览绘画创意，无需滚动浏览不相关的内容。",
+          "buttonText": "筛选画廊",
+          "buttonRoute": "/explore"
+        },
+        {
+          "title": "发现你不会主动搜索的绘画创意",
+          "description": "不设置任何筛选条件滚动画廊，偶然发现其他人生成的绘画创意和素描提示，往往会浮现出你自己不会想到去问的主题或风格。",
+          "buttonText": "发现创意",
+          "buttonRoute": "/explore"
+        },
+        {
+          "title": "替代你的 Pinterest 绘画创意板",
+          "description": "跳过杂乱、广告繁多的 Pinterest 绘画创意板，使用探索画廊作为一个单一、快速加载的画廊，专为素描灵感而建，可在一个地方搜索。",
+          "buttonText": "尝试探索",
+          "buttonRoute": "/explore"
+        }
+      ]
+    },
+    "Whois": {
+      "title": "探索画廊适合谁？",
+      "buttonText": "浏览绘画创意",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "Pinterest 难民",
+          "description": "厌倦了 Pinterest 绘画创意板上充满失效链接和重复图钉？探索画廊在一个干净的空间中汇集了真实、可搜索的绘画创意，没有广告或死胡同。"
+        },
+        {
+          "title": "寻找特定风格的艺术家",
+          "description": "如果你已经明确想要唯美、纹身或可爱绘画创意，探索的标签筛选器能让你直接进入匹配的素描提示画廊，而不是泛泛的搜索结果。"
+        },
+        {
+          "title": "喜欢滚动浏览灵感的用户",
+          "description": "有时你不想生成，只想滚动浏览。探索作为一个被动的绘画灵感流，适合那些通过浏览而非输入请求来发现创意的人。"
+        }
+      ]
+    },
+    "youNeed": {
+      "title": "为什么要在 DrawSpark 的探索页面上浏览绘画创意？",
+      "buttonText": "开始探索",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "始终新鲜，绝非静态列表",
+          "description": "与固定的绘画创意列表或旧的 Pinterest 板块不同，探索画廊随着 DrawSpark 社区生成新的素描提示而持续增长，因此画廊中总有新内容。"
+        },
+        {
+          "title": "专为搜索而建，不仅仅是滚动",
+          "description": "探索的搜索栏和标签筛选器让你直接跳转到相关的绘画创意，而不是在 Pinterest 风格的 feed 中无休止地滚动，期望出现正确的素描提示。"
+        },
+        {
+          "title": "免费访问，无需账户",
+          "description": "浏览探索画廊中的所有绘画创意完全免费，无需创建账户，因此你可以在进入页面后立即投入素描灵感。"
+        }
+      ]
+    },
+    "realVoices": {
+      "title": "真实用户评价",
+      "buttonText": "探索绘画创意",
+      "buttonRoute": "/explore",
+      "ext1": "4.9",
+      "ext2": "来自 1842 条评价",
+      "content": [
+        {
+          "title": "取代了我整个 Pinterest 板块",
+          "description": "我有一个 Pinterest 板块，收藏了 300 多个绘画创意，现在一半链接都失效了。探索加载速度快，可以按关键词搜索，画廊每次回来都有新的素描提示。我已经几周没打开 Pinterest 了。",
+          "ext1": "5",
+          "ext2": "Maria Chen",
+          "ext3": "插画学生"
+        },
+        {
+          "title": "标签筛选节省了大量时间",
+          "description": "我只想要纹身和唯美绘画创意，能够将探索画廊筛选到这些标签，意味着我不必在可爱的动物素描中寻找我真正需要的内容。比泛泛搜索好太多了。",
+          "ext1": "5",
+          "ext2": "Jason Miller",
+          "ext3": "纹身师"
+        },
+        {
+          "title": "我只是喜欢滚动浏览，很有趣",
+          "description": "有时我并不急需绘画创意，只是打开探索，滚动浏览别人生成的内容。这出奇地放松，而且浏览结束时我总能找到想画的东西。",
+          "ext1": "5",
+          "ext2": "Devon Brooks",
+          "ext3": "业余素描爱好者"
+        },
+        {
+          "title": "搜索功能正如你所期望的那样工作",
+          "description": "我输入“龙”测试，立刻得到了一个完整的龙绘画创意画廊。没有模糊的废话，没有不相关的结果。虽然是小细节，但让整个画廊比我想象的实用得多。",
+          "ext1": "5",
+          "ext2": "Priya Nair",
+          "ext3": "数字艺术家"
+        },
+        {
+          "title": "非常适合我的课堂",
+          "description": "我在投影仪上打开探索，让学生按简单或可爱标签筛选，选择他们当天的绘画创意。画廊有足够的多样性，没有人每次都画完全相同的东西。",
+          "ext1": "5",
+          "ext2": "Karen Walsh",
+          "ext3": "美术老师"
+        },
+        {
+          "title": "干净、快速、无杂乱",
+          "description": "没有广告，没有注册墙，只有真实绘画创意的画廊，我可以在几秒钟内搜索。我试过其他素描创意网站，它们把实际内容埋在新闻通讯弹窗下，而探索则非常直接。",
+          "ext1": "4.9",
+          "ext2": "Tomás Ferreira",
+          "ext3": "自由插画师"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "buttonText": "浏览绘画创意",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "DrawSpark 的探索页面是什么？",
+          "description": "探索是一个可搜索的画廊，汇集了 DrawSpark 上生成的所有绘画创意，让你可以浏览、搜索或筛选素描提示，而无需每次都生成新的。"
+        },
+        {
+          "title": "探索比 Pinterest 绘画创意板更好吗？",
+          "description": "探索专为绘画创意而建，具有关键词搜索和标签筛选功能，比滚动 Pinterest 板块更快，并且持续增长，没有失效链接或过时的图钉。"
+        },
+        {
+          "title": "我可以在探索中搜索特定的绘画创意吗？",
+          "description": "可以，探索的搜索栏允许你输入任何关键词——主题、风格或情绪——并立即显示画廊中匹配的绘画创意。"
+        },
+        {
+          "title": "我可以在探索中按标签筛选绘画创意吗？",
+          "description": "可以，探索允许你按标签如简单、可爱、唯美、纹身或动物筛选画廊，并且可以组合多个标签进一步缩小结果。"
+        },
+        {
+          "title": "浏览探索需要账户吗？",
+          "description": "不需要，浏览探索画廊和搜索绘画创意完全免费，无需创建账户。"
+        },
+        {
+          "title": "探索中的绘画创意来自哪里？",
+          "description": "探索中的每个绘画创意都是使用 DrawSpark 的 AI 创意生成器生成的，由社区或 DrawSpark 本身生成，并发布到画廊供所有人浏览。"
+        },
+        {
+          "title": "探索画廊多久更新一次？",
+          "description": "探索画廊随着新绘画创意的生成而持续更新，因此今天可用的绘画灵感永远不会与昨天完全相同。"
+        },
+        {
+          "title": "我可以从探索页面生成新的绘画创意吗？",
+          "description": "可以，如果你没有找到符合需求的绘画创意，可以从探索跳转回生成器，立即创建五个新的素描提示。"
+        }
+      ]
+    },
+    "searchButton": "搜索",
+    "searching": "搜索中…",
+    "noResultsGoGenerate": "未找到匹配——试试生成新创意"
+  },
+  "card": {
+    "like": "点赞",
+    "copy": "复制",
+    "copied": "已复制",
+    "liked": "已点赞",
+    "copying": "复制中...",
+    "copyAll": "复制到剪贴板",
+    "copiedAll": "已复制到剪贴板",
+    "retry": "重试",
+    "view": "查看",
+    "statLikes": "点赞",
+    "statCopies": "复制",
+    "statMood": "情绪",
+    "statScene": "场景",
+    "statAudience": "受众",
+    "favorite": "收藏",
+    "favorited": "已收藏",
+    "comments": "评论",
+    "loginToFavorite": "登录后收藏",
+    "share": "分享",
+    "shareCopied": "已复制分享链接",
+    "shareFailed": "复制分享链接失败",
+    "favoriteFailed": "收藏失败"
+  },
+  "about": {
+    "title": "关于 DrawSpark - 免费 AI 绘画灵感生成器",
+    "description": "DrawSpark 是一款免费的 AI 驱动绘画灵感生成器，旨在帮助艺术家、初学者以及所有热爱绘画的人即时找到灵感。输入你的心情、主题或场景，DrawSpark 会生成 5 个独特的绘画创意，满足你的需求。",
+    "features": {
+      "title": "功能特点",
+      "free": "100% 免费，无需注册",
+      "ai": "AI 生成结构化创意",
+      "community": "社区画廊，支持点赞与复制",
+      "multilingual": "支持多种语言"
+    },
+    "seoTitle": "关于 DrawSpark - 免费 AI 绘画灵感生成器 | DrawSpark",
+    "seoDescription": "DrawSpark 是一款免费的 AI 驱动绘画灵感生成器，专为艺术家、初学者和绘画爱好者打造。了解我们让创意触手可及的使命。",
+    "seoKeywords": "关于 drawspark, AI 绘画生成器, 绘画灵感, 绘画创意, 艺术创意, 什么是 drawspark",
+    "h1": "关于 DrawSpark - 免费 AI 绘画灵感生成器",
+    "whatIs": {
+      "title": "什么是 DrawSpark？",
+      "content": "DrawSpark 是一款免费的 AI 驱动绘画灵感生成器，旨在帮助艺术家、初学者以及所有热爱绘画的人即时找到灵感。输入你的心情、主题或场景，DrawSpark 会生成 5 个独特的绘画创意，满足你的需求。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "content": "DrawSpark 的诞生是为了解决一个简单的问题：“我不知道该画什么。”我们的目标是让创意触手可及，消除寻找灵感的障碍。无论你是专业艺术家、初学者，还是只想画点有趣的东西，DrawSpark 都能为你提供创作所需的火花。"
+    },
+    "why": {
+      "title": "为什么选择 DrawSpark？",
+      "items": {
+        "free": "100% 免费，无需登录",
+        "ai": "AI 驱动的创意生成",
+        "ideas": "每次生成 5 个独特创意",
+        "styles": "涵盖所有风格和主题",
+        "byArtists": "由艺术家打造，为艺术家服务"
+      }
+    },
+    "commitment": {
+      "title": "我们的承诺",
+      "content": "DrawSpark 致力于保护用户隐私。无需登录意味着不收集数据。DrawSpark 不会存储你的个人信息、追踪你的活动或出售你的数据。"
+    },
+    "getStarted": {
+      "title": "立即开始",
+      "content": "准备好开始绘画了吗？现在生成你的第一个绘画创意。",
+      "cta": "生成绘画灵感"
+    }
+  },
+  "footer": {
+    "tagline": "免费 AI 绘画灵感生成器，为艺术家、初学者和每一位热爱绘画的人打造。",
+    "rights": "© {year} DrawSpark. 保留所有权利。",
+    "quickLinks": "快速链接",
+    "home": "首页",
+    "generator": "灵感生成器",
+    "explore": "探索",
+    "categories": "分类",
+    "catCute": "可爱",
+    "catCool": "酷炫",
+    "catSimple": "简约",
+    "catSketch": "素描",
+    "catAnimal": "动物",
+    "catTattoo": "纹身",
+    "catAnime": "动漫",
+    "catFantasy": "奇幻",
+    "popularTopics": "热门主题",
+    "popularEasyThings": "简单的画",
+    "popularBored": "无聊时画什么",
+    "popularTattoo": "可爱纹身设计",
+    "popularKids": "儿童绘画灵感",
+    "support": "帮助",
+    "about": "关于",
+    "contact": "联系我们",
+    "feedback": "反馈",
+    "faq": "常见问题",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 政策"
+  },
+  "enums": {
+    "subject": {
+      "animal": "动物",
+      "people": "人物",
+      "landscape": "风景",
+      "still_life": "静物",
+      "abstract": "抽象",
+      "fantasy": "奇幻",
+      "food": "食物",
+      "architecture": "建筑",
+      "nature": "自然",
+      "holiday": "节日",
+      "everyday": "日常",
+      "other": "其他",
+      "tattoo": "纹身",
+      "anime": "动漫",
+      "flower": "花卉",
+      "car": "汽车",
+      "dragon": "龙"
+    },
+    "style": {
+      "cute": "可爱",
+      "cool": "酷炫",
+      "simple": "简约",
+      "realistic": "写实",
+      "cartoon": "卡通",
+      "abstract": "抽象",
+      "vintage": "复古",
+      "dark": "暗黑",
+      "aesthetic": "唯美",
+      "doodle": "涂鸦",
+      "sketch": "素描",
+      "other": "其他",
+      "kawaii": "卡哇伊",
+      "graffiti": "涂鸦",
+      "minimalist": "极简",
+      "trippy": "迷幻"
+    },
+    "difficulty": {
+      "beginner": "入门",
+      "easy": "简单",
+      "medium": "中等",
+      "hard": "困难"
+    },
+    "mood": {
+      "happy": "快乐",
+      "calm": "平静",
+      "sad": "忧伤",
+      "mysterious": "神秘",
+      "romantic": "浪漫",
+      "dark": "阴暗",
+      "dreamy": "梦幻",
+      "energetic": "活力",
+      "other": "其他"
+    },
+    "scene": {
+      "bored": "无聊时",
+      "class": "课堂",
+      "sketchbook": "速写本",
+      "gift": "礼物",
+      "holiday": "假期",
+      "summer": "夏天",
+      "winter": "冬天",
+      "fall": "秋天",
+      "spring": "春天",
+      "daily": "日常",
+      "other": "其他"
+    },
+    "time": {
+      "5min": "5 分钟",
+      "15min": "15 分钟",
+      "30min": "30 分钟",
+      "1hour": "1 小时",
+      "2hour_plus": "2+ 小时"
+    },
+    "audience": {
+      "kids": "小孩",
+      "beginners": "初学者",
+      "boyfriend": "男朋友",
+      "girlfriend": "女朋友",
+      "best_friend": "闺蜜/兄弟",
+      "mom": "妈妈",
+      "dad": "爸爸",
+      "teacher": "老师",
+      "couples": "情侣",
+      "self": "自己",
+      "other": "其他"
+    }
+  },
+  "faq": {
+    "q1": "什么是 DrawSpark？",
+    "a1": "DrawSpark 是一款免费的 AI 绘画灵感生成器，为艺术家和初学者创建个性化的绘画提示。",
+    "q2": "DrawSpark 的 AI 如何工作？",
+    "a2": "DrawSpark 使用先进的人工智能来理解你的情绪、主题或场景，并根据你的输入生成 5 个独特的绘画创意。",
+    "q3": "DrawSpark 真的免费吗？",
+    "a3": "是的。DrawSpark 100% 免费，无隐藏费用，无需信用卡，也无需登录。",
+    "seoTitle": "绘画灵感生成器常见问题 - 常见问题解答 | DrawSpark",
+    "seoDescription": "查找关于 DrawSpark AI 绘画灵感生成器的常见问题解答。了解如何免费获得最佳绘画灵感。",
+    "seoKeywords": "drawspark 常见问题, 绘画灵感生成器问题, ai 绘画帮助, 绘画灵感解答, 画什么",
+    "h1": "绘画灵感生成器常见问题",
+    "subtitle": "DrawSpark AI 绘画灵感生成器 - 你的问题有答案",
+    "items": {
+      "whatIs": {
+        "q": "什么是 DrawSpark？",
+        "a": "DrawSpark 是一款免费的 AI 绘画灵感生成器，为艺术家和初学者创建个性化的绘画提示。"
+      },
+      "howWorks": {
+        "q": "DrawSpark 的 AI 如何工作？",
+        "a": "DrawSpark 使用先进的人工智能来理解你的情绪、主题或场景，并根据你的输入生成 5 个独特的绘画创意。"
+      },
+      "free": {
+        "q": "DrawSpark 真的免费吗？",
+        "a": "是的。DrawSpark 100% 免费，无隐藏费用，无需信用卡，也无需登录。"
+      },
+      "account": {
+        "q": "我需要创建账户吗？",
+        "a": "不需要。DrawSpark 无需账户，你可以立即开始生成创意。"
+      },
+      "howMany": {
+        "q": "我可以生成多少个绘画创意？",
+        "a": "DrawSpark 每天允许免费生成最多 30 次。每次生成给你 5 个独特的绘画创意。"
+      },
+      "kindOfIdeas": {
+        "q": "DrawSpark 可以生成哪些类型的创意？",
+        "a": "DrawSpark 涵盖所有类别：可爱、酷炫、简单、素描、动物、纹身、动漫、奇幻、风景等等。"
+      },
+      "tattoo": {
+        "q": "DrawSpark 可以生成纹身设计创意吗？",
+        "a": "是的。DrawSpark 可以生成多种风格的详细纹身设计概念。"
+      },
+      "easy": {
+        "q": "我可以获得适合初学者的简单绘画创意吗？",
+        "a": "是的。DrawSpark 可以生成任何技能水平的绘画创意，包括适合初学者的提示。"
+      },
+      "bored": {
+        "q": "无聊的时候应该画什么？",
+        "a": "使用 DrawSpark！输入“我无聊”，即可获得 5 个独特的绘画创意来治愈创意无聊。"
+      },
+      "professional": {
+        "q": "DrawSpark 适合专业艺术家吗？",
+        "a": "是的。专业艺术家使用 DrawSpark 来克服创作瓶颈，发现新的主题和风格。"
+      },
+      "anime": {
+        "q": "我可以生成动漫绘画创意吗？",
+        "a": "是的。DrawSpark 可以生成动漫风格的绘画提示和灵感。"
+      },
+      "data": {
+        "q": "我的数据在 DrawSpark 上安全吗？",
+        "a": "DrawSpark 不会收集或存储你的个人数据。无需登录意味着没有跟踪。"
+      },
+      "mobile": {
+        "q": "我可以在手机上使用 DrawSpark 吗？",
+        "a": "是的。DrawSpark 在桌面和移动浏览器上均可使用。"
+      },
+      "where": {
+        "q": "这些绘画创意来自哪里？",
+        "a": "所有创意均由 AI 生成，创造出主题、风格和情绪的原创独特组合。"
+      },
+      "specific": {
+        "q": "我可以请求特定的绘画创意吗？",
+        "a": "你可以在 DrawSpark 中输入一个主题、题材或风格，AI 将生成相关的创意。"
+      },
+      "community": {
+        "q": "DrawSpark 有社区吗？",
+        "a": "DrawSpark 正在建立一个艺术家社区。在画廊中分享你的作品并激励他人。"
+      },
+      "share": {
+        "q": "如何分享我的绘画？",
+        "a": "DrawSpark 计划在未来的更新中添加分享功能。"
+      },
+      "class": {
+        "q": "我可以在我的美术课上使用 DrawSpark 吗？",
+        "a": "是的。许多老师使用 DrawSpark 进行美术课热身和绘画提示。"
+      },
+      "bestWay": {
+        "q": "使用 DrawSpark 的最佳方式是什么？",
+        "a": "描述你的情绪、场景或主题，让 DrawSpark 生成创意。浏览类别以探索新风格。"
+      },
+      "contactFaq": {
+        "q": "如何联系 DrawSpark？",
+        "a": "发送电子邮件至 support@drawspark.com 联系 DrawSpark。"
+      }
+    }
+  },
+  "auth": {
+    "loginTitle": "欢迎回来",
+    "loginSubtitle": "登录后可以收藏灵感、参与评论。",
+    "registerTitle": "创建账号",
+    "registerSubtitle": "免费注册，1 分钟搞定，无需信用卡。",
+    "loginButton": "登录",
+    "registerButton": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "displayName": "昵称",
+    "captchaPlaceholder": "验证码",
+    "refreshCaptcha": "刷新验证码",
+    "fieldsRequired": "请填写所有字段。",
+    "displayNameRequired": "请输入昵称。",
+    "captchaLoadFailed": "加载验证码失败，请刷新。",
+    "captchaWrong": "验证码错误或已过期。",
+    "invalidCredentials": "邮箱或密码错误。",
+    "emailTaken": "该邮箱已被注册。",
+    "emailInvalid": "请输入有效的邮箱。",
+    "passwordTooShort": "密码至少 8 位。",
+    "displayNameInvalid": "昵称需为 1-30 个字符。",
+    "loginFailed": "登录失败，请重试。",
+    "registerFailed": "注册失败，请重试。",
+    "networkError": "网络错误，请重试。",
+    "noAccount": "还没有账号？",
+    "haveAccount": "已有账号？",
+    "registerNow": "立即注册",
+    "loginNow": "去登录",
+    "googleSignIn": "使用 Google 继续",
+    "googleFailed": "Google 登录失败，请重试。",
+    "orContinueWith": "或使用以下方式继续",
+    "oauthBadState": "Google 登录会话已过期，请重试。",
+    "oauthAccessDenied": "Google 登录已取消。",
+    "oauthExchangeFailed": "Google 登录处理失败，请重试。"
+  },
+  "user": {
+    "login": "登录",
+    "profile": "个人中心",
+    "myInspirations": "我的灵感",
+    "myFavorites": "我的收藏",
+    "logout": "退出登录",
+    "accountMenu": "账号菜单"
+  },
+  "prompts": [
+    "💭 告诉我你现在的感觉…",
+    "😌 今天心情怎么样？",
+    "🌊 你现在是什么状态？",
+    "🌤️ 今天过得怎么样？",
+    "🤔 最近在想什么？",
+    "🎭 现在的心情适合画什么？",
+    "✨ 描述一下你现在的感觉",
+    "🎨 今天想画什么？",
+    "📍 在什么情况下画画？",
+    "🎁 这幅画要送给谁？",
+    "💝 画完了要送给谁？",
+    "🏠 在哪里画画？",
+    "🌸 现在是什么季节？",
+    "⏱️ 今天打算画多久？",
+    "🎀 想画个礼物送给谁？",
+    "🎯 今天想画什么风格？",
+    "🖌️ 想画什么风格的东西？",
+    "📖 想画什么主题？",
+    "✨ 可爱的，还是酷的？",
+    "⚡ 简单点，还是挑战一下？",
+    "👁️ 写实的，还是抽象的？",
+    "✏️ 你在做什么？",
+    "🎯 今天画画的目的是什么？",
+    "🕰️ 想画点什么打发时间？",
+    "🌱 想画东西，但不知道画什么？",
+    "💡 想画点特别的，但没思路？",
+    "🌟 想画个有感觉的东西？"
+  ],
+  "quickTags": {
+    "random": "随机",
+    "top": "热门"
+  },
+  "comments": {
+    "title": "评论",
+    "loading": "加载中…",
+    "empty": "还没有评论，来抢沙发吧！",
+    "placeholder": "说点什么…",
+    "submit": "发表",
+    "reply": "回复",
+    "replyingTo": "回复 {name}",
+    "favorite": "收藏",
+    "favorited": "已收藏",
+    "loginToComment": "登录后评论",
+    "statFavorites": "收藏"
+  },
+  "detail": {
+    "notFoundTitle": "找不到这个灵感",
+    "similar": "类似的灵感",
+    "statMood": "情绪",
+    "statScene": "场景"
+  },
+  "profile": {
+    "title": "个人资料",
+    "subtitle": "查看和修改你的账号信息。",
+    "loginRequired": "请先登录查看个人资料。",
+    "emptyInspirations": "还没有创建任何灵感，去生成器试试！",
+    "emptyFavorites": "还没有收藏，点卡片上的 ☆ 收藏到这里。",
+    "uploadAvatar": "上传头像",
+    "editName": "修改昵称",
+    "save": "保存",
+    "logout": "退出登录"
+  },
+  "myInspirations": {
+    "title": "我的灵感",
+    "subtitle": "你创建的灵感和收藏的灵感都在这里。",
+    "loginRequired": "登录后查看你的灵感和收藏。"
+  },
+  "shareTip": {
+    "title": "画完了？",
+    "body": "把你的作品分享到社区，让更多人看到你的灵感！",
+    "dismiss": "知道了"
+  },
+  "contact": {
+    "seoTitle": "联系 DrawSpark - 与我们的团队取得联系 | DrawSpark",
+    "seoDescription": "有问题、反馈或想法？联系 DrawSpark 团队。DrawSpark 重视您的意见，随时为您提供帮助。",
+    "seoKeywords": "联系 drawspark, 绘画创意帮助, ai 绘画生成器支持, 反馈, 联系我们",
+    "h1": "联系 DrawSpark",
+    "getInTouch": {
+      "title": "取得联系",
+      "content": "DrawSpark 重视您的问题、反馈和建议。随时联系我们。",
+      "email": "📧 邮箱：support@drawspark.com",
+      "responseTime": "⏱️ 回复时间：24-48 小时内"
+    },
+    "helpWith": {
+      "title": "DrawSpark 能提供什么帮助？",
+      "items": {
+        "questions": "关于使用 DrawSpark 的问题",
+        "features": "功能建议",
+        "bugs": "错误报告",
+        "partnership": "合作咨询",
+        "feedback": "一般反馈"
+      }
+    },
+    "beforeContact": {
+      "title": "联系 DrawSpark 之前",
+      "content": "请先查看常见问题页面。许多常见问题在那里已有解答。",
+      "cta": "前往常见问题"
+    },
+    "stayConnected": {
+      "title": "保持联系",
+      "content": "在社交媒体上关注 DrawSpark，获取每日绘画灵感。",
+      "placeholder": "社交链接占位符"
+    }
+  },
+  "feedback": {
+    "seoTitle": "分享您的反馈 - 帮助 DrawSpark 改进 | DrawSpark",
+    "seoDescription": "您的反馈有助于 DrawSpark 成为更好的绘画灵感生成器。分享您的想法、功能请求或错误报告。",
+    "seoKeywords": "DrawSpark 反馈, 绘画灵感反馈, AI 绘画生成器建议, 功能请求, 改进绘画灵感",
+    "h1": "分享您对 DrawSpark 的反馈",
+    "voiceMatters": {
+      "title": "您的声音很重要",
+      "content": "DrawSpark 在不断改进，用户反馈是这一过程中最重要的部分。分享您的想法。",
+      "email": "📧 邮箱：support@drawspark.com",
+      "responseTime": "⏱️ 响应时间：24-48 小时内"
+    },
+    "wantToHear": {
+      "title": "DrawSpark 想听到什么",
+      "items": {
+        "features": "功能请求",
+        "bugs": "错误报告",
+        "ux": "用户体验建议",
+        "categories": "新绘画类别的想法",
+        "other": "任何其他反馈"
+      }
+    },
+    "emailTemplate": {
+      "title": "邮件模板",
+      "subject": "主题：[反馈] [您的反馈主题]",
+      "body": "正文：[您的详细消息]"
+    },
+    "beforeSending": {
+      "title": "发送前须知",
+      "items": {
+        "faq": "先查看常见问题页面",
+        "specific": "对您的建议要具体",
+        "screenshots": "报告错误时请包含截图",
+        "likes": "也请告诉我们您喜欢什么！"
+      }
+    }
+  },
+  "cookieBanner": {
+    "message": "我们使用 Cookie 来改善您的使用体验。不会分享个人数据。通过 GA4 和 Clarity 进行分析。",
+    "accept": "接受",
+    "learnMore": "了解更多"
+  },
+  "langPrompt": {
+    "message": "我们检测到您的浏览器语言是 {lang}，是否切换？",
+    "switch": "切换到 {lang}",
+    "dismiss": "保持 {current}"
+  },
+  "legal": {
+    "lastUpdatedLabel": "最后更新",
+    "contactLabel": "联系我们",
+    "contactEmail": "support@drawspark.com",
+    "privacy": {
+      "h1": "隐私政策",
+      "seoTitle": "隐私政策 - DrawSpark 如何保护您的数据",
+      "seoDescription": "阅读 DrawSpark 的隐私政策，了解我们如何在使用 AI 绘画灵感生成器时收集、使用和保护您的数据。",
+      "disclaimer": "如各语言版本之间存在差异，以英文版为准。",
+      "sections": [
+        {
+          "heading": "1. 引言",
+          "blocks": [
+            { "type": "p", "text": "欢迎使用 DrawSpark。DrawSpark（以下简称「我们」）致力于保护您的隐私。本隐私政策说明了当您使用我们的 AI 绘画灵感生成器网站（以下简称「本服务」）时，DrawSpark 如何收集、使用和保护您的信息。" },
+            { "type": "p", "text": "DrawSpark 秉持「隐私优先设计」理念。核心功能无需登录、无需注册账号、无需强制收集任何个人数据即可生成绘画灵感。" }
+          ]
+        },
+        {
+          "heading": "2. DrawSpark 收集的信息",
+          "blocks": [
+            { "type": "h3", "text": "2.1 您主动提供的信息" },
+            { "type": "p", "text": "DrawSpark 仅在您主动选择提供时，才会收集最少限度的信息：" },
+            { "type": "table", "headers": ["功能", "收集的信息", "用途"], "rows": [
+              ["账号注册（可选）", "邮箱地址、密码（哈希存储）、昵称", "用户身份验证与个性化"],
+              ["用户资料", "头像图片（上传）、昵称", "在 DrawSpark 上展示个人资料"],
+              ["评论", "评论内容、可选图片上传", "在灵感页进行社区互动"],
+              ["收藏", "您收藏的灵感 ID", "保存并整理喜欢的内容"],
+              ["反馈表单", "邮箱地址、留言内容", "回复您的咨询"]
+            ] },
+            { "type": "h3", "text": "2.2 自动收集的信息" },
+            { "type": "p", "text": "DrawSpark 会自动收集有限的非个人信息，用于改进本服务：" },
+            { "type": "table", "headers": ["数据类型", "用途", "使用工具"], "rows": [
+              ["IP 地址（匿名化）", "大致地区定位、防滥用、限流", "Vercel / Supabase"],
+              ["浏览器类型与版本", "确保兼容性", "Vercel Analytics"],
+              ["设备类型", "移动端与桌面端体验优化", "Vercel Analytics / Clarity"],
+              ["页面浏览与点击", "了解用户行为并改进体验", "Google Analytics 4 (GA4)、Microsoft Clarity (MC)"],
+              ["热力图与会话录制", "可视化用户交互模式", "Microsoft Clarity (MC)"],
+              ["搜索表现", "SEO 优化", "Google Search Console (GSC)、Bing Webmaster Tools (BWT)"]
+            ] },
+            { "type": "h3", "text": "2.3 AI 生成内容" },
+            { "type": "p", "text": "当您使用 DrawSpark 的 AI 绘画灵感生成器时：" },
+            { "type": "ul", "items": [
+              "您的输入文本会被发送至 DeepSeek API 以生成绘画灵感",
+              "DrawSpark 在生成后不会保存您的输入文本",
+              "只有生成的绘画灵感会被存入 DrawSpark 数据库"
+            ] },
+            { "type": "table", "headers": ["数据", "是否存储", "保留期限"], "rows": [
+              ["用户输入文本", "❌ 否", "不存储"],
+              ["生成的绘画灵感", "✅ 是", "永久（公开可见）"],
+              ["生成灵感的元数据", "✅ 是", "永久（公开可见）"]
+            ] },
+            { "type": "callout", "text": "重要提示：您生成的绘画灵感默认公开，并会显示给 DrawSpark 探索页中的所有用户。请勿在绘画灵感、标题或评论中提交个人或敏感信息。" },
+            { "type": "h3", "text": "2.4 分析与 SEO 工具" },
+            { "type": "p", "text": "DrawSpark 使用以下工具来监控和改进本服务：" },
+            { "type": "table", "headers": ["工具", "用途", "收集的数据", "是否使用 Cookie"], "rows": [
+              ["Google Analytics 4 (GA4)", "用户行为分析", "页面浏览、会话时长、设备类型、大致地区", "✅ 是（分析 Cookie）"],
+              ["Microsoft Clarity (MC)", "用户行为分析、热力图、会话录制", "页面浏览、点击、滚动深度、匿名化会话录制", "✅ 是"],
+              ["Google Search Console (GSC)", "SEO 表现监控", "搜索查询、点击率、索引状态", "❌ 否"],
+              ["Bing Webmaster Tools (BWT)", "SEO 表现监控", "搜索查询、点击率、索引状态", "❌ 否"],
+              ["Vercel Analytics", "性能监控", "页面加载时间、核心 Web 指标、基础流量", "❌ 否"]
+            ] },
+            { "type": "p", "text": "重要提示：Microsoft Clarity 会收集匿名化的会话录制和热力图，以帮助 DrawSpark 了解用户如何与本服务互动。Clarity 不会捕获敏感个人信息、键盘输入或支付信息。您可以在浏览器中禁用 Cookie 以选择退出。" }
+          ]
+        },
+        {
+          "heading": "3. DrawSpark 如何使用您的信息",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 将您的信息用于：" },
+            { "type": "ul", "items": [
+              "提供本服务：生成并展示绘画灵感",
+              "改进本服务：通过 GA4、Clarity 与 Vercel Analytics 分析使用模式",
+              "搜索优化：通过 GSC 和 BWT 监控并改进搜索表现",
+              "用户账号支持：在您选择创建账号时管理您的账号",
+              "回复咨询：回复反馈与支持请求",
+              "防止滥用：限流（每日最多 30 次生成）并阻止恶意行为"
+            ] },
+            { "type": "p", "text": "DrawSpark 不会：" },
+            { "type": "ul", "items": [
+              "将您的数据出售给第三方",
+              "将您的数据用于定向广告",
+              "与第三方分享您的个人信息（提供本服务所必需的除外）"
+            ] }
+          ]
+        },
+        {
+          "heading": "4. 信息共享",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 仅与必要的服务提供商共享数据：" },
+            { "type": "table", "headers": ["提供商", "用途", "共享的数据"], "rows": [
+              ["Supabase", "数据库与存储", "用户数据、生成的灵感、评论、收藏"],
+              ["DeepSeek", "AI 模型 API", "用于生成的输入文本（不存储）"],
+              ["Vercel", "托管与分析", "页面浏览、性能数据（聚合）"],
+              ["Google Analytics 4", "用户行为分析", "页面浏览、会话、设备数据（聚合）"],
+              ["Microsoft Clarity", "用户行为分析与热力图", "页面浏览、点击、滚动深度、匿名化会话录制"],
+              ["Google Search Console", "SEO 监控", "搜索表现数据（聚合）"],
+              ["Bing Webmaster Tools", "SEO 监控", "搜索表现数据（聚合）"]
+            ] },
+            { "type": "p", "text": "所有提供商均符合适用的数据保护法规，且仅代表 DrawSpark 处理数据。" }
+          ]
+        },
+        {
+          "heading": "5. 数据安全",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 采取合理的安全措施：" },
+            { "type": "ul", "items": [
+              "所有密码均使用 bcrypt 进行哈希",
+              "API 密钥以环境变量存储，绝不暴露给客户端",
+              "所有数据传输均使用 HTTPS 加密（由 Vercel 强制启用）",
+              "Supabase 行级安全策略（RLS）保护用户数据",
+              "Vercel 提供安全的托管基础设施"
+            ] }
+          ]
+        },
+        {
+          "heading": "6. 您的权利",
+          "blocks": [
+            { "type": "p", "text": "根据您所在地区，您可能对您的数据享有以下权利：" },
+            { "type": "ul", "items": [
+              "访问：请求获取您的数据副本",
+              "更正：更新不准确的数据",
+              "删除：请求删除您的账号及相关数据",
+              "退出：禁用 Cookie（仅限非必要 Cookie）",
+              "数据可携：请求获取机器可读格式的数据副本"
+            ] },
+            { "type": "p", "text": "如需行使上述权利，请联系 DrawSpark：support@drawspark.com" }
+          ]
+        },
+        {
+          "heading": "7. 数据保留",
+          "blocks": [
+            { "type": "table", "headers": ["数据类型", "保留期限"], "rows": [
+              ["账号信息", "直至您删除账号"],
+              ["生成的灵感", "永久（公开内容）"],
+              ["评论", "永久（公开内容）"],
+              ["收藏", "直至您移除或删除账号"],
+              ["使用分析数据", "聚合且非个人化，永久保留"]
+            ] }
+          ]
+        },
+        {
+          "heading": "8. 儿童隐私",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 的本服务不面向 13 岁以下儿童。DrawSpark 不会明知故犯地收集 13 岁以下儿童的个人信息。一旦发现 13 岁以下儿童提供了个人信息，DrawSpark 将立即删除。" }
+          ]
+        },
+        {
+          "heading": "9. 本政策的变更",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 可能会不时更新本隐私政策。最新版本将始终发布在本页，并标注「最后更新」日期。重大变更将通过邮件通知注册用户。" }
+          ]
+        },
+        {
+          "heading": "10. 联系我们",
+          "blocks": [
+            { "type": "p", "text": "如果您对本隐私政策或 DrawSpark 的数据处理实践有任何疑问：" },
+            { "type": "p", "text": "📧 support@drawspark.com" },
+            { "type": "p", "text": "回复时间：24-48 小时内" }
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "h1": "服务条款",
+      "seoTitle": "服务条款 - DrawSpark 的 AI 绘画灵感生成器",
+      "seoDescription": "阅读 DrawSpark 的服务条款。使用我们的 AI 绘画灵感生成器即表示您同意这些条款。了解您的权利和责任。",
+      "disclaimer": "如各语言版本之间存在差异，以英文版为准。",
+      "sections": [
+        {
+          "heading": "1. 条款的接受",
+          "blocks": [
+            { "type": "p", "text": "使用 DrawSpark 的 AI 绘画灵感生成器网站（以下简称「本服务」），即表示您同意本服务条款。如果您不同意，请勿使用 DrawSpark。" },
+            { "type": "p", "text": "DrawSpark 保留随时更新本条款的权利。条款变更后继续使用本服务，即视为接受更新后的条款。" }
+          ]
+        },
+        {
+          "heading": "2. 服务说明",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 是一款免费的 AI 绘画灵感生成器，帮助用户寻找绘画、素描和创意项目的灵感。本服务包括：" },
+            { "type": "ul", "items": [
+              "AI 生成的绘画灵感与提示",
+              "用户生成内容（灵感、评论、收藏）",
+              "可选的用户账号以实现个性化"
+            ] }
+          ]
+        },
+        {
+          "heading": "3. 用户账号",
+          "blocks": [
+            { "type": "h3", "text": "3.1 账号创建" },
+            { "type": "p", "text": "创建账号是可选的。您无需账号即可使用 DrawSpark 的核心功能。如果创建账号：" },
+            { "type": "ul", "items": [
+              "您必须提供有效的邮箱地址",
+              "您必须年满 13 岁",
+              "您须负责维护账号的安全",
+              "您须对账号下的所有活动负责"
+            ] },
+            { "type": "h3", "text": "3.2 账号终止" },
+            { "type": "p", "text": "DrawSpark 保留暂停或终止以下账号的权利：" },
+            { "type": "ul", "items": [
+              "违反本条款",
+              "生成垃圾或辱骂性内容",
+              "试图规避限流或安全措施",
+              "长期处于不活跃状态"
+            ] },
+            { "type": "p", "text": "您可随时通过联系 support@drawspark.com 删除您的账号。" }
+          ]
+        },
+        {
+          "heading": "4. 用户生成内容",
+          "blocks": [
+            { "type": "h3", "text": "4.1 所有权" },
+            { "type": "p", "text": "您保留对您在 DrawSpark 创建和提交的内容的所有权，包括：" },
+            { "type": "ul", "items": [
+              "评论",
+              "您生成的绘画灵感（AI 生成输出）",
+              "个人资料信息与头像图片"
+            ] },
+            { "type": "h3", "text": "4.2 授予 DrawSpark 的许可" },
+            { "type": "p", "text": "提交内容至 DrawSpark 即表示您授予 DrawSpark 全球范围内、非独占、免许可费的使用权，以：" },
+            { "type": "ul", "items": [
+              "在本服务上展示、存储和分发您的内容",
+              "允许其他用户查看、点赞、收藏并与您的内容互动",
+              "将您的内容用于推广目的（注明出处）"
+            ] },
+            { "type": "h3", "text": "4.3 内容规范" },
+            { "type": "p", "text": "您同意不提交以下内容：" },
+            { "type": "ul", "items": [
+              "违法、冒犯性或有害的内容",
+              "侵犯知识产权的内容",
+              "包含恶意软件或恶意代码的内容",
+              "侵犯他人隐私的内容",
+              "垃圾信息或重复内容"
+            ] },
+            { "type": "callout", "text": "公开内容：您在 DrawSpark 提交的所有内容（包括生成的灵感和评论）默认公开。请勿分享个人、敏感或机密信息。" }
+          ]
+        },
+        {
+          "heading": "5. AI 生成内容",
+          "blocks": [
+            { "type": "h3", "text": "5.1 AI 内容的性质" },
+            { "type": "p", "text": "DrawSpark AI 生成的绘画灵感仅供参考。DrawSpark 不保证：" },
+            { "type": "ul", "items": [
+              "生成内容的准确性或原创性",
+              "生成内容不会与现有版权作品相似（AI 输出基于训练数据，可能偶然与现有作品相似）"
+            ] },
+            { "type": "h3", "text": "5.2 非专业建议" },
+            { "type": "p", "text": "AI 生成的绘画灵感仅用于启发灵感与娱乐目的，不构成专业建议、教学或对创作成果的保证。" },
+            { "type": "h3", "text": "5.3 AI 生成输出的所有权" },
+            { "type": "p", "text": "您可以不受限制地使用、修改并基于 AI 生成的绘画灵感创作衍生作品。DrawSpark 不对 AI 生成输出主张任何所有权。" }
+          ]
+        },
+        {
+          "heading": "6. 知识产权",
+          "blocks": [
+            { "type": "h3", "text": "6.1 DrawSpark 的知识产权" },
+            { "type": "p", "text": "DrawSpark 拥有以下全部权利：" },
+            { "type": "ul", "items": [
+              "DrawSpark 品牌、标识与商标",
+              "网站设计、代码与用户界面",
+              "AI 模型集成与后端系统"
+            ] },
+            { "type": "h3", "text": "6.2 用户生成内容" },
+            { "type": "p", "text": "用户保留其原创内容的所有权，详见第 4 节。" }
+          ]
+        },
+        {
+          "heading": "7. 可接受使用",
+          "blocks": [
+            { "type": "p", "text": "您同意不进行以下行为：" },
+            { "type": "ul", "items": [
+              "抓取或爬取：使用自动化系统访问 DrawSpark 超过限流",
+              "绕过限流：试图超出每日 30 次生成的限制",
+              "生成有害内容：使用 DrawSpark 生成违法、违规或有害内容",
+              "冒充他人：创建假装是他人的账号",
+              "干扰服务：试图损坏、禁用或削弱 DrawSpark 的基础设施",
+              "逆向工程：试图提取源代码或 API 实现细节"
+            ] }
+          ]
+        },
+        {
+          "heading": "8. 免责声明",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 按「现状」和「可用」原则提供，不附带任何形式的担保。" },
+            { "type": "p", "text": "DrawSpark 不保证：" },
+            { "type": "ul", "items": [
+              "本服务不中断、安全或无错误",
+              "AI 生成的内容具有原创性、准确性或有用性",
+              "本服务能满足您的特定需求或期望"
+            ] }
+          ]
+        },
+        {
+          "heading": "9. 责任限制",
+          "blocks": [
+            { "type": "p", "text": "在法律允许的最大范围内，DrawSpark 不对以下情况承担责任：" },
+            { "type": "ul", "items": [
+              "间接、附带或衍生损失",
+              "利润、数据或商业机会的损失",
+              "因依赖 AI 生成内容而产生的损失",
+              "超过已支付金额的损失（DrawSpark 免费，因此为 $0）"
+            ] }
+          ]
+        },
+        {
+          "heading": "10. 赔偿",
+          "blocks": [
+            { "type": "p", "text": "您同意就以下原因产生的索赔为 DrawSpark 提供赔偿：" },
+            { "type": "ul", "items": [
+              "您违反本条款",
+              "您的内容或对本服务的使用",
+              "您侵犯第三方权利"
+            ] }
+          ]
+        },
+        {
+          "heading": "11. 适用法律",
+          "blocks": [
+            { "type": "p", "text": "本条款受美国特拉华州法律管辖，不考虑法律冲突原则。" }
+          ]
+        },
+        {
+          "heading": "12. 联系方式",
+          "blocks": [
+            { "type": "p", "text": "如对本条款有任何疑问：" },
+            { "type": "p", "text": "📧 support@drawspark.com" }
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "h1": "Cookie 政策",
+      "seoTitle": "Cookie 政策 - DrawSpark 如何使用 Cookie",
+      "seoDescription": "DrawSpark 使用极少量且保护隐私的 Cookie。了解我们使用的 Cookie、原因以及您如何管理 Cookie 偏好。",
+      "disclaimer": "如各语言版本之间存在差异，以英文版为准。",
+      "sections": [
+        {
+          "heading": "1. 什么是 Cookie？",
+          "blocks": [
+            { "type": "p", "text": "Cookie 是您访问网站时存储在您设备上的小型文本文件。它们帮助网站记住您、您的偏好和您的活动。" },
+            { "type": "p", "text": "DrawSpark 使用极少的 Cookie，且不将 Cookie 用于广告或跨站跟踪目的。" }
+          ]
+        },
+        {
+          "heading": "2. DrawSpark 如何使用 Cookie",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 将 Cookie 用于必要目的、分析和性能监控：" },
+            { "type": "table", "headers": ["Cookie 名称", "用途", "有效期", "是否必要"], "rows": [
+              ["drawspark_session", "限流：跟踪每日生成次数（每日最多 30 次）", "1 年", "✅ 是"],
+              ["user_session", "如果您选择登录，用于用户身份验证", "会话", "✅ 是"],
+              ["language_preference", "记住您的语言偏好", "1 年", "可选"],
+              ["cookie_accepted", "记住您已接受 Cookie 通知", "1 年", "✅ 是"],
+              ["_ga / _ga_*", "Google Analytics 4：用户标识与会话状态", "2 年", "❌ 否（分析）"],
+              ["_clck / _clsk", "Microsoft Clarity：用户标识与会话录制", "1 年", "❌ 否（分析）"]
+            ] }
+          ]
+        },
+        {
+          "heading": "3. 分析与行为工具",
+          "blocks": [
+            { "type": "h3", "text": "Google Analytics 4 (GA4)" },
+            { "type": "p", "text": "GA4 帮助 DrawSpark 了解哪些功能最受欢迎，识别高跳出率页面，并整体改善用户体验。" },
+            { "type": "p", "text": "数据：聚合、匿名化的用户行为数据。" },
+            { "type": "p", "text": "退出方式：使用 Google Analytics 退出插件或在浏览器中禁用 Cookie。" },
+            { "type": "h3", "text": "Microsoft Clarity (MC)" },
+            { "type": "p", "text": "Clarity 帮助 DrawSpark 通过以下方式可视化用户如何与网站互动：" },
+            { "type": "ul", "items": [
+              "热力图：查看用户的点击与滚动位置",
+              "会话录制：观看匿名化的用户会话回放",
+              "洞察：识别用户痛点与体验卡点"
+            ] },
+            { "type": "p", "text": "数据：Clarity 收集匿名化会话数据，不会捕获以下内容：" },
+            { "type": "ul", "items": [
+              "敏感个人信息（密码、信用卡）",
+              "键盘输入或文本输入内容",
+              "个人身份识别信息"
+            ] },
+            { "type": "p", "text": "Clarity 隐私：Microsoft Clarity 符合 GDPR 与 CCPA。数据经过匿名化和聚合处理。" },
+            { "type": "p", "text": "退出方式：在浏览器设置中禁用 Cookie 或使用 Clarity 退出选项。" }
+          ]
+        },
+        {
+          "heading": "4. SEO 工具",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 使用以下不设置 Cookie 的 SEO 工具：" },
+            { "type": "table", "headers": ["工具", "用途"], "rows": [
+              ["Google Search Console (GSC)", "监控搜索表现，识别索引问题"],
+              ["Bing Webmaster Tools (BWT)", "监控 Bing 上的搜索表现"]
+            ] }
+          ]
+        },
+        {
+          "heading": "5. 您的 Cookie 选择",
+          "blocks": [
+            { "type": "h3", "text": "5.1 浏览器设置" },
+            { "type": "p", "text": "您可以通过浏览器设置管理 Cookie：" },
+            { "type": "table", "headers": ["浏览器", "如何管理"], "rows": [
+              ["Chrome", "设置 → 隐私和安全 → Cookie 和其他网站数据"],
+              ["Firefox", "选项 → 隐私和安全 → Cookie 和网站数据"],
+              ["Safari", "偏好设置 → 隐私 → Cookie 和网站数据"],
+              ["Edge", "设置 → Cookie 和网站权限"]
+            ] },
+            { "type": "h3", "text": "5.2 禁用 Cookie" },
+            { "type": "p", "text": "如果禁用 Cookie，DrawSpark 可能无法正常运行：" },
+            { "type": "ul", "items": [
+              "您可能因没有计数而超出每日 30 次的生成限制",
+              "您的登录会话可能无法保持",
+              "您的语言偏好可能无法被记住"
+            ] },
+            { "type": "h3", "text": "5.3 Cookie 同意" },
+            { "type": "p", "text": "DrawSpark 使用最小化、非侵入式的 Cookie 通知：" },
+            { "type": "ul", "items": [
+              "在您首次访问时显示",
+              "对必要 Cookie 不要求主动同意（GDPR 豁免）",
+              "提供 Cookie 使用相关信息",
+              "允许您接受分析 Cookie 的使用"
+            ] }
+          ]
+        },
+        {
+          "heading": "6. 本政策的变更",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark 可能会偶尔更新本 Cookie 政策。最新版本将发布在此处，并标注「最后更新」日期。" }
+          ]
+        },
+        {
+          "heading": "7. 联系方式",
+          "blocks": [
+            { "type": "p", "text": "对本 Cookie 政策有疑问？" },
+            { "type": "p", "text": "📧 support@drawspark.com" }
+          ]
+        }
+      ]
+    }
+  }
+}

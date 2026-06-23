@@ -1,0 +1,258 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Subject {
+  animal
+  people
+  landscape
+  still_life
+  abstract
+  fantasy
+  food
+  architecture
+  nature
+  holiday
+  everyday
+  flower
+  dragon
+  tattoo
+  anime
+  car
+  other
+}
+
+enum Style {
+  cute
+  cool
+  simple
+  realistic
+  cartoon
+  abstract
+  vintage
+  dark
+  aesthetic
+  doodle
+  sketch
+  kawaii
+  graffiti
+  minimalist
+  trippy
+  other
+}
+
+enum Difficulty {
+  beginner
+  easy
+  medium
+  hard
+}
+
+enum Mood {
+  happy
+  calm
+  sad
+  mysterious
+  romantic
+  dark
+  dreamy
+  energetic
+  other
+}
+
+enum Scene {
+  bored
+  class
+  sketchbook
+  gift
+  holiday
+  summer
+  winter
+  fall
+  spring
+  daily
+  other
+}
+
+enum TimeEstimate {
+  min_5     @map("5min")
+  min_15    @map("15min")
+  min_30    @map("30min")
+  hour_1    @map("1hour")
+  hour_2_plus @map("2hour_plus")
+}
+
+enum Audience {
+  kids
+  beginners
+  boyfriend
+  girlfriend
+  best_friend
+  mom
+  dad
+  teacher
+  couples
+  self
+  other
+}
+
+// ========== 用户 ==========
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  // Null for users who only ever signed in via Google OAuth.
+  passwordHash String?  @map("password_hash")
+  // Google OIDC `sub` claim, when the user has signed in via Google at least once.
+  // Unique so we can look up by it for returning Google users without falling back to email.
+  googleId     String?  @unique @map("google_id")
+  displayName  String   @map("display_name")
+  avatarUrl    String?  @map("avatar_url")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  inspirations Inspiration[]
+  favorites    Favorite[]
+  comments     Comment[]
+
+  @@map("users")
+}
+
+// ========== 灵感 ==========
+
+model Inspiration {
+  id           String      @id @default(cuid())
+  title        String      @db.VarChar(200)
+  description  String?     @db.Text
+  contentText  String?     @map("content_text") @db.Text
+
+  subject      Subject
+  style        Style
+  difficulty   Difficulty
+  mood         Mood
+  scene        Scene
+  timeEstimate TimeEstimate @map("time_estimate")
+  audience     Audience     @default(other)
+
+  tags Json @default("[]")
+
+  generatedBy  String  @default("system") @map("generated_by")
+  promptUsed   String? @db.Text            @map("prompt_used")
+  modelVersion String? @map("model_version")
+
+  likesCount    Int @default(0) @map("likes_count")
+  copiesCount   Int @default(0) @map("copies_count")
+  sharesCount   Int @default(0) @map("shares_count")
+  viewsCount    Int @default(0) @map("views_count")
+  favoritesCount Int @default(0) @map("favorites_count")
+  commentsCount  Int @default(0) @map("comments_count")
+
+  // V1.1: null = anonymous AI-generated; non-null = created by a registered user
+  userId String? @map("user_id")
+
+  status        String  @default("published")
+  isAiGenerated Boolean @default(true) @map("is_ai_generated")
+
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  publishedAt DateTime @default(now()) @map("published_at")
+
+  user       User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+  favorites  Favorite[]
+  comments   Comment[]
+  interactions InspirationInteraction[]
+
+  @@index([userId])
+  @@index([subject])
+  @@index([style])
+  @@index([difficulty])
+  @@index([mood])
+  @@index([scene])
+  @@index([createdAt(sort: Desc)])
+  @@index([likesCount(sort: Desc)])
+  @@index([copiesCount(sort: Desc)])
+  @@index([favoritesCount(sort: Desc)])
+  @@index([status])
+  @@map("inspirations")
+}
+
+// ========== 用户会话（限流） ==========
+
+model UserSession {
+  id              String    @id @default(cuid())
+  // For anonymous visitors we key by `sessionId` (the cookie).
+  // For logged-in users we key by `userId` so the daily generation limit
+  // follows the account across devices / browser sessions, not the cookie.
+  // Exactly one of the two is set per row.
+  sessionId       String?   @unique @map("session_id")
+  userId          String?   @unique @map("user_id")
+  generatedCount  Int       @default(0) @map("generated_count")
+  lastGeneratedAt DateTime? @map("last_generated_at")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+
+  @@index([userId])
+  @@map("user_sessions")
+}
+
+// ========== 匿名交互（点赞 / 复制，按 cookie session 去重） ==========
+
+model InspirationInteraction {
+  id              String   @id @default(cuid())
+  inspirationId   String   @map("inspiration_id")
+  sessionId       String   @map("session_id")
+  interactionType String   @map("interaction_type")
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  inspiration Inspiration @relation(fields: [inspirationId], references: [id], onDelete: Cascade)
+
+  @@unique([inspirationId, sessionId, interactionType])
+  @@index([inspirationId])
+  @@index([sessionId])
+  @@map("inspiration_interactions")
+}
+
+// ========== 收藏（登录用户） ==========
+
+model Favorite {
+  id            String   @id @default(cuid())
+  userId        String   @map("user_id")
+  inspirationId String   @map("inspiration_id")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  inspiration Inspiration @relation(fields: [inspirationId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, inspirationId])
+  @@index([userId])
+  @@index([inspirationId])
+  @@map("favorites")
+}
+
+// ========== 评论 ==========
+
+model Comment {
+  id            String   @id @default(cuid())
+  userId        String   @map("user_id")
+  inspirationId String   @map("inspiration_id")
+  parentId      String?  @map("parent_id")
+  content       String   @db.Text
+  imageUrl      String?  @map("image_url")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  inspiration Inspiration @relation(fields: [inspirationId], references: [id], onDelete: Cascade)
+  parent      Comment?    @relation("CommentToParent", fields: [parentId], references: [id], onDelete: Cascade)
+  replies     Comment[]   @relation("CommentToParent")
+
+  @@index([inspirationId])
+  @@index([parentId])
+  @@index([userId])
+  @@map("comments")
+}

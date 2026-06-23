@@ -1,0 +1,1605 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "generate": "Generar",
+    "explore": "Explorar",
+    "about": "Acerca de",
+    "myInspirations": "Mis inspiraciones"
+  },
+  "home": {
+    "heroTitle": "Nunca te quedes sin ideas para dibujar",
+    "heroSubtitle": "DrawSpark genera al instante ideas de dibujo lindas, fáciles y estéticas, filtradas por tema como animales o tatuajes, y estilo como simple, boceto o caricatura, gratis en segundos.",
+    "ctaGenerate": "Generar ideas",
+    "ctaExplore": "Explorar ideas",
+    "popularTitle": "Inspiraciones populares",
+    "categoriesTitle": "Explorar por categoría",
+    "viewAll": "Ver todo",
+    "seoTitle": "Generador de ideas de dibujo lindas y fáciles – Sugerencias gratis | DrawSpark",
+    "seoDescription": "¿Atascado sin saber qué dibujar? DrawSpark genera al instante ideas de dibujo lindas, fáciles y geniales: animales, tatuajes, naturaleza, bocetos estéticos y más. Empieza a dibujar gratis con DrawSpark en segundos.",
+    "seoKeywords": "ideas de dibujo, ideas de dibujo fáciles, ideas de dibujo lindas, ideas de bocetos, ideas de dibujo estéticas, qué dibujar",
+    "head1": {
+      "title": "Nunca te quedes sin ideas para dibujar",
+      "description": "DrawSpark genera al instante ideas de dibujo lindas, fáciles y estéticas, filtradas por tema como animales o tatuajes, y estilo como simple, boceto o caricatura, gratis en segundos.",
+      "buttonText": "Generar ideas de dibujo",
+      "buttonRoute": "/home",
+      "photo": "",
+      "photoThumbnail": ""
+    },
+    "Whatis": {
+      "title": "¿Qué es DrawSpark?",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "description": "DrawSpark es un generador gratuito de ideas de dibujo creado para quienes miran una página en blanco preguntándose qué dibujar, o buscan cosas para dibujar cuando están aburridos. En lugar de desplazarte sin fin por tableros de Pinterest, DrawSpark usa IA para generar ideas de dibujo frescas y específicas bajo demanda, ordenadas por tema (animales, personas, naturaleza, flores, dragones, tatuajes, coches, anime) y por estilo (ideas de dibujo lindas, geniales, bocetos simples y estéticas). Ya sea que quieras ideas fáciles para un calentamiento rápido o algo genial y estético para un concepto de tatuaje, DrawSpark ofrece sugerencias fáciles de visualizar, sin relleno vago. Cada idea incluye palabras clave resaltadas que muestran el tema, la pose, el entorno y el estilo de un vistazo. DrawSpark también mantiene una galería pública de ideas de dibujo generadas por la comunidad que puedes buscar o filtrar por tema y estilo, para que siempre tengas algo nuevo que mirar cuando tu cuaderno de bocetos se seque.",
+          "buttonText": "Prueba DrawSpark gratis"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "¿Cómo funciona el generador de ideas de dibujo de DrawSpark?",
+      "buttonText": "Generar ahora",
+      "content": [
+        {
+          "title": "Paso 1: Elige un tema y un estilo (opcional)",
+          "description": "Selecciona un tema como animales, naturaleza, tatuajes o personas, y un estilo como lindo, simple, genial o estético. Omite este paso y DrawSpark te sorprenderá con ideas de dibujo variadas y originales."
+        },
+        {
+          "title": "Paso 2: Genera ideas de dibujo al instante",
+          "description": "Haz clic en el botón de generar y DrawSpark crea al instante cinco ideas de dibujo, cada una con un título, una breve descripción y palabras clave resaltadas que muestran el tema, la pose, el entorno y el estilo del boceto."
+        },
+        {
+          "title": "Paso 3: Edita, busca o explora más",
+          "description": "Ajusta el texto de cualquier idea para que se ajuste a tu visión, busca en la galería pública más ideas de dibujo por palabra clave, o genera de nuevo un lote fresco de sugerencias de bocetos cuando la inspiración se agote."
+        }
+      ]
+    },
+    "doWith": {
+      "title": "¿Qué puedes hacer con DrawSpark?",
+      "description": "DrawSpark se adapta a cualquier tipo de sesión de dibujo que te apetezca, desde garabatos lindos y rápidos hasta estudios de tema enfocados y conceptos listos para tatuajes.",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "Genera ideas de dibujo fáciles y simples",
+          "description": "Filtra por 'fácil' o 'simple' para obtener ideas de dibujo para principiantes, perfectas para un calentamiento rápido, ideales para la práctica diaria en tu cuaderno o para superar el bloqueo creativo sin pensar demasiado en el tema.",
+          "buttonText": "Obtener ideas fáciles"
+        },
+        {
+          "title": "Explora ideas de dibujo lindas y estéticas",
+          "description": "Filtra por 'lindo' o 'estético' para generar ideas de dibujo encantadoras y estilizadas, adecuadas para moodboards, bocetos en diarios o arte listo para redes sociales que se inclina hacia un estilo visual distintivo.",
+          "buttonText": "Explorar estilos"
+        },
+        {
+          "title": "Encuentra ideas de dibujo de tatuajes y animales",
+          "description": "Combina un tema como 'tatuaje', 'animal' o 'naturaleza' con una etiqueta de estilo para generar ideas de dibujo enfocadas para conceptos de flash sheets, retratos de mascotas o bocetos botánicos en un solo lote.",
+          "buttonText": "Encontrar ideas por tema"
+        },
+        {
+          "title": "Navega por las ideas de dibujo de la comunidad en la galería",
+          "description": "Busca o filtra la galería pública para ver ideas de dibujo que otros usuarios han generado, encuentra temas y estilos recurrentes que disfrutes y descubre sugerencias de bocetos que no habías pensado pedir.",
+          "buttonText": "Explorar galería"
+        }
+      ]
+    },
+    "Whois": {
+      "title": "¿Para quién es DrawSpark?",
+      "buttonText": "Encuentra tu idea",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "Principiantes",
+          "description": "¿Nuevo en el dibujo y no sabes por dónde empezar? Las ideas de dibujo fáciles y simples de DrawSpark eliminan las conjeturas, brindando a los principiantes sugerencias alcanzables que generan confianza dibujo a dibujo."
+        },
+        {
+          "title": "Niños y jóvenes artistas",
+          "description": "¿Buscas ideas de dibujo lindas para niños? DrawSpark genera sugerencias de bocetos simples y amigables (animales, flores, objetos cotidianos) que son divertidas y accesibles para artistas jóvenes que practican en casa o en clase."
+        },
+        {
+          "title": "Artistas de cuaderno que se aburren a media página",
+          "description": "Cuando estás aburrido y mirando una página en blanco de tu cuaderno, DrawSpark genera al instante ideas de dibujo frescas y específicas de cualquier tema o estilo para que puedas seguir dibujando en lugar de quedarte atascado."
+        }
+      ]
+    },
+    "youNeed": {
+      "title": "¿Por qué elegir DrawSpark para ideas de dibujo?",
+      "buttonText": "Generar ideas gratis",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "Ideas de dibujo instantáneas y específicas",
+          "description": "DrawSpark genera cinco ideas de dibujo visuales y específicas en segundos, con palabras clave resaltadas para tema, pose, entorno y estilo. Olvídate de sugerencias vagas como 'dibuja un animal' sin dirección."
+        },
+        {
+          "title": "Construido en torno a temas y estilos reales",
+          "description": "Las etiquetas de DrawSpark (temas como animales, naturaleza y tatuajes; estilos como lindo, simple, genial y estético) se basan en comportamientos de búsqueda reales relacionados con el dibujo, por lo que cada filtro refleja lo que la gente realmente busca."
+        },
+        {
+          "title": "Gratis, sin necesidad de registro para empezar",
+          "description": "DrawSpark te permite generar ideas de dibujo y explorar la galería comunitaria sin crear una cuenta, eliminando la fricción para cualquiera que solo quiera una sugerencia de boceto rápida en este momento."
+        }
+      ]
+    },
+    "realVoices": {
+      "title": "Opiniones de usuarios reales",
+      "buttonText": "Únete a DrawSpark",
+      "buttonRoute": "/home",
+      "ext1": "4.9",
+      "ext2": "De 1842 reseñas",
+      "content": [
+        {
+          "title": "Por fin superé el bloqueo del cuaderno",
+          "description": "Solía sentarme con mi cuaderno abierto y solo mirar la página por aburrimiento durante diez minutos antes de rendirme. DrawSpark me da cinco ideas de dibujo sólidas y fáciles en segundos, y las palabras clave resaltadas realmente me ayudan a visualizar la escena antes de empezar. Lo he usado casi todos los días este mes.",
+          "ext1": "5",
+          "ext2": "Maria Chen",
+          "ext3": "Estudiante de Ilustración"
+        },
+        {
+          "title": "Genial para calentamientos de flash de tatuajes",
+          "description": "Dirijo mi propio estudio de tatuajes y uso las etiquetas de tatuaje y estético de DrawSpark para calentar antes de las sesiones con clientes. Las ideas son lo suficientemente específicas como para dibujarlas rápido, no son relleno genérico. Se ha convertido en parte de mi rutina diaria antes de abrir el local.",
+          "ext1": "5",
+          "ext2": "Jason Miller",
+          "ext3": "Tatuador"
+        },
+        {
+          "title": "Mis hijos piden usarlo",
+          "description": "Doy clases de arte extraescolares y las ideas de dibujo lindas y fáciles de DrawSpark son perfectas para mantener a una clase de niños de ocho años emocionados por dibujar. Las sugerencias son simples para principiantes pero siguen siendo divertidas y específicas, no aburridas.",
+          "ext1": "5",
+          "ext2": "Karen Walsh",
+          "ext3": "Profesora de Arte"
+        },
+        {
+          "title": "Mejor que pasar horas en Pinterest",
+          "description": "Solía perder tardes enteras desplazándome por tableros de Pinterest buscando inspiración para dibujar y nunca dibujaba nada. DrawSpark me da una idea genial y específica de inmediato, así que paso el tiempo dibujando en lugar de buscando. Un gran ahorro de tiempo.",
+          "ext1": "5",
+          "ext2": "Devon Brooks",
+          "ext3": "Dibujante aficionado"
+        },
+        {
+          "title": "Me encantan las combinaciones de tema y estilo",
+          "description": "Poder combinar un tema como naturaleza con un estilo como simple es lo que me convenció. La mayoría de los generadores de ideas de dibujo solo permiten elegir una categoría, pero DrawSpark me deja apilar filtros hasta obtener exactamente el tipo de sugerencia que me apetece.",
+          "ext1": "5",
+          "ext2": "Priya Nair",
+          "ext3": "Artista digital"
+        },
+        {
+          "title": "Simple, rápido y realmente útil",
+          "description": "Sin necesidad de cuenta, sin desorden, solo un botón que me da ideas de dibujo reales. Era escéptico de que un generador de IA pudiera dar sugerencias lo suficientemente específicas, pero el resaltado de palabras clave realmente marca la diferencia al visualizar la composición antes de dibujar.",
+          "ext1": "4.9",
+          "ext2": "Tomás Ferreira",
+          "ext3": "Ilustrador freelance"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "buttonText": "Comenzar",
+      "buttonRoute": "/home",
+      "content": [
+        {
+          "title": "¿Qué debería dibujar si no tengo ideas?",
+          "description": "Haz clic en el botón de generar de DrawSpark sin seleccionar ninguna etiqueta, y creará al instante cinco ideas de dibujo originales que abarcan diferentes temas como animales, personas y naturaleza, para que siempre tengas un punto de partida específico en lugar de una página vacía."
+        },
+        {
+          "title": "¿Qué cosas buenas puedo dibujar cuando estoy aburrido?",
+          "description": "DrawSpark genera cosas específicas para dibujar cuando estás aburrido, desde bocetos rápidos de animales hasta objetos cotidianos lindos, para que puedas empezar a dibujar de inmediato en lugar de desplazarte buscando inspiración."
+        },
+        {
+          "title": "¿El generador de ideas de dibujo de DrawSpark es realmente gratis?",
+          "description": "Sí, generar ideas de dibujo y navegar por la galería comunitaria en DrawSpark es completamente gratis, sin necesidad de cuenta ni registro para empezar a explorar sugerencias de bocetos e inspiración para dibujar."
+        },
+        {
+          "title": "¿Puedo obtener ideas de dibujo lindas y fáciles?",
+          "description": "Sí, selecciona las etiquetas 'lindo' o 'fácil' antes de generar y DrawSpark devolverá ideas de dibujo encantadoras y para principiantes, simples de dibujar en una sesión corta, ideales para quienes empiezan a dibujar."
+        },
+        {
+          "title": "¿Puedo combinar un tema y un estilo al generar ideas de dibujo?",
+          "description": "Sí, DrawSpark admite seleccionar varias etiquetas a la vez, como 'animal' y 'lindo' juntas, y cada idea generada coincidirá con todas las etiquetas seleccionadas, no solo con una."
+        },
+        {
+          "title": "¿Para qué temas puede DrawSpark generar ideas de dibujo?",
+          "description": "DrawSpark cubre una amplia gama de temas, incluyendo animales, personas, naturaleza, flores, dragones, anime e ideas de dibujo de tatuajes, generando cada idea fresca bajo demanda en lugar de extraerla de una lista estática."
+        },
+        {
+          "title": "¿Qué estilos de dibujo soporta DrawSpark?",
+          "description": "DrawSpark puede generar ideas de dibujo en estilos como lindo, genial, simple, boceto, estético y caricatura, para que puedas igualar la sugerencia al tipo de arte que realmente quieres hacer."
+        },
+        {
+          "title": "¿Puedo editar una idea de dibujo después de que DrawSpark la genere?",
+          "description": "Sí, cada tarjeta de idea de dibujo generada es editable, por lo que puedes ajustar el texto del título o la descripción para que se ajuste mejor a lo que realmente quieres dibujar antes de guardarla o compartirla."
+        },
+        {
+          "title": "¿DrawSpark muestra ideas de dibujo de otros usuarios?",
+          "description": "Sí, DrawSpark tiene una galería pública donde aparecen todas las ideas de dibujo generadas, y puedes buscar por palabra clave para explorar inspiración de dibujo creada por la comunidad de DrawSpark."
+        },
+        {
+          "title": "¿Cuántas ideas de dibujo genera DrawSpark a la vez?",
+          "description": "DrawSpark genera cinco ideas de dibujo cada vez que haces clic en el botón de generar, dándote un conjunto variado de temas y estilos para elegir en lugar de comprometerte con una sola sugerencia."
+        },
+        {
+          "title": "¿Hay un límite en cuántas veces puedo generar ideas de dibujo?",
+          "description": "DrawSpark aplica un límite de uso justo por red para prevenir abusos, pero los visitantes típicos pueden generar ideas de dibujo repetidamente durante el día sin encontrarse con restricciones durante el uso normal."
+        }
+      ]
+    }
+  },
+  "generate": {
+    "title": "Generador gratuito de ideas de dibujo con IA de DrawSpark",
+    "subtitle": "Describe tu estado de ánimo, escena o tema. La IA de DrawSpark genera al instante 5 ideas de dibujo únicas para impulsar tu creatividad.",
+    "placeholder": "ej. un zorro en el espacio, escena de café acogedor...",
+    "button": "Generar 5 Ideas",
+    "generating": "Generando...",
+    "remaining": "{count} generaciones restantes hoy",
+    "limitReached": "Límite diario alcanzado (30/día). ¡Inténtalo mañana!",
+    "resultsTitle": "Tus Inspiraciones",
+    "empty": "Haz clic en generar para obtener tu primer lote de ideas.",
+    "seoTitle": "Generador gratuito de ideas de dibujo con IA - ¿Qué dibujar cuando estás aburrido? | DrawSpark",
+    "seoDescription": "¿Sin ideas para dibujar? El generador de ideas de dibujo con IA de DrawSpark crea infinitos y únicos prompts. Obtén inspiración para dibujos lindos, fáciles, geniales y tatuajes al instante. Gratis, sin registro. Comienza tu viaje creativo hoy.",
+    "seoKeywords": "ideas de dibujo, cosas para dibujar, qué dibujar, inspiración para dibujar, prompts de dibujo, generador de dibujos con IA, dibujos lindos, dibujos fáciles, dibujos geniales, ideas para tatuajes, bocetos, cosas para dibujar cuando estás aburrido",
+    "head1": {
+      "title": "Generador gratuito de ideas de dibujo con IA de DrawSpark",
+      "description": "Describe tu estado de ánimo, escena o tema. La IA de DrawSpark genera al instante 5 ideas de dibujo únicas para impulsar tu creatividad.",
+      "buttonText": "Generar ideas de dibujo",
+      "buttonRoute": "/generate",
+      "photo": "",
+      "photoThumbnail": ""
+    },
+    "Whatis": {
+      "title": "¿Qué es el generador de ideas de dibujo con IA de DrawSpark?",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "description": "DrawSpark es un generador gratuito de ideas de dibujo impulsado por IA que ayuda a artistas, principiantes y cualquier persona que ame dibujar a encontrar inspiración al instante. A diferencia de las listas estáticas de prompts, DrawSpark utiliza IA avanzada para generar ideas de dibujo personalizadas y únicas basadas en cómo te sientes, lo que buscas o incluso para quién dibujas. Ya sea que busques dibujos lindos, bocetos geniales, cosas fáciles de dibujar o inspiración para tatuajes, DrawSpark entrega 5 ideas distintas y prácticas en cada generación. Es la herramienta definitiva para superar el bloqueo creativo y responder la pregunta de siempre: \"¿Qué debería dibujar hoy?\"",
+          "buttonText": "Probar generador de dibujos",
+          "buttonRoute": "/generate"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "Cómo usar el generador de dibujos con IA de DrawSpark",
+      "buttonText": "Generar inspiración",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "Paso 1: Expresa tu estado de ánimo o tema",
+          "description": "Escribe lo que sientes o lo que quieres dibujar. Ejemplos: \"algo lindo y sencillo\", \"un diseño de tatuaje para mi novia\", \"cosas para dibujar cuando estoy aburrido\", o déjalo en blanco para una sorpresa aleatoria. La IA de DrawSpark entiende el lenguaje natural, así que solo di lo que piensas."
+        },
+        {
+          "title": "Paso 2: La IA genera 5 ideas de dibujo",
+          "description": "La IA de DrawSpark crea al instante 5 prompts de dibujo únicos adaptados a tu entrada. Cada idea incluye un título atractivo, descripción detallada, tema, estilo, nivel de dificultad, tiempo estimado y etiquetas relevantes para ayudarte a empezar de inmediato."
+        },
+        {
+          "title": "Paso 3: Elige, guarda y empieza a dibujar",
+          "description": "Revisa las 5 ideas, encuentra la que más te entusiasme y empieza a dibujar. Marca tus favoritas para guardarlas después o copia el prompt para compartir con amigos. Cada generación produce inspiración de dibujo fresca y original que no encontrarás en ningún otro lugar."
+        }
+      ]
+    },
+    "doWith": {
+      "title": "¿Qué puedes crear con el generador de ideas de dibujo de DrawSpark?",
+      "description": "DrawSpark genera ideas de dibujo en todas las categorías principales, desde animales lindos y bocetos geniales hasta garabatos para principiantes y diseños intrincados de tatuajes. Ya sea que estés creando un hábito de dibujo, diseñando un regalo o solo pasando el tiempo, esto es lo que es posible.",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "Dibujos lindos y arte kawaii",
+          "description": "Genera ideas de dibujo adorables y encantadoras, perfectas para principiantes, niños o cualquier persona que ame el arte lindo. Obtén prompts de estilo kawaii para animales, personajes y objetos cotidianos que son fáciles de dibujar y garantizan una sonrisa.",
+          "buttonText": "Obtén ideas de dibujos lindos",
+          "buttonRoute": "/generate"
+        },
+        {
+          "title": "Diseños de tatuajes e inspiración para arte corporal",
+          "description": "Explora ideas únicas de dibujo para tatuajes en varios estilos: minimalista, tradicional, geométrico y oscuro. Perfecto para tatuadores que diseñan piezas personalizadas o cualquiera que planee su próxima tinta. Genera conceptos de tatuajes detallados y apropiados al instante.",
+          "buttonText": "Descubre ideas para tatuajes",
+          "buttonRoute": "/generate"
+        },
+        {
+          "title": "Bocetos geniales y arte urbano",
+          "description": "Obtén prompts de dibujo con estilo callejero y vanguardista para graffiti, manga y diseños de personajes geniales. Desde ilustraciones inspiradas en anime hasta bocetos urbanos, DrawSpark genera ideas que desafían tus habilidades y expanden tu rango creativo.",
+          "buttonText": "Obtén ideas de bocetos geniales",
+          "buttonRoute": "/generate"
+        },
+        {
+          "title": "Cosas fáciles de dibujar para principiantes",
+          "description": "Perfecto para artistas novatos y niños: prompts de dibujo simples, accesibles y divertidos. Obtén ideas listas para paso a paso de animales, flores, comida y objetos cotidianos que te ayudan a ganar confianza y habilidad sin frustración.",
+          "buttonText": "Empieza con dibujos fáciles",
+          "buttonRoute": "/generate"
+        }
+      ]
+    },
+    "Whois": {
+      "title": "¿Quién se beneficia de la herramienta de inspiración de dibujo de DrawSpark?",
+      "buttonText": "Genera tus ideas",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "Artistas e ilustradores",
+          "description": "Artistas e ilustradores profesionales usan DrawSpark para superar bloqueos creativos, descubrir temas nuevos y expandir su portafolio con nuevos estilos. Genera inspiración que empuja límites y desencadena nuevas series de trabajo."
+        },
+        {
+          "title": "Principiantes y aficionados",
+          "description": "Cualquiera que esté aprendiendo a dibujar encontrará DrawSpark invaluable. Obtén prompts de dibujo apropiados para la edad y el nivel de habilidad que aumentan la confianza gradualmente. Desde garabatos simples hasta composiciones más complejas, siempre hay una idea que coincide con tu nivel."
+        },
+        {
+          "title": "Tatuadores y diseñadores",
+          "description": "Los tatuadores usan DrawSpark para generar ideas de diseño personalizadas para clientes o superar el bloqueo creativo. Con prompts que abarcan miles de estilos y temas, descubrirás conceptos de diseño únicos que distinguen tu portafolio."
+        }
+      ]
+    },
+    "youNeed": {
+      "title": "¿Por qué elegir el generador de ideas de dibujo con IA de DrawSpark?",
+      "buttonText": "Obtén ideas de dibujo ahora",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "Inspiración infinita y fresca",
+          "description": "DrawSpark genera ideas de dibujo únicas cada vez, sin repeticiones ni prompts reciclados. La IA crea combinaciones originales de tema, estilo, estado de ánimo y dificultad que no encontrarás en ninguna lista estática de prompts de dibujo."
+        },
+        {
+          "title": "Gratis y sin necesidad de registro",
+          "description": "DrawSpark es 100% gratuito y no requiere cuenta ni tarjeta de crédito. Empieza a generar ideas de dibujo al instante sin barreras. Perfecto para aulas, talleres o sesiones de creatividad espontáneas."
+        },
+        {
+          "title": "Coincidencia inteligente de intenciones",
+          "description": "DrawSpark entiende el lenguaje natural. Escribe tu estado de ánimo, escena o tema, y la IA lo asigna al tema, estilo y nivel de dificultad adecuados. Di \"Quiero dibujar un regalo para mi mamá\" y obtén ideas relevantes al instante."
+        }
+      ]
+    },
+    "realVoices": {
+      "title": "Lo que dicen los artistas sobre la inspiración de dibujo de DrawSpark",
+      "buttonText": "Prueba DrawSpark ahora",
+      "buttonRoute": "/generate",
+      "ext1": "4.9",
+      "ext2": "De 1127 reseñas",
+      "content": [
+        {
+          "title": "Por fin, una fuente interminable de ideas de dibujo",
+          "description": "Como ilustradora profesional, a veces paso horas solo decidiendo qué dibujar. DrawSpark me da ideas frescas y relevantes en segundos. La variedad es increíble: lindos, geniales, realistas, diseños de tatuajes, lo cubre todo.",
+          "ext1": "5",
+          "ext2": "Emma Rodriguez",
+          "ext3": "Ilustradora"
+        },
+        {
+          "title": "Mis estudiantes aman los prompts de dibujo",
+          "description": "Uso DrawSpark todos los días en mi clase de arte. Cuando los estudiantes dicen 'no sé qué dibujar', generamos 5 ideas juntos. Los niveles de dificultad me ayudan a asignar prompts al nivel de cada estudiante. Un cambio total.",
+          "ext1": "5",
+          "ext2": "Marcus Thompson",
+          "ext3": "Profesor de arte"
+        },
+        {
+          "title": "Herramienta esencial para tatuadores",
+          "description": "Soy tatuador y DrawSpark ahora es parte de mi proceso creativo. La IA genera conceptos de diseño que no se me habrían ocurrido, desde arte lineal minimalista hasta piezas complejas de fantasía oscura. A mis clientes les encanta ver múltiples opciones.",
+          "ext1": "5",
+          "ext2": "Lena Chen",
+          "ext3": "Tatuadora"
+        },
+        {
+          "title": "Supera todas las listas de prompts que he probado",
+          "description": "He probado todos los sitios web y libros de ideas de dibujo. DrawSpark es diferente: no solo te da una lista de ideas, las genera inteligentemente según lo que buscas. La calidad es consistentemente alta y original.",
+          "ext1": "5",
+          "ext2": "David Park",
+          "ext3": "Artista digital"
+        },
+        {
+          "title": "Perfecto para días de bloqueo creativo",
+          "description": "Todo artista conoce la sensación de mirar una página en blanco. DrawSpark me pone en movimiento otra vez. Las 5 ideas por generación me dan opciones, y puedo regenerar si nada funciona. Es como tener un compañero creativo bajo demanda.",
+          "ext1": "5",
+          "ext2": "Sophie Keller",
+          "ext3": "Artista freelance"
+        },
+        {
+          "title": "Me ayuda a encontrar ideas de dibujo fáciles rápidamente",
+          "description": "Soy nuevo en el dibujo y solía pasar más tiempo decidiendo qué dibujar que dibujando. DrawSpark me da ideas claras y simples que coinciden con mi nivel de principiante. Mi cuaderno de bocetos nunca ha estado tan lleno.",
+          "ext1": "5",
+          "ext2": "James O'Brien",
+          "ext3": "Artista principiante"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el generador de ideas de dibujo de DrawSpark",
+      "buttonText": "Generar ideas de dibujo",
+      "buttonRoute": "/generate",
+      "content": [
+        {
+          "title": "¿Qué es DrawSpark y cómo funciona el generador de ideas de dibujo?",
+          "description": "DrawSpark es un generador gratuito de ideas de dibujo impulsado por IA que crea prompts personalizados. Simplemente describe tu estado de ánimo, tema o escena, o déjalo en blanco para inspiración aleatoria, y la IA de DrawSpark genera 5 ideas de dibujo únicas y detalladas al instante."
+        },
+        {
+          "title": "¿La herramienta de inspiración de dibujo de DrawSpark es realmente gratuita?",
+          "description": "¡Sí! DrawSpark es completamente gratuito, sin costos ocultos, sin necesidad de tarjeta de crédito y sin inicio de sesión. Puedes generar ideas de dibujo tantas veces como quieras, hasta 30 veces al día."
+        },
+        {
+          "title": "¿En qué se diferencia DrawSpark de otros generadores de ideas de dibujo?",
+          "description": "DrawSpark utiliza IA para generar ideas de dibujo personalizadas y diversas según tu entrada. A diferencia de las listas estáticas de prompts, DrawSpark entiende el lenguaje natural y asigna tu estado de ánimo o tema al tema, estilo y nivel de dificultad perfectos."
+        },
+        {
+          "title": "¿Qué tipo de ideas de dibujo puedo obtener de DrawSpark?",
+          "description": "DrawSpark genera ideas de dibujo en todas las categorías principales: arte lindo y kawaii, bocetos geniales y dibujos urbanos, cosas fáciles de dibujar para principiantes, dibujos realistas, estilo anime y caricatura, diseños de tatuajes, criaturas fantásticas, arte floral y más."
+        },
+        {
+          "title": "¿Qué debería dibujar cuando estoy aburrido?",
+          "description": "¡DrawSpark es perfecto para curar el aburrimiento! Simplemente haz clic en generar o escribe 'Estoy aburrido' para obtener 5 ideas de dibujo únicas diseñadas para combatir el aburrimiento creativo. Desde bocetos rápidos hasta ilustraciones detalladas, siempre hay una idea fresca esperando."
+        },
+        {
+          "title": "¿Puedo obtener ideas de dibujo fáciles para principiantes?",
+          "description": "¡Sí! DrawSpark puede generar ideas de dibujo para cualquier nivel de habilidad. Para principiantes, la IA crea prompts simples y alcanzables con descripciones claras que ayudan a ganar confianza y habilidades sin sentirse abrumado."
+        },
+        {
+          "title": "¿Puedo generar ideas de diseño de tatuajes con DrawSpark?",
+          "description": "Por supuesto. DrawSpark genera conceptos detallados de diseño de tatuajes en muchos estilos, incluyendo minimalista, geométrico, tradicional, oscuro y fantasía. Perfecto para tatuadores que planean diseños personalizados o cualquiera que explore ideas de tinta."
+        },
+        {
+          "title": "¿Cuántas ideas de dibujo puedo generar por día?",
+          "description": "DrawSpark permite hasta 30 generaciones gratuitas de ideas de dibujo por día. Cada generación produce 5 prompts únicos, lo que te da hasta 150 ideas frescas de dibujo diarias, más que suficiente para una vida de inspiración creativa."
+        },
+        {
+          "title": "¿Puedo obtener ideas de dibujo lindas y kawaii?",
+          "description": "¡Sí! DrawSpark se destaca en generar ideas de dibujo lindas y de estilo kawaii. Ya sea que quieras dibujar animales adorables, personajes chibi o arte de comida kawaii, DrawSpark ofrece inspiración ilimitada de dibujos lindos."
+        },
+        {
+          "title": "¿DrawSpark también funciona para artistas profesionales?",
+          "description": "Sí. Artistas profesionales, ilustradores y diseñadores de tatuajes usan DrawSpark para ampliar los límites creativos, descubrir nuevos temas y estilos, o superar el bloqueo creativo. Es una herramienta poderosa para generar conceptos frescos en cualquier nivel de habilidad."
+        }
+      ]
+    },
+    "inputPlaceholder": "Describe tu idea (opcional)",
+    "generateButton": "Generar ideas de dibujo",
+    "quickOptionsLabel": "Opciones rápidas",
+    "tagCute": "Lindos",
+    "tagEasy": "Fáciles",
+    "tagCool": "Geniales",
+    "tagSketch": "Bocetos",
+    "tagBored": "Aburrido",
+    "tagRandom": "Aleatorio",
+    "fallbackHeading": "Inspiraciones populares",
+    "todayInspiration": "Inspiración de hoy",
+    "generatedCount": "{count} ideas generadas",
+    "shuffleAgain": "Mezclar de nuevo",
+    "viewAll": "Ver todas las inspiraciones",
+    "tagAnime": "Anime",
+    "tagAnimal": "Animal",
+    "getMore": "Obtener más",
+    "exploreMore": "Explorar más inspiraciones"
+  },
+  "explore": {
+    "title": "Explora ideas de dibujo de la comunidad",
+    "subtitle": "Navega por todas las ideas de dibujo generadas en DrawSpark — lindas, fáciles, estéticas, tatuajes y más — buscables por palabra clave y filtrables por etiqueta.",
+    "searchPlaceholder": "Buscar ideas...",
+    "sortLatest": "Más recientes",
+    "sortLikes": "Más gustados",
+    "sortCopies": "Más copiados",
+    "filterSubject": "Tema",
+    "filterStyle": "Estilo",
+    "filterDifficulty": "Dificultad",
+    "filterMood": "Ánimo",
+    "filterScene": "Escena",
+    "filterTime": "Tiempo",
+    "all": "Todos",
+    "clearAll": "Borrar todo",
+    "sortLabel": "Ordenar",
+    "expandMore": "Más",
+    "expandMoreCount": "Más ({count})",
+    "collapse": "Menos",
+    "noResults": "Sin resultados. Prueba con otros filtros.",
+    "loadMore": "Cargar más",
+    "filterAudience": "Audiencia",
+    "sortFavorites": "Más favoritos",
+    "filterTitle": "Filtros",
+    "filterButton": "Filtros",
+    "filterLabel": "Filtros",
+    "refreshTags": "Cambiar etiquetas",
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "emptyMessage": "Escribe o elige una etiqueta para encontrar inspiraciones.",
+    "loadingMore": "Cargando más…",
+    "endOfList": "Has llegado al final ✨",
+    "seoTitle": "Explora Ideas de Dibujo – Inspiración para Bocetos | DrawSpark",
+    "seoDescription": "Explora miles de ideas de dibujo y sugerencias de bocetos compartidas por la comunidad de DrawSpark. Busca por palabra clave o etiqueta para encontrar inspiración de dibujos lindos, fáciles, estéticos y tatuajes en cualquier momento.",
+    "seoKeywords": "ideas de dibujo, ideas de dibujo pinterest, inspiración para dibujar, ideas de dibujo estéticas, ideas para bocetos, explorar ideas de dibujo",
+    "head1": {
+      "title": "Explora ideas de dibujo de la comunidad",
+      "description": "Navega por todas las ideas de dibujo generadas en DrawSpark — lindas, fáciles, estéticas, tatuajes y más — buscables por palabra clave y filtrables por etiqueta.",
+      "buttonText": "Explorar ideas de dibujo",
+      "buttonRoute": "/explore",
+      "photo": "",
+      "photoThumbnail": ""
+    },
+    "Whatis": {
+      "title": "¿Qué es la galería Explore de DrawSpark?",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "description": "La galería Explore de DrawSpark es una colección viva de ideas de dibujo generadas por la comunidad, que crece cada día a medida que más personas buscan qué dibujar. En lugar de desplazarte por tableros de Pinterest dispersos o listas desactualizadas de inspiración para dibujar, Explore reúne cada idea — ideas de dibujo lindas, sugerencias de bocetos fáciles, conceptos estéticos, ideas para tatuajes, temas de animales y naturaleza — en un solo lugar buscable. Cada tarjeta muestra el tema, la pose, el entorno y el estilo destacados de un vistazo, para que puedas escanear docenas de ideas de dibujo rápidamente sin leer párrafos completos para entender cómo es cada una. Usa la barra de búsqueda para encontrar ideas de dibujo por palabra clave, o filtra por etiqueta para reducir la galería exactamente al tipo de inspiración para bocetos que buscas. Explore se actualiza continuamente, por lo que las ideas de dibujo que ves hoy nunca son la misma lista estática que encontrarías en un tablero de Pinterest.",
+          "buttonText": "Empezar a explorar",
+          "buttonRoute": "/explore"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "¿Cómo encuentras ideas de dibujo en la página Explore de DrawSpark?",
+      "buttonText": "Explorar ahora",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "Paso 1: Busca o filtra por etiqueta",
+          "description": "Escribe una palabra clave en la barra de búsqueda — como 'lindo', 'tatuaje' o 'naturaleza' — o selecciona una etiqueta para filtrar la galería y mostrar solo las ideas de dibujo que coincidan con el tema o estilo que buscas."
+        },
+        {
+          "title": "Paso 2: Desplázate por la galería de ideas de dibujo",
+          "description": "Navega por las tarjetas a medida que se cargan, cada una muestra el título de la idea de dibujo, palabras clave destacadas y etiquetas, para que puedas identificar rápidamente cuáles coinciden con lo que realmente quieres dibujar."
+        },
+        {
+          "title": "Paso 3: Genera tus propias ideas si ninguna encaja",
+          "description": "¿No encontraste la idea de dibujo adecuada? Vuelve al generador para crear cinco nuevas sugerencias de bocetos al instante, que luego se unirán a la galería Explore para que otros también las descubran."
+        }
+      ]
+    },
+    "doWith": {
+      "title": "¿Qué puedes hacer en la página Explore?",
+      "description": "Explore no es una lista estática de ideas de dibujo — es una galería en constante crecimiento que puedes buscar, filtrar y de la que puedes obtener inspiración fresca cada vez que te quedas sin ideas sobre qué dibujar.",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "Busca ideas de dibujo por palabra clave",
+          "description": "Escribe cualquier palabra — un animal, un estado de ánimo, un estilo como estético o genial — en la barra de búsqueda para que aparezcan al instante las ideas de dibujo de la galería que coincidan con tu búsqueda en títulos y etiquetas.",
+          "buttonText": "Buscar ideas",
+          "buttonRoute": "/explore"
+        },
+        {
+          "title": "Filtra por etiquetas de tema o estilo",
+          "description": "Reduce la galería a un tema específico como tatuaje, animales o naturaleza, o a un estilo específico como lindo, simple o estético, para explorar ideas de dibujo sin tener que pasar las que no encajan.",
+          "buttonText": "Filtrar galería",
+          "buttonRoute": "/explore"
+        },
+        {
+          "title": "Descubre ideas de dibujo que no buscarías",
+          "description": "Desplázate por la galería sin filtros para toparte con ideas de dibujo y sugerencias de bocetos generadas por otras personas, a menudo descubriendo temas o estilos que no se te habrían ocurrido pedir.",
+          "buttonText": "Descubrir ideas",
+          "buttonRoute": "/explore"
+        },
+        {
+          "title": "Reemplaza tu tablero de Pinterest de ideas de dibujo",
+          "description": "Evita los tableros de Pinterest desordenados y llenos de anuncios, y usa Explore como una galería única, rápida y construida específicamente para inspiración de bocetos, buscable en un solo lugar.",
+          "buttonText": "Probar Explore",
+          "buttonRoute": "/explore"
+        }
+      ]
+    },
+    "Whois": {
+      "title": "¿Para quién es la galería Explore?",
+      "buttonText": "Explorar ideas de dibujo",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "Refugiados de Pinterest",
+          "description": "¿Cansado de los tableros de Pinterest llenos de enlaces rotos y pines duplicados? Explore reúne ideas de dibujo reales y buscables en una galería limpia, sin anuncios ni callejones sin salida."
+        },
+        {
+          "title": "Artistas en busca de un estilo específico",
+          "description": "Si ya sabes que quieres ideas de dibujo estéticas, de tatuajes o lindas específicamente, los filtros de etiquetas de Explore te llevan directamente a una galería de sugerencias de bocetos que coinciden, en lugar de resultados de búsqueda genéricos."
+        },
+        {
+          "title": "Navegantes que disfrutan desplazarse en busca de inspiración",
+          "description": "A veces no quieres generar, solo quieres desplazarte. Explore funciona como un feed pasivo de inspiración para dibujar para cualquiera que encuentre mejores ideas navegando que escribiendo una solicitud."
+        }
+      ]
+    },
+    "youNeed": {
+      "title": "¿Por qué explorar ideas de dibujo en la página Explore de DrawSpark?",
+      "buttonText": "Empezar a explorar",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "Siempre fresco, nunca una lista estática",
+          "description": "A diferencia de una lista fija de ideas de dibujo o un tablero antiguo de Pinterest, Explore crece continuamente a medida que la comunidad de DrawSpark genera nuevas sugerencias de bocetos, por lo que siempre hay algo nuevo en la galería."
+        },
+        {
+          "title": "Diseñado para buscar, no solo para desplazarse",
+          "description": "La barra de búsqueda y los filtros de etiquetas de Explore te permiten ir directamente a las ideas de dibujo relevantes, en lugar de desplazarte sin fin por un feed al estilo Pinterest esperando que aparezca la sugerencia correcta."
+        },
+        {
+          "title": "Acceso gratuito, sin necesidad de cuenta",
+          "description": "Navegar por todas las ideas de dibujo en la galería Explore es completamente gratuito y no requiere crear una cuenta, por lo que puedes sumergirte en la inspiración para bocetos en cuanto llegues a la página."
+        }
+      ]
+    },
+    "realVoices": {
+      "title": "Reseñas de usuarios reales",
+      "buttonText": "Explorar ideas de dibujo",
+      "buttonRoute": "/explore",
+      "ext1": "4.9",
+      "ext2": "De 1842 reseñas",
+      "content": [
+        {
+          "title": "Reemplazó todo mi tablero de Pinterest",
+          "description": "Tenía un tablero de Pinterest con más de 300 pines de ideas de dibujo, la mitad con enlaces rotos. Explore carga rápido, me permite buscar por palabra clave y la galería sigue creciendo con nuevas sugerencias cada vez que vuelvo. No he abierto Pinterest en semanas.",
+          "ext1": "5",
+          "ext2": "Maria Chen",
+          "ext3": "Illustration Student"
+        },
+        {
+          "title": "Los filtros de etiquetas ahorran mucho tiempo",
+          "description": "Solo quiero ideas de dibujo de tatuajes y estéticas, y poder filtrar la galería de Explore solo con esas etiquetas significa que no tengo que revisar dibujos de animales lindos para encontrar lo que necesito. Una gran mejora respecto a la búsqueda genérica.",
+          "ext1": "5",
+          "ext2": "Jason Miller",
+          "ext3": "Tattoo Artist"
+        },
+        {
+          "title": "Simplemente me gusta desplazarme por diversión",
+          "description": "A veces ni siquiera necesito una idea de dibujo en ese momento, solo abro Explore y veo lo que otros han generado. Es extrañamente relajante y siempre termino encontrando algo que quiero dibujar cuando termino de navegar.",
+          "ext1": "5",
+          "ext2": "Devon Brooks",
+          "ext3": "Hobbyist Sketcher"
+        },
+        {
+          "title": "La búsqueda funciona como esperas",
+          "description": "Escribí 'dragón' solo para probar y obtuve una galería completa de ideas de dibujo de dragones al instante. Sin tonterías difusas, sin resultados irrelevantes. Es un detalle pequeño, pero hace que toda la galería sea mucho más usable de lo que esperaba.",
+          "ext1": "5",
+          "ext2": "Priya Nair",
+          "ext3": "Digital Artist"
+        },
+        {
+          "title": "Genial para mi clase",
+          "description": "Pongo Explore en el proyector y dejo que mis alumnos filtren por etiquetas fáciles o lindas para elegir su propia idea de dibujo del día. La galería tiene suficiente variedad para que nadie termine dibujando exactamente lo mismo cada clase.",
+          "ext1": "5",
+          "ext2": "Karen Walsh",
+          "ext3": "Art Teacher"
+        },
+        {
+          "title": "Limpio, rápido, sin desorden",
+          "description": "Sin anuncios, sin muro de registro, solo una galería de ideas de dibujo reales que puedo buscar en segundos. He probado otros sitios de ideas para bocetos que entierran el contenido bajo ventanas emergentes de boletines, y Explore es refrescantemente directo.",
+          "ext1": "4.9",
+          "ext2": "Tomás Ferreira",
+          "ext3": "Freelance Illustrator"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "buttonText": "Explorar ideas de dibujo",
+      "buttonRoute": "/explore",
+      "content": [
+        {
+          "title": "¿Qué es la página Explore en DrawSpark?",
+          "description": "Explore es una galería buscable de todas las ideas de dibujo generadas en DrawSpark, reunidas en un solo lugar para que puedas navegar, buscar o filtrar sugerencias de bocetos en lugar de generar nuevas cada vez."
+        },
+        {
+          "title": "¿Es Explore mejor que un tablero de Pinterest de ideas de dibujo?",
+          "description": "Explore está diseñado específicamente para ideas de dibujo, con búsqueda por palabra clave y filtros de etiquetas que funcionan más rápido que desplazarse por un tablero de Pinterest, y crece continuamente sin enlaces rotos ni pines desactualizados."
+        },
+        {
+          "title": "¿Puedo buscar ideas de dibujo específicas en Explore?",
+          "description": "Sí, la barra de búsqueda de Explore te permite escribir cualquier palabra clave — un tema, un estilo o un estado de ánimo — y al instante muestra las ideas de dibujo que coinciden de la galería."
+        },
+        {
+          "title": "¿Puedo filtrar ideas de dibujo por etiqueta en Explore?",
+          "description": "Sí, Explore te permite filtrar la galería por etiquetas como fácil, lindo, estético, tatuaje o animales, y puedes combinar varias etiquetas para afinar los resultados."
+        },
+        {
+          "title": "¿Necesito una cuenta para navegar por Explore?",
+          "description": "No, navegar por la galería Explore y buscar ideas de dibujo es completamente gratuito y no requiere crear una cuenta."
+        },
+        {
+          "title": "¿De dónde vienen las ideas de dibujo en Explore?",
+          "description": "Cada idea de dibujo en Explore fue generada usando el generador de ideas de IA de DrawSpark, ya sea por la comunidad o por DrawSpark mismo, y publicada en la galería para que todos puedan explorarla."
+        },
+        {
+          "title": "¿Con qué frecuencia se actualiza la galería Explore?",
+          "description": "La galería Explore se actualiza continuamente a medida que se generan nuevas ideas de dibujo, por lo que la inspiración para dibujar disponible hoy nunca es idéntica a la de ayer."
+        },
+        {
+          "title": "¿Puedo generar una nueva idea de dibujo desde la página Explore?",
+          "description": "Sí, si no encuentras una idea de dibujo que se ajuste a lo que buscas, puedes volver al generador desde Explore para crear cinco nuevas sugerencias de bocetos al instante."
+        }
+      ]
+    },
+    "searchButton": "Buscar",
+    "searching": "Buscando…",
+    "noResultsGoGenerate": "Sin resultados — prueba a generar ideas nuevas"
+  },
+  "card": {
+    "like": "Me gusta",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "liked": "Te gusta",
+    "copying": "Copiando...",
+    "copyAll": "Copiar al portapapeles",
+    "copiedAll": "¡Copiado al portapapeles!",
+    "retry": "Reintentar",
+    "view": "Ver",
+    "statLikes": "Me gusta",
+    "statCopies": "Copias",
+    "statMood": "Ánimo",
+    "statScene": "Escena",
+    "statAudience": "Audiencia",
+    "favorite": "Favorito",
+    "favorited": "En favoritos",
+    "comments": "Comentarios",
+    "loginToFavorite": "Inicia sesión para guardar",
+    "share": "Compartir",
+    "shareCopied": "¡Enlace copiado!",
+    "shareFailed": "No se pudo copiar el enlace",
+    "favoriteFailed": "No se pudo guardar en favoritos"
+  },
+  "about": {
+    "title": "Acerca de DrawSpark - Generador gratuito de ideas de dibujo con IA",
+    "description": "DrawSpark es un generador gratuito de ideas de dibujo con IA diseñado para ayudar a artistas, principiantes y a cualquier persona que ame dibujar a encontrar inspiración al instante. Escribe tu estado de ánimo, tema o escena, y DrawSpark genera 5 ideas de dibujo únicas adaptadas a tus necesidades.",
+    "features": {
+      "title": "Características",
+      "free": "100% gratis, sin necesidad de cuenta",
+      "ai": "Ideas estructuradas generadas por IA",
+      "community": "Galería comunitaria con me gusta y copias",
+      "multilingual": "Disponible en varios idiomas"
+    },
+    "seoTitle": "Acerca de DrawSpark - Generador gratuito de ideas de dibujo con IA | DrawSpark",
+    "seoDescription": "DrawSpark es un generador gratuito de ideas de dibujo con IA para artistas y principiantes. Conoce nuestra misión de hacer la creatividad accesible para todos.",
+    "seoKeywords": "acerca de drawspark, generador de dibujos con ia, ideas de dibujo, inspiración para dibujar, creatividad artística, qué es drawspark",
+    "h1": "Acerca de DrawSpark - Generador gratuito de ideas de dibujo con IA",
+    "whatIs": {
+      "title": "¿Qué es DrawSpark?",
+      "content": "DrawSpark es un generador gratuito de ideas de dibujo con IA diseñado para ayudar a artistas, principiantes y a cualquier persona que ame dibujar a encontrar inspiración al instante. Escribe tu estado de ánimo, tema o escena, y DrawSpark genera 5 ideas de dibujo únicas adaptadas a tus necesidades."
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "content": "DrawSpark fue creado para resolver un problema simple: \"No sé qué dibujar.\" Nuestro objetivo es hacer que la creatividad sea accesible para todos eliminando la barrera de encontrar inspiración. Ya seas un artista profesional, un principiante o alguien que solo quiere dibujar algo divertido, DrawSpark te da la chispa que necesitas para empezar a crear."
+    },
+    "why": {
+      "title": "¿Por qué DrawSpark?",
+      "items": {
+        "free": "100% gratis, sin necesidad de iniciar sesión",
+        "ai": "Generación de ideas con IA",
+        "ideas": "5 ideas únicas por generación",
+        "styles": "Cubre todos los estilos y temas",
+        "byArtists": "Creado por artistas, para artistas"
+      }
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "content": "DrawSpark está comprometido con proteger la privacidad del usuario. Sin inicio de sesión significa que no hay recopilación de datos. DrawSpark no almacena tu información personal, rastrea tu actividad ni vende tus datos."
+    },
+    "getStarted": {
+      "title": "Comienza Ahora",
+      "content": "¿Listo para empezar a dibujar? Genera tu primera idea de dibujo ahora.",
+      "cta": "Generar Ideas de Dibujo"
+    }
+  },
+  "footer": {
+    "tagline": "Generador gratuito de ideas de dibujo con IA para artistas, principiantes y cualquier persona que ame dibujar.",
+    "rights": "© {year} DrawSpark. Todos los derechos reservados.",
+    "quickLinks": "Enlaces rápidos",
+    "home": "Inicio",
+    "generator": "Generador",
+    "explore": "Explorar",
+    "categories": "Categorías",
+    "catCute": "Lindo",
+    "catCool": "Genial",
+    "catSimple": "Simple",
+    "catSketch": "Boceto",
+    "catAnimal": "Animales",
+    "catTattoo": "Tatuajes",
+    "catAnime": "Anime",
+    "catFantasy": "Fantasía",
+    "popularTopics": "Temas populares",
+    "popularEasyThings": "Cosas fáciles para dibujar",
+    "popularBored": "Cosas para dibujar cuando estás aburrido",
+    "popularTattoo": "Diseños de tatuajes lindos",
+    "popularKids": "Ideas de dibujo para niños",
+    "support": "Soporte",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "feedback": "Comentarios",
+    "faq": "Preguntas frecuentes",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies"
+  },
+  "enums": {
+    "subject": {
+      "animal": "Animal",
+      "people": "Personas",
+      "landscape": "Paisaje",
+      "still_life": "Naturaleza muerta",
+      "abstract": "Abstracto",
+      "fantasy": "Fantasía",
+      "food": "Comida",
+      "architecture": "Arquitectura",
+      "nature": "Naturaleza",
+      "holiday": "Festivo",
+      "everyday": "Cotidiano",
+      "other": "Otro",
+      "tattoo": "Tatuaje",
+      "anime": "Anime",
+      "flower": "Flor",
+      "car": "Coche",
+      "dragon": "Dragón"
+    },
+    "style": {
+      "cute": "Lindo",
+      "cool": "Genial",
+      "simple": "Simple",
+      "realistic": "Realista",
+      "cartoon": "Caricatura",
+      "abstract": "Abstracto",
+      "vintage": "Vintage",
+      "dark": "Oscuro",
+      "aesthetic": "Estético",
+      "doodle": "Garabato",
+      "sketch": "Boceto",
+      "other": "Otro",
+      "kawaii": "Kawaii",
+      "graffiti": "Grafiti",
+      "minimalist": "Minimalista",
+      "trippy": "Psicodélico"
+    },
+    "difficulty": {
+      "beginner": "Principiante",
+      "easy": "Fácil",
+      "medium": "Medio",
+      "hard": "Difícil"
+    },
+    "mood": {
+      "happy": "Feliz",
+      "calm": "Tranquilo",
+      "sad": "Triste",
+      "mysterious": "Misterioso",
+      "romantic": "Romántico",
+      "dark": "Oscuro",
+      "dreamy": "Soñador",
+      "energetic": "Enérgico",
+      "other": "Otro"
+    },
+    "scene": {
+      "bored": "Aburrido",
+      "class": "Clase",
+      "sketchbook": "Cuaderno",
+      "gift": "Regalo",
+      "holiday": "Vacaciones",
+      "summer": "Verano",
+      "winter": "Invierno",
+      "fall": "Otoño",
+      "spring": "Primavera",
+      "daily": "Diario",
+      "other": "Otro"
+    },
+    "time": {
+      "5min": "5 min",
+      "15min": "15 min",
+      "30min": "30 min",
+      "1hour": "1 hora",
+      "2hour_plus": "2+ horas"
+    },
+    "audience": {
+      "kids": "Niños",
+      "beginners": "Principiantes",
+      "boyfriend": "Novio",
+      "girlfriend": "Novia",
+      "best_friend": "Mejor amigo/a",
+      "mom": "Mamá",
+      "dad": "Papá",
+      "teacher": "Profesor/a",
+      "couples": "Parejas",
+      "self": "Para mí",
+      "other": "Otro"
+    }
+  },
+  "faq": {
+    "q1": "¿Qué es DrawSpark?",
+    "a1": "DrawSpark es un generador gratuito de ideas para dibujar impulsado por IA que crea sugerencias personalizadas para artistas y principiantes.",
+    "q2": "¿Cómo funciona la IA de DrawSpark?",
+    "a2": "DrawSpark utiliza IA avanzada para entender tu estado de ánimo, tema o escena y genera 5 ideas de dibujo únicas adaptadas a tu entrada.",
+    "q3": "¿DrawSpark es realmente gratuito?",
+    "a3": "Sí. DrawSpark es 100% gratuito, sin costos ocultos, sin necesidad de tarjeta de crédito ni inicio de sesión.",
+    "seoTitle": "Preguntas Frecuentes del Generador de Ideas para Dibujar | DrawSpark",
+    "seoDescription": "Encuentra respuestas a preguntas frecuentes sobre el generador de ideas para dibujar con IA de DrawSpark. Aprende a obtener inspiración para dibujar gratis.",
+    "seoKeywords": "drawspark preguntas frecuentes, generador de ideas para dibujar preguntas, ayuda con dibujo con ia, respuestas inspiración para dibujar, cosas para dibujar",
+    "h1": "Preguntas Frecuentes del Generador de Ideas para Dibujar",
+    "subtitle": "Generador de Ideas para Dibujar con IA de DrawSpark - Tus Preguntas Respondidas",
+    "items": {
+      "whatIs": {
+        "q": "¿Qué es DrawSpark?",
+        "a": "DrawSpark es un generador gratuito de ideas para dibujar impulsado por IA que crea sugerencias personalizadas para artistas y principiantes."
+      },
+      "howWorks": {
+        "q": "¿Cómo funciona la IA de DrawSpark?",
+        "a": "DrawSpark utiliza IA avanzada para entender tu estado de ánimo, tema o escena y genera 5 ideas de dibujo únicas adaptadas a tu entrada."
+      },
+      "free": {
+        "q": "¿DrawSpark es realmente gratuito?",
+        "a": "Sí. DrawSpark es 100% gratuito, sin costos ocultos, sin necesidad de tarjeta de crédito ni inicio de sesión."
+      },
+      "account": {
+        "q": "¿Necesito crear una cuenta?",
+        "a": "No. DrawSpark no requiere cuenta. Puedes empezar a generar ideas inmediatamente."
+      },
+      "howMany": {
+        "q": "¿Cuántas ideas para dibujar puedo generar?",
+        "a": "DrawSpark permite hasta 30 generaciones gratuitas por día. Cada generación te da 5 ideas de dibujo únicas."
+      },
+      "kindOfIdeas": {
+        "q": "¿Qué tipo de ideas puede generar DrawSpark?",
+        "a": "DrawSpark cubre todas las categorías: lindas, geniales, simples, bocetos, animales, tatuajes, anime, fantasía, paisajes y más."
+      },
+      "tattoo": {
+        "q": "¿Puede DrawSpark generar ideas para diseños de tatuajes?",
+        "a": "Sí. DrawSpark genera conceptos detallados de diseños de tatuajes en muchos estilos."
+      },
+      "easy": {
+        "q": "¿Puedo obtener ideas de dibujo fáciles para principiantes?",
+        "a": "Sí. DrawSpark puede generar ideas de dibujo para cualquier nivel de habilidad, incluyendo sugerencias para principiantes."
+      },
+      "bored": {
+        "q": "¿Qué debería dibujar cuando estoy aburrido?",
+        "a": "¡Usa DrawSpark! Escribe \"Estoy aburrido\" y obtén 5 ideas de dibujo únicas para curar el aburrimiento creativo."
+      },
+      "professional": {
+        "q": "¿Funciona DrawSpark para artistas profesionales?",
+        "a": "Sí. Artistas profesionales usan DrawSpark para superar bloqueos creativos y descubrir nuevos temas y estilos."
+      },
+      "anime": {
+        "q": "¿Puedo generar ideas de dibujo anime?",
+        "a": "Sí. DrawSpark genera sugerencias e inspiración de dibujo en estilo anime."
+      },
+      "data": {
+        "q": "¿Están seguros mis datos con DrawSpark?",
+        "a": "DrawSpark no recopila ni almacena tus datos personales. Sin inicio de sesión significa sin seguimiento."
+      },
+      "mobile": {
+        "q": "¿Puedo usar DrawSpark en móvil?",
+        "a": "Sí. DrawSpark funciona tanto en navegadores de escritorio como móviles."
+      },
+      "where": {
+        "q": "¿De dónde vienen las ideas de dibujo?",
+        "a": "Todas las ideas son generadas por IA, creando combinaciones originales y únicas de tema, estilo y estado de ánimo."
+      },
+      "specific": {
+        "q": "¿Puedo solicitar una idea de dibujo específica?",
+        "a": "Puedes escribir un tema, asunto o estilo en DrawSpark y la IA generará ideas relevantes."
+      },
+      "community": {
+        "q": "¿Tiene DrawSpark una comunidad?",
+        "a": "DrawSpark está construyendo una comunidad de artistas. Comparte tu trabajo en la galería e inspira a otros."
+      },
+      "share": {
+        "q": "¿Cómo comparto mis dibujos?",
+        "a": "DrawSpark planea añadir funciones de compartir en futuras actualizaciones."
+      },
+      "class": {
+        "q": "¿Puedo usar DrawSpark para mi clase de arte?",
+        "a": "Sí. Muchos profesores usan DrawSpark para calentamientos en clase de arte y sugerencias de dibujo."
+      },
+      "bestWay": {
+        "q": "¿Cuál es la mejor manera de usar DrawSpark?",
+        "a": "Describe tu estado de ánimo, escena o tema y deja que DrawSpark genere ideas. Explora categorías para descubrir nuevos estilos."
+      },
+      "contactFaq": {
+        "q": "¿Cómo puedo contactar a DrawSpark?",
+        "a": "Envía un correo a DrawSpark a support@drawspark.com"
+      }
+    }
+  },
+  "auth": {
+    "loginTitle": "Bienvenido de nuevo",
+    "loginSubtitle": "Inicia sesión para guardar inspiraciones y comentar.",
+    "registerTitle": "Crea tu cuenta",
+    "registerSubtitle": "Gratis, 1 minuto. Sin tarjeta de crédito.",
+    "loginButton": "Iniciar sesión",
+    "registerButton": "Crear cuenta",
+    "email": "Correo",
+    "password": "Contraseña",
+    "displayName": "Nombre",
+    "captchaPlaceholder": "CAPTCHA",
+    "refreshCaptcha": "Refrescar CAPTCHA",
+    "fieldsRequired": "Completa todos los campos.",
+    "displayNameRequired": "Introduce un nombre.",
+    "captchaLoadFailed": "Error al cargar CAPTCHA.",
+    "captchaWrong": "CAPTCHA incorrecto o caducado.",
+    "invalidCredentials": "Correo o contraseña incorrectos.",
+    "emailTaken": "Este correo ya está registrado.",
+    "emailInvalid": "Introduce un correo válido.",
+    "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+    "displayNameInvalid": "El nombre debe tener 1-30 caracteres.",
+    "loginFailed": "Error al iniciar sesión.",
+    "registerFailed": "Error al registrarse.",
+    "networkError": "Error de red.",
+    "noAccount": "¿Sin cuenta?",
+    "haveAccount": "¿Ya tienes cuenta?",
+    "registerNow": "Regístrate",
+    "loginNow": "Inicia sesión",
+    "googleSignIn": "Continuar con Google",
+    "googleFailed": "Error al iniciar con Google. Inténtalo de nuevo.",
+    "orContinueWith": "O continúa con",
+    "oauthBadState": "La sesión de Google expiró. Inténtalo de nuevo.",
+    "oauthAccessDenied": "Inicio con Google cancelado.",
+    "oauthExchangeFailed": "Error al procesar Google. Inténtalo de nuevo."
+  },
+  "user": {
+    "login": "Iniciar sesión",
+    "profile": "Perfil",
+    "myInspirations": "Mis inspiraciones",
+    "myFavorites": "Mis favoritos",
+    "logout": "Cerrar sesión",
+    "accountMenu": "Menú de cuenta"
+  },
+  "prompts": [
+    "💭 Dime cómo te sientes ahora...",
+    "😌 ¿Cómo estás hoy?",
+    "🌊 ¿Cuál es tu vibra?",
+    "🌤️ ¿Qué tal va tu día?",
+    "🤔 ¿En qué has pensado?",
+    "🎭 ¿Qué coincide con tu ánimo?",
+    "✨ Describe cómo te sientes",
+    "🎨 ¿Qué quieres dibujar hoy?",
+    "📍 ¿Desde dónde dibujas?",
+    "🎁 ¿Para quién es este dibujo?",
+    "💝 ¿Quién recibirá este dibujo?",
+    "🏠 ¿Dónde dibujas?",
+    "🌸 ¿Qué estación es?",
+    "⏱️ ¿Cuánto tiempo dibujarás?",
+    "🎀 ¿Un regalo para alguien especial?",
+    "🎯 ¿Qué estilo hoy?",
+    "🖌️ ¿Qué tipo de estilo quieres?",
+    "📖 ¿Qué tema te apetece?",
+    "✨ ¿Lindo o genial?",
+    "⚡ ¿Fácil o desafiante?",
+    "👁️ ¿Realista o abstracto?",
+    "✏️ ¿Qué estás haciendo?",
+    "🎯 ¿Cuál es la meta de hoy?",
+    "🕰️ ¿Algo para pasar el tiempo?",
+    "🌱 ¿Quieres dibujar pero no sabes qué?",
+    "💡 ¿Algo especial pero sin ideas?",
+    "🌟 ¿Dibujar algo con sentimiento?"
+  ],
+  "quickTags": {
+    "random": "Aleatorio",
+    "top": "Top"
+  },
+  "comments": {
+    "title": "Comentarios",
+    "loading": "Cargando…",
+    "empty": "Aún no hay comentarios. ¡Sé el primero!",
+    "placeholder": "Añade un comentario…",
+    "submit": "Publicar",
+    "reply": "Responder",
+    "replyingTo": "Respondiendo a {name}",
+    "favorite": "Favorito",
+    "favorited": "En favoritos",
+    "loginToComment": "Inicia sesión para comentar",
+    "statFavorites": "Favoritos"
+  },
+  "detail": {
+    "notFoundTitle": "Idea de dibujo no encontrada",
+    "similar": "Ideas similares",
+    "statMood": "Ánimo",
+    "statScene": "Escena"
+  },
+  "profile": {
+    "title": "Perfil",
+    "subtitle": "Consulta y actualiza la información de tu cuenta.",
+    "loginRequired": "Inicia sesión para ver tu perfil.",
+    "emptyInspirations": "Aún no has creado inspiraciones. ¡Prueba el generador!",
+    "emptyFavorites": "Sin favoritos. Toca ☆ en una tarjeta para guardarla.",
+    "uploadAvatar": "Subir avatar",
+    "editName": "Editar nombre",
+    "save": "Guardar",
+    "logout": "Cerrar sesión"
+  },
+  "myInspirations": {
+    "title": "Mis inspiraciones",
+    "subtitle": "Tus ideas creadas y las que has guardado como favoritas.",
+    "loginRequired": "Inicia sesión para ver tus inspiraciones y favoritos."
+  },
+  "shareTip": {
+    "title": "¿Terminaste?",
+    "body": "¡Comparte tu trabajo con la comunidad para que otros vean tu inspiración!",
+    "dismiss": "Descartar"
+  },
+  "contact": {
+    "seoTitle": "Contacta con DrawSpark - Ponte en contacto con nuestro equipo | DrawSpark",
+    "seoDescription": "¿Tienes preguntas, comentarios o ideas? Contacta al equipo de DrawSpark. Valoramos tu opinión y estamos aquí para ayudarte.",
+    "seoKeywords": "contactar drawspark, ayuda ideas de dibujo, soporte generador de dibujos ai, comentarios, contáctanos",
+    "h1": "Contacta con DrawSpark",
+    "getInTouch": {
+      "title": "Ponte en contacto",
+      "content": "DrawSpark valora tus preguntas, comentarios y sugerencias. Escríbenos cuando quieras.",
+      "email": "📧 Correo electrónico: support@drawspark.com",
+      "responseTime": "⏱️ Tiempo de respuesta: Entre 24 y 48 horas"
+    },
+    "helpWith": {
+      "title": "¿En qué puede ayudarte DrawSpark?",
+      "items": {
+        "questions": "Preguntas sobre el uso de DrawSpark",
+        "features": "Sugerencias de funciones",
+        "bugs": "Informes de errores",
+        "partnership": "Consultas de colaboración",
+        "feedback": "Comentarios generales"
+      }
+    },
+    "beforeContact": {
+      "title": "Antes de contactar con DrawSpark",
+      "content": "Revisa primero la página de preguntas frecuentes. Allí encontrarás respuesta a muchas dudas comunes.",
+      "cta": "Ir a preguntas frecuentes"
+    },
+    "stayConnected": {
+      "title": "Mantente conectado",
+      "content": "Sigue a DrawSpark en redes sociales para inspirarte a diario con ideas de dibujo.",
+      "placeholder": "Placeholder de enlaces sociales"
+    }
+  },
+  "feedback": {
+    "seoTitle": "Comparte tu opinión - Ayuda a DrawSpark a mejorar | DrawSpark",
+    "seoDescription": "Tus comentarios ayudan a DrawSpark a ser un mejor generador de ideas de dibujo. Comparte tus sugerencias, solicitudes de funciones o informes de errores.",
+    "seoKeywords": "comentarios drawspark, ideas de dibujo feedback, sugerencias generador de dibujos ai, solicitud de función, mejorar inspiración de dibujo",
+    "h1": "Comparte tu opinión sobre DrawSpark",
+    "voiceMatters": {
+      "title": "Tu opinión importa",
+      "content": "DrawSpark mejora constantemente, y los comentarios de los usuarios son la parte más importante de ese proceso. Comparte tus ideas.",
+      "email": "📧 Correo electrónico: support@drawspark.com",
+      "responseTime": "⏱️ Tiempo de respuesta: Entre 24 y 48 horas"
+    },
+    "wantToHear": {
+      "title": "Lo que DrawSpark quiere escuchar",
+      "items": {
+        "features": "Solicitudes de funciones",
+        "bugs": "Informes de errores",
+        "ux": "Sugerencias de experiencia de usuario",
+        "categories": "Ideas para nuevas categorías de dibujo",
+        "other": "Cualquier otro comentario"
+      }
+    },
+    "emailTemplate": {
+      "title": "Plantilla de correo electrónico",
+      "subject": "Asunto: [Feedback] [Asunto de tu comentario]",
+      "body": "Cuerpo: [Tu mensaje detallado]"
+    },
+    "beforeSending": {
+      "title": "Antes de enviar",
+      "items": {
+        "faq": "Revisa primero la página de preguntas frecuentes",
+        "specific": "Sé específico sobre tu sugerencia",
+        "screenshots": "Incluye capturas de pantalla si reportas un error",
+        "likes": "¡Cuéntanos también lo que te gusta!"
+      }
+    }
+  },
+  "cookieBanner": {
+    "message": "Usamos cookies para mejorar tu experiencia. No compartimos datos personales. Análisis a través de GA4 y Clarity.",
+    "accept": "Aceptar",
+    "learnMore": "Más información"
+  },
+  "langPrompt": {
+    "message": "Detectamos que tu navegador está en {lang}. ¿Quieres cambiar?",
+    "switch": "Cambiar a {lang}",
+    "dismiss": "Mantener {current}"
+  },
+  "legal": {
+    "lastUpdatedLabel": "Última actualización",
+    "contactLabel": "Contacto",
+    "contactEmail": "support@drawspark.com",
+    "privacy": {
+      "h1": "Política de Privacidad",
+      "seoTitle": "Política de Privacidad - Cómo DrawSpark protege tus datos",
+      "seoDescription": "Lee la Política de Privacidad de DrawSpark para entender cómo recopilamos, usamos y protegemos tus datos al usar nuestro generador de ideas de dibujo con IA.",
+      "disclaimer": "En caso de discrepancia entre las traducciones, prevalecerá la versión en inglés.",
+      "sections": [
+        {
+          "heading": "1. Introducción",
+          "blocks": [
+            { "type": "p", "text": "Bienvenido a DrawSpark. DrawSpark (\"nosotros\", \"nuestro\") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo DrawSpark recopila, utiliza y resguarda tu información cuando utilizas nuestro generador de ideas de dibujo con IA (el \"Servicio\")." },
+            { "type": "p", "text": "DrawSpark cree en la privacidad por diseño. El Servicio principal está diseñado para no requerir inicio de sesión, ni creación de cuenta, ni recopilación obligatoria de datos personales para generar ideas de dibujo." }
+          ]
+        },
+        {
+          "heading": "2. Información que recopila DrawSpark",
+          "blocks": [
+            { "type": "h3", "text": "2.1 Información que proporcionas" },
+            { "type": "p", "text": "DrawSpark recopila información mínima solo cuando decides proporcionarla voluntariamente:" },
+            { "type": "table", "headers": ["Función", "Información recopilada", "Propósito"], "rows": [
+              ["Registro de cuenta (opcional)", "Correo electrónico, contraseña (hasheada), nombre para mostrar", "Autenticación y personalización del usuario"],
+              ["Perfil de usuario", "Imagen de avatar (cargada), nombre para mostrar", "Mostrar el perfil en DrawSpark"],
+              ["Comentarios", "Contenido del comentario, carga opcional de imágenes", "Interacción comunitaria en inspiraciones"],
+              ["Favoritos", "ID de la inspiración que marcas como favorita", "Guardar y organizar el contenido que te gusta"],
+              ["Formulario de feedback", "Correo electrónico, contenido del mensaje", "Responder a tus consultas"]
+            ] },
+            { "type": "h3", "text": "2.2 Información recopilada automáticamente" },
+            { "type": "p", "text": "DrawSpark recopila automáticamente información no personal limitada para mejorar el Servicio:" },
+            { "type": "table", "headers": ["Tipo de dato", "Propósito", "Herramienta utilizada"], "rows": [
+              ["Dirección IP (anonimizada)", "Ubicación aproximada, prevención de abuso, rate limiting", "Vercel / Supabase"],
+              ["Tipo y versión del navegador", "Asegurar la compatibilidad", "Vercel Analytics"],
+              ["Tipo de dispositivo", "Optimización móvil vs escritorio", "Vercel Analytics / Clarity"],
+              ["Vistas de página y clics", "Entender el comportamiento del usuario y mejorar la UX", "Google Analytics 4 (GA4), Microsoft Clarity (MC)"],
+              ["Mapas de calor y grabaciones de sesión", "Visualizar patrones de interacción del usuario", "Microsoft Clarity (MC)"],
+              ["Rendimiento de búsqueda", "Optimización SEO", "Google Search Console (GSC), Bing Webmaster Tools (BWT)"]
+            ] },
+            { "type": "h3", "text": "2.3 Contenido generado por IA" },
+            { "type": "p", "text": "Cuando usas el generador de ideas de dibujo con IA de DrawSpark:" },
+            { "type": "ul", "items": [
+              "Tu texto de entrada se envía a la API de DeepSeek para generar ideas de dibujo",
+              "DrawSpark NO almacena tu texto de entrada después de la generación",
+              "Solo las ideas de dibujo generadas se guardan en la base de datos de DrawSpark"
+            ] },
+            { "type": "table", "headers": ["Dato", "¿Se almacena?", "Retención"], "rows": [
+              ["Texto de entrada del usuario", "❌ No", "No se almacena"],
+              ["Ideas de dibujo generadas", "✅ Sí", "Permanente (visible públicamente)"],
+              ["Metadatos de la idea generada", "✅ Sí", "Permanente (visible públicamente)"]
+            ] },
+            { "type": "callout", "text": "Importante: Las ideas de dibujo que generas son públicas por defecto y visibles para todos los usuarios de DrawSpark en la galería Explorar. No envíes información personal o sensible como ideas de dibujo, títulos o comentarios." },
+            { "type": "h3", "text": "2.4 Herramientas de análisis y SEO" },
+            { "type": "p", "text": "DrawSpark utiliza las siguientes herramientas para monitorear y mejorar el Servicio:" },
+            { "type": "table", "headers": ["Herramienta", "Propósito", "Datos recopilados", "¿Usa cookies?"], "rows": [
+              ["Google Analytics 4 (GA4)", "Analítica del comportamiento del usuario", "Vistas de página, duración de sesión, tipo de dispositivo, ubicación aproximada", "✅ Sí (cookies de analítica)"],
+              ["Microsoft Clarity (MC)", "Analítica del comportamiento, mapas de calor, grabaciones de sesión", "Vistas de página, clics, profundidad de desplazamiento, grabaciones anonimizadas", "✅ Sí"],
+              ["Google Search Console (GSC)", "Monitoreo del rendimiento SEO", "Consultas de búsqueda, tasa de clics, estado de indexación", "❌ No"],
+              ["Bing Webmaster Tools (BWT)", "Monitoreo del rendimiento SEO", "Consultas de búsqueda, tasa de clics, estado de indexación", "❌ No"],
+              ["Vercel Analytics", "Monitoreo de rendimiento", "Tiempos de carga, core web vitals, tráfico básico", "❌ No"]
+            ] },
+            { "type": "p", "text": "Importante: Microsoft Clarity recopila grabaciones de sesión anonimizadas y mapas de calor para ayudar a DrawSpark a entender cómo los usuarios interactúan con el Servicio. Clarity no captura información personal sensible, pulsaciones de teclado ni información de pago. Puedes desactivarlo deshabilitando las cookies en tu navegador." }
+          ]
+        },
+        {
+          "heading": "3. Cómo utiliza DrawSpark tu información",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark utiliza tu información para:" },
+            { "type": "ul", "items": [
+              "Proveer el Servicio: generar y mostrar ideas de dibujo",
+              "Mejorar el Servicio: analizar patrones de uso a través de GA4, Clarity y Vercel Analytics",
+              "Optimización de búsqueda: monitorear y mejorar el rendimiento en buscadores mediante GSC y BWT",
+              "Soporte de cuenta: gestionar tu cuenta si decides crear una",
+              "Responder consultas: responder a comentarios y solicitudes de soporte",
+              "Prevenir el abuso: aplicar límites de uso (30 generaciones por día) y bloquear actividades maliciosas"
+            ] },
+            { "type": "p", "text": "DrawSpark NO:" },
+            { "type": "ul", "items": [
+              "Vende tus datos a terceros",
+              "Utiliza tus datos para publicidad dirigida",
+              "Comparte tu información personal con terceros (excepto cuando es esencial para prestar el Servicio)"
+            ] }
+          ]
+        },
+        {
+          "heading": "4. Compartir información",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark solo comparte datos con proveedores de servicios esenciales:" },
+            { "type": "table", "headers": ["Proveedor", "Propósito", "Datos compartidos"], "rows": [
+              ["Supabase", "Base de datos y almacenamiento", "Datos de usuario, inspiraciones generadas, comentarios, favoritos"],
+              ["DeepSeek", "API de modelo de IA", "Texto de entrada del usuario para generación (no se almacena)"],
+              ["Vercel", "Hosting y analítica", "Vistas de página, datos de rendimiento (agregados)"],
+              ["Google Analytics 4", "Analítica del comportamiento del usuario", "Vistas de página, sesiones, datos de dispositivo (agregados)"],
+              ["Microsoft Clarity", "Analítica del comportamiento y mapas de calor", "Vistas de página, clics, profundidad de desplazamiento, grabaciones anonimizadas"],
+              ["Google Search Console", "Monitoreo SEO", "Datos de rendimiento de búsqueda (agregados)"],
+              ["Bing Webmaster Tools", "Monitoreo SEO", "Datos de rendimiento de búsqueda (agregados)"]
+            ] },
+            { "type": "p", "text": "Todos los proveedores cumplen con la normativa aplicable de protección de datos y procesan los datos solo en nombre de DrawSpark." }
+          ]
+        },
+        {
+          "heading": "5. Seguridad de los datos",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark implementa medidas de seguridad razonables:" },
+            { "type": "ul", "items": [
+              "Todas las contraseñas se hashean con bcrypt",
+              "Las claves de API se almacenan como variables de entorno y nunca se exponen a los clientes",
+              "Cifrado HTTPS para todas las transmisiones de datos (forzado por Vercel)",
+              "Supabase Row Level Security (RLS) protege los datos del usuario",
+              "Vercel provee infraestructura de hosting segura"
+            ] }
+          ]
+        },
+        {
+          "heading": "6. Tus derechos",
+          "blocks": [
+            { "type": "p", "text": "Según tu ubicación, puedes tener los siguientes derechos sobre tus datos:" },
+            { "type": "ul", "items": [
+              "Acceso: solicitar una copia de tus datos",
+              "Corrección: actualizar datos inexactos",
+              "Eliminación: solicitar la eliminación de tu cuenta y los datos asociados",
+              "Opt-out: deshabilitar cookies (solo las no esenciales)",
+              "Portabilidad: solicitar una copia de tus datos en un formato legible por máquina"
+            ] },
+            { "type": "p", "text": "Para ejercer estos derechos, contacta a DrawSpark en support@drawspark.com" }
+          ]
+        },
+        {
+          "heading": "7. Retención de datos",
+          "blocks": [
+            { "type": "table", "headers": ["Tipo de dato", "Período de retención"], "rows": [
+              ["Información de la cuenta", "Hasta que elimines tu cuenta"],
+              ["Inspiraciones generadas", "Permanente (contenido público)"],
+              ["Comentarios", "Permanente (contenido público)"],
+              ["Favoritos", "Hasta que los elimines o borres tu cuenta"],
+              ["Analítica de uso", "Agregada, no personal, retenida indefinidamente"]
+            ] }
+          ]
+        },
+        {
+          "heading": "8. Privacidad de los menores",
+          "blocks": [
+            { "type": "p", "text": "El Servicio de DrawSpark no está dirigido a menores de 13 años. DrawSpark no recopila conscientemente información personal de menores de 13 años. Si DrawSpark detecta que un menor de 13 años ha proporcionado información personal, la eliminará de inmediato." }
+          ]
+        },
+        {
+          "heading": "9. Cambios a esta política",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark puede actualizar esta Política de Privacidad periódicamente. La versión más reciente siempre estará publicada en esta página con la fecha de \"Última actualización\". Los cambios significativos se notificarán por correo electrónico a los usuarios registrados." }
+          ]
+        },
+        {
+          "heading": "10. Contáctanos",
+          "blocks": [
+            { "type": "p", "text": "Si tienes preguntas sobre esta Política de Privacidad o las prácticas de datos de DrawSpark:" },
+            { "type": "p", "text": "📧 support@drawspark.com" },
+            { "type": "p", "text": "Tiempo de respuesta: dentro de 24-48 horas" }
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "h1": "Términos de Servicio",
+      "seoTitle": "Términos de Servicio - Generador de ideas de dibujo con IA de DrawSpark",
+      "seoDescription": "Lee los Términos de Servicio de DrawSpark. Al usar nuestro generador de ideas de dibujo con IA, aceptas estos términos. Conoce tus derechos y responsabilidades.",
+      "disclaimer": "En caso de discrepancia entre las traducciones, prevalecerá la versión en inglés.",
+      "sections": [
+        {
+          "heading": "1. Aceptación de los términos",
+          "blocks": [
+            { "type": "p", "text": "Al usar el sitio web del generador de ideas de dibujo con IA de DrawSpark (el \"Servicio\"), aceptas estos Términos de Servicio. Si no estás de acuerdo, por favor no uses DrawSpark." },
+            { "type": "p", "text": "DrawSpark se reserva el derecho de actualizar estos Términos en cualquier momento. El uso continuado del Servicio después de los cambios constituye la aceptación de los Términos actualizados." }
+          ]
+        },
+        {
+          "heading": "2. Descripción del Servicio",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark es un generador gratuito de ideas de dibujo con IA que ayuda a los usuarios a encontrar inspiración para dibujar, hacer bocetos y proyectos creativos. El Servicio incluye:" },
+            { "type": "ul", "items": [
+              "Ideas y prompts de dibujo generados por IA",
+              "Contenido generado por los usuarios (inspiraciones, comentarios, favoritos)",
+              "Cuentas de usuario opcionales para personalización"
+            ] }
+          ]
+        },
+        {
+          "heading": "3. Cuentas de usuario",
+          "blocks": [
+            { "type": "h3", "text": "3.1 Creación de cuenta" },
+            { "type": "p", "text": "Crear una cuenta es opcional. Puedes usar las funciones principales de DrawSpark sin cuenta. Si creas una cuenta:" },
+            { "type": "ul", "items": [
+              "Debes proporcionar un correo electrónico válido",
+              "Debes tener al menos 13 años",
+              "Eres responsable de mantener la seguridad de tu cuenta",
+              "Eres responsable de toda la actividad bajo tu cuenta"
+            ] },
+            { "type": "h3", "text": "3.2 Terminación de la cuenta" },
+            { "type": "p", "text": "DrawSpark se reserva el derecho de suspender o terminar cuentas que:" },
+            { "type": "ul", "items": [
+              "Violen estos Términos",
+              "Generen spam o contenido abusivo",
+              "Intenten evadir los límites de uso o las medidas de seguridad",
+              "Estén inactivas durante un período prolongado"
+            ] },
+            { "type": "p", "text": "Puedes eliminar tu cuenta en cualquier momento contactando a support@drawspark.com." }
+          ]
+        },
+        {
+          "heading": "4. Contenido generado por el usuario",
+          "blocks": [
+            { "type": "h3", "text": "4.1 Propiedad" },
+            { "type": "p", "text": "Conservas la propiedad del contenido que creas y envías a DrawSpark, incluyendo:" },
+            { "type": "ul", "items": [
+              "Comentarios",
+              "Ideas de dibujo que generes (salida generada por IA)",
+              "Información de perfil e imágenes de avatar"
+            ] },
+            { "type": "h3", "text": "4.2 Licencia a DrawSpark" },
+            { "type": "p", "text": "Al enviar contenido a DrawSpark, otorgas a DrawSpark una licencia mundial, no exclusiva y libre de regalías para:" },
+            { "type": "ul", "items": [
+              "Mostrar, almacenar y distribuir tu contenido en el Servicio",
+              "Permitir que otros usuarios vean, den me gusta, marquen como favorito e interactúen con tu contenido",
+              "Usar tu contenido con fines promocionales (con atribución)"
+            ] },
+            { "type": "h3", "text": "4.3 Normas de contenido" },
+            { "type": "p", "text": "Aceptas no enviar contenido que:" },
+            { "type": "ul", "items": [
+              "Sea ilegal, ofensivo o dañino",
+              "Infrinja derechos de propiedad intelectual",
+              "Contenga malware o código malicioso",
+              "Viola la privacidad de terceros",
+              "Sea spam o contenido repetitivo"
+            ] },
+            { "type": "callout", "text": "Contenido público: Todo el contenido enviado a DrawSpark (incluidas las ideas generadas y los comentarios) es público por defecto. No compartas información personal, sensible o confidencial." }
+          ]
+        },
+        {
+          "heading": "5. Contenido generado por IA",
+          "blocks": [
+            { "type": "h3", "text": "5.1 Naturaleza del contenido de IA" },
+            { "type": "p", "text": "Las ideas de dibujo generadas por la IA de DrawSpark son solo sugerencias. DrawSpark no garantiza:" },
+            { "type": "ul", "items": [
+              "La exactitud ni la originalidad del contenido generado",
+              "Que el contenido generado no se parezca a obras con derechos de autor existentes (las salidas de IA se basan en datos de entrenamiento y pueden parecerse ocasionalmente a obras existentes)"
+            ] },
+            { "type": "h3", "text": "5.2 No es consejo profesional" },
+            { "type": "p", "text": "Las ideas de dibujo generadas por IA son únicamente con fines de inspiración y entretenimiento. No constituyen consejo profesional, instrucción ni garantía de resultados creativos." },
+            { "type": "h3", "text": "5.3 Propiedad de la salida generada por IA" },
+            { "type": "p", "text": "Puedes usar, modificar y crear obras derivadas de las ideas de dibujo generadas por IA sin restricción. DrawSpark no reclama propiedad alguna sobre las salidas generadas por IA." }
+          ]
+        },
+        {
+          "heading": "6. Propiedad intelectual",
+          "blocks": [
+            { "type": "h3", "text": "6.1 PI de DrawSpark" },
+            { "type": "p", "text": "DrawSpark es titular de todos los derechos sobre:" },
+            { "type": "ul", "items": [
+              "La marca, el logotipo y las marcas registradas de DrawSpark",
+              "El diseño del sitio web, el código y la interfaz de usuario",
+              "La integración del modelo de IA y los sistemas backend"
+            ] },
+            { "type": "h3", "text": "6.2 Contenido generado por el usuario" },
+            { "type": "p", "text": "Los usuarios conservan la propiedad de su contenido original según se describe en la Sección 4." }
+          ]
+        },
+        {
+          "heading": "7. Uso aceptable",
+          "blocks": [
+            { "type": "p", "text": "Aceptas NO:" },
+            { "type": "ul", "items": [
+              "Hacer scraping o crawling: usar sistemas automatizados para acceder a DrawSpark más allá de los límites establecidos",
+              "Evadir los límites de uso: intentar superar el límite de 30 generaciones por día",
+              "Generar contenido dañino: usar DrawSpark para generar material ofensivo, ilegal o dañino",
+              "Suplantar a otros: crear cuentas haciéndose pasar por otra persona",
+              "Interrumpir el Servicio: intentar dañar, deshabilitar o afectar la infraestructura de DrawSpark",
+              "Hacer ingeniería inversa: intentar extraer el código fuente o los detalles de implementación de la API"
+            ] }
+          ]
+        },
+        {
+          "heading": "8. Exención de garantías",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo." },
+            { "type": "p", "text": "DrawSpark no garantiza que:" },
+            { "type": "ul", "items": [
+              "El Servicio será ininterrumpido, seguro o libre de errores",
+              "El contenido generado por IA será original, exacto o útil",
+              "El Servicio satisfará tus necesidades o expectativas específicas"
+            ] }
+          ]
+        },
+        {
+          "heading": "9. Limitación de responsabilidad",
+          "blocks": [
+            { "type": "p", "text": "En la máxima medida permitida por la ley, DrawSpark no será responsable de:" },
+            { "type": "ul", "items": [
+              "Daños indirectos, incidentales o consecuenciales",
+              "Pérdida de beneficios, datos u oportunidades de negocio",
+              "Daños derivados de la confianza en el contenido generado por IA",
+              "Daños que excedan el monto pagado (DrawSpark es gratuito, por lo tanto $0)"
+            ] }
+          ]
+        },
+        {
+          "heading": "10. Indemnización",
+          "blocks": [
+            { "type": "p", "text": "Aceptas indemnizar a DrawSpark por reclamaciones que surjan de:" },
+            { "type": "ul", "items": [
+              "Tu incumplimiento de estos Términos",
+              "Tu contenido o uso del Servicio",
+              "Tu infracción de derechos de terceros"
+            ] }
+          ]
+        },
+        {
+          "heading": "11. Ley aplicable",
+          "blocks": [
+            { "type": "p", "text": "Estos Términos se rigen por las leyes del Estado de Delaware, Estados Unidos, sin tener en cuenta los principios de conflicto de leyes." }
+          ]
+        },
+        {
+          "heading": "12. Contacto",
+          "blocks": [
+            { "type": "p", "text": "Para preguntas sobre estos Términos:" },
+            { "type": "p", "text": "📧 support@drawspark.com" }
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "h1": "Política de Cookies",
+      "seoTitle": "Política de Cookies - Cómo DrawSpark usa las cookies",
+      "seoDescription": "DrawSpark utiliza cookies mínimas y respetuosas con la privacidad. Conoce las cookies que usamos, por qué las usamos y cómo puedes gestionar tus preferencias.",
+      "disclaimer": "En caso de discrepancia entre las traducciones, prevalecerá la versión en inglés.",
+      "sections": [
+        {
+          "heading": "1. ¿Qué son las cookies?",
+          "blocks": [
+            { "type": "p", "text": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Ayudan a los sitios web a recordarte, tus preferencias y tu actividad." },
+            { "type": "p", "text": "DrawSpark utiliza cookies mínimas y no las usa con fines publicitarios ni para seguimiento entre sitios." }
+          ]
+        },
+        {
+          "heading": "2. Cómo utiliza DrawSpark las cookies",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark utiliza cookies con fines esenciales, de analítica y de monitoreo de rendimiento:" },
+            { "type": "table", "headers": ["Nombre de la cookie", "Propósito", "Duración", "Esencial"], "rows": [
+              ["drawspark_session", "Rate limiting: cuenta las generaciones diarias (máx. 30 por día)", "1 año", "✅ Sí"],
+              ["user_session", "Autenticación de usuario si decides iniciar sesión", "Sesión", "✅ Sí"],
+              ["language_preference", "Recuerda tu preferencia de idioma", "1 año", "Opcional"],
+              ["cookie_accepted", "Recuerda que aceptaste el aviso de cookies", "1 año", "✅ Sí"],
+              ["_ga / _ga_*", "Google Analytics 4: identificación de usuario y estado de sesión", "2 años", "❌ No (analítica)"],
+              ["_clck / _clsk", "Microsoft Clarity: identificación de usuario y grabación de sesión", "1 año", "❌ No (analítica)"]
+            ] }
+          ]
+        },
+        {
+          "heading": "3. Herramientas de analítica y comportamiento",
+          "blocks": [
+            { "type": "h3", "text": "Google Analytics 4 (GA4)" },
+            { "type": "p", "text": "GA4 ayuda a DrawSpark a entender qué funciones son las más populares, identificar páginas con alta tasa de rebote y mejorar la experiencia general del usuario." },
+            { "type": "p", "text": "Datos: datos de comportamiento del usuario agregados y anonimizados." },
+            { "type": "p", "text": "Opt-Out: usa el complemento de exclusión de Google Analytics o desactiva las cookies en tu navegador." },
+            { "type": "h3", "text": "Microsoft Clarity (MC)" },
+            { "type": "p", "text": "Clarity ayuda a DrawSpark a visualizar cómo los usuarios interactúan con el sitio web mediante:" },
+            { "type": "ul", "items": [
+              "Mapas de calor: ver dónde hacen clic y se desplazan los usuarios",
+              "Grabaciones de sesión: ver reproducciones anonimizadas de sesiones de usuario",
+              "Insights: identificar puntos de fricción y problemas de los usuarios"
+            ] },
+            { "type": "p", "text": "Datos: Clarity recopila datos de sesión anonimizados y no captura:" },
+            { "type": "ul", "items": [
+              "Información personal sensible (contraseñas, tarjetas de crédito)",
+              "Pulsaciones de teclas o contenido de texto ingresado",
+              "Información de identificación personal"
+            ] },
+            { "type": "p", "text": "Privacidad de Clarity: Microsoft Clarity cumple con GDPR y CCPA. Los datos se anonimizan y se agregan." },
+            { "type": "p", "text": "Opt-Out: desactiva las cookies en la configuración de tu navegador o usa la opción de exclusión de Clarity." }
+          ]
+        },
+        {
+          "heading": "4. Herramientas de SEO",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark utiliza las siguientes herramientas de SEO que no establecen cookies:" },
+            { "type": "table", "headers": ["Herramienta", "Propósito"], "rows": [
+              ["Google Search Console (GSC)", "Monitorear el rendimiento en búsquedas e identificar problemas de indexación"],
+              ["Bing Webmaster Tools (BWT)", "Monitorear el rendimiento en búsquedas en Bing"]
+            ] }
+          ]
+        },
+        {
+          "heading": "5. Tus opciones de cookies",
+          "blocks": [
+            { "type": "h3", "text": "5.1 Configuración del navegador" },
+            { "type": "p", "text": "Puedes gestionar las cookies desde la configuración de tu navegador:" },
+            { "type": "table", "headers": ["Navegador", "Cómo gestionarlas"], "rows": [
+              ["Chrome", "Configuración → Privacidad y seguridad → Cookies y otros datos de sitios"],
+              ["Firefox", "Opciones → Privacidad y seguridad → Cookies y datos del sitio"],
+              ["Safari", "Preferencias → Privacidad → Cookies y datos de sitios web"],
+              ["Edge", "Configuración → Cookies y permisos del sitio"]
+            ] },
+            { "type": "h3", "text": "5.2 Desactivar cookies" },
+            { "type": "p", "text": "Si desactivas las cookies, DrawSpark puede no funcionar correctamente:" },
+            { "type": "ul", "items": [
+              "Podrías superar el límite diario de generación (30 por día) sin que se contabilice",
+              "Tu sesión de inicio podría no mantenerse",
+              "Tus preferencias de idioma podrían no recordarse"
+            ] },
+            { "type": "h3", "text": "5.3 Consentimiento de cookies" },
+            { "type": "p", "text": "DrawSpark utiliza un aviso de cookies mínimo y no intrusivo que:" },
+            { "type": "ul", "items": [
+              "Aparece en tu primera visita",
+              "No requiere consentimiento activo para cookies esenciales (exento bajo GDPR)",
+              "Ofrece información sobre el uso de cookies",
+              "Te permite aceptar el uso de cookies analíticas"
+            ] }
+          ]
+        },
+        {
+          "heading": "6. Cambios a esta política",
+          "blocks": [
+            { "type": "p", "text": "DrawSpark puede actualizar esta Política de Cookies ocasionalmente. La versión más reciente se publicará aquí con la fecha de \"Última actualización\"." }
+          ]
+        },
+        {
+          "heading": "7. Contacto",
+          "blocks": [
+            { "type": "p", "text": "¿Preguntas sobre esta Política de Cookies?" },
+            { "type": "p", "text": "📧 support@drawspark.com" }
+          ]
+        }
+      ]
+    }
+  }
+}
