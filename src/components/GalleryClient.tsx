@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -30,7 +30,36 @@ interface GalleryClientProps {
   initialHasMore: boolean;
 }
 
-export function GalleryClient({
+/**
+ * Public entry — wraps the inner implementation in <Suspense> because
+ * `useSearchParams()` inside must live behind a Suspense boundary in
+ * Next.js 16 (otherwise prerender fails on static pages).
+ */
+export function GalleryClient(props: GalleryClientProps) {
+  return (
+    <Suspense fallback={<GalleryFallback />}>
+      <GalleryClientInner {...props} />
+    </Suspense>
+  );
+}
+
+function GalleryFallback() {
+  // Same skeleton the inner component renders on first fetch — keeps the
+  // visual experience continuous whether Suspense falls back or the
+  // initial fetch is still in flight.
+  return (
+    <div className="grid gap-4 pb-32 sm:grid-cols-2 lg:grid-cols-3">
+      {Array.from({ length: 6 }).map((_, i) => (
+        <div
+          key={i}
+          className="h-64 animate-pulse rounded-2xl bg-violet-50"
+        />
+      ))}
+    </div>
+  );
+}
+
+function GalleryClientInner({
   initialInspirations,
   initialHasMore,
 }: GalleryClientProps) {

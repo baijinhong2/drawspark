@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Suspense,
   createContext,
   useCallback,
   useContext,
@@ -8,7 +9,7 @@ import {
   useMemo,
   useState,
 } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { AuthDialog } from "@/components/AuthDialog";
 import type { AuthUser } from "@/lib/types";
 
@@ -23,6 +24,14 @@ type AuthState = {
 
 const AuthContext = createContext<AuthState | null>(null);
 
+/**
+ * `useSearchParams()` opts the calling component out of static prerendering
+ * (Next.js 16 requirement), so it MUST live behind a <Suspense> boundary.
+ * We keep the rest of the provider — context, dialog, session refresh —
+ * synchronous so the provider mounts cleanly on the server. The watcher
+ * below is the only piece that needs the search params; the rest of the
+ * provider works fine without it during SSR.
+ */
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [loading, setLoading] = useState(true);
@@ -31,23 +40,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     (() => void | Promise<void>) | null
   >(null);
   const [oauthError, setOauthError] = useState<string | null>(null);
-  const router = useRouter();
-  const searchParams = useSearchParams();
-
-  // If we landed back on the page with ?oauth_error=<code> from the callback,
-  // surface it as an auth dialog so the user sees what went wrong instead of
-  // a silent bounce. The dialog auto-closes when the user dismisses it, and
-  // we strip the query string so a refresh doesn't reopen it.
-  useEffect(() => {
-    const err = searchParams.get("oauth_error");
-    if (!err) return;
-    setOauthError(err);
-    setDialogOpen(true);
-    const url = new URL(window.location.href);
-    url.searchParams.delete("oauth_error");
-    router.replace(url.pathname + url.search);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams]);
 
   const refresh = useCallback(async () => {
     try {
@@ -107,6 +99,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   return (
     <AuthContext.Provider value={value}>
       {children}
+      <Suspense fallback={null}>
+        <OAuthErrorWatcher
+          onError={(code) => {
+            setOauthError(code);
+            setDialogOpen(true);
+          }}
+        />
+      </Suspense>
       <AuthDialog
         open={dialogOpen}
         onClose={() => {
@@ -122,6 +122,36 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       />
     </AuthContext.Provider>
   );
+}
+
+/**
+ * Reads `?oauth_error=<code>` from the URL (set by the Google OAuth callback
+ * when something goes wrong) and surfaces it to the auth dialog. This is
+ * wrapped in <Suspense> by the parent so Next.js can statically prerender
+ * the rest of the page; this child is fully client-side and falls back to
+ * `null` until the URL has been read.
+ */
+function OAuthErrorWatcher({
+  onError,
+}: {
+  onError: (code: string) => void;
+}) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const err = searchParams.get("oauth_error");
+    if (!err) return;
+    onError(err);
+    const url = new URL(window.location.href);
+    url.searchParams.delete("oauth_error");
+    router.replace(url.pathname + url.search);
+    // onError / router are stable enough for our purposes; re-running on
+    // searchParams change is the intended trigger.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
+  return null;
 }
 
 export function useAuth(): AuthState {
