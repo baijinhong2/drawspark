@@ -54,11 +54,9 @@ export function languageAlternates(
   for (const loc of LOCALES) {
     out[loc] = localePath(loc, currentPath);
   }
-  // x-default should be a real URL, not a relative path.
+  // x-default and all hreflang values must be absolute URLs.
   out["x-default"] = absoluteUrl(DEFAULT_LOCALE, currentPath);
-  // Override the current entry to also be absolute — needed because Next
-  // emits hreflang values as-is into the HTML <link> tags.
-  out[currentLocale] = localePath(currentLocale, currentPath);
+  out[currentLocale] = absoluteUrl(currentLocale, currentPath);
   return out;
 }
 
