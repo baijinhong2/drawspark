@@ -71,7 +71,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const { path, priority, lastmod, changeFrequency } of STATIC_PATHS) {
     for (const locale of LOCALES) {
       // Canonical (en) entry gets full priority; locale variants slightly lower.
-      const effectivePriority = locale === DEFAULT_LOCALE ? priority : priority - 0.1;
+      // Use Math.round(×10)/10 to avoid floating-point noise like 0.30000000000000004.
+      const effectivePriority =
+        locale === DEFAULT_LOCALE
+          ? priority
+          : Math.round((priority - 0.1) * 10) / 10;
       entries.push({
         url: `${SITE_URL}${localePath(locale, path)}`,
         lastModified: lastmod,
