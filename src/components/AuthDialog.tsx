@@ -247,7 +247,7 @@ export function AuthDialog({
         body: JSON.stringify({ next: here }),
       }).catch(() => {});
 
-      const callbackUrl = `${window.location.origin}/api/auth/google/callback`;
+      const callbackUrl = "https://drawspark.art/api/auth/google/callback";
       const { error: oauthError } = await getBrowserSupabase().auth.signInWithOAuth(
         {
           provider: "google",

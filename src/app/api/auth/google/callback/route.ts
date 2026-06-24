@@ -27,15 +27,19 @@ export async function GET(request: NextRequest) {
    * Surface OAuth failures to the UI by appending `?oauth_error=<code>` to the
    * redirect target. Without this the user sees a silent bounce back to the
    * page they came from and has no way to know what went wrong.
+   *
+   * Always redirect to non-www origin regardless of how the user reached us.
    */
+  const BASE_ORIGIN = "https://drawspark.art";
+
   const withError = (path: string, code: string) => {
-    const target = new URL(path, request.url);
+    const target = new URL(path, BASE_ORIGIN);
     target.searchParams.set("oauth_error", code);
     return NextResponse.redirect(target);
   };
 
   const redirect = (path: string) =>
-    NextResponse.redirect(new URL(path, request.url));
+    NextResponse.redirect(new URL(path, BASE_ORIGIN));
 
   if (oauthErrorCode || oauthError) {
     console.error(
