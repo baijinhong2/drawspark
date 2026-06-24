@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { inspirationSlug } from "@/lib/slug";
 import { prisma } from "@/lib/prisma";
-import { SITE_URL, LOCALES, localePath } from "@/lib/seo";
+import { SITE_URL, LOCALES, localePath, DEFAULT_LOCALE } from "@/lib/seo";
 
 /**
  * Sitemap policy:
@@ -10,8 +10,17 @@ import { SITE_URL, LOCALES, localePath } from "@/lib/seo";
  *     pointing at the matching page in each other locale so Google treats
  *     them as the same content in different languages.
  *
- * `lastModified` is the inspiration's `updatedAt` so search engines see a
- * real signal instead of the build timestamp.
+ * Priority logic:
+ *   - Each hreflang group gets ONE canonical entry at full priority (the en
+ *     version); locale variants are tagged 0.1 lower so Google knows which
+ *     within-group entry is primary without overstating importance.
+ *   - Priorities are relative to other sites, not our own — 1.0 on homepage
+ *     is fine because it genuinely is the most-linked page globally.
+ *
+ * lastmod logic:
+ *   - Static pages: hardcoded launch date — real date, never changes at
+ *     build time (important for SEO credibility with search engines).
+ *   - Inspiration detail pages: use the record's `updatedAt` from the DB.
  *
  * Freshness: ISR with a 10-minute window. The inspiration generate route
  * also calls `revalidatePath("/sitemap.xml")` on every successful batch, so
@@ -21,17 +30,22 @@ import { SITE_URL, LOCALES, localePath } from "@/lib/seo";
  */
 export const revalidate = 600;
 
+// Real site launch date — update when the site goes live publicly.
+const SITE_LAUNCH_DATE = new Date("2025-06-01T00:00:00Z");
+
+// Static pages: priority for the canonical (en) version; locale variants
+// get 0.1 lower so Google identifies the canonical entry within the group.
 const STATIC_PATHS = [
-  { path: "", priority: 1.0, changeFrequency: "daily" as const },
-  { path: "/generate", priority: 0.9, changeFrequency: "weekly" as const },
-  { path: "/explore", priority: 0.9, changeFrequency: "daily" as const },
-  { path: "/about", priority: 0.6, changeFrequency: "monthly" as const },
-  { path: "/faq", priority: 0.6, changeFrequency: "monthly" as const },
-  { path: "/contact", priority: 0.4, changeFrequency: "monthly" as const },
-  { path: "/feedback", priority: 0.4, changeFrequency: "monthly" as const },
-  { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
-  { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
-  { path: "/cookies", priority: 0.3, changeFrequency: "yearly" as const },
+  { path: "", priority: 1.0, lastmod: SITE_LAUNCH_DATE, changeFrequency: "daily" as const },
+  { path: "/generate", priority: 0.9, lastmod: SITE_LAUNCH_DATE, changeFrequency: "weekly" as const },
+  { path: "/explore", priority: 0.9, lastmod: SITE_LAUNCH_DATE, changeFrequency: "daily" as const },
+  { path: "/about", priority: 0.6, lastmod: SITE_LAUNCH_DATE, changeFrequency: "monthly" as const },
+  { path: "/faq", priority: 0.6, lastmod: SITE_LAUNCH_DATE, changeFrequency: "monthly" as const },
+  { path: "/contact", priority: 0.4, lastmod: SITE_LAUNCH_DATE, changeFrequency: "monthly" as const },
+  { path: "/feedback", priority: 0.4, lastmod: SITE_LAUNCH_DATE, changeFrequency: "monthly" as const },
+  { path: "/privacy", priority: 0.3, lastmod: SITE_LAUNCH_DATE, changeFrequency: "yearly" as const },
+  { path: "/terms", priority: 0.3, lastmod: SITE_LAUNCH_DATE, changeFrequency: "yearly" as const },
+  { path: "/cookies", priority: 0.3, lastmod: SITE_LAUNCH_DATE, changeFrequency: "yearly" as const },
 ];
 
 /**
@@ -46,7 +60,7 @@ function buildLanguages(path: string): Record<string, string> {
   for (const loc of LOCALES) {
     out[loc] = `${SITE_URL}${localePath(loc, path)}`;
   }
-  out["x-default"] = `${SITE_URL}${localePath("en", path)}`;
+  out["x-default"] = `${SITE_URL}${localePath(DEFAULT_LOCALE, path)}`;
   return out;
 }
 
@@ -54,15 +68,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
 
   // ---------- Static pages × locales ----------
-  for (const { path, priority, changeFrequency } of STATIC_PATHS) {
-    // Emit one entry per locale so Google can pair each URL with the right
-    // hreflang siblings via the alternates block below.
+  for (const { path, priority, lastmod, changeFrequency } of STATIC_PATHS) {
     for (const locale of LOCALES) {
+      // Canonical (en) entry gets full priority; locale variants slightly lower.
+      const effectivePriority = locale === DEFAULT_LOCALE ? priority : priority - 0.1;
       entries.push({
         url: `${SITE_URL}${localePath(locale, path)}`,
-        lastModified: new Date(),
+        lastModified: lastmod,
         changeFrequency,
-        priority,
+        priority: effectivePriority,
         alternates: {
           languages: buildLanguages(path),
         },
@@ -94,11 +108,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const insp of inspirations) {
     const detailPath = `/i/${insp.id}/${inspirationSlug(insp.title)}`;
     for (const locale of LOCALES) {
+      const effectivePriority = locale === DEFAULT_LOCALE ? 0.8 : 0.7;
       entries.push({
         url: `${SITE_URL}${localePath(locale, detailPath)}`,
         lastModified: insp.updatedAt,
         changeFrequency: "weekly",
-        priority: 0.8,
+        priority: effectivePriority,
         alternates: {
           languages: buildLanguages(detailPath),
         },
