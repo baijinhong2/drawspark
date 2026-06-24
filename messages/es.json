@@ -692,7 +692,8 @@
     },
     "searchButton": "Buscar",
     "searching": "Buscando…",
-    "noResultsGoGenerate": "Sin resultados — prueba a generar ideas nuevas"
+    "noResultsGoGenerate": "Sin resultados — prueba a generar ideas nuevas",
+    "scrollHintGoGenerate": "¿No encontraste qué dibujar? Genera uno ✨"
   },
   "card": {
     "like": "Me gusta",
@@ -1067,7 +1068,8 @@
     "notFoundTitle": "Idea de dibujo no encontrada",
     "similar": "Ideas similares",
     "statMood": "Ánimo",
-    "statScene": "Escena"
+    "statScene": "Escena",
+    "back": "Atrás"
   },
   "profile": {
     "title": "Perfil",
@@ -1181,150 +1183,409 @@
         {
           "heading": "1. Introducción",
           "blocks": [
-            { "type": "p", "text": "Bienvenido a DrawSpark. DrawSpark (\"nosotros\", \"nuestro\") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo DrawSpark recopila, utiliza y resguarda tu información cuando utilizas nuestro generador de ideas de dibujo con IA (el \"Servicio\")." },
-            { "type": "p", "text": "DrawSpark cree en la privacidad por diseño. El Servicio principal está diseñado para no requerir inicio de sesión, ni creación de cuenta, ni recopilación obligatoria de datos personales para generar ideas de dibujo." }
+            {
+              "type": "p",
+              "text": "Bienvenido a DrawSpark. DrawSpark (\"nosotros\", \"nuestro\") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo DrawSpark recopila, utiliza y resguarda tu información cuando utilizas nuestro generador de ideas de dibujo con IA (el \"Servicio\")."
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark cree en la privacidad por diseño. El Servicio principal está diseñado para no requerir inicio de sesión, ni creación de cuenta, ni recopilación obligatoria de datos personales para generar ideas de dibujo."
+            }
           ]
         },
         {
           "heading": "2. Información que recopila DrawSpark",
           "blocks": [
-            { "type": "h3", "text": "2.1 Información que proporcionas" },
-            { "type": "p", "text": "DrawSpark recopila información mínima solo cuando decides proporcionarla voluntariamente:" },
-            { "type": "table", "headers": ["Función", "Información recopilada", "Propósito"], "rows": [
-              ["Registro de cuenta (opcional)", "Correo electrónico, contraseña (hasheada), nombre para mostrar", "Autenticación y personalización del usuario"],
-              ["Perfil de usuario", "Imagen de avatar (cargada), nombre para mostrar", "Mostrar el perfil en DrawSpark"],
-              ["Comentarios", "Contenido del comentario, carga opcional de imágenes", "Interacción comunitaria en inspiraciones"],
-              ["Favoritos", "ID de la inspiración que marcas como favorita", "Guardar y organizar el contenido que te gusta"],
-              ["Formulario de feedback", "Correo electrónico, contenido del mensaje", "Responder a tus consultas"]
-            ] },
-            { "type": "h3", "text": "2.2 Información recopilada automáticamente" },
-            { "type": "p", "text": "DrawSpark recopila automáticamente información no personal limitada para mejorar el Servicio:" },
-            { "type": "table", "headers": ["Tipo de dato", "Propósito", "Herramienta utilizada"], "rows": [
-              ["Dirección IP (anonimizada)", "Ubicación aproximada, prevención de abuso, rate limiting", "Vercel / Supabase"],
-              ["Tipo y versión del navegador", "Asegurar la compatibilidad", "Vercel Analytics"],
-              ["Tipo de dispositivo", "Optimización móvil vs escritorio", "Vercel Analytics / Clarity"],
-              ["Vistas de página y clics", "Entender el comportamiento del usuario y mejorar la UX", "Google Analytics 4 (GA4), Microsoft Clarity (MC)"],
-              ["Mapas de calor y grabaciones de sesión", "Visualizar patrones de interacción del usuario", "Microsoft Clarity (MC)"],
-              ["Rendimiento de búsqueda", "Optimización SEO", "Google Search Console (GSC), Bing Webmaster Tools (BWT)"]
-            ] },
-            { "type": "h3", "text": "2.3 Contenido generado por IA" },
-            { "type": "p", "text": "Cuando usas el generador de ideas de dibujo con IA de DrawSpark:" },
-            { "type": "ul", "items": [
-              "Tu texto de entrada se envía a la API de DeepSeek para generar ideas de dibujo",
-              "DrawSpark NO almacena tu texto de entrada después de la generación",
-              "Solo las ideas de dibujo generadas se guardan en la base de datos de DrawSpark"
-            ] },
-            { "type": "table", "headers": ["Dato", "¿Se almacena?", "Retención"], "rows": [
-              ["Texto de entrada del usuario", "❌ No", "No se almacena"],
-              ["Ideas de dibujo generadas", "✅ Sí", "Permanente (visible públicamente)"],
-              ["Metadatos de la idea generada", "✅ Sí", "Permanente (visible públicamente)"]
-            ] },
-            { "type": "callout", "text": "Importante: Las ideas de dibujo que generas son públicas por defecto y visibles para todos los usuarios de DrawSpark en la galería Explorar. No envíes información personal o sensible como ideas de dibujo, títulos o comentarios." },
-            { "type": "h3", "text": "2.4 Herramientas de análisis y SEO" },
-            { "type": "p", "text": "DrawSpark utiliza las siguientes herramientas para monitorear y mejorar el Servicio:" },
-            { "type": "table", "headers": ["Herramienta", "Propósito", "Datos recopilados", "¿Usa cookies?"], "rows": [
-              ["Google Analytics 4 (GA4)", "Analítica del comportamiento del usuario", "Vistas de página, duración de sesión, tipo de dispositivo, ubicación aproximada", "✅ Sí (cookies de analítica)"],
-              ["Microsoft Clarity (MC)", "Analítica del comportamiento, mapas de calor, grabaciones de sesión", "Vistas de página, clics, profundidad de desplazamiento, grabaciones anonimizadas", "✅ Sí"],
-              ["Google Search Console (GSC)", "Monitoreo del rendimiento SEO", "Consultas de búsqueda, tasa de clics, estado de indexación", "❌ No"],
-              ["Bing Webmaster Tools (BWT)", "Monitoreo del rendimiento SEO", "Consultas de búsqueda, tasa de clics, estado de indexación", "❌ No"],
-              ["Vercel Analytics", "Monitoreo de rendimiento", "Tiempos de carga, core web vitals, tráfico básico", "❌ No"]
-            ] },
-            { "type": "p", "text": "Importante: Microsoft Clarity recopila grabaciones de sesión anonimizadas y mapas de calor para ayudar a DrawSpark a entender cómo los usuarios interactúan con el Servicio. Clarity no captura información personal sensible, pulsaciones de teclado ni información de pago. Puedes desactivarlo deshabilitando las cookies en tu navegador." }
+            {
+              "type": "h3",
+              "text": "2.1 Información que proporcionas"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark recopila información mínima solo cuando decides proporcionarla voluntariamente:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Función",
+                "Información recopilada",
+                "Propósito"
+              ],
+              "rows": [
+                [
+                  "Registro de cuenta (opcional)",
+                  "Correo electrónico, contraseña (hasheada), nombre para mostrar",
+                  "Autenticación y personalización del usuario"
+                ],
+                [
+                  "Perfil de usuario",
+                  "Imagen de avatar (cargada), nombre para mostrar",
+                  "Mostrar el perfil en DrawSpark"
+                ],
+                [
+                  "Comentarios",
+                  "Contenido del comentario, carga opcional de imágenes",
+                  "Interacción comunitaria en inspiraciones"
+                ],
+                [
+                  "Favoritos",
+                  "ID de la inspiración que marcas como favorita",
+                  "Guardar y organizar el contenido que te gusta"
+                ],
+                [
+                  "Formulario de feedback",
+                  "Correo electrónico, contenido del mensaje",
+                  "Responder a tus consultas"
+                ]
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "2.2 Información recopilada automáticamente"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark recopila automáticamente información no personal limitada para mejorar el Servicio:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Tipo de dato",
+                "Propósito",
+                "Herramienta utilizada"
+              ],
+              "rows": [
+                [
+                  "Dirección IP (anonimizada)",
+                  "Ubicación aproximada, prevención de abuso, rate limiting",
+                  "Vercel / Supabase"
+                ],
+                [
+                  "Tipo y versión del navegador",
+                  "Asegurar la compatibilidad",
+                  "Vercel Analytics"
+                ],
+                [
+                  "Tipo de dispositivo",
+                  "Optimización móvil vs escritorio",
+                  "Vercel Analytics / Clarity"
+                ],
+                [
+                  "Vistas de página y clics",
+                  "Entender el comportamiento del usuario y mejorar la UX",
+                  "Google Analytics 4 (GA4), Microsoft Clarity (MC)"
+                ],
+                [
+                  "Mapas de calor y grabaciones de sesión",
+                  "Visualizar patrones de interacción del usuario",
+                  "Microsoft Clarity (MC)"
+                ],
+                [
+                  "Rendimiento de búsqueda",
+                  "Optimización SEO",
+                  "Google Search Console (GSC), Bing Webmaster Tools (BWT)"
+                ]
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "2.3 Contenido generado por IA"
+            },
+            {
+              "type": "p",
+              "text": "Cuando usas el generador de ideas de dibujo con IA de DrawSpark:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Tu texto de entrada se envía a la API de DeepSeek para generar ideas de dibujo",
+                "DrawSpark NO almacena tu texto de entrada después de la generación",
+                "Solo las ideas de dibujo generadas se guardan en la base de datos de DrawSpark"
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Dato",
+                "¿Se almacena?",
+                "Retención"
+              ],
+              "rows": [
+                [
+                  "Texto de entrada del usuario",
+                  "❌ No",
+                  "No se almacena"
+                ],
+                [
+                  "Ideas de dibujo generadas",
+                  "✅ Sí",
+                  "Permanente (visible públicamente)"
+                ],
+                [
+                  "Metadatos de la idea generada",
+                  "✅ Sí",
+                  "Permanente (visible públicamente)"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "text": "Importante: Las ideas de dibujo que generas son públicas por defecto y visibles para todos los usuarios de DrawSpark en la galería Explorar. No envíes información personal o sensible como ideas de dibujo, títulos o comentarios."
+            },
+            {
+              "type": "h3",
+              "text": "2.4 Herramientas de análisis y SEO"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark utiliza las siguientes herramientas para monitorear y mejorar el Servicio:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Herramienta",
+                "Propósito",
+                "Datos recopilados",
+                "¿Usa cookies?"
+              ],
+              "rows": [
+                [
+                  "Google Analytics 4 (GA4)",
+                  "Analítica del comportamiento del usuario",
+                  "Vistas de página, duración de sesión, tipo de dispositivo, ubicación aproximada",
+                  "✅ Sí (cookies de analítica)"
+                ],
+                [
+                  "Microsoft Clarity (MC)",
+                  "Analítica del comportamiento, mapas de calor, grabaciones de sesión",
+                  "Vistas de página, clics, profundidad de desplazamiento, grabaciones anonimizadas",
+                  "✅ Sí"
+                ],
+                [
+                  "Google Search Console (GSC)",
+                  "Monitoreo del rendimiento SEO",
+                  "Consultas de búsqueda, tasa de clics, estado de indexación",
+                  "❌ No"
+                ],
+                [
+                  "Bing Webmaster Tools (BWT)",
+                  "Monitoreo del rendimiento SEO",
+                  "Consultas de búsqueda, tasa de clics, estado de indexación",
+                  "❌ No"
+                ],
+                [
+                  "Vercel Analytics",
+                  "Monitoreo de rendimiento",
+                  "Tiempos de carga, core web vitals, tráfico básico",
+                  "❌ No"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Importante: Microsoft Clarity recopila grabaciones de sesión anonimizadas y mapas de calor para ayudar a DrawSpark a entender cómo los usuarios interactúan con el Servicio. Clarity no captura información personal sensible, pulsaciones de teclado ni información de pago. Puedes desactivarlo deshabilitando las cookies en tu navegador."
+            }
           ]
         },
         {
           "heading": "3. Cómo utiliza DrawSpark tu información",
           "blocks": [
-            { "type": "p", "text": "DrawSpark utiliza tu información para:" },
-            { "type": "ul", "items": [
-              "Proveer el Servicio: generar y mostrar ideas de dibujo",
-              "Mejorar el Servicio: analizar patrones de uso a través de GA4, Clarity y Vercel Analytics",
-              "Optimización de búsqueda: monitorear y mejorar el rendimiento en buscadores mediante GSC y BWT",
-              "Soporte de cuenta: gestionar tu cuenta si decides crear una",
-              "Responder consultas: responder a comentarios y solicitudes de soporte",
-              "Prevenir el abuso: aplicar límites de uso (30 generaciones por día) y bloquear actividades maliciosas"
-            ] },
-            { "type": "p", "text": "DrawSpark NO:" },
-            { "type": "ul", "items": [
-              "Vende tus datos a terceros",
-              "Utiliza tus datos para publicidad dirigida",
-              "Comparte tu información personal con terceros (excepto cuando es esencial para prestar el Servicio)"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark utiliza tu información para:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Proveer el Servicio: generar y mostrar ideas de dibujo",
+                "Mejorar el Servicio: analizar patrones de uso a través de GA4, Clarity y Vercel Analytics",
+                "Optimización de búsqueda: monitorear y mejorar el rendimiento en buscadores mediante GSC y BWT",
+                "Soporte de cuenta: gestionar tu cuenta si decides crear una",
+                "Responder consultas: responder a comentarios y solicitudes de soporte",
+                "Prevenir el abuso: aplicar límites de uso (30 generaciones por día) y bloquear actividades maliciosas"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark NO:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Vende tus datos a terceros",
+                "Utiliza tus datos para publicidad dirigida",
+                "Comparte tu información personal con terceros (excepto cuando es esencial para prestar el Servicio)"
+              ]
+            }
           ]
         },
         {
           "heading": "4. Compartir información",
           "blocks": [
-            { "type": "p", "text": "DrawSpark solo comparte datos con proveedores de servicios esenciales:" },
-            { "type": "table", "headers": ["Proveedor", "Propósito", "Datos compartidos"], "rows": [
-              ["Supabase", "Base de datos y almacenamiento", "Datos de usuario, inspiraciones generadas, comentarios, favoritos"],
-              ["DeepSeek", "API de modelo de IA", "Texto de entrada del usuario para generación (no se almacena)"],
-              ["Vercel", "Hosting y analítica", "Vistas de página, datos de rendimiento (agregados)"],
-              ["Google Analytics 4", "Analítica del comportamiento del usuario", "Vistas de página, sesiones, datos de dispositivo (agregados)"],
-              ["Microsoft Clarity", "Analítica del comportamiento y mapas de calor", "Vistas de página, clics, profundidad de desplazamiento, grabaciones anonimizadas"],
-              ["Google Search Console", "Monitoreo SEO", "Datos de rendimiento de búsqueda (agregados)"],
-              ["Bing Webmaster Tools", "Monitoreo SEO", "Datos de rendimiento de búsqueda (agregados)"]
-            ] },
-            { "type": "p", "text": "Todos los proveedores cumplen con la normativa aplicable de protección de datos y procesan los datos solo en nombre de DrawSpark." }
+            {
+              "type": "p",
+              "text": "DrawSpark solo comparte datos con proveedores de servicios esenciales:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Proveedor",
+                "Propósito",
+                "Datos compartidos"
+              ],
+              "rows": [
+                [
+                  "Supabase",
+                  "Base de datos y almacenamiento",
+                  "Datos de usuario, inspiraciones generadas, comentarios, favoritos"
+                ],
+                [
+                  "DeepSeek",
+                  "API de modelo de IA",
+                  "Texto de entrada del usuario para generación (no se almacena)"
+                ],
+                [
+                  "Vercel",
+                  "Hosting y analítica",
+                  "Vistas de página, datos de rendimiento (agregados)"
+                ],
+                [
+                  "Google Analytics 4",
+                  "Analítica del comportamiento del usuario",
+                  "Vistas de página, sesiones, datos de dispositivo (agregados)"
+                ],
+                [
+                  "Microsoft Clarity",
+                  "Analítica del comportamiento y mapas de calor",
+                  "Vistas de página, clics, profundidad de desplazamiento, grabaciones anonimizadas"
+                ],
+                [
+                  "Google Search Console",
+                  "Monitoreo SEO",
+                  "Datos de rendimiento de búsqueda (agregados)"
+                ],
+                [
+                  "Bing Webmaster Tools",
+                  "Monitoreo SEO",
+                  "Datos de rendimiento de búsqueda (agregados)"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Todos los proveedores cumplen con la normativa aplicable de protección de datos y procesan los datos solo en nombre de DrawSpark."
+            }
           ]
         },
         {
           "heading": "5. Seguridad de los datos",
           "blocks": [
-            { "type": "p", "text": "DrawSpark implementa medidas de seguridad razonables:" },
-            { "type": "ul", "items": [
-              "Todas las contraseñas se hashean con bcrypt",
-              "Las claves de API se almacenan como variables de entorno y nunca se exponen a los clientes",
-              "Cifrado HTTPS para todas las transmisiones de datos (forzado por Vercel)",
-              "Supabase Row Level Security (RLS) protege los datos del usuario",
-              "Vercel provee infraestructura de hosting segura"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark implementa medidas de seguridad razonables:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Todas las contraseñas se hashean con bcrypt",
+                "Las claves de API se almacenan como variables de entorno y nunca se exponen a los clientes",
+                "Cifrado HTTPS para todas las transmisiones de datos (forzado por Vercel)",
+                "Supabase Row Level Security (RLS) protege los datos del usuario",
+                "Vercel provee infraestructura de hosting segura"
+              ]
+            }
           ]
         },
         {
           "heading": "6. Tus derechos",
           "blocks": [
-            { "type": "p", "text": "Según tu ubicación, puedes tener los siguientes derechos sobre tus datos:" },
-            { "type": "ul", "items": [
-              "Acceso: solicitar una copia de tus datos",
-              "Corrección: actualizar datos inexactos",
-              "Eliminación: solicitar la eliminación de tu cuenta y los datos asociados",
-              "Opt-out: deshabilitar cookies (solo las no esenciales)",
-              "Portabilidad: solicitar una copia de tus datos en un formato legible por máquina"
-            ] },
-            { "type": "p", "text": "Para ejercer estos derechos, contacta a DrawSpark en support@drawspark.com" }
+            {
+              "type": "p",
+              "text": "Según tu ubicación, puedes tener los siguientes derechos sobre tus datos:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Acceso: solicitar una copia de tus datos",
+                "Corrección: actualizar datos inexactos",
+                "Eliminación: solicitar la eliminación de tu cuenta y los datos asociados",
+                "Opt-out: deshabilitar cookies (solo las no esenciales)",
+                "Portabilidad: solicitar una copia de tus datos en un formato legible por máquina"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Para ejercer estos derechos, contacta a DrawSpark en support@drawspark.com"
+            }
           ]
         },
         {
           "heading": "7. Retención de datos",
           "blocks": [
-            { "type": "table", "headers": ["Tipo de dato", "Período de retención"], "rows": [
-              ["Información de la cuenta", "Hasta que elimines tu cuenta"],
-              ["Inspiraciones generadas", "Permanente (contenido público)"],
-              ["Comentarios", "Permanente (contenido público)"],
-              ["Favoritos", "Hasta que los elimines o borres tu cuenta"],
-              ["Analítica de uso", "Agregada, no personal, retenida indefinidamente"]
-            ] }
+            {
+              "type": "table",
+              "headers": [
+                "Tipo de dato",
+                "Período de retención"
+              ],
+              "rows": [
+                [
+                  "Información de la cuenta",
+                  "Hasta que elimines tu cuenta"
+                ],
+                [
+                  "Inspiraciones generadas",
+                  "Permanente (contenido público)"
+                ],
+                [
+                  "Comentarios",
+                  "Permanente (contenido público)"
+                ],
+                [
+                  "Favoritos",
+                  "Hasta que los elimines o borres tu cuenta"
+                ],
+                [
+                  "Analítica de uso",
+                  "Agregada, no personal, retenida indefinidamente"
+                ]
+              ]
+            }
           ]
         },
         {
           "heading": "8. Privacidad de los menores",
           "blocks": [
-            { "type": "p", "text": "El Servicio de DrawSpark no está dirigido a menores de 13 años. DrawSpark no recopila conscientemente información personal de menores de 13 años. Si DrawSpark detecta que un menor de 13 años ha proporcionado información personal, la eliminará de inmediato." }
+            {
+              "type": "p",
+              "text": "El Servicio de DrawSpark no está dirigido a menores de 13 años. DrawSpark no recopila conscientemente información personal de menores de 13 años. Si DrawSpark detecta que un menor de 13 años ha proporcionado información personal, la eliminará de inmediato."
+            }
           ]
         },
         {
           "heading": "9. Cambios a esta política",
           "blocks": [
-            { "type": "p", "text": "DrawSpark puede actualizar esta Política de Privacidad periódicamente. La versión más reciente siempre estará publicada en esta página con la fecha de \"Última actualización\". Los cambios significativos se notificarán por correo electrónico a los usuarios registrados." }
+            {
+              "type": "p",
+              "text": "DrawSpark puede actualizar esta Política de Privacidad periódicamente. La versión más reciente siempre estará publicada en esta página con la fecha de \"Última actualización\". Los cambios significativos se notificarán por correo electrónico a los usuarios registrados."
+            }
           ]
         },
         {
           "heading": "10. Contáctanos",
           "blocks": [
-            { "type": "p", "text": "Si tienes preguntas sobre esta Política de Privacidad o las prácticas de datos de DrawSpark:" },
-            { "type": "p", "text": "📧 support@drawspark.com" },
-            { "type": "p", "text": "Tiempo de respuesta: dentro de 24-48 horas" }
+            {
+              "type": "p",
+              "text": "Si tienes preguntas sobre esta Política de Privacidad o las prácticas de datos de DrawSpark:"
+            },
+            {
+              "type": "p",
+              "text": "📧 support@drawspark.com"
+            },
+            {
+              "type": "p",
+              "text": "Tiempo de respuesta: dentro de 24-48 horas"
+            }
           ]
         }
       ]
@@ -1338,161 +1599,296 @@
         {
           "heading": "1. Aceptación de los términos",
           "blocks": [
-            { "type": "p", "text": "Al usar el sitio web del generador de ideas de dibujo con IA de DrawSpark (el \"Servicio\"), aceptas estos Términos de Servicio. Si no estás de acuerdo, por favor no uses DrawSpark." },
-            { "type": "p", "text": "DrawSpark se reserva el derecho de actualizar estos Términos en cualquier momento. El uso continuado del Servicio después de los cambios constituye la aceptación de los Términos actualizados." }
+            {
+              "type": "p",
+              "text": "Al usar el sitio web del generador de ideas de dibujo con IA de DrawSpark (el \"Servicio\"), aceptas estos Términos de Servicio. Si no estás de acuerdo, por favor no uses DrawSpark."
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark se reserva el derecho de actualizar estos Términos en cualquier momento. El uso continuado del Servicio después de los cambios constituye la aceptación de los Términos actualizados."
+            }
           ]
         },
         {
           "heading": "2. Descripción del Servicio",
           "blocks": [
-            { "type": "p", "text": "DrawSpark es un generador gratuito de ideas de dibujo con IA que ayuda a los usuarios a encontrar inspiración para dibujar, hacer bocetos y proyectos creativos. El Servicio incluye:" },
-            { "type": "ul", "items": [
-              "Ideas y prompts de dibujo generados por IA",
-              "Contenido generado por los usuarios (inspiraciones, comentarios, favoritos)",
-              "Cuentas de usuario opcionales para personalización"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark es un generador gratuito de ideas de dibujo con IA que ayuda a los usuarios a encontrar inspiración para dibujar, hacer bocetos y proyectos creativos. El Servicio incluye:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Ideas y prompts de dibujo generados por IA",
+                "Contenido generado por los usuarios (inspiraciones, comentarios, favoritos)",
+                "Cuentas de usuario opcionales para personalización"
+              ]
+            }
           ]
         },
         {
           "heading": "3. Cuentas de usuario",
           "blocks": [
-            { "type": "h3", "text": "3.1 Creación de cuenta" },
-            { "type": "p", "text": "Crear una cuenta es opcional. Puedes usar las funciones principales de DrawSpark sin cuenta. Si creas una cuenta:" },
-            { "type": "ul", "items": [
-              "Debes proporcionar un correo electrónico válido",
-              "Debes tener al menos 13 años",
-              "Eres responsable de mantener la seguridad de tu cuenta",
-              "Eres responsable de toda la actividad bajo tu cuenta"
-            ] },
-            { "type": "h3", "text": "3.2 Terminación de la cuenta" },
-            { "type": "p", "text": "DrawSpark se reserva el derecho de suspender o terminar cuentas que:" },
-            { "type": "ul", "items": [
-              "Violen estos Términos",
-              "Generen spam o contenido abusivo",
-              "Intenten evadir los límites de uso o las medidas de seguridad",
-              "Estén inactivas durante un período prolongado"
-            ] },
-            { "type": "p", "text": "Puedes eliminar tu cuenta en cualquier momento contactando a support@drawspark.com." }
+            {
+              "type": "h3",
+              "text": "3.1 Creación de cuenta"
+            },
+            {
+              "type": "p",
+              "text": "Crear una cuenta es opcional. Puedes usar las funciones principales de DrawSpark sin cuenta. Si creas una cuenta:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Debes proporcionar un correo electrónico válido",
+                "Debes tener al menos 13 años",
+                "Eres responsable de mantener la seguridad de tu cuenta",
+                "Eres responsable de toda la actividad bajo tu cuenta"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "3.2 Terminación de la cuenta"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark se reserva el derecho de suspender o terminar cuentas que:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Violen estos Términos",
+                "Generen spam o contenido abusivo",
+                "Intenten evadir los límites de uso o las medidas de seguridad",
+                "Estén inactivas durante un período prolongado"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Puedes eliminar tu cuenta en cualquier momento contactando a support@drawspark.com."
+            }
           ]
         },
         {
           "heading": "4. Contenido generado por el usuario",
           "blocks": [
-            { "type": "h3", "text": "4.1 Propiedad" },
-            { "type": "p", "text": "Conservas la propiedad del contenido que creas y envías a DrawSpark, incluyendo:" },
-            { "type": "ul", "items": [
-              "Comentarios",
-              "Ideas de dibujo que generes (salida generada por IA)",
-              "Información de perfil e imágenes de avatar"
-            ] },
-            { "type": "h3", "text": "4.2 Licencia a DrawSpark" },
-            { "type": "p", "text": "Al enviar contenido a DrawSpark, otorgas a DrawSpark una licencia mundial, no exclusiva y libre de regalías para:" },
-            { "type": "ul", "items": [
-              "Mostrar, almacenar y distribuir tu contenido en el Servicio",
-              "Permitir que otros usuarios vean, den me gusta, marquen como favorito e interactúen con tu contenido",
-              "Usar tu contenido con fines promocionales (con atribución)"
-            ] },
-            { "type": "h3", "text": "4.3 Normas de contenido" },
-            { "type": "p", "text": "Aceptas no enviar contenido que:" },
-            { "type": "ul", "items": [
-              "Sea ilegal, ofensivo o dañino",
-              "Infrinja derechos de propiedad intelectual",
-              "Contenga malware o código malicioso",
-              "Viola la privacidad de terceros",
-              "Sea spam o contenido repetitivo"
-            ] },
-            { "type": "callout", "text": "Contenido público: Todo el contenido enviado a DrawSpark (incluidas las ideas generadas y los comentarios) es público por defecto. No compartas información personal, sensible o confidencial." }
+            {
+              "type": "h3",
+              "text": "4.1 Propiedad"
+            },
+            {
+              "type": "p",
+              "text": "Conservas la propiedad del contenido que creas y envías a DrawSpark, incluyendo:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Comentarios",
+                "Ideas de dibujo que generes (salida generada por IA)",
+                "Información de perfil e imágenes de avatar"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "4.2 Licencia a DrawSpark"
+            },
+            {
+              "type": "p",
+              "text": "Al enviar contenido a DrawSpark, otorgas a DrawSpark una licencia mundial, no exclusiva y libre de regalías para:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Mostrar, almacenar y distribuir tu contenido en el Servicio",
+                "Permitir que otros usuarios vean, den me gusta, marquen como favorito e interactúen con tu contenido",
+                "Usar tu contenido con fines promocionales (con atribución)"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "4.3 Normas de contenido"
+            },
+            {
+              "type": "p",
+              "text": "Aceptas no enviar contenido que:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sea ilegal, ofensivo o dañino",
+                "Infrinja derechos de propiedad intelectual",
+                "Contenga malware o código malicioso",
+                "Viola la privacidad de terceros",
+                "Sea spam o contenido repetitivo"
+              ]
+            },
+            {
+              "type": "callout",
+              "text": "Contenido público: Todo el contenido enviado a DrawSpark (incluidas las ideas generadas y los comentarios) es público por defecto. No compartas información personal, sensible o confidencial."
+            }
           ]
         },
         {
           "heading": "5. Contenido generado por IA",
           "blocks": [
-            { "type": "h3", "text": "5.1 Naturaleza del contenido de IA" },
-            { "type": "p", "text": "Las ideas de dibujo generadas por la IA de DrawSpark son solo sugerencias. DrawSpark no garantiza:" },
-            { "type": "ul", "items": [
-              "La exactitud ni la originalidad del contenido generado",
-              "Que el contenido generado no se parezca a obras con derechos de autor existentes (las salidas de IA se basan en datos de entrenamiento y pueden parecerse ocasionalmente a obras existentes)"
-            ] },
-            { "type": "h3", "text": "5.2 No es consejo profesional" },
-            { "type": "p", "text": "Las ideas de dibujo generadas por IA son únicamente con fines de inspiración y entretenimiento. No constituyen consejo profesional, instrucción ni garantía de resultados creativos." },
-            { "type": "h3", "text": "5.3 Propiedad de la salida generada por IA" },
-            { "type": "p", "text": "Puedes usar, modificar y crear obras derivadas de las ideas de dibujo generadas por IA sin restricción. DrawSpark no reclama propiedad alguna sobre las salidas generadas por IA." }
+            {
+              "type": "h3",
+              "text": "5.1 Naturaleza del contenido de IA"
+            },
+            {
+              "type": "p",
+              "text": "Las ideas de dibujo generadas por la IA de DrawSpark son solo sugerencias. DrawSpark no garantiza:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "La exactitud ni la originalidad del contenido generado",
+                "Que el contenido generado no se parezca a obras con derechos de autor existentes (las salidas de IA se basan en datos de entrenamiento y pueden parecerse ocasionalmente a obras existentes)"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "5.2 No es consejo profesional"
+            },
+            {
+              "type": "p",
+              "text": "Las ideas de dibujo generadas por IA son únicamente con fines de inspiración y entretenimiento. No constituyen consejo profesional, instrucción ni garantía de resultados creativos."
+            },
+            {
+              "type": "h3",
+              "text": "5.3 Propiedad de la salida generada por IA"
+            },
+            {
+              "type": "p",
+              "text": "Puedes usar, modificar y crear obras derivadas de las ideas de dibujo generadas por IA sin restricción. DrawSpark no reclama propiedad alguna sobre las salidas generadas por IA."
+            }
           ]
         },
         {
           "heading": "6. Propiedad intelectual",
           "blocks": [
-            { "type": "h3", "text": "6.1 PI de DrawSpark" },
-            { "type": "p", "text": "DrawSpark es titular de todos los derechos sobre:" },
-            { "type": "ul", "items": [
-              "La marca, el logotipo y las marcas registradas de DrawSpark",
-              "El diseño del sitio web, el código y la interfaz de usuario",
-              "La integración del modelo de IA y los sistemas backend"
-            ] },
-            { "type": "h3", "text": "6.2 Contenido generado por el usuario" },
-            { "type": "p", "text": "Los usuarios conservan la propiedad de su contenido original según se describe en la Sección 4." }
+            {
+              "type": "h3",
+              "text": "6.1 PI de DrawSpark"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark es titular de todos los derechos sobre:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "La marca, el logotipo y las marcas registradas de DrawSpark",
+                "El diseño del sitio web, el código y la interfaz de usuario",
+                "La integración del modelo de IA y los sistemas backend"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "6.2 Contenido generado por el usuario"
+            },
+            {
+              "type": "p",
+              "text": "Los usuarios conservan la propiedad de su contenido original según se describe en la Sección 4."
+            }
           ]
         },
         {
           "heading": "7. Uso aceptable",
           "blocks": [
-            { "type": "p", "text": "Aceptas NO:" },
-            { "type": "ul", "items": [
-              "Hacer scraping o crawling: usar sistemas automatizados para acceder a DrawSpark más allá de los límites establecidos",
-              "Evadir los límites de uso: intentar superar el límite de 30 generaciones por día",
-              "Generar contenido dañino: usar DrawSpark para generar material ofensivo, ilegal o dañino",
-              "Suplantar a otros: crear cuentas haciéndose pasar por otra persona",
-              "Interrumpir el Servicio: intentar dañar, deshabilitar o afectar la infraestructura de DrawSpark",
-              "Hacer ingeniería inversa: intentar extraer el código fuente o los detalles de implementación de la API"
-            ] }
+            {
+              "type": "p",
+              "text": "Aceptas NO:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Hacer scraping o crawling: usar sistemas automatizados para acceder a DrawSpark más allá de los límites establecidos",
+                "Evadir los límites de uso: intentar superar el límite de 30 generaciones por día",
+                "Generar contenido dañino: usar DrawSpark para generar material ofensivo, ilegal o dañino",
+                "Suplantar a otros: crear cuentas haciéndose pasar por otra persona",
+                "Interrumpir el Servicio: intentar dañar, deshabilitar o afectar la infraestructura de DrawSpark",
+                "Hacer ingeniería inversa: intentar extraer el código fuente o los detalles de implementación de la API"
+              ]
+            }
           ]
         },
         {
           "heading": "8. Exención de garantías",
           "blocks": [
-            { "type": "p", "text": "DrawSpark se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo." },
-            { "type": "p", "text": "DrawSpark no garantiza que:" },
-            { "type": "ul", "items": [
-              "El Servicio será ininterrumpido, seguro o libre de errores",
-              "El contenido generado por IA será original, exacto o útil",
-              "El Servicio satisfará tus necesidades o expectativas específicas"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo."
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark no garantiza que:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "El Servicio será ininterrumpido, seguro o libre de errores",
+                "El contenido generado por IA será original, exacto o útil",
+                "El Servicio satisfará tus necesidades o expectativas específicas"
+              ]
+            }
           ]
         },
         {
           "heading": "9. Limitación de responsabilidad",
           "blocks": [
-            { "type": "p", "text": "En la máxima medida permitida por la ley, DrawSpark no será responsable de:" },
-            { "type": "ul", "items": [
-              "Daños indirectos, incidentales o consecuenciales",
-              "Pérdida de beneficios, datos u oportunidades de negocio",
-              "Daños derivados de la confianza en el contenido generado por IA",
-              "Daños que excedan el monto pagado (DrawSpark es gratuito, por lo tanto $0)"
-            ] }
+            {
+              "type": "p",
+              "text": "En la máxima medida permitida por la ley, DrawSpark no será responsable de:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Daños indirectos, incidentales o consecuenciales",
+                "Pérdida de beneficios, datos u oportunidades de negocio",
+                "Daños derivados de la confianza en el contenido generado por IA",
+                "Daños que excedan el monto pagado (DrawSpark es gratuito, por lo tanto $0)"
+              ]
+            }
           ]
         },
         {
           "heading": "10. Indemnización",
           "blocks": [
-            { "type": "p", "text": "Aceptas indemnizar a DrawSpark por reclamaciones que surjan de:" },
-            { "type": "ul", "items": [
-              "Tu incumplimiento de estos Términos",
-              "Tu contenido o uso del Servicio",
-              "Tu infracción de derechos de terceros"
-            ] }
+            {
+              "type": "p",
+              "text": "Aceptas indemnizar a DrawSpark por reclamaciones que surjan de:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Tu incumplimiento de estos Términos",
+                "Tu contenido o uso del Servicio",
+                "Tu infracción de derechos de terceros"
+              ]
+            }
           ]
         },
         {
           "heading": "11. Ley aplicable",
           "blocks": [
-            { "type": "p", "text": "Estos Términos se rigen por las leyes del Estado de Delaware, Estados Unidos, sin tener en cuenta los principios de conflicto de leyes." }
+            {
+              "type": "p",
+              "text": "Estos Términos se rigen por las leyes del Estado de Delaware, Estados Unidos, sin tener en cuenta los principios de conflicto de leyes."
+            }
           ]
         },
         {
           "heading": "12. Contacto",
           "blocks": [
-            { "type": "p", "text": "Para preguntas sobre estos Términos:" },
-            { "type": "p", "text": "📧 support@drawspark.com" }
+            {
+              "type": "p",
+              "text": "Para preguntas sobre estos Términos:"
+            },
+            {
+              "type": "p",
+              "text": "📧 support@drawspark.com"
+            }
           ]
         }
       ]
@@ -1506,97 +1902,246 @@
         {
           "heading": "1. ¿Qué son las cookies?",
           "blocks": [
-            { "type": "p", "text": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Ayudan a los sitios web a recordarte, tus preferencias y tu actividad." },
-            { "type": "p", "text": "DrawSpark utiliza cookies mínimas y no las usa con fines publicitarios ni para seguimiento entre sitios." }
+            {
+              "type": "p",
+              "text": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Ayudan a los sitios web a recordarte, tus preferencias y tu actividad."
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark utiliza cookies mínimas y no las usa con fines publicitarios ni para seguimiento entre sitios."
+            }
           ]
         },
         {
           "heading": "2. Cómo utiliza DrawSpark las cookies",
           "blocks": [
-            { "type": "p", "text": "DrawSpark utiliza cookies con fines esenciales, de analítica y de monitoreo de rendimiento:" },
-            { "type": "table", "headers": ["Nombre de la cookie", "Propósito", "Duración", "Esencial"], "rows": [
-              ["drawspark_session", "Rate limiting: cuenta las generaciones diarias (máx. 30 por día)", "1 año", "✅ Sí"],
-              ["user_session", "Autenticación de usuario si decides iniciar sesión", "Sesión", "✅ Sí"],
-              ["language_preference", "Recuerda tu preferencia de idioma", "1 año", "Opcional"],
-              ["cookie_accepted", "Recuerda que aceptaste el aviso de cookies", "1 año", "✅ Sí"],
-              ["_ga / _ga_*", "Google Analytics 4: identificación de usuario y estado de sesión", "2 años", "❌ No (analítica)"],
-              ["_clck / _clsk", "Microsoft Clarity: identificación de usuario y grabación de sesión", "1 año", "❌ No (analítica)"]
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark utiliza cookies con fines esenciales, de analítica y de monitoreo de rendimiento:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Nombre de la cookie",
+                "Propósito",
+                "Duración",
+                "Esencial"
+              ],
+              "rows": [
+                [
+                  "drawspark_session",
+                  "Rate limiting: cuenta las generaciones diarias (máx. 30 por día)",
+                  "1 año",
+                  "✅ Sí"
+                ],
+                [
+                  "user_session",
+                  "Autenticación de usuario si decides iniciar sesión",
+                  "Sesión",
+                  "✅ Sí"
+                ],
+                [
+                  "language_preference",
+                  "Recuerda tu preferencia de idioma",
+                  "1 año",
+                  "Opcional"
+                ],
+                [
+                  "cookie_accepted",
+                  "Recuerda que aceptaste el aviso de cookies",
+                  "1 año",
+                  "✅ Sí"
+                ],
+                [
+                  "_ga / _ga_*",
+                  "Google Analytics 4: identificación de usuario y estado de sesión",
+                  "2 años",
+                  "❌ No (analítica)"
+                ],
+                [
+                  "_clck / _clsk",
+                  "Microsoft Clarity: identificación de usuario y grabación de sesión",
+                  "1 año",
+                  "❌ No (analítica)"
+                ]
+              ]
+            }
           ]
         },
         {
           "heading": "3. Herramientas de analítica y comportamiento",
           "blocks": [
-            { "type": "h3", "text": "Google Analytics 4 (GA4)" },
-            { "type": "p", "text": "GA4 ayuda a DrawSpark a entender qué funciones son las más populares, identificar páginas con alta tasa de rebote y mejorar la experiencia general del usuario." },
-            { "type": "p", "text": "Datos: datos de comportamiento del usuario agregados y anonimizados." },
-            { "type": "p", "text": "Opt-Out: usa el complemento de exclusión de Google Analytics o desactiva las cookies en tu navegador." },
-            { "type": "h3", "text": "Microsoft Clarity (MC)" },
-            { "type": "p", "text": "Clarity ayuda a DrawSpark a visualizar cómo los usuarios interactúan con el sitio web mediante:" },
-            { "type": "ul", "items": [
-              "Mapas de calor: ver dónde hacen clic y se desplazan los usuarios",
-              "Grabaciones de sesión: ver reproducciones anonimizadas de sesiones de usuario",
-              "Insights: identificar puntos de fricción y problemas de los usuarios"
-            ] },
-            { "type": "p", "text": "Datos: Clarity recopila datos de sesión anonimizados y no captura:" },
-            { "type": "ul", "items": [
-              "Información personal sensible (contraseñas, tarjetas de crédito)",
-              "Pulsaciones de teclas o contenido de texto ingresado",
-              "Información de identificación personal"
-            ] },
-            { "type": "p", "text": "Privacidad de Clarity: Microsoft Clarity cumple con GDPR y CCPA. Los datos se anonimizan y se agregan." },
-            { "type": "p", "text": "Opt-Out: desactiva las cookies en la configuración de tu navegador o usa la opción de exclusión de Clarity." }
+            {
+              "type": "h3",
+              "text": "Google Analytics 4 (GA4)"
+            },
+            {
+              "type": "p",
+              "text": "GA4 ayuda a DrawSpark a entender qué funciones son las más populares, identificar páginas con alta tasa de rebote y mejorar la experiencia general del usuario."
+            },
+            {
+              "type": "p",
+              "text": "Datos: datos de comportamiento del usuario agregados y anonimizados."
+            },
+            {
+              "type": "p",
+              "text": "Opt-Out: usa el complemento de exclusión de Google Analytics o desactiva las cookies en tu navegador."
+            },
+            {
+              "type": "h3",
+              "text": "Microsoft Clarity (MC)"
+            },
+            {
+              "type": "p",
+              "text": "Clarity ayuda a DrawSpark a visualizar cómo los usuarios interactúan con el sitio web mediante:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Mapas de calor: ver dónde hacen clic y se desplazan los usuarios",
+                "Grabaciones de sesión: ver reproducciones anonimizadas de sesiones de usuario",
+                "Insights: identificar puntos de fricción y problemas de los usuarios"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Datos: Clarity recopila datos de sesión anonimizados y no captura:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Información personal sensible (contraseñas, tarjetas de crédito)",
+                "Pulsaciones de teclas o contenido de texto ingresado",
+                "Información de identificación personal"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Privacidad de Clarity: Microsoft Clarity cumple con GDPR y CCPA. Los datos se anonimizan y se agregan."
+            },
+            {
+              "type": "p",
+              "text": "Opt-Out: desactiva las cookies en la configuración de tu navegador o usa la opción de exclusión de Clarity."
+            }
           ]
         },
         {
           "heading": "4. Herramientas de SEO",
           "blocks": [
-            { "type": "p", "text": "DrawSpark utiliza las siguientes herramientas de SEO que no establecen cookies:" },
-            { "type": "table", "headers": ["Herramienta", "Propósito"], "rows": [
-              ["Google Search Console (GSC)", "Monitorear el rendimiento en búsquedas e identificar problemas de indexación"],
-              ["Bing Webmaster Tools (BWT)", "Monitorear el rendimiento en búsquedas en Bing"]
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark utiliza las siguientes herramientas de SEO que no establecen cookies:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Herramienta",
+                "Propósito"
+              ],
+              "rows": [
+                [
+                  "Google Search Console (GSC)",
+                  "Monitorear el rendimiento en búsquedas e identificar problemas de indexación"
+                ],
+                [
+                  "Bing Webmaster Tools (BWT)",
+                  "Monitorear el rendimiento en búsquedas en Bing"
+                ]
+              ]
+            }
           ]
         },
         {
           "heading": "5. Tus opciones de cookies",
           "blocks": [
-            { "type": "h3", "text": "5.1 Configuración del navegador" },
-            { "type": "p", "text": "Puedes gestionar las cookies desde la configuración de tu navegador:" },
-            { "type": "table", "headers": ["Navegador", "Cómo gestionarlas"], "rows": [
-              ["Chrome", "Configuración → Privacidad y seguridad → Cookies y otros datos de sitios"],
-              ["Firefox", "Opciones → Privacidad y seguridad → Cookies y datos del sitio"],
-              ["Safari", "Preferencias → Privacidad → Cookies y datos de sitios web"],
-              ["Edge", "Configuración → Cookies y permisos del sitio"]
-            ] },
-            { "type": "h3", "text": "5.2 Desactivar cookies" },
-            { "type": "p", "text": "Si desactivas las cookies, DrawSpark puede no funcionar correctamente:" },
-            { "type": "ul", "items": [
-              "Podrías superar el límite diario de generación (30 por día) sin que se contabilice",
-              "Tu sesión de inicio podría no mantenerse",
-              "Tus preferencias de idioma podrían no recordarse"
-            ] },
-            { "type": "h3", "text": "5.3 Consentimiento de cookies" },
-            { "type": "p", "text": "DrawSpark utiliza un aviso de cookies mínimo y no intrusivo que:" },
-            { "type": "ul", "items": [
-              "Aparece en tu primera visita",
-              "No requiere consentimiento activo para cookies esenciales (exento bajo GDPR)",
-              "Ofrece información sobre el uso de cookies",
-              "Te permite aceptar el uso de cookies analíticas"
-            ] }
+            {
+              "type": "h3",
+              "text": "5.1 Configuración del navegador"
+            },
+            {
+              "type": "p",
+              "text": "Puedes gestionar las cookies desde la configuración de tu navegador:"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Navegador",
+                "Cómo gestionarlas"
+              ],
+              "rows": [
+                [
+                  "Chrome",
+                  "Configuración → Privacidad y seguridad → Cookies y otros datos de sitios"
+                ],
+                [
+                  "Firefox",
+                  "Opciones → Privacidad y seguridad → Cookies y datos del sitio"
+                ],
+                [
+                  "Safari",
+                  "Preferencias → Privacidad → Cookies y datos de sitios web"
+                ],
+                [
+                  "Edge",
+                  "Configuración → Cookies y permisos del sitio"
+                ]
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "5.2 Desactivar cookies"
+            },
+            {
+              "type": "p",
+              "text": "Si desactivas las cookies, DrawSpark puede no funcionar correctamente:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Podrías superar el límite diario de generación (30 por día) sin que se contabilice",
+                "Tu sesión de inicio podría no mantenerse",
+                "Tus preferencias de idioma podrían no recordarse"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "5.3 Consentimiento de cookies"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark utiliza un aviso de cookies mínimo y no intrusivo que:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Aparece en tu primera visita",
+                "No requiere consentimiento activo para cookies esenciales (exento bajo GDPR)",
+                "Ofrece información sobre el uso de cookies",
+                "Te permite aceptar el uso de cookies analíticas"
+              ]
+            }
           ]
         },
         {
           "heading": "6. Cambios a esta política",
           "blocks": [
-            { "type": "p", "text": "DrawSpark puede actualizar esta Política de Cookies ocasionalmente. La versión más reciente se publicará aquí con la fecha de \"Última actualización\"." }
+            {
+              "type": "p",
+              "text": "DrawSpark puede actualizar esta Política de Cookies ocasionalmente. La versión más reciente se publicará aquí con la fecha de \"Última actualización\"."
+            }
           ]
         },
         {
           "heading": "7. Contacto",
           "blocks": [
-            { "type": "p", "text": "¿Preguntas sobre esta Política de Cookies?" },
-            { "type": "p", "text": "📧 support@drawspark.com" }
+            {
+              "type": "p",
+              "text": "¿Preguntas sobre esta Política de Cookies?"
+            },
+            {
+              "type": "p",
+              "text": "📧 support@drawspark.com"
+            }
           ]
         }
       ]

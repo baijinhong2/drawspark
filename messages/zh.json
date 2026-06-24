@@ -692,7 +692,8 @@
     },
     "searchButton": "搜索",
     "searching": "搜索中…",
-    "noResultsGoGenerate": "未找到匹配——试试生成新创意"
+    "noResultsGoGenerate": "未找到匹配——试试生成新创意",
+    "scrollHintGoGenerate": "没找到想画的？去生成 ✨"
   },
   "card": {
     "like": "点赞",
@@ -1078,7 +1079,8 @@
     "notFoundTitle": "找不到这个灵感",
     "similar": "类似的灵感",
     "statMood": "情绪",
-    "statScene": "场景"
+    "statScene": "场景",
+    "back": "返回"
   },
   "profile": {
     "title": "个人资料",
@@ -1192,150 +1194,409 @@
         {
           "heading": "1. 引言",
           "blocks": [
-            { "type": "p", "text": "欢迎使用 DrawSpark。DrawSpark（以下简称「我们」）致力于保护您的隐私。本隐私政策说明了当您使用我们的 AI 绘画灵感生成器网站（以下简称「本服务」）时，DrawSpark 如何收集、使用和保护您的信息。" },
-            { "type": "p", "text": "DrawSpark 秉持「隐私优先设计」理念。核心功能无需登录、无需注册账号、无需强制收集任何个人数据即可生成绘画灵感。" }
+            {
+              "type": "p",
+              "text": "欢迎使用 DrawSpark。DrawSpark（以下简称「我们」）致力于保护您的隐私。本隐私政策说明了当您使用我们的 AI 绘画灵感生成器网站（以下简称「本服务」）时，DrawSpark 如何收集、使用和保护您的信息。"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 秉持「隐私优先设计」理念。核心功能无需登录、无需注册账号、无需强制收集任何个人数据即可生成绘画灵感。"
+            }
           ]
         },
         {
           "heading": "2. DrawSpark 收集的信息",
           "blocks": [
-            { "type": "h3", "text": "2.1 您主动提供的信息" },
-            { "type": "p", "text": "DrawSpark 仅在您主动选择提供时，才会收集最少限度的信息：" },
-            { "type": "table", "headers": ["功能", "收集的信息", "用途"], "rows": [
-              ["账号注册（可选）", "邮箱地址、密码（哈希存储）、昵称", "用户身份验证与个性化"],
-              ["用户资料", "头像图片（上传）、昵称", "在 DrawSpark 上展示个人资料"],
-              ["评论", "评论内容、可选图片上传", "在灵感页进行社区互动"],
-              ["收藏", "您收藏的灵感 ID", "保存并整理喜欢的内容"],
-              ["反馈表单", "邮箱地址、留言内容", "回复您的咨询"]
-            ] },
-            { "type": "h3", "text": "2.2 自动收集的信息" },
-            { "type": "p", "text": "DrawSpark 会自动收集有限的非个人信息，用于改进本服务：" },
-            { "type": "table", "headers": ["数据类型", "用途", "使用工具"], "rows": [
-              ["IP 地址（匿名化）", "大致地区定位、防滥用、限流", "Vercel / Supabase"],
-              ["浏览器类型与版本", "确保兼容性", "Vercel Analytics"],
-              ["设备类型", "移动端与桌面端体验优化", "Vercel Analytics / Clarity"],
-              ["页面浏览与点击", "了解用户行为并改进体验", "Google Analytics 4 (GA4)、Microsoft Clarity (MC)"],
-              ["热力图与会话录制", "可视化用户交互模式", "Microsoft Clarity (MC)"],
-              ["搜索表现", "SEO 优化", "Google Search Console (GSC)、Bing Webmaster Tools (BWT)"]
-            ] },
-            { "type": "h3", "text": "2.3 AI 生成内容" },
-            { "type": "p", "text": "当您使用 DrawSpark 的 AI 绘画灵感生成器时：" },
-            { "type": "ul", "items": [
-              "您的输入文本会被发送至 DeepSeek API 以生成绘画灵感",
-              "DrawSpark 在生成后不会保存您的输入文本",
-              "只有生成的绘画灵感会被存入 DrawSpark 数据库"
-            ] },
-            { "type": "table", "headers": ["数据", "是否存储", "保留期限"], "rows": [
-              ["用户输入文本", "❌ 否", "不存储"],
-              ["生成的绘画灵感", "✅ 是", "永久（公开可见）"],
-              ["生成灵感的元数据", "✅ 是", "永久（公开可见）"]
-            ] },
-            { "type": "callout", "text": "重要提示：您生成的绘画灵感默认公开，并会显示给 DrawSpark 探索页中的所有用户。请勿在绘画灵感、标题或评论中提交个人或敏感信息。" },
-            { "type": "h3", "text": "2.4 分析与 SEO 工具" },
-            { "type": "p", "text": "DrawSpark 使用以下工具来监控和改进本服务：" },
-            { "type": "table", "headers": ["工具", "用途", "收集的数据", "是否使用 Cookie"], "rows": [
-              ["Google Analytics 4 (GA4)", "用户行为分析", "页面浏览、会话时长、设备类型、大致地区", "✅ 是（分析 Cookie）"],
-              ["Microsoft Clarity (MC)", "用户行为分析、热力图、会话录制", "页面浏览、点击、滚动深度、匿名化会话录制", "✅ 是"],
-              ["Google Search Console (GSC)", "SEO 表现监控", "搜索查询、点击率、索引状态", "❌ 否"],
-              ["Bing Webmaster Tools (BWT)", "SEO 表现监控", "搜索查询、点击率、索引状态", "❌ 否"],
-              ["Vercel Analytics", "性能监控", "页面加载时间、核心 Web 指标、基础流量", "❌ 否"]
-            ] },
-            { "type": "p", "text": "重要提示：Microsoft Clarity 会收集匿名化的会话录制和热力图，以帮助 DrawSpark 了解用户如何与本服务互动。Clarity 不会捕获敏感个人信息、键盘输入或支付信息。您可以在浏览器中禁用 Cookie 以选择退出。" }
+            {
+              "type": "h3",
+              "text": "2.1 您主动提供的信息"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 仅在您主动选择提供时，才会收集最少限度的信息："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "功能",
+                "收集的信息",
+                "用途"
+              ],
+              "rows": [
+                [
+                  "账号注册（可选）",
+                  "邮箱地址、密码（哈希存储）、昵称",
+                  "用户身份验证与个性化"
+                ],
+                [
+                  "用户资料",
+                  "头像图片（上传）、昵称",
+                  "在 DrawSpark 上展示个人资料"
+                ],
+                [
+                  "评论",
+                  "评论内容、可选图片上传",
+                  "在灵感页进行社区互动"
+                ],
+                [
+                  "收藏",
+                  "您收藏的灵感 ID",
+                  "保存并整理喜欢的内容"
+                ],
+                [
+                  "反馈表单",
+                  "邮箱地址、留言内容",
+                  "回复您的咨询"
+                ]
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "2.2 自动收集的信息"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 会自动收集有限的非个人信息，用于改进本服务："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "数据类型",
+                "用途",
+                "使用工具"
+              ],
+              "rows": [
+                [
+                  "IP 地址（匿名化）",
+                  "大致地区定位、防滥用、限流",
+                  "Vercel / Supabase"
+                ],
+                [
+                  "浏览器类型与版本",
+                  "确保兼容性",
+                  "Vercel Analytics"
+                ],
+                [
+                  "设备类型",
+                  "移动端与桌面端体验优化",
+                  "Vercel Analytics / Clarity"
+                ],
+                [
+                  "页面浏览与点击",
+                  "了解用户行为并改进体验",
+                  "Google Analytics 4 (GA4)、Microsoft Clarity (MC)"
+                ],
+                [
+                  "热力图与会话录制",
+                  "可视化用户交互模式",
+                  "Microsoft Clarity (MC)"
+                ],
+                [
+                  "搜索表现",
+                  "SEO 优化",
+                  "Google Search Console (GSC)、Bing Webmaster Tools (BWT)"
+                ]
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "2.3 AI 生成内容"
+            },
+            {
+              "type": "p",
+              "text": "当您使用 DrawSpark 的 AI 绘画灵感生成器时："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "您的输入文本会被发送至 DeepSeek API 以生成绘画灵感",
+                "DrawSpark 在生成后不会保存您的输入文本",
+                "只有生成的绘画灵感会被存入 DrawSpark 数据库"
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "数据",
+                "是否存储",
+                "保留期限"
+              ],
+              "rows": [
+                [
+                  "用户输入文本",
+                  "❌ 否",
+                  "不存储"
+                ],
+                [
+                  "生成的绘画灵感",
+                  "✅ 是",
+                  "永久（公开可见）"
+                ],
+                [
+                  "生成灵感的元数据",
+                  "✅ 是",
+                  "永久（公开可见）"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "text": "重要提示：您生成的绘画灵感默认公开，并会显示给 DrawSpark 探索页中的所有用户。请勿在绘画灵感、标题或评论中提交个人或敏感信息。"
+            },
+            {
+              "type": "h3",
+              "text": "2.4 分析与 SEO 工具"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 使用以下工具来监控和改进本服务："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "工具",
+                "用途",
+                "收集的数据",
+                "是否使用 Cookie"
+              ],
+              "rows": [
+                [
+                  "Google Analytics 4 (GA4)",
+                  "用户行为分析",
+                  "页面浏览、会话时长、设备类型、大致地区",
+                  "✅ 是（分析 Cookie）"
+                ],
+                [
+                  "Microsoft Clarity (MC)",
+                  "用户行为分析、热力图、会话录制",
+                  "页面浏览、点击、滚动深度、匿名化会话录制",
+                  "✅ 是"
+                ],
+                [
+                  "Google Search Console (GSC)",
+                  "SEO 表现监控",
+                  "搜索查询、点击率、索引状态",
+                  "❌ 否"
+                ],
+                [
+                  "Bing Webmaster Tools (BWT)",
+                  "SEO 表现监控",
+                  "搜索查询、点击率、索引状态",
+                  "❌ 否"
+                ],
+                [
+                  "Vercel Analytics",
+                  "性能监控",
+                  "页面加载时间、核心 Web 指标、基础流量",
+                  "❌ 否"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "重要提示：Microsoft Clarity 会收集匿名化的会话录制和热力图，以帮助 DrawSpark 了解用户如何与本服务互动。Clarity 不会捕获敏感个人信息、键盘输入或支付信息。您可以在浏览器中禁用 Cookie 以选择退出。"
+            }
           ]
         },
         {
           "heading": "3. DrawSpark 如何使用您的信息",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 将您的信息用于：" },
-            { "type": "ul", "items": [
-              "提供本服务：生成并展示绘画灵感",
-              "改进本服务：通过 GA4、Clarity 与 Vercel Analytics 分析使用模式",
-              "搜索优化：通过 GSC 和 BWT 监控并改进搜索表现",
-              "用户账号支持：在您选择创建账号时管理您的账号",
-              "回复咨询：回复反馈与支持请求",
-              "防止滥用：限流（每日最多 30 次生成）并阻止恶意行为"
-            ] },
-            { "type": "p", "text": "DrawSpark 不会：" },
-            { "type": "ul", "items": [
-              "将您的数据出售给第三方",
-              "将您的数据用于定向广告",
-              "与第三方分享您的个人信息（提供本服务所必需的除外）"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark 将您的信息用于："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "提供本服务：生成并展示绘画灵感",
+                "改进本服务：通过 GA4、Clarity 与 Vercel Analytics 分析使用模式",
+                "搜索优化：通过 GSC 和 BWT 监控并改进搜索表现",
+                "用户账号支持：在您选择创建账号时管理您的账号",
+                "回复咨询：回复反馈与支持请求",
+                "防止滥用：限流（每日最多 30 次生成）并阻止恶意行为"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 不会："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "将您的数据出售给第三方",
+                "将您的数据用于定向广告",
+                "与第三方分享您的个人信息（提供本服务所必需的除外）"
+              ]
+            }
           ]
         },
         {
           "heading": "4. 信息共享",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 仅与必要的服务提供商共享数据：" },
-            { "type": "table", "headers": ["提供商", "用途", "共享的数据"], "rows": [
-              ["Supabase", "数据库与存储", "用户数据、生成的灵感、评论、收藏"],
-              ["DeepSeek", "AI 模型 API", "用于生成的输入文本（不存储）"],
-              ["Vercel", "托管与分析", "页面浏览、性能数据（聚合）"],
-              ["Google Analytics 4", "用户行为分析", "页面浏览、会话、设备数据（聚合）"],
-              ["Microsoft Clarity", "用户行为分析与热力图", "页面浏览、点击、滚动深度、匿名化会话录制"],
-              ["Google Search Console", "SEO 监控", "搜索表现数据（聚合）"],
-              ["Bing Webmaster Tools", "SEO 监控", "搜索表现数据（聚合）"]
-            ] },
-            { "type": "p", "text": "所有提供商均符合适用的数据保护法规，且仅代表 DrawSpark 处理数据。" }
+            {
+              "type": "p",
+              "text": "DrawSpark 仅与必要的服务提供商共享数据："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "提供商",
+                "用途",
+                "共享的数据"
+              ],
+              "rows": [
+                [
+                  "Supabase",
+                  "数据库与存储",
+                  "用户数据、生成的灵感、评论、收藏"
+                ],
+                [
+                  "DeepSeek",
+                  "AI 模型 API",
+                  "用于生成的输入文本（不存储）"
+                ],
+                [
+                  "Vercel",
+                  "托管与分析",
+                  "页面浏览、性能数据（聚合）"
+                ],
+                [
+                  "Google Analytics 4",
+                  "用户行为分析",
+                  "页面浏览、会话、设备数据（聚合）"
+                ],
+                [
+                  "Microsoft Clarity",
+                  "用户行为分析与热力图",
+                  "页面浏览、点击、滚动深度、匿名化会话录制"
+                ],
+                [
+                  "Google Search Console",
+                  "SEO 监控",
+                  "搜索表现数据（聚合）"
+                ],
+                [
+                  "Bing Webmaster Tools",
+                  "SEO 监控",
+                  "搜索表现数据（聚合）"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所有提供商均符合适用的数据保护法规，且仅代表 DrawSpark 处理数据。"
+            }
           ]
         },
         {
           "heading": "5. 数据安全",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 采取合理的安全措施：" },
-            { "type": "ul", "items": [
-              "所有密码均使用 bcrypt 进行哈希",
-              "API 密钥以环境变量存储，绝不暴露给客户端",
-              "所有数据传输均使用 HTTPS 加密（由 Vercel 强制启用）",
-              "Supabase 行级安全策略（RLS）保护用户数据",
-              "Vercel 提供安全的托管基础设施"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark 采取合理的安全措施："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "所有密码均使用 bcrypt 进行哈希",
+                "API 密钥以环境变量存储，绝不暴露给客户端",
+                "所有数据传输均使用 HTTPS 加密（由 Vercel 强制启用）",
+                "Supabase 行级安全策略（RLS）保护用户数据",
+                "Vercel 提供安全的托管基础设施"
+              ]
+            }
           ]
         },
         {
           "heading": "6. 您的权利",
           "blocks": [
-            { "type": "p", "text": "根据您所在地区，您可能对您的数据享有以下权利：" },
-            { "type": "ul", "items": [
-              "访问：请求获取您的数据副本",
-              "更正：更新不准确的数据",
-              "删除：请求删除您的账号及相关数据",
-              "退出：禁用 Cookie（仅限非必要 Cookie）",
-              "数据可携：请求获取机器可读格式的数据副本"
-            ] },
-            { "type": "p", "text": "如需行使上述权利，请联系 DrawSpark：support@drawspark.com" }
+            {
+              "type": "p",
+              "text": "根据您所在地区，您可能对您的数据享有以下权利："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "访问：请求获取您的数据副本",
+                "更正：更新不准确的数据",
+                "删除：请求删除您的账号及相关数据",
+                "退出：禁用 Cookie（仅限非必要 Cookie）",
+                "数据可携：请求获取机器可读格式的数据副本"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如需行使上述权利，请联系 DrawSpark：support@drawspark.com"
+            }
           ]
         },
         {
           "heading": "7. 数据保留",
           "blocks": [
-            { "type": "table", "headers": ["数据类型", "保留期限"], "rows": [
-              ["账号信息", "直至您删除账号"],
-              ["生成的灵感", "永久（公开内容）"],
-              ["评论", "永久（公开内容）"],
-              ["收藏", "直至您移除或删除账号"],
-              ["使用分析数据", "聚合且非个人化，永久保留"]
-            ] }
+            {
+              "type": "table",
+              "headers": [
+                "数据类型",
+                "保留期限"
+              ],
+              "rows": [
+                [
+                  "账号信息",
+                  "直至您删除账号"
+                ],
+                [
+                  "生成的灵感",
+                  "永久（公开内容）"
+                ],
+                [
+                  "评论",
+                  "永久（公开内容）"
+                ],
+                [
+                  "收藏",
+                  "直至您移除或删除账号"
+                ],
+                [
+                  "使用分析数据",
+                  "聚合且非个人化，永久保留"
+                ]
+              ]
+            }
           ]
         },
         {
           "heading": "8. 儿童隐私",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 的本服务不面向 13 岁以下儿童。DrawSpark 不会明知故犯地收集 13 岁以下儿童的个人信息。一旦发现 13 岁以下儿童提供了个人信息，DrawSpark 将立即删除。" }
+            {
+              "type": "p",
+              "text": "DrawSpark 的本服务不面向 13 岁以下儿童。DrawSpark 不会明知故犯地收集 13 岁以下儿童的个人信息。一旦发现 13 岁以下儿童提供了个人信息，DrawSpark 将立即删除。"
+            }
           ]
         },
         {
           "heading": "9. 本政策的变更",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 可能会不时更新本隐私政策。最新版本将始终发布在本页，并标注「最后更新」日期。重大变更将通过邮件通知注册用户。" }
+            {
+              "type": "p",
+              "text": "DrawSpark 可能会不时更新本隐私政策。最新版本将始终发布在本页，并标注「最后更新」日期。重大变更将通过邮件通知注册用户。"
+            }
           ]
         },
         {
           "heading": "10. 联系我们",
           "blocks": [
-            { "type": "p", "text": "如果您对本隐私政策或 DrawSpark 的数据处理实践有任何疑问：" },
-            { "type": "p", "text": "📧 support@drawspark.com" },
-            { "type": "p", "text": "回复时间：24-48 小时内" }
+            {
+              "type": "p",
+              "text": "如果您对本隐私政策或 DrawSpark 的数据处理实践有任何疑问："
+            },
+            {
+              "type": "p",
+              "text": "📧 support@drawspark.com"
+            },
+            {
+              "type": "p",
+              "text": "回复时间：24-48 小时内"
+            }
           ]
         }
       ]
@@ -1349,161 +1610,296 @@
         {
           "heading": "1. 条款的接受",
           "blocks": [
-            { "type": "p", "text": "使用 DrawSpark 的 AI 绘画灵感生成器网站（以下简称「本服务」），即表示您同意本服务条款。如果您不同意，请勿使用 DrawSpark。" },
-            { "type": "p", "text": "DrawSpark 保留随时更新本条款的权利。条款变更后继续使用本服务，即视为接受更新后的条款。" }
+            {
+              "type": "p",
+              "text": "使用 DrawSpark 的 AI 绘画灵感生成器网站（以下简称「本服务」），即表示您同意本服务条款。如果您不同意，请勿使用 DrawSpark。"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 保留随时更新本条款的权利。条款变更后继续使用本服务，即视为接受更新后的条款。"
+            }
           ]
         },
         {
           "heading": "2. 服务说明",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 是一款免费的 AI 绘画灵感生成器，帮助用户寻找绘画、素描和创意项目的灵感。本服务包括：" },
-            { "type": "ul", "items": [
-              "AI 生成的绘画灵感与提示",
-              "用户生成内容（灵感、评论、收藏）",
-              "可选的用户账号以实现个性化"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark 是一款免费的 AI 绘画灵感生成器，帮助用户寻找绘画、素描和创意项目的灵感。本服务包括："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "AI 生成的绘画灵感与提示",
+                "用户生成内容（灵感、评论、收藏）",
+                "可选的用户账号以实现个性化"
+              ]
+            }
           ]
         },
         {
           "heading": "3. 用户账号",
           "blocks": [
-            { "type": "h3", "text": "3.1 账号创建" },
-            { "type": "p", "text": "创建账号是可选的。您无需账号即可使用 DrawSpark 的核心功能。如果创建账号：" },
-            { "type": "ul", "items": [
-              "您必须提供有效的邮箱地址",
-              "您必须年满 13 岁",
-              "您须负责维护账号的安全",
-              "您须对账号下的所有活动负责"
-            ] },
-            { "type": "h3", "text": "3.2 账号终止" },
-            { "type": "p", "text": "DrawSpark 保留暂停或终止以下账号的权利：" },
-            { "type": "ul", "items": [
-              "违反本条款",
-              "生成垃圾或辱骂性内容",
-              "试图规避限流或安全措施",
-              "长期处于不活跃状态"
-            ] },
-            { "type": "p", "text": "您可随时通过联系 support@drawspark.com 删除您的账号。" }
+            {
+              "type": "h3",
+              "text": "3.1 账号创建"
+            },
+            {
+              "type": "p",
+              "text": "创建账号是可选的。您无需账号即可使用 DrawSpark 的核心功能。如果创建账号："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "您必须提供有效的邮箱地址",
+                "您必须年满 13 岁",
+                "您须负责维护账号的安全",
+                "您须对账号下的所有活动负责"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "3.2 账号终止"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 保留暂停或终止以下账号的权利："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "违反本条款",
+                "生成垃圾或辱骂性内容",
+                "试图规避限流或安全措施",
+                "长期处于不活跃状态"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "您可随时通过联系 support@drawspark.com 删除您的账号。"
+            }
           ]
         },
         {
           "heading": "4. 用户生成内容",
           "blocks": [
-            { "type": "h3", "text": "4.1 所有权" },
-            { "type": "p", "text": "您保留对您在 DrawSpark 创建和提交的内容的所有权，包括：" },
-            { "type": "ul", "items": [
-              "评论",
-              "您生成的绘画灵感（AI 生成输出）",
-              "个人资料信息与头像图片"
-            ] },
-            { "type": "h3", "text": "4.2 授予 DrawSpark 的许可" },
-            { "type": "p", "text": "提交内容至 DrawSpark 即表示您授予 DrawSpark 全球范围内、非独占、免许可费的使用权，以：" },
-            { "type": "ul", "items": [
-              "在本服务上展示、存储和分发您的内容",
-              "允许其他用户查看、点赞、收藏并与您的内容互动",
-              "将您的内容用于推广目的（注明出处）"
-            ] },
-            { "type": "h3", "text": "4.3 内容规范" },
-            { "type": "p", "text": "您同意不提交以下内容：" },
-            { "type": "ul", "items": [
-              "违法、冒犯性或有害的内容",
-              "侵犯知识产权的内容",
-              "包含恶意软件或恶意代码的内容",
-              "侵犯他人隐私的内容",
-              "垃圾信息或重复内容"
-            ] },
-            { "type": "callout", "text": "公开内容：您在 DrawSpark 提交的所有内容（包括生成的灵感和评论）默认公开。请勿分享个人、敏感或机密信息。" }
+            {
+              "type": "h3",
+              "text": "4.1 所有权"
+            },
+            {
+              "type": "p",
+              "text": "您保留对您在 DrawSpark 创建和提交的内容的所有权，包括："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "评论",
+                "您生成的绘画灵感（AI 生成输出）",
+                "个人资料信息与头像图片"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "4.2 授予 DrawSpark 的许可"
+            },
+            {
+              "type": "p",
+              "text": "提交内容至 DrawSpark 即表示您授予 DrawSpark 全球范围内、非独占、免许可费的使用权，以："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "在本服务上展示、存储和分发您的内容",
+                "允许其他用户查看、点赞、收藏并与您的内容互动",
+                "将您的内容用于推广目的（注明出处）"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "4.3 内容规范"
+            },
+            {
+              "type": "p",
+              "text": "您同意不提交以下内容："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "违法、冒犯性或有害的内容",
+                "侵犯知识产权的内容",
+                "包含恶意软件或恶意代码的内容",
+                "侵犯他人隐私的内容",
+                "垃圾信息或重复内容"
+              ]
+            },
+            {
+              "type": "callout",
+              "text": "公开内容：您在 DrawSpark 提交的所有内容（包括生成的灵感和评论）默认公开。请勿分享个人、敏感或机密信息。"
+            }
           ]
         },
         {
           "heading": "5. AI 生成内容",
           "blocks": [
-            { "type": "h3", "text": "5.1 AI 内容的性质" },
-            { "type": "p", "text": "DrawSpark AI 生成的绘画灵感仅供参考。DrawSpark 不保证：" },
-            { "type": "ul", "items": [
-              "生成内容的准确性或原创性",
-              "生成内容不会与现有版权作品相似（AI 输出基于训练数据，可能偶然与现有作品相似）"
-            ] },
-            { "type": "h3", "text": "5.2 非专业建议" },
-            { "type": "p", "text": "AI 生成的绘画灵感仅用于启发灵感与娱乐目的，不构成专业建议、教学或对创作成果的保证。" },
-            { "type": "h3", "text": "5.3 AI 生成输出的所有权" },
-            { "type": "p", "text": "您可以不受限制地使用、修改并基于 AI 生成的绘画灵感创作衍生作品。DrawSpark 不对 AI 生成输出主张任何所有权。" }
+            {
+              "type": "h3",
+              "text": "5.1 AI 内容的性质"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark AI 生成的绘画灵感仅供参考。DrawSpark 不保证："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "生成内容的准确性或原创性",
+                "生成内容不会与现有版权作品相似（AI 输出基于训练数据，可能偶然与现有作品相似）"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "5.2 非专业建议"
+            },
+            {
+              "type": "p",
+              "text": "AI 生成的绘画灵感仅用于启发灵感与娱乐目的，不构成专业建议、教学或对创作成果的保证。"
+            },
+            {
+              "type": "h3",
+              "text": "5.3 AI 生成输出的所有权"
+            },
+            {
+              "type": "p",
+              "text": "您可以不受限制地使用、修改并基于 AI 生成的绘画灵感创作衍生作品。DrawSpark 不对 AI 生成输出主张任何所有权。"
+            }
           ]
         },
         {
           "heading": "6. 知识产权",
           "blocks": [
-            { "type": "h3", "text": "6.1 DrawSpark 的知识产权" },
-            { "type": "p", "text": "DrawSpark 拥有以下全部权利：" },
-            { "type": "ul", "items": [
-              "DrawSpark 品牌、标识与商标",
-              "网站设计、代码与用户界面",
-              "AI 模型集成与后端系统"
-            ] },
-            { "type": "h3", "text": "6.2 用户生成内容" },
-            { "type": "p", "text": "用户保留其原创内容的所有权，详见第 4 节。" }
+            {
+              "type": "h3",
+              "text": "6.1 DrawSpark 的知识产权"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 拥有以下全部权利："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "DrawSpark 品牌、标识与商标",
+                "网站设计、代码与用户界面",
+                "AI 模型集成与后端系统"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "6.2 用户生成内容"
+            },
+            {
+              "type": "p",
+              "text": "用户保留其原创内容的所有权，详见第 4 节。"
+            }
           ]
         },
         {
           "heading": "7. 可接受使用",
           "blocks": [
-            { "type": "p", "text": "您同意不进行以下行为：" },
-            { "type": "ul", "items": [
-              "抓取或爬取：使用自动化系统访问 DrawSpark 超过限流",
-              "绕过限流：试图超出每日 30 次生成的限制",
-              "生成有害内容：使用 DrawSpark 生成违法、违规或有害内容",
-              "冒充他人：创建假装是他人的账号",
-              "干扰服务：试图损坏、禁用或削弱 DrawSpark 的基础设施",
-              "逆向工程：试图提取源代码或 API 实现细节"
-            ] }
+            {
+              "type": "p",
+              "text": "您同意不进行以下行为："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "抓取或爬取：使用自动化系统访问 DrawSpark 超过限流",
+                "绕过限流：试图超出每日 30 次生成的限制",
+                "生成有害内容：使用 DrawSpark 生成违法、违规或有害内容",
+                "冒充他人：创建假装是他人的账号",
+                "干扰服务：试图损坏、禁用或削弱 DrawSpark 的基础设施",
+                "逆向工程：试图提取源代码或 API 实现细节"
+              ]
+            }
           ]
         },
         {
           "heading": "8. 免责声明",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 按「现状」和「可用」原则提供，不附带任何形式的担保。" },
-            { "type": "p", "text": "DrawSpark 不保证：" },
-            { "type": "ul", "items": [
-              "本服务不中断、安全或无错误",
-              "AI 生成的内容具有原创性、准确性或有用性",
-              "本服务能满足您的特定需求或期望"
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark 按「现状」和「可用」原则提供，不附带任何形式的担保。"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 不保证："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "本服务不中断、安全或无错误",
+                "AI 生成的内容具有原创性、准确性或有用性",
+                "本服务能满足您的特定需求或期望"
+              ]
+            }
           ]
         },
         {
           "heading": "9. 责任限制",
           "blocks": [
-            { "type": "p", "text": "在法律允许的最大范围内，DrawSpark 不对以下情况承担责任：" },
-            { "type": "ul", "items": [
-              "间接、附带或衍生损失",
-              "利润、数据或商业机会的损失",
-              "因依赖 AI 生成内容而产生的损失",
-              "超过已支付金额的损失（DrawSpark 免费，因此为 $0）"
-            ] }
+            {
+              "type": "p",
+              "text": "在法律允许的最大范围内，DrawSpark 不对以下情况承担责任："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "间接、附带或衍生损失",
+                "利润、数据或商业机会的损失",
+                "因依赖 AI 生成内容而产生的损失",
+                "超过已支付金额的损失（DrawSpark 免费，因此为 $0）"
+              ]
+            }
           ]
         },
         {
           "heading": "10. 赔偿",
           "blocks": [
-            { "type": "p", "text": "您同意就以下原因产生的索赔为 DrawSpark 提供赔偿：" },
-            { "type": "ul", "items": [
-              "您违反本条款",
-              "您的内容或对本服务的使用",
-              "您侵犯第三方权利"
-            ] }
+            {
+              "type": "p",
+              "text": "您同意就以下原因产生的索赔为 DrawSpark 提供赔偿："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "您违反本条款",
+                "您的内容或对本服务的使用",
+                "您侵犯第三方权利"
+              ]
+            }
           ]
         },
         {
           "heading": "11. 适用法律",
           "blocks": [
-            { "type": "p", "text": "本条款受美国特拉华州法律管辖，不考虑法律冲突原则。" }
+            {
+              "type": "p",
+              "text": "本条款受美国特拉华州法律管辖，不考虑法律冲突原则。"
+            }
           ]
         },
         {
           "heading": "12. 联系方式",
           "blocks": [
-            { "type": "p", "text": "如对本条款有任何疑问：" },
-            { "type": "p", "text": "📧 support@drawspark.com" }
+            {
+              "type": "p",
+              "text": "如对本条款有任何疑问："
+            },
+            {
+              "type": "p",
+              "text": "📧 support@drawspark.com"
+            }
           ]
         }
       ]
@@ -1517,97 +1913,246 @@
         {
           "heading": "1. 什么是 Cookie？",
           "blocks": [
-            { "type": "p", "text": "Cookie 是您访问网站时存储在您设备上的小型文本文件。它们帮助网站记住您、您的偏好和您的活动。" },
-            { "type": "p", "text": "DrawSpark 使用极少的 Cookie，且不将 Cookie 用于广告或跨站跟踪目的。" }
+            {
+              "type": "p",
+              "text": "Cookie 是您访问网站时存储在您设备上的小型文本文件。它们帮助网站记住您、您的偏好和您的活动。"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 使用极少的 Cookie，且不将 Cookie 用于广告或跨站跟踪目的。"
+            }
           ]
         },
         {
           "heading": "2. DrawSpark 如何使用 Cookie",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 将 Cookie 用于必要目的、分析和性能监控：" },
-            { "type": "table", "headers": ["Cookie 名称", "用途", "有效期", "是否必要"], "rows": [
-              ["drawspark_session", "限流：跟踪每日生成次数（每日最多 30 次）", "1 年", "✅ 是"],
-              ["user_session", "如果您选择登录，用于用户身份验证", "会话", "✅ 是"],
-              ["language_preference", "记住您的语言偏好", "1 年", "可选"],
-              ["cookie_accepted", "记住您已接受 Cookie 通知", "1 年", "✅ 是"],
-              ["_ga / _ga_*", "Google Analytics 4：用户标识与会话状态", "2 年", "❌ 否（分析）"],
-              ["_clck / _clsk", "Microsoft Clarity：用户标识与会话录制", "1 年", "❌ 否（分析）"]
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark 将 Cookie 用于必要目的、分析和性能监控："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Cookie 名称",
+                "用途",
+                "有效期",
+                "是否必要"
+              ],
+              "rows": [
+                [
+                  "drawspark_session",
+                  "限流：跟踪每日生成次数（每日最多 30 次）",
+                  "1 年",
+                  "✅ 是"
+                ],
+                [
+                  "user_session",
+                  "如果您选择登录，用于用户身份验证",
+                  "会话",
+                  "✅ 是"
+                ],
+                [
+                  "language_preference",
+                  "记住您的语言偏好",
+                  "1 年",
+                  "可选"
+                ],
+                [
+                  "cookie_accepted",
+                  "记住您已接受 Cookie 通知",
+                  "1 年",
+                  "✅ 是"
+                ],
+                [
+                  "_ga / _ga_*",
+                  "Google Analytics 4：用户标识与会话状态",
+                  "2 年",
+                  "❌ 否（分析）"
+                ],
+                [
+                  "_clck / _clsk",
+                  "Microsoft Clarity：用户标识与会话录制",
+                  "1 年",
+                  "❌ 否（分析）"
+                ]
+              ]
+            }
           ]
         },
         {
           "heading": "3. 分析与行为工具",
           "blocks": [
-            { "type": "h3", "text": "Google Analytics 4 (GA4)" },
-            { "type": "p", "text": "GA4 帮助 DrawSpark 了解哪些功能最受欢迎，识别高跳出率页面，并整体改善用户体验。" },
-            { "type": "p", "text": "数据：聚合、匿名化的用户行为数据。" },
-            { "type": "p", "text": "退出方式：使用 Google Analytics 退出插件或在浏览器中禁用 Cookie。" },
-            { "type": "h3", "text": "Microsoft Clarity (MC)" },
-            { "type": "p", "text": "Clarity 帮助 DrawSpark 通过以下方式可视化用户如何与网站互动：" },
-            { "type": "ul", "items": [
-              "热力图：查看用户的点击与滚动位置",
-              "会话录制：观看匿名化的用户会话回放",
-              "洞察：识别用户痛点与体验卡点"
-            ] },
-            { "type": "p", "text": "数据：Clarity 收集匿名化会话数据，不会捕获以下内容：" },
-            { "type": "ul", "items": [
-              "敏感个人信息（密码、信用卡）",
-              "键盘输入或文本输入内容",
-              "个人身份识别信息"
-            ] },
-            { "type": "p", "text": "Clarity 隐私：Microsoft Clarity 符合 GDPR 与 CCPA。数据经过匿名化和聚合处理。" },
-            { "type": "p", "text": "退出方式：在浏览器设置中禁用 Cookie 或使用 Clarity 退出选项。" }
+            {
+              "type": "h3",
+              "text": "Google Analytics 4 (GA4)"
+            },
+            {
+              "type": "p",
+              "text": "GA4 帮助 DrawSpark 了解哪些功能最受欢迎，识别高跳出率页面，并整体改善用户体验。"
+            },
+            {
+              "type": "p",
+              "text": "数据：聚合、匿名化的用户行为数据。"
+            },
+            {
+              "type": "p",
+              "text": "退出方式：使用 Google Analytics 退出插件或在浏览器中禁用 Cookie。"
+            },
+            {
+              "type": "h3",
+              "text": "Microsoft Clarity (MC)"
+            },
+            {
+              "type": "p",
+              "text": "Clarity 帮助 DrawSpark 通过以下方式可视化用户如何与网站互动："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "热力图：查看用户的点击与滚动位置",
+                "会话录制：观看匿名化的用户会话回放",
+                "洞察：识别用户痛点与体验卡点"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "数据：Clarity 收集匿名化会话数据，不会捕获以下内容："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "敏感个人信息（密码、信用卡）",
+                "键盘输入或文本输入内容",
+                "个人身份识别信息"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Clarity 隐私：Microsoft Clarity 符合 GDPR 与 CCPA。数据经过匿名化和聚合处理。"
+            },
+            {
+              "type": "p",
+              "text": "退出方式：在浏览器设置中禁用 Cookie 或使用 Clarity 退出选项。"
+            }
           ]
         },
         {
           "heading": "4. SEO 工具",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 使用以下不设置 Cookie 的 SEO 工具：" },
-            { "type": "table", "headers": ["工具", "用途"], "rows": [
-              ["Google Search Console (GSC)", "监控搜索表现，识别索引问题"],
-              ["Bing Webmaster Tools (BWT)", "监控 Bing 上的搜索表现"]
-            ] }
+            {
+              "type": "p",
+              "text": "DrawSpark 使用以下不设置 Cookie 的 SEO 工具："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "工具",
+                "用途"
+              ],
+              "rows": [
+                [
+                  "Google Search Console (GSC)",
+                  "监控搜索表现，识别索引问题"
+                ],
+                [
+                  "Bing Webmaster Tools (BWT)",
+                  "监控 Bing 上的搜索表现"
+                ]
+              ]
+            }
           ]
         },
         {
           "heading": "5. 您的 Cookie 选择",
           "blocks": [
-            { "type": "h3", "text": "5.1 浏览器设置" },
-            { "type": "p", "text": "您可以通过浏览器设置管理 Cookie：" },
-            { "type": "table", "headers": ["浏览器", "如何管理"], "rows": [
-              ["Chrome", "设置 → 隐私和安全 → Cookie 和其他网站数据"],
-              ["Firefox", "选项 → 隐私和安全 → Cookie 和网站数据"],
-              ["Safari", "偏好设置 → 隐私 → Cookie 和网站数据"],
-              ["Edge", "设置 → Cookie 和网站权限"]
-            ] },
-            { "type": "h3", "text": "5.2 禁用 Cookie" },
-            { "type": "p", "text": "如果禁用 Cookie，DrawSpark 可能无法正常运行：" },
-            { "type": "ul", "items": [
-              "您可能因没有计数而超出每日 30 次的生成限制",
-              "您的登录会话可能无法保持",
-              "您的语言偏好可能无法被记住"
-            ] },
-            { "type": "h3", "text": "5.3 Cookie 同意" },
-            { "type": "p", "text": "DrawSpark 使用最小化、非侵入式的 Cookie 通知：" },
-            { "type": "ul", "items": [
-              "在您首次访问时显示",
-              "对必要 Cookie 不要求主动同意（GDPR 豁免）",
-              "提供 Cookie 使用相关信息",
-              "允许您接受分析 Cookie 的使用"
-            ] }
+            {
+              "type": "h3",
+              "text": "5.1 浏览器设置"
+            },
+            {
+              "type": "p",
+              "text": "您可以通过浏览器设置管理 Cookie："
+            },
+            {
+              "type": "table",
+              "headers": [
+                "浏览器",
+                "如何管理"
+              ],
+              "rows": [
+                [
+                  "Chrome",
+                  "设置 → 隐私和安全 → Cookie 和其他网站数据"
+                ],
+                [
+                  "Firefox",
+                  "选项 → 隐私和安全 → Cookie 和网站数据"
+                ],
+                [
+                  "Safari",
+                  "偏好设置 → 隐私 → Cookie 和网站数据"
+                ],
+                [
+                  "Edge",
+                  "设置 → Cookie 和网站权限"
+                ]
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "5.2 禁用 Cookie"
+            },
+            {
+              "type": "p",
+              "text": "如果禁用 Cookie，DrawSpark 可能无法正常运行："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "您可能因没有计数而超出每日 30 次的生成限制",
+                "您的登录会话可能无法保持",
+                "您的语言偏好可能无法被记住"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "5.3 Cookie 同意"
+            },
+            {
+              "type": "p",
+              "text": "DrawSpark 使用最小化、非侵入式的 Cookie 通知："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "在您首次访问时显示",
+                "对必要 Cookie 不要求主动同意（GDPR 豁免）",
+                "提供 Cookie 使用相关信息",
+                "允许您接受分析 Cookie 的使用"
+              ]
+            }
           ]
         },
         {
           "heading": "6. 本政策的变更",
           "blocks": [
-            { "type": "p", "text": "DrawSpark 可能会偶尔更新本 Cookie 政策。最新版本将发布在此处，并标注「最后更新」日期。" }
+            {
+              "type": "p",
+              "text": "DrawSpark 可能会偶尔更新本 Cookie 政策。最新版本将发布在此处，并标注「最后更新」日期。"
+            }
           ]
         },
         {
           "heading": "7. 联系方式",
           "blocks": [
-            { "type": "p", "text": "对本 Cookie 政策有疑问？" },
-            { "type": "p", "text": "📧 support@drawspark.com" }
+            {
+              "type": "p",
+              "text": "对本 Cookie 政策有疑问？"
+            },
+            {
+              "type": "p",
+              "text": "📧 support@drawspark.com"
+            }
           ]
         }
       ]

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { ActionPill } from "@/components/ActionPill";
 import { EmojiPicker } from "@/components/EmojiPicker";
@@ -44,6 +45,8 @@ export function InspirationView({
   const t = useTranslations("card");
   const tComments = useTranslations("comments");
   const tEnum = useTranslations("enums");
+  const tDetail = useTranslations("detail");
+  const router = useRouter();
   const { user, requireAuth } = useAuth();
 
   // Build the absolute share URL on the client.
@@ -216,6 +219,23 @@ export function InspirationView({
 
   return (
     <div className="mx-auto max-w-3xl px-4 pt-4 pb-12 sm:px-6 sm:pt-6">
+      {/* Back button — uses router.back() so it returns to whatever page
+          the user came from (explore, home, generate, etc.). Falls back to
+          /explore when there's no history (e.g. direct link in a new tab). */}
+      <button
+        type="button"
+        onClick={() => {
+          if (typeof window !== "undefined" && window.history.length > 1) {
+            router.back();
+          } else {
+            router.push("/explore");
+          }
+        }}
+        className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3.5 py-1.5 text-sm font-medium text-slate-700 transition hover:bg-slate-200"
+      >
+        <span aria-hidden>←</span>
+        <span>{tDetail("back")}</span>
+      </button>
       {/* Header card — meta badges → title → description → (tags + copy) */}
       <header className="overflow-hidden rounded-2xl bg-gradient-to-br from-violet-600 via-violet-500 to-orange-400 text-white shadow-sm">
         <div className="px-6 py-8 sm:px-10 sm:py-10">

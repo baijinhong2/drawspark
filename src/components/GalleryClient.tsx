@@ -91,6 +91,23 @@ function GalleryClientInner({
 
   const sentinelRef = useRef<HTMLDivElement>(null);
 
+  // Show the "go generate" hint after the user has scrolled ~2 viewport
+  // heights worth of content. Tracked off `page` so the hint only re-shows
+  // after the next page loads, not on every scroll tick.
+  const [showGenerateHint, setShowGenerateHint] = useState(false);
+  useEffect(() => {
+    function onScroll() {
+      if (showGenerateHint) return;
+      if (typeof window === "undefined") return;
+      const threshold = window.innerHeight * 2;
+      if (window.scrollY > threshold) {
+        setShowGenerateHint(true);
+      }
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [showGenerateHint]);
+
   const totalSelected = useMemo(
     () => Object.values(filters).reduce((sum, arr) => sum + arr.length, 0),
     [filters],
@@ -248,6 +265,22 @@ function GalleryClientInner({
             <InspirationCard key={item.id} inspiration={item} />
           ))}
         </div>
+      )}
+
+      {/* Floating "go generate" hint — appears once the user has scrolled
+          ~2 viewports without finding what they want. Sits fixed on the
+          right side; tap to jump to the generator. */}
+      {showGenerateHint && inspirations.length > 0 && (
+        <Link
+          href="/generate"
+          prefetch={false}
+          className="fixed bottom-24 right-4 z-30 max-w-[260px] rounded-full bg-gradient-to-r from-violet-600 to-orange-500 px-5 py-3 text-sm font-semibold text-white shadow-lg ring-1 ring-white/30 transition hover:shadow-xl sm:bottom-20 sm:right-6"
+        >
+          <span className="flex items-center gap-2">
+            <span aria-hidden>✨</span>
+            <span>{t("scrollHintGoGenerate")}</span>
+          </span>
+        </Link>
       )}
 
       {/* Sentinel + status — drives infinite scroll + tail indicator */}
