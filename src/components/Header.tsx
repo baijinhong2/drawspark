@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, useRouter } from "@/i18n/navigation";
 import { useAuth } from "@/components/AuthProvider";
@@ -64,9 +65,14 @@ export function Header() {
         </button>
 
         <Link href="/" className="flex items-center gap-2 font-bold text-violet-700">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-orange-400 text-sm text-white">
-            ✦
-          </span>
+          <Image
+            src="/logo.png"
+            alt="DrawSpark logo"
+            width={32}
+            height={32}
+            className="h-8 w-8"
+            priority
+          />
           <span className="text-lg tracking-tight">DrawSpark</span>
         </Link>
 

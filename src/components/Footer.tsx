@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 
 /**
@@ -20,9 +21,13 @@ export async function Footer() {
               href="/"
               className="inline-flex items-center gap-2 font-bold text-slate-900"
             >
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-orange-400 text-sm text-white">
-                ✦
-              </span>
+              <Image
+                src="/logo.png"
+                alt="DrawSpark logo"
+                width={32}
+                height={32}
+                className="h-8 w-8"
+              />
               <span className="text-lg tracking-tight">DrawSpark</span>
             </Link>
             <p className="mt-3 max-w-xs text-sm text-slate-600">{t("tagline")}</p>
