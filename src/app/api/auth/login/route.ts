@@ -5,7 +5,6 @@ import {
   toAuthUser,
   verifyPassword,
 } from "@/lib/auth";
-import { verifyCaptcha } from "@/lib/captcha";
 import { getPrisma } from "@/lib/prisma";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -13,23 +12,11 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json().catch(() => ({}));
-    const { email, password, captchaId, captchaCode } = body ?? {};
+    const { email, password } = body ?? {};
 
-    if (
-      typeof email !== "string" ||
-      typeof password !== "string" ||
-      typeof captchaId !== "string" ||
-      typeof captchaCode !== "string"
-    ) {
+    if (typeof email !== "string" || typeof password !== "string") {
       return NextResponse.json(
         { success: false, error: "BAD_REQUEST" },
-        { status: 400 },
-      );
-    }
-
-    if (!verifyCaptcha(captchaId, captchaCode)) {
-      return NextResponse.json(
-        { success: false, error: "CAPTCHA_INVALID" },
         { status: 400 },
       );
     }
@@ -47,10 +34,6 @@ export async function POST(request: NextRequest) {
       where: { email: normalizedEmail },
     });
     if (!user || !user.passwordHash) {
-      // Either no such user, or this account was created via Google OAuth
-      // and has no password set — both present as "wrong credentials" to
-      // the caller. We deliberately do NOT distinguish them so an attacker
-      // can't enumerate which emails have Google-only accounts.
       return NextResponse.json(
         { success: false, error: "INVALID_CREDENTIALS" },
         { status: 401 },

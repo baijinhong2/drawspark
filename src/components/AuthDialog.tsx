@@ -7,20 +7,13 @@ import { useAuth } from "@/components/AuthProvider";
 import { getBrowserSupabase } from "@/lib/supabase/client";
 
 type Mode = "login" | "register";
+type RegisterStep = "credentials" | "otp";
 
 interface AuthDialogProps {
   open: boolean;
   onClose: () => void;
   initialMode?: Mode;
-  /**
-   * Called after a successful login/register so the trigger that opened the
-   * dialog can re-run its action (e.g. favorite, comment).
-   */
   onSuccess?: () => void;
-  /**
-   * Pre-set error to show when the dialog opens. Used by the OAuth callback
-   * to surface `?oauth_error=<code>` from the URL.
-   */
   initialError?: string | null;
 }
 
@@ -34,23 +27,31 @@ export function AuthDialog({
   const t = useTranslations("auth");
   const { refresh } = useAuth();
   const [mode, setMode] = useState<Mode>(initialMode);
+  const [registerStep, setRegisterStep] = useState<RegisterStep>("credentials");
+
+  // Credentials
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [displayName, setDisplayName] = useState("");
-  const [captchaId, setCaptchaId] = useState("");
-  const [captchaSvg, setCaptchaSvg] = useState("");
-  const [captchaCode, setCaptchaCode] = useState("");
+
+  // OTP
+  const [otpCode, setOtpCode] = useState("");
+
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
-  const refreshCaptchaRef = useRef<() => Promise<void>>(async () => {});
+  const [otpSent, setOtpSent] = useState(false);
 
-  // Lock body scroll + reset state when opened
+  // Reset state on open / mode change
   useEffect(() => {
     if (!open) return;
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     setMode(initialMode);
+    setRegisterStep("credentials");
+    setEmail("");
+    setPassword("");
+    setOtpCode("");
+    setOtpSent(false);
     setError(initialError ? mapOauthError(initialError) : null);
     return () => {
       document.body.style.overflow = prev;
@@ -68,66 +69,37 @@ export function AuthDialog({
     return () => window.removeEventListener("keydown", onKey);
   }, [open, onClose]);
 
-  // Load captcha on open or mode change
-  const loadCaptcha = async () => {
-    try {
-      const res = await fetch("/api/auth/captcha", { method: "POST" });
-      const data = await res.json();
-      if (data.success) {
-        setCaptchaId(data.captchaId);
-        setCaptchaSvg(data.svg);
-        setCaptchaCode("");
-        setError(null);
-      } else {
-        setError(t("captchaLoadFailed"));
-      }
-    } catch {
-      setError(t("captchaLoadFailed"));
-    }
-  };
-  refreshCaptchaRef.current = loadCaptcha;
-
-  useEffect(() => {
-    if (open) loadCaptcha();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open, mode]);
-
   if (!open) return null;
 
-  async function handleSubmit(e: React.FormEvent) {
+  // ---- Step 1: credentials (login + register credentials phase) ----
+
+  async function handleCredentialsSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
 
-    if (!email || !password || !captchaCode) {
+    if (!email || !password) {
       setError(t("fieldsRequired"));
       return;
     }
-    if (mode === "register" && !displayName.trim()) {
-      setError(t("displayNameRequired"));
-      return;
-    }
 
+    if (mode === "login") {
+      await handleLogin();
+    } else {
+      await handleSendCode();
+    }
+  }
+
+  async function handleLogin() {
     setLoading(true);
     try {
-      const endpoint = mode === "login" ? "/api/auth/login" : "/api/auth/register";
-      const body: Record<string, string> = {
-        email,
-        password,
-        captchaId,
-        captchaCode,
-      };
-      if (mode === "register") body.displayName = displayName.trim();
-
-      const res = await fetch(endpoint, {
+      const res = await fetch("/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
+        body: JSON.stringify({ email, password }),
       });
       const data = await res.json();
       if (!data.success) {
-        const errKey = mapErrorKey(data.error, mode);
-        setError(t(errKey));
-        await refreshCaptchaRef.current();
+        setError(t(mapLoginError(data.error)));
         return;
       }
       await refresh();
@@ -140,29 +112,102 @@ export function AuthDialog({
     }
   }
 
-  function mapErrorKey(code: string | undefined, m: Mode): string {
+  async function handleSendCode() {
+    setLoading(true);
+    try {
+      const res = await fetch("/api/auth/register/send-code", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+      const data = await res.json();
+      if (!data.success) {
+        setError(t(mapRegisterError(data.error)));
+        return;
+      }
+      setOtpSent(true);
+      setRegisterStep("otp");
+      setError(null);
+    } catch {
+      setError(t("networkError"));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // ---- Step 2: OTP verification ----
+
+  async function handleOtpSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setError(null);
+
+    if (!otpCode || otpCode.length !== 6) {
+      setError(t("otpRequired"));
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const res = await fetch("/api/auth/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, code: otpCode }),
+      });
+      const data = await res.json();
+      if (!data.success) {
+        setError(t(mapRegisterError(data.error)));
+        return;
+      }
+      await refresh();
+      onSuccess?.();
+      onClose();
+    } catch {
+      setError(t("networkError"));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function handleResendCode() {
+    setOtpCode("");
+    setRegisterStep("credentials");
+    setOtpSent(false);
+  }
+
+  function mapLoginError(code: string | undefined): string {
     switch (code) {
-      case "CAPTCHA_INVALID":
-        return "captchaWrong";
       case "INVALID_CREDENTIALS":
         return "invalidCredentials";
+      case "EMAIL_INVALID":
+        return "emailInvalid";
+      default:
+        return "loginFailed";
+    }
+  }
+
+  function mapRegisterError(code: string | undefined): string {
+    switch (code) {
       case "EMAIL_TAKEN":
         return "emailTaken";
       case "EMAIL_INVALID":
         return "emailInvalid";
       case "PASSWORD_TOO_SHORT":
         return "passwordTooShort";
-      case "DISPLAY_NAME_INVALID":
-        return "displayNameInvalid";
+      case "RATE_LIMITED":
+        return "rateLimited";
+      case "EMAIL_SEND_FAILED":
+        return "emailSendFailed";
+      case "CODE_NOT_FOUND":
+      case "CODE_EXPIRED":
+        return "codeExpired";
+      case "CODE_WRONG":
+      case "CODE_INVALID":
+        return "codeWrong";
       default:
-        return m === "login" ? "loginFailed" : "registerFailed";
+        return "registerFailed";
     }
   }
 
-  /**
-   * Map a raw OAuth error code (returned from Supabase via `?oauth_error=`)
-   * to a localised, user-readable string.
-   */
   function mapOauthError(code: string): string {
     switch (code) {
       case "bad_oauth_state":
@@ -182,6 +227,9 @@ export function AuthDialog({
 
   const switchMode = () => {
     setMode((m) => (m === "login" ? "register" : "login"));
+    setRegisterStep("credentials");
+    setOtpSent(false);
+    setOtpCode("");
     setError(null);
   };
 
@@ -189,9 +237,6 @@ export function AuthDialog({
     setError(null);
     setGoogleLoading(true);
     try {
-      // Save the path we're on so the OAuth callback can return us here
-      // after Google finishes. Only same-origin absolute paths are allowed
-      // server-side, so we don't have to worry about open-redirect abuse.
       const here =
         typeof window !== "undefined"
           ? window.location.pathname + window.location.search
@@ -200,9 +245,7 @@ export function AuthDialog({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ next: here }),
-      }).catch(() => {
-        // Non-fatal: if the cookie write fails the callback falls back to "/".
-      });
+      }).catch(() => {});
 
       const callbackUrl = `${window.location.origin}/api/auth/google/callback`;
       const { error: oauthError } = await getBrowserSupabase().auth.signInWithOAuth(
@@ -215,13 +258,126 @@ export function AuthDialog({
         setError(t("googleFailed"));
         setGoogleLoading(false);
       }
-      // On success the browser navigates away — leave googleLoading=true.
     } catch {
       setError(t("googleFailed"));
       setGoogleLoading(false);
     }
   }
 
+  // ---- OTP step view ----
+  if (mode === "register" && registerStep === "otp") {
+    return (
+      <div
+        className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/60 p-2 backdrop-blur-sm sm:p-4"
+        onClick={onClose}
+        role="dialog"
+        aria-modal="true"
+      >
+        <div
+          className="relative grid w-full max-w-sm grid-cols-1 overflow-hidden rounded-2xl bg-white shadow-2xl sm:max-w-3xl sm:grid-cols-[5fr_7fr] sm:items-stretch"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close"
+            className="absolute right-3 top-3 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/85 text-slate-600 shadow-sm backdrop-blur transition hover:bg-white hover:text-slate-900"
+          >
+            ✕
+          </button>
+
+          <div className="relative h-40 w-full overflow-hidden sm:h-auto sm:min-h-[480px]">
+            <picture>
+              <source media="(min-width: 640px)" srcSet="/auth/login-hero.jpg" />
+              <Image
+                src="/auth/login-hero-mobile.jpg"
+                alt="Hand-drawn sketch illustrations"
+                fill
+                sizes="(max-width: 639px) 100vw, 0px"
+                priority
+                className="object-cover"
+              />
+            </picture>
+          </div>
+
+          <div className="flex max-h-[80vh] flex-col overflow-hidden sm:max-h-[min(85vh,560px)]">
+            <div className="flex-1 overflow-y-auto px-5 py-5 sm:px-7 sm:py-6">
+              <div className="mb-4">
+                <h2 className="text-xl font-bold text-slate-900">
+                  {t("otpTitle")}
+                </h2>
+                <p className="mt-1 text-sm text-slate-500">
+                  {t("otpSubtitle", { email })}
+                </p>
+              </div>
+
+              <form onSubmit={handleOtpSubmit} className="space-y-3">
+                <label className="block">
+                  <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-600">
+                    {t("verificationCode")}
+                  </span>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    pattern="[0-9]*"
+                    maxLength={6}
+                    value={otpCode}
+                    onChange={(e) =>
+                      setOtpCode(e.target.value.replace(/\D/g, "").slice(0, 6))
+                    }
+                    placeholder="000000"
+                    autoComplete="one-time-code"
+                    autoFocus
+                    className="w-full rounded-lg border border-slate-200 px-3 py-2 text-center text-2xl font-bold tracking-[0.3em] focus:border-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-200"
+                  />
+                </label>
+
+                {error && (
+                  <div
+                    role="alert"
+                    className="rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-700"
+                  >
+                    {error}
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={loading || otpCode.length !== 6}
+                  className="w-full rounded-lg bg-gradient-to-r from-violet-600 to-orange-500 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:shadow-md disabled:opacity-60"
+                >
+                  {loading ? "..." : t("verifyAndRegister")}
+                </button>
+
+                <div className="flex items-center justify-between text-xs text-slate-500">
+                  <button
+                    type="button"
+                    onClick={handleResendCode}
+                    className="font-semibold text-violet-600 hover:text-violet-800"
+                  >
+                    {t("resendCode")}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setRegisterStep("credentials");
+                      setOtpCode("");
+                      setError(null);
+                    }}
+                    className="font-semibold text-violet-600 hover:text-violet-800"
+                  >
+                    {t("changeEmail")}
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ---- Default: credentials form ----
   return (
     <div
       className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/60 p-2 backdrop-blur-sm sm:p-4"
@@ -230,9 +386,6 @@ export function AuthDialog({
       aria-modal="true"
     >
       <div
-        // Outer shell — flexible width:
-        //   mobile:  full-width card, image as a compact top banner
-        //   desktop: wider card with image on the left, form on the right
         className="relative grid w-full max-w-sm grid-cols-1 overflow-hidden rounded-2xl bg-white shadow-2xl sm:max-w-3xl sm:grid-cols-[5fr_7fr] sm:items-stretch"
         onClick={(e) => e.stopPropagation()}
       >
@@ -245,21 +398,12 @@ export function AuthDialog({
           ✕
         </button>
 
-        {/* ---- Left / top: hero image ----
-            Mobile (<640px): wide 4-panel banner (mobile-optimized JPG).
-            Desktop (≥640px): tall portrait illustration.
-            <picture> lets the browser pick the correct source and avoids
-            loading both — desktop never downloads the mobile file and
-            vice versa. */}
         <div className="relative h-40 w-full overflow-hidden sm:h-auto sm:min-h-[480px]">
           <picture>
-            <source
-              media="(min-width: 640px)"
-              srcSet="/auth/login-hero.jpg"
-            />
+            <source media="(min-width: 640px)" srcSet="/auth/login-hero.jpg" />
             <Image
               src="/auth/login-hero-mobile.jpg"
-              alt="Hand-drawn sketch illustrations — dog, surfer, horses, rocket"
+              alt="Hand-drawn sketch illustrations"
               fill
               sizes="(max-width: 639px) 100vw, 0px"
               priority
@@ -268,7 +412,6 @@ export function AuthDialog({
           </picture>
         </div>
 
-        {/* ---- Right / bottom: form panel ---- */}
         <div className="flex max-h-[80vh] flex-col overflow-hidden sm:max-h-[min(85vh,560px)]">
           <div className="flex-1 overflow-y-auto px-5 py-5 sm:px-7 sm:py-6">
             <div className="mb-4">
@@ -280,7 +423,7 @@ export function AuthDialog({
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-3">
+            <form onSubmit={handleCredentialsSubmit} className="space-y-3">
               {/* ---- Google one-tap ---- */}
               <button
                 type="button"
@@ -303,16 +446,6 @@ export function AuthDialog({
                 </div>
               </div>
 
-              {mode === "register" && (
-                <Field
-                  label={t("displayName")}
-                  value={displayName}
-                  onChange={setDisplayName}
-                  maxLength={30}
-                  autoComplete="nickname"
-                  required
-                />
-              )}
               <Field
                 label={t("email")}
                 type="email"
@@ -330,27 +463,6 @@ export function AuthDialog({
                 minLength={8}
                 required
               />
-
-              <div className="flex items-start gap-2">
-                <input
-                  type="text"
-                  value={captchaCode}
-                  onChange={(e) => setCaptchaCode(e.target.value)}
-                  placeholder={t("captchaPlaceholder")}
-                  maxLength={6}
-                  autoComplete="off"
-                  spellCheck={false}
-                  required
-                  className="flex-1 rounded-lg border border-slate-200 px-3 py-2 text-sm uppercase tracking-widest focus:border-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-200"
-                />
-                <button
-                  type="button"
-                  onClick={() => refreshCaptchaRef.current()}
-                  aria-label={t("refreshCaptcha")}
-                  className="flex h-12 w-28 items-center justify-center overflow-hidden rounded-lg border border-slate-200 bg-slate-50 hover:border-violet-300"
-                  dangerouslySetInnerHTML={{ __html: captchaSvg }}
-                />
-              </div>
 
               {error && (
                 <div
@@ -438,11 +550,6 @@ function Field({
   );
 }
 
-/**
- * Inline multi-color "G" logo. Matches Google's brand guidelines — the four
- * panel colors and the blue G outline. Inlined so we don't need an asset
- * file or external network call.
- */
 function GoogleGLogo({ className }: { className?: string }) {
   return (
     <svg

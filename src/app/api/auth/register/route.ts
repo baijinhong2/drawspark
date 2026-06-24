@@ -1,76 +1,72 @@
 import { NextRequest, NextResponse } from "next/server";
-import { generateToken, hashPassword, setAuthCookie, toAuthUser } from "@/lib/auth";
-import { verifyCaptcha } from "@/lib/captcha";
+import { generateToken, setAuthCookie, toAuthUser } from "@/lib/auth";
 import { getPrisma } from "@/lib/prisma";
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const CODE_RE = /^\d{6}$/;
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json().catch(() => ({}));
-    const { email, password, displayName, captchaId, captchaCode } = body ?? {};
+    const { email, code } = body ?? {};
 
-    if (
-      typeof email !== "string" ||
-      typeof password !== "string" ||
-      typeof displayName !== "string" ||
-      typeof captchaId !== "string" ||
-      typeof captchaCode !== "string"
-    ) {
+    if (typeof email !== "string" || typeof code !== "string") {
       return NextResponse.json(
         { success: false, error: "BAD_REQUEST" },
         { status: 400 },
       );
     }
 
-    if (!verifyCaptcha(captchaId, captchaCode)) {
+    if (!CODE_RE.test(code)) {
       return NextResponse.json(
-        { success: false, error: "CAPTCHA_INVALID" },
+        { success: false, error: "CODE_INVALID" },
         { status: 400 },
       );
     }
 
     const normalizedEmail = email.trim().toLowerCase();
-    if (!EMAIL_RE.test(normalizedEmail)) {
-      return NextResponse.json(
-        { success: false, error: "EMAIL_INVALID" },
-        { status: 400 },
-      );
-    }
-
-    if (password.length < 8) {
-      return NextResponse.json(
-        { success: false, error: "PASSWORD_TOO_SHORT" },
-        { status: 400 },
-      );
-    }
-
-    const trimmedName = displayName.trim();
-    if (trimmedName.length < 1 || trimmedName.length > 30) {
-      return NextResponse.json(
-        { success: false, error: "DISPLAY_NAME_INVALID" },
-        { status: 400 },
-      );
-    }
 
     const prisma = getPrisma();
-    const existing = await prisma.user.findUnique({
+
+    const pending = await prisma.pendingRegistration.findUnique({
       where: { email: normalizedEmail },
     });
-    if (existing) {
+
+    if (!pending) {
       return NextResponse.json(
-        { success: false, error: "EMAIL_TAKEN" },
-        { status: 409 },
+        { success: false, error: "CODE_NOT_FOUND" },
+        { status: 400 },
       );
     }
 
-    const passwordHash = await hashPassword(password);
+    if (pending.expiresAt < new Date()) {
+      await prisma.pendingRegistration.deleteMany({
+        where: { email: normalizedEmail },
+      });
+      return NextResponse.json(
+        { success: false, error: "CODE_EXPIRED" },
+        { status: 400 },
+      );
+    }
+
+    if (pending.code !== code) {
+      return NextResponse.json(
+        { success: false, error: "CODE_WRONG" },
+        { status: 400 },
+      );
+    }
+
+    // Create the user
     const user = await prisma.user.create({
       data: {
         email: normalizedEmail,
-        passwordHash,
-        displayName: trimmedName,
+        passwordHash: pending.passwordHash,
+        displayName: pending.displayName,
       },
+    });
+
+    // Clean up pending registration
+    await prisma.pendingRegistration.deleteMany({
+      where: { email: normalizedEmail },
     });
 
     const token = generateToken(user.id);

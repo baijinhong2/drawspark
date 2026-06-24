@@ -821,7 +821,18 @@
     "orContinueWith": "Or continue with",
     "oauthBadState": "Google sign-in session expired. Please try again.",
     "oauthAccessDenied": "Google sign-in was cancelled.",
-    "oauthExchangeFailed": "Google sign-in processing failed. Please try again."
+    "oauthExchangeFailed": "Google sign-in processing failed. Please try again.",
+    "otpTitle": "Check your email",
+    "otpSubtitle": "We've sent a verification code to {{email}}.",
+    "verificationCode": "Verification code",
+    "verifyAndRegister": "Verify & Create account",
+    "resendCode": "Didn't receive it? Resend",
+    "changeEmail": "Change email",
+    "otpRequired": "Please enter the 6-digit code.",
+    "rateLimited": "Please wait a moment before requesting another code.",
+    "emailSendFailed": "Failed to send email. Please try again.",
+    "codeExpired": "Code expired. Please request a new one.",
+    "codeWrong": "Incorrect code. Please try again."
   },
   "user": {
     "login": "Sign in",

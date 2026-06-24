@@ -234,6 +234,20 @@ model Favorite {
   @@map("favorites")
 }
 
+// ========== 注册验证码（临时） ==========
+
+model PendingRegistration {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  code        String   // 6-digit numeric code
+  passwordHash String  @map("password_hash")
+  displayName String   @map("display_name")
+  expiresAt   DateTime @map("expires_at")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  @@map("pending_registrations")
+}
+
 // ========== 评论 ==========
 
 model Comment {

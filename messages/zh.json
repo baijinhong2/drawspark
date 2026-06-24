@@ -1007,7 +1007,18 @@
     "orContinueWith": "或使用以下方式继续",
     "oauthBadState": "Google 登录会话已过期，请重试。",
     "oauthAccessDenied": "Google 登录已取消。",
-    "oauthExchangeFailed": "Google 登录处理失败，请重试。"
+    "oauthExchangeFailed": "Google 登录处理失败，请重试。",
+    "otpTitle": "查收验证码",
+    "otpSubtitle": "已发送验证码到 {{email}}",
+    "verificationCode": "验证码",
+    "verifyAndRegister": "验证并注册",
+    "resendCode": "没收到？重新发送",
+    "changeEmail": "修改邮箱",
+    "otpRequired": "请输入 6 位验证码。",
+    "rateLimited": "请稍后再发送验证码。",
+    "emailSendFailed": "邮件发送失败，请重试。",
+    "codeExpired": "验证码已过期，请重新获取。",
+    "codeWrong": "验证码错误，请重试。"
   },
   "user": {
     "login": "登录",

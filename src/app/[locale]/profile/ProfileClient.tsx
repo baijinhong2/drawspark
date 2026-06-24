@@ -249,7 +249,7 @@ function DisplayNameEditor() {
               setValue(user?.displayName ?? "");
             }
           }}
-          className="min-w-0 flex-1 rounded-lg border border-slate-200 px-2 py-1 text-sm focus:border-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-200 sm:text-base"
+          className="w-auto min-w-0 max-w-xs rounded-lg border border-slate-200 px-2 py-1 text-sm focus:border-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-200 sm:max-w-sm sm:text-base"
         />
         <div className="flex shrink-0 gap-2">
           <button
