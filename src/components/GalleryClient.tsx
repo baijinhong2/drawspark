@@ -91,22 +91,52 @@ function GalleryClientInner({
 
   const sentinelRef = useRef<HTMLDivElement>(null);
 
-  // Show the "go generate" hint after the user has scrolled ~2 viewport
-  // heights worth of content. Tracked off `page` so the hint only re-shows
-  // after the next page loads, not on every scroll tick.
-  const [showGenerateHint, setShowGenerateHint] = useState(false);
+  // "Go generate" hint behaviour:
+  //   - After the user scrolls past ~3 viewports, the hint expands on the
+  //     right side with a collapse (×) button.
+  //   - If the user keeps scrolling down, OR explicitly dismisses via the
+  //     × button, the hint collapses to a small icon pinned to the edge.
+  //   - Tapping the collapsed icon jumps to /generate.
+  //
+  // Tracked off scroll position (not `page`) so it survives page reloads and
+  // works even on the first paint of items.
+  const [hintExpanded, setHintExpanded] = useState(false);
+  const [hintDismissed, setHintDismissed] = useState(false);
+  const expandedScrolledRef = useRef(false);
+
   useEffect(() => {
     function onScroll() {
-      if (showGenerateHint) return;
       if (typeof window === "undefined") return;
-      const threshold = window.innerHeight * 2;
-      if (window.scrollY > threshold) {
-        setShowGenerateHint(true);
+      const scrollY = window.scrollY;
+
+      // Expand after ~3 viewports.
+      if (!expandedScrolledRef.current) {
+        if (scrollY > window.innerHeight * 3) {
+          expandedScrolledRef.current = true;
+          setHintExpanded(true);
+        }
+        return;
+      }
+
+      // After expanded: collapse on continued downward scroll past another
+      // viewport. (One viewport gap from the expand threshold avoids
+      // immediately hiding the hint the moment it appears.)
+      if (
+        hintExpanded &&
+        scrollY > window.innerHeight * 4
+      ) {
+        setHintExpanded(false);
       }
     }
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [showGenerateHint]);
+  }, [hintExpanded]);
+
+  // Once expanded, also auto-collapse when the user explicitly dismisses.
+  function handleDismiss() {
+    setHintDismissed(true);
+    setHintExpanded(false);
+  }
 
   const totalSelected = useMemo(
     () => Object.values(filters).reduce((sum, arr) => sum + arr.length, 0),
@@ -267,20 +297,46 @@ function GalleryClientInner({
         </div>
       )}
 
-      {/* Floating "go generate" hint — appears once the user has scrolled
-          ~2 viewports without finding what they want. Sits fixed on the
-          right side; tap to jump to the generator. */}
-      {showGenerateHint && inspirations.length > 0 && (
-        <Link
-          href="/generate"
-          prefetch={false}
-          className="fixed bottom-24 right-4 z-30 max-w-[260px] rounded-full bg-gradient-to-r from-violet-600 to-orange-500 px-5 py-3 text-sm font-semibold text-white shadow-lg ring-1 ring-white/30 transition hover:shadow-xl sm:bottom-20 sm:right-6"
-        >
-          <span className="flex items-center gap-2">
-            <span aria-hidden>✨</span>
-            <span>{t("scrollHintGoGenerate")}</span>
-          </span>
-        </Link>
+      {/* Floating "go generate" hint — three states:
+          1. Hidden (before 3 viewports of scroll)
+          2. Expanded (full pill + collapse button) — visible from 3 to ~4 viewports
+          3. Collapsed (small icon pinned to right edge) — auto on further scroll
+             or when the user dismisses. Clicking either expanded or collapsed
+             state navigates to /generate. */}
+      {inspirations.length > 0 && (hintExpanded || hintDismissed) && (
+        <div className="pointer-events-none fixed bottom-24 right-4 z-30 sm:bottom-20 sm:right-6">
+          {hintExpanded ? (
+            <div className="pointer-events-auto flex items-center gap-1 rounded-full bg-gradient-to-r from-violet-600 to-orange-500 p-1.5 pl-4 shadow-lg ring-1 ring-white/30">
+              <Link
+                href="/generate"
+                prefetch={false}
+                className="text-sm font-semibold text-white"
+              >
+                <span className="flex items-center gap-2">
+                  <span aria-hidden>✨</span>
+                  <span>{t("scrollHintGoGenerate")}</span>
+                </span>
+              </Link>
+              <button
+                type="button"
+                onClick={handleDismiss}
+                aria-label={t("scrollHintCollapse")}
+                className="ml-1 flex h-7 w-7 items-center justify-center rounded-full bg-white/20 text-white transition hover:bg-white/30"
+              >
+                <span aria-hidden>×</span>
+              </button>
+            </div>
+          ) : (
+            <Link
+              href="/generate"
+              prefetch={false}
+              aria-label={t("scrollHintGoGenerate")}
+              className="pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-orange-500 text-lg text-white shadow-lg ring-1 ring-white/30 transition hover:scale-105 hover:shadow-xl"
+            >
+              <span aria-hidden>✨</span>
+            </Link>
+          )}
+        </div>
       )}
 
       {/* Sentinel + status — drives infinite scroll + tail indicator */}

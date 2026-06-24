@@ -693,7 +693,8 @@
     "searchButton": "検索",
     "searching": "検索中…",
     "noResultsGoGenerate": "該当なし — 新しいアイデアを生成してみましょう",
-    "scrollHintGoGenerate": "描きたいものが見つからない？生成してみて ✨"
+    "scrollHintGoGenerate": "描きたいものが見つからない？生成してみて ✨",
+    "scrollHintCollapse": "折りたたむ"
   },
   "card": {
     "like": "いいね",

@@ -693,7 +693,8 @@
     "searchButton": "Buscar",
     "searching": "Buscando…",
     "noResultsGoGenerate": "Sin resultados — prueba a generar ideas nuevas",
-    "scrollHintGoGenerate": "¿No encontraste qué dibujar? Genera uno ✨"
+    "scrollHintGoGenerate": "¿No encontraste qué dibujar? Genera uno ✨",
+    "scrollHintCollapse": "Contraer"
   },
   "card": {
     "like": "Me gusta",

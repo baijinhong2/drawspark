@@ -693,7 +693,8 @@
     "searchButton": "搜索",
     "searching": "搜索中…",
     "noResultsGoGenerate": "未找到匹配——试试生成新创意",
-    "scrollHintGoGenerate": "没找到想画的？去生成 ✨"
+    "scrollHintGoGenerate": "没找到想画的？去生成 ✨",
+    "scrollHintCollapse": "收起"
   },
   "card": {
     "like": "点赞",

@@ -691,7 +691,8 @@
         }
       ]
     },
-    "scrollHintGoGenerate": "Didn't find one to draw? Try generating ✨"
+    "scrollHintGoGenerate": "Didn't find one to draw? Try generating ✨",
+    "scrollHintCollapse": "Collapse"
   },
   "card": {
     "like": "Like",
