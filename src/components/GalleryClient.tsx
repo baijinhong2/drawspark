@@ -126,6 +126,10 @@ function GalleryClientInner({
         scrollY > window.innerHeight * 4
       ) {
         setHintExpanded(false);
+        // Also flip the dismissed flag so the collapsed icon stays visible —
+        // otherwise the outer `hintExpanded || hintDismissed` condition
+        // evaluates false and the button disappears entirely.
+        setHintDismissed(true);
       }
     }
     window.addEventListener("scroll", onScroll, { passive: true });
