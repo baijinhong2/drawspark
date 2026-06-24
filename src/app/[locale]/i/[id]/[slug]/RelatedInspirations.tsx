@@ -36,7 +36,7 @@ export function RelatedInspirations({
             >
               <div className="mb-2 flex flex-wrap items-center gap-1.5">
                 <span className="rounded-full bg-violet-50 px-2 py-0.5 text-[11px] font-medium text-violet-700">
-                  {item.subject}
+                  {Array.isArray(item.subject) ? item.subject[0] : item.subject}
                 </span>
                 <span
                   className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${

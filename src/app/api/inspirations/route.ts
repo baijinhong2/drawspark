@@ -35,22 +35,22 @@ export async function GET(request: NextRequest) {
     const baseWhere: Prisma.InspirationWhereInput = { status: "published" };
 
     const subjects = parseMulti(searchParams, "subject", SUBJECTS);
-    if (subjects) baseWhere.subject = { in: subjects };
+    if (subjects) baseWhere.subject = { hasSome: subjects };
 
     const styles = parseMulti(searchParams, "style", STYLES);
-    if (styles) baseWhere.style = { in: styles };
+    if (styles) baseWhere.style = { hasSome: styles };
 
     const difficulties = parseMulti(searchParams, "difficulty", DIFFICULTIES);
     if (difficulties) baseWhere.difficulty = { in: difficulties };
 
     const moods = parseMulti(searchParams, "mood", MOODS);
-    if (moods) baseWhere.mood = { in: moods };
+    if (moods) baseWhere.mood = { hasSome: moods };
 
     const scenes = parseMulti(searchParams, "scene", SCENES);
-    if (scenes) baseWhere.scene = { in: scenes };
+    if (scenes) baseWhere.scene = { hasSome: scenes };
 
     const audiences = parseMulti(searchParams, "audience", AUDIENCES);
-    if (audiences) baseWhere.audience = { in: audiences };
+    if (audiences) baseWhere.audience = { hasSome: audiences };
 
     const timeEstimates = parseTimeEstimates(searchParams);
     if (timeEstimates) baseWhere.timeEstimate = { in: timeEstimates };

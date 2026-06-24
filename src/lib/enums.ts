@@ -1,12 +1,4 @@
-import type {
-  Audience,
-  Difficulty,
-  Mood,
-  Scene,
-  Style,
-  Subject,
-  TimeEstimate,
-} from "@/generated/prisma/client";
+import type { Difficulty, TimeEstimate } from "@/generated/prisma/client";
 import {
   AUDIENCES,
   DIFFICULTIES,
@@ -40,40 +32,44 @@ export function fromTimeEstimate(value: TimeEstimate): string {
   return TIME_FROM_PRISMA[value];
 }
 
-export function toSubject(value: string): Subject {
-  return SUBJECTS.includes(value as (typeof SUBJECTS)[number])
-    ? (value as Subject)
-    : "other";
-}
-
-export function toStyle(value: string): Style {
-  return STYLES.includes(value as (typeof STYLES)[number])
-    ? (value as Style)
-    : "other";
-}
-
 export function toDifficulty(value: string): Difficulty {
   return DIFFICULTIES.includes(value as (typeof DIFFICULTIES)[number])
     ? (value as Difficulty)
     : "easy";
 }
 
-export function toMood(value: string): Mood {
-  return MOODS.includes(value as (typeof MOODS)[number])
-    ? (value as Mood)
-    : "other";
+/** Convert a single value or array to a validated string array for DB storage. */
+function toArray<T extends string>(
+  value: T | T[],
+  validOptions: readonly string[],
+): string[] {
+  if (Array.isArray(value)) {
+    const filtered = value
+      .filter((v) => typeof v === "string" && validOptions.includes(v))
+      .slice(0, 2);
+    return filtered as T[];
+  }
+  return validOptions.includes(value) ? [value] : ["other"];
 }
 
-export function toScene(value: string): Scene {
-  return SCENES.includes(value as (typeof SCENES)[number])
-    ? (value as Scene)
-    : "other";
+export function toSubject(value: string | string[]): string[] {
+  return toArray(value, SUBJECTS);
 }
 
-export function toAudience(value: string): Audience {
-  return AUDIENCES.includes(value as (typeof AUDIENCES)[number])
-    ? (value as Audience)
-    : "other";
+export function toStyle(value: string | string[]): string[] {
+  return toArray(value, STYLES);
+}
+
+export function toMood(value: string | string[]): string[] {
+  return toArray(value, MOODS);
+}
+
+export function toScene(value: string | string[]): string[] {
+  return toArray(value, SCENES);
+}
+
+export function toAudience(value: string | string[]): string[] {
+  return toArray(value, AUDIENCES);
 }
 
 export function isValidFilter(

@@ -20,42 +20,63 @@ Your users are mostly beginners: kids, casual hobbyists, students, and a small n
 
 # DEFAULT ENUM VALUES (override only if the user explicitly signals otherwise)
 - difficulty: default "easy" or "beginner". Use "medium" / "hard" ONLY when the user explicitly asks for harder, more advanced, complex, challenging, or for experienced artists.
-- style: default "cute", "simple", "doodle", "sketch", "kawaii", or "cartoon". Use "realistic", "vintage", "dark" only when the user clearly wants them.
+- style: default "cute", "simple", "doodle", "kawaii", or "cartoon". Use "realistic", "vintage", "dark" only when the user clearly wants them.
 - audience: default "kids" or "beginners". Use "self" / "couples" / etc. when the user signals a recipient.
 - time_estimate: default "5min" or "15min". Most users browse on phones and want quick wins.
 
+# DIFFICULTY BENCHMARKS (stick to these when labeling)
+Be honest — don't inflate difficulty to sound more impressive:
+- beginner: Basic shapes, no shading, no perspective, single element. A child could follow it.
+- easy: Simple coloring or line work, 1–2 elements, minimal detail. 10–15 min for a beginner.
+- medium: Basic shading or multiple elements working together. 15–30 min.
+- hard: Complex composition, multiple figures, detailed background. 30–60+ min.
+
+# TIME_ESTIMATE BENCHMARKS (for a beginner with a pencil)
+- 5min: A single simple doodle — one shape, no color, no shading.
+- 15min: One element with minimal detail or flat color.
+- 30min: One focal element with simple shading and background.
+- 1hour: Multiple elements, some texture, or a simple background.
+- 2hour_plus: Detailed scene with background, multiple figures, or textures.
+
 # HARD RULE — THIS IS A DRAWING APP, NOT A CAMERA APP
 Every idea must be something a human can actually attempt with a pencil, pen, or simple digital brush. You MUST NOT generate:
-- Photorealistic scenes, hyper-detailed textures, or cinematic lighting that only a camera or AI render could achieve
-- Compositions requiring advanced anatomy, complex perspective, accurate foreshortening, or photoreal color theory
-- Subjects that depend on photographic reference (specific real people, real places, brand-name objects)
+- Photorealistic scenes, hyper-detailed textures, or cinematic lighting
+- Compositions requiring advanced anatomy, complex perspective, or photoreal color theory
+- Subjects that depend on photographic reference
 
 You SHOULD prefer:
-- 1–3 clear focal elements (a single cat, a single object, one character + one prop)
+- 1–3 clear focal elements
 - Flat colors or simple 2–3 tone shading
 - Clear line work, cute proportions, big shapes
-- Recognizable, friendly subjects: animals, food, simple objects, fantasy creatures, everyday scenes
 
 # HARD RULE — THE DESCRIPTION IS A DRAWING PROMPT
-The "description" field is the most important output. Users will copy-paste it directly into AI image generators (Midjourney, DALL-E, Stable Diffusion) to get a reference, then draw that reference by hand. Each description MUST:
-
-- Be 60–120 words (long enough to be useful as a generation prompt, short enough to read at a glance)
+The "description" field is the most important output. Users will copy-paste it directly into AI image generators, then draw that reference by hand. Each description MUST:
+- Be 60–120 words
 - Be a single self-contained paragraph
-- Name the main subject with 1–2 visual traits (e.g., "a chubby orange tabby cat with big round eyes")
+- Name the main subject with 1–2 visual traits
 - Describe the pose / action / composition in 1 sentence
 - Specify the setting / background in 1 short clause
-- Give style cues: line weight, color palette, shading approach (e.g., "clean ink outlines with soft watercolor fills in peach and sage")
-- End with a 1–2 word mood tag (e.g., "Mood: cozy.")
+- Give style cues (line weight, color palette, shading approach)
+- End with a 1–2 word mood tag
 
 Bad: "A beautiful sunset over the mountains with photorealistic lighting and intricate details."
 Good: "Draw a friendly fox sitting on a grassy hill at sunset. The fox is orange with a white-tipped tail and looks over its shoulder at the viewer with a small smile. Background: rolling hills in silhouette, a big round sun in warm orange and pink. Style: bold ink outlines, flat fills in orange/teal/coral, no shading. Mood: peaceful."
 
 # OUTPUT RULES
-1. Use ONLY the enum values below — never invent new ones.
-2. All 5 ideas must be DISTINCT: vary subject, style, mood, or audience so the user gets a useful spread.
-3. Titles under 15 words, catchy.
-4. Tags: array of 3–5 short keywords (lowercase, no spaces).
-5. The 5 ideas must collectively cover the user's theme (when given) without repeating the same composition.
+1. For multi-value fields (subject, style, mood, scene, audience): use arrays with 1–2 values. Pick values that genuinely apply — don't pad with irrelevant ones.
+2. For single-value fields (difficulty, time_estimate): pick exactly ONE value from the enum. Be strict — see the benchmarks above.
+3. All 5 ideas must be DISTINCT: vary subject, style, mood, or audience so the user gets a useful spread.
+4. Titles under 15 words, catchy.
+5. Tags: array of 3–5 short keywords (lowercase, no spaces).
+
+# ENUM VALUES
+- subject (array, 1–2): "animal" | "people" | "landscape" | "still_life" | "abstract" | "fantasy" | "food" | "architecture" | "nature" | "holiday" | "everyday" | "flower" | "dragon" | "tattoo" | "anime" | "car" | "other"
+- style (array, 1–2): "cute" | "cool" | "simple" | "realistic" | "cartoon" | "abstract" | "vintage" | "dark" | "aesthetic" | "doodle" | "sketch" | "kawaii" | "graffiti" | "minimalist" | "trippy" | "other"
+- difficulty (single value): "beginner" | "easy" | "medium" | "hard"
+- mood (array, 1–2): "happy" | "calm" | "sad" | "mysterious" | "romantic" | "dark" | "dreamy" | "energetic" | "other"
+- scene (array, 1–2): "bored" | "class" | "sketchbook" | "gift" | "holiday" | "summer" | "winter" | "fall" | "spring" | "daily" | "other"
+- time_estimate (single value): "5min" | "15min" | "30min" | "1hour" | "2hour_plus"
+- audience (array, 1–2): "kids" | "beginners" | "boyfriend" | "girlfriend" | "best_friend" | "mom" | "dad" | "teacher" | "couples" | "self" | "other"
 
 ${ENUM_RULES}`;
 
@@ -65,7 +86,7 @@ export const SYSTEM_PROMPT = `${PROMPT_BODY}
 OUTPUT FORMAT: a single JSON object. No markdown, no explanation.
 {
   "inspirations": [
-    { "title": "...", "description": "...", "subject": "...", "style": "...", "difficulty": "...", "mood": "...", "scene": "...", "time_estimate": "...", "audience": "...", "tags": [...] },
+    { "title": "...", "description": "...", "subject": ["..."], "style": ["..."], "difficulty": "...", "mood": ["..."], "scene": ["..."], "time_estimate": "...", "audience": ["..."], "tags": [...] },
     ...4 more
   ]
 }`;
@@ -76,8 +97,8 @@ export const STREAMING_SYSTEM_PROMPT = `${PROMPT_BODY}
 OUTPUT FORMAT: exactly 5 lines of NDJSON. One JSON object per line. NO wrapping array, NO markdown fences, NO explanations, NO prefixes. Output the raw objects, one per line, nothing else.
 
 Example (each line is one output line):
-{"title":"...","description":"...","subject":"...","style":"...","difficulty":"...","mood":"...","scene":"...","time_estimate":"...","audience":"...","tags":[...]}
-{"title":"...","description":"...","subject":"...","style":"...","difficulty":"...","mood":"...","scene":"...","time_estimate":"...","audience":"...","tags":[...]}`;
+{"title":"...","description":"...","subject":["..."],"style":["..."],"difficulty":"...","mood":["..."],"scene":["..."],"time_estimate":"...","audience":["..."],"tags":[...]}
+{"title":"...","description":"...","subject":["..."],"style":["..."],"difficulty":"...","mood":["..."],"scene":["..."],"time_estimate":"...","audience":["..."],"tags":[...]}`;
 
 function getDeepSeekClient(): OpenAI {
   const apiKey = process.env.DEEPSEEK_API_KEY;
@@ -96,18 +117,28 @@ function validateInspiration(raw: unknown): GeneratedInspiration | null {
   if (typeof item.title !== "string" || typeof item.description !== "string") {
     return null;
   }
+
+  function toStringArray(val: unknown): string[] {
+    if (Array.isArray(val)) {
+      return val
+        .filter((v): v is string => typeof v === "string")
+        .slice(0, 2);
+    }
+    return typeof val === "string" ? [val] : [];
+  }
+
   return {
     title: item.title,
     description: item.description,
-    subject: typeof item.subject === "string" ? item.subject : "other",
-    style: typeof item.style === "string" ? item.style : "other",
+    subject: toStringArray(item.subject),
+    style: toStringArray(item.style),
     difficulty:
       typeof item.difficulty === "string" ? item.difficulty : "easy",
-    mood: typeof item.mood === "string" ? item.mood : "other",
-    scene: typeof item.scene === "string" ? item.scene : "other",
+    mood: toStringArray(item.mood),
+    scene: toStringArray(item.scene),
     time_estimate:
       typeof item.time_estimate === "string" ? item.time_estimate : "15min",
-    audience: typeof item.audience === "string" ? item.audience : "other",
+    audience: toStringArray(item.audience),
     tags: Array.isArray(item.tags)
       ? (item.tags.filter((t): t is string => typeof t === "string"))
       : [],

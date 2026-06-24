@@ -89,8 +89,8 @@ export function InspirationCard({ inspiration }: InspirationCardProps) {
       >
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-violet-50 px-2.5 py-0.5 text-xs font-medium text-violet-700">
-            {tEnum(`subject.${inspiration.subject}`)} ·{" "}
-            {tEnum(`style.${inspiration.style}`)}
+            {inspiration.subject.map((s) => tEnum(`subject.${s}`)).join(" · ")} ·{" "}
+            {inspiration.style.map((s) => tEnum(`style.${s}`)).join(", ")}
           </span>
           <span
             className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
@@ -104,7 +104,7 @@ export function InspirationCard({ inspiration }: InspirationCardProps) {
             ⏱ {tEnum(`time.${inspiration.time_estimate}`)}
           </span>
           <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-700">
-            👥 {tEnum(`audience.${inspiration.audience}`)}
+            👥 {inspiration.audience.map((a) => tEnum(`audience.${a}`)).join(", ")}
           </span>
         </div>
 

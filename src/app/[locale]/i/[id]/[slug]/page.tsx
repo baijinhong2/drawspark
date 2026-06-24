@@ -115,8 +115,8 @@ async function loadRelated(
       status: "published",
       id: { not: inspiration.id },
       OR: [
-        { subject: inspiration.subject as never },
-        { style: inspiration.style as never },
+        { subject: { hasSome: inspiration.subject } },
+        { style: { hasSome: inspiration.style } },
       ],
     },
     orderBy: [{ likesCount: "desc" }, { createdAt: "desc" }],

@@ -36,13 +36,13 @@ export function serializeInspiration(
     id: inspiration.id,
     title: inspiration.title,
     description: inspiration.description,
-    subject: inspiration.subject,
-    style: inspiration.style,
+    subject: Array.isArray(inspiration.subject) ? inspiration.subject : [inspiration.subject],
+    style: Array.isArray(inspiration.style) ? inspiration.style : [inspiration.style],
     difficulty: inspiration.difficulty,
-    mood: inspiration.mood,
-    scene: inspiration.scene,
+    mood: Array.isArray(inspiration.mood) ? inspiration.mood : [inspiration.mood],
+    scene: Array.isArray(inspiration.scene) ? inspiration.scene : [inspiration.scene],
     time_estimate: fromTimeEstimate(inspiration.timeEstimate),
-    audience: inspiration.audience,
+    audience: Array.isArray(inspiration.audience) ? inspiration.audience : [inspiration.audience],
     tags: Array.isArray(inspiration.tags)
       ? (inspiration.tags as string[])
       : [],

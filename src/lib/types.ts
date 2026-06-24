@@ -1,23 +1,15 @@
-import type {
-  Audience,
-  Difficulty,
-  Mood,
-  Scene,
-  Style,
-  Subject,
-  TimeEstimate,
-} from "@/generated/prisma/client";
+import type { Difficulty, TimeEstimate } from "@/generated/prisma/client";
 
 export interface GeneratedInspiration {
   title: string;
   description: string;
-  subject: string;
-  style: string;
+  subject: string[];
+  style: string[];
   difficulty: string;
-  mood: string;
-  scene: string;
+  mood: string[];
+  scene: string[];
   time_estimate: string;
-  audience: string;
+  audience: string[];
   tags: string[];
 }
 
@@ -25,13 +17,13 @@ export interface InspirationResponse {
   id: string;
   title: string;
   description: string | null;
-  subject: string;
-  style: string;
+  subject: string[];
+  style: string[];
   difficulty: string;
-  mood: string;
-  scene: string;
+  mood: string[];
+  scene: string[];
   time_estimate: string;
-  audience: string;
+  audience: string[];
   tags: string[];
   likes_count: number;
   copies_count: number;
@@ -43,13 +35,13 @@ export interface InspirationResponse {
 }
 
 export type PrismaEnums = {
-  subject: Subject;
-  style: Style;
+  subject: string[];
+  style: string[];
   difficulty: Difficulty;
-  mood: Mood;
-  scene: Scene;
+  mood: string[];
+  scene: string[];
   timeEstimate: TimeEstimate;
-  audience: Audience;
+  audience: string[];
 };
 
 export interface AuthUser {

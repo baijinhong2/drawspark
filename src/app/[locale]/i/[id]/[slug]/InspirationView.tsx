@@ -232,19 +232,19 @@ export function InspirationView({
               {tEnum(`difficulty.${inspiration.difficulty}`)}
             </span>
             <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
-              {tEnum(`subject.${inspiration.subject}`)}
+              {inspiration.subject.map((s) => tEnum(`subject.${s}`)).join(", ")}
             </span>
             <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
-              {tEnum(`style.${inspiration.style}`)}
+              {inspiration.style.map((s) => tEnum(`style.${s}`)).join(", ")}
             </span>
             <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
-              👥 {tEnum(`audience.${inspiration.audience}`)}
+              👥 {inspiration.audience.map((a) => tEnum(`audience.${a}`)).join(", ")}
             </span>
             <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
-              {tEnum(`mood.${inspiration.mood}`)}
+              {inspiration.mood.map((m) => tEnum(`mood.${m}`)).join(", ")}
             </span>
             <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
-              {tEnum(`scene.${inspiration.scene}`)}
+              {inspiration.scene.map((s) => tEnum(`scene.${s}`)).join(", ")}
             </span>
           </div>
 
