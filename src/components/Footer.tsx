@@ -60,21 +60,6 @@ export async function Footer() {
               </FooterLink>
             </FooterColumn>
 
-            <FooterColumn title={t("popularTopics")}>
-              <FooterLink href="/easy-things-to-draw">
-                {t("popularEasyThings")}
-              </FooterLink>
-              <FooterLink href="/things-to-draw-when-bored">
-                {t("popularBored")}
-              </FooterLink>
-              <FooterLink href="/cute-tattoo-designs">
-                {t("popularTattoo")}
-              </FooterLink>
-              <FooterLink href="/drawing-ideas-for-kids">
-                {t("popularKids")}
-              </FooterLink>
-            </FooterColumn>
-
             <FooterColumn title={t("support")}>
               <FooterLink href="/about">{t("about")}</FooterLink>
               <FooterLink href="/contact">{t("contact")}</FooterLink>

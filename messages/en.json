@@ -776,7 +776,6 @@
     "catTattoo": "Tattoo",
     "catAnime": "Anime",
     "catFantasy": "Fantasy",
-    "popularTopics": "Popular Topics",
     "support": "Support",
     "about": "About",
     "contact": "Contact",
@@ -784,11 +783,7 @@
     "faq": "FAQ",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "cookies": "Cookie Policy",
-    "popularEasyThings": "Easy Things to Draw",
-    "popularBored": "Things to Draw When Bored",
-    "popularTattoo": "Cute Tattoo Designs",
-    "popularKids": "Drawing Ideas for Kids"
+    "cookies": "Cookie Policy"
   },
   "auth": {
     "loginTitle": "Welcome back",
