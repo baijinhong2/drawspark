@@ -21,7 +21,7 @@
       "title": "Never Run Out of Drawing Ideas Again",
       "description": "Drawspark instantly generates cute, easy, and aesthetic drawing ideas — filtered by subject like animals or tattoos, and style like simple, sketch, or cartoon — free in seconds.",
       "buttonText": "Generate Drawing Ideas",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "photo": "",
       "photoThumbnail": ""
     },
@@ -31,7 +31,8 @@
       "content": [
         {
           "description": "Drawspark is a free drawing ideas generator built for anyone staring at a blank page wondering what to draw, or just searching for things to draw when bored. Instead of scrolling endlessly through Pinterest boards, Drawspark uses AI to generate fresh, specific drawing ideas on demand, sorted by subject — animals, people, nature, flowers, dragons, tattoos, cars, anime — and by style, including cute drawing ideas, cool drawing ideas, simple sketch ideas, and aesthetic drawing ideas. Whether you want easy drawing ideas for a quick warm-up sketch or something cool and aesthetic for a tattoo flash concept, Drawspark delivers prompts that are easy to picture, not vague filler. Every idea comes with highlighted keywords showing the subject, pose, setting, and style at a glance. Drawspark also keeps a public gallery of community-generated drawing ideas you can search or filter by subject and style, so you always have somewhere new to look when your own sketchbook runs dry.",
-          "buttonText": "Try Drawspark Free"
+          "buttonText": "Try Drawspark Free",
+          "buttonRoute": "/generate"
         }
       ]
     },
@@ -51,7 +52,8 @@
           "title": "Step 3: Edit, Search, or Explore More",
           "description": "Tweak any idea's wording to fit your vision, search the public gallery for more drawing ideas by keyword, or generate again for a fresh batch of sketch prompts whenever inspiration runs dry."
         }
-      ]
+      ],
+      "buttonRoute": "/generate"
     },
     "doWith": {
       "title": "What Can You Do With Drawspark?",
@@ -61,7 +63,8 @@
         {
           "title": "Generate Easy and Simple Drawing Ideas",
           "description": "Filter by 'easy' or 'simple' to get beginner-friendly drawing ideas perfect for a quick warm-up sketch, ideal for daily sketchbook practice or breaking through creative block without overthinking the subject.",
-          "buttonText": "Get Easy Ideas"
+          "buttonText": "Get Easy Ideas",
+          "buttonRoute": "/generate"
         },
         {
           "title": "Explore Cute and Aesthetic Drawing Ideas",
@@ -76,14 +79,15 @@
         {
           "title": "Browse Community Drawing Ideas in the Gallery",
           "description": "Search or filter the public gallery to see drawing ideas other users have generated, find recurring subjects and styles you enjoy, and discover sketch prompts you wouldn't have thought to ask for yourself.",
-          "buttonText": "Browse Gallery"
+          "buttonText": "Browse Gallery",
+          "buttonRoute": "/gallery"
         }
       ]
     },
     "Whois": {
       "title": "Who Is Drawspark For?",
       "buttonText": "Find Your Idea",
-      "buttonRoute": "/home",
+      "buttonRoute": "/explore",
       "content": [
         {
           "title": "Beginners",
@@ -102,7 +106,7 @@
     "youNeed": {
       "title": "Why Choose Drawspark for Drawing Ideas?",
       "buttonText": "Generate Free Ideas",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "Instant, Specific Drawing Ideas",
@@ -121,7 +125,7 @@
     "realVoices": {
       "title": "Real User Reviews",
       "buttonText": "Join Drawspark",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "ext1": "4.9",
       "ext2": "From 1842 Reviews",
       "content": [
@@ -172,7 +176,7 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "buttonText": "Get Started",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "What should I draw if I have no ideas?",
@@ -219,7 +223,8 @@
           "description": "Drawspark applies a fair usage limit per network to prevent abuse, but typical visitors can generate drawing ideas repeatedly throughout the day without running into restrictions during normal use."
         }
       ]
-    }
+    },
+    "buttonRoute": "/generate"
   },
   "generate": {
     "title": "DrawSpark's Free AI Drawing Ideas Generator",

@@ -21,7 +21,7 @@
       "title": "再也不用担心没有绘画灵感",
       "description": "DrawSpark 能瞬间生成可爱、简单又美观的绘画创意——可按主题（如动物、纹身）和风格（如简约、素描、卡通）筛选——免费且只需几秒钟。",
       "buttonText": "生成绘画灵感",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "photo": "",
       "photoThumbnail": ""
     },
@@ -31,7 +31,8 @@
       "content": [
         {
           "description": "DrawSpark 是一款免费的绘画灵感生成器，专为那些面对空白页面不知画什么、或只是无聊时找东西画的人而设计。无需在 Pinterest 上无休止地滚动，DrawSpark 使用 AI 按需生成新颖、具体的绘画创意，并按主题（动物、人物、自然、花卉、龙、纹身、汽车、动漫）和风格（可爱、酷炫、简单素描、美学绘画）分类。无论你是想要简单的绘画创意快速热身，还是想要酷炫美学风格的纹身草图概念，DrawSpark 都能提供易于想象、不空洞的提示。每个创意都带有高亮关键词，一目了然地显示主题、姿势、场景和风格。DrawSpark 还维护了一个公共画廊，展示社区生成的绘画创意，你可以按主题和风格搜索或筛选，这样当你的速写本枯竭时，总有新的地方可看。",
-          "buttonText": "免费试用 DrawSpark"
+          "buttonText": "免费试用 DrawSpark",
+          "buttonRoute": "/generate"
         }
       ]
     },
@@ -51,7 +52,8 @@
           "title": "第三步：编辑、搜索或探索更多",
           "description": "调整任何创意的措辞以符合你的构想，通过关键词搜索公共画廊获取更多绘画灵感，或在灵感枯竭时再次生成一批新的素描提示。"
         }
-      ]
+      ],
+      "buttonRoute": "/generate"
     },
     "doWith": {
       "title": "你能用 DrawSpark 做什么？",
@@ -61,7 +63,8 @@
         {
           "title": "生成简单易画的绘画创意",
           "description": "筛选“简单”或“简约”以获得适合初学者的绘画创意，非常适合快速热身素描，是日常速写练习或突破创意瓶颈的理想选择，无需过度思考主题。",
-          "buttonText": "获取简单创意"
+          "buttonText": "获取简单创意",
+          "buttonRoute": "/generate"
         },
         {
           "title": "探索可爱和美学绘画创意",
@@ -76,14 +79,15 @@
         {
           "title": "在画廊中浏览社区绘画创意",
           "description": "搜索或筛选公共画廊，查看其他用户生成的绘画创意，发现你喜欢的重复主题和风格，并找到你自己想不到的素描提示。",
-          "buttonText": "浏览画廊"
+          "buttonText": "浏览画廊",
+          "buttonRoute": "/gallery"
         }
       ]
     },
     "Whois": {
       "title": "DrawSpark 适合谁？",
       "buttonText": "找到你的创意",
-      "buttonRoute": "/home",
+      "buttonRoute": "/explore",
       "content": [
         {
           "title": "初学者",
@@ -102,7 +106,7 @@
     "youNeed": {
       "title": "为什么选择 DrawSpark 获取绘画灵感？",
       "buttonText": "免费生成创意",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "即时、具体的绘画创意",
@@ -121,7 +125,7 @@
     "realVoices": {
       "title": "真实用户评价",
       "buttonText": "加入 DrawSpark",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "ext1": "4.9",
       "ext2": "来自 1842 条评价",
       "content": [
@@ -172,7 +176,7 @@
     "faq": {
       "title": "常见问题",
       "buttonText": "开始使用",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "如果没有灵感，我该画什么？",
@@ -219,7 +223,8 @@
           "description": "DrawSpark 对每个网络应用公平使用限制以防止滥用，但典型访客可以在一天内反复生成绘画创意，正常使用下不会遇到限制。"
         }
       ]
-    }
+    },
+    "buttonRoute": "/generate"
   },
   "generate": {
     "title": "DrawSpark 的免费 AI 绘画创意生成器",

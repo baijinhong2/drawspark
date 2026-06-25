@@ -21,7 +21,7 @@
       "title": "もうお絵描きのアイデアに困らない",
       "description": "DrawSparkは、動物やタトゥーなどのテーマ、シンプル・スケッチ・漫画などのスタイルでフィルター可能な、かわいくて簡単で美しいお絵描きアイデアを数秒で無料生成します。",
       "buttonText": "お絵描きアイデアを生成",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "photo": "",
       "photoThumbnail": ""
     },
@@ -31,7 +31,8 @@
       "content": [
         {
           "description": "DrawSparkは、白紙のページを前に何を描くか悩んでいる人、または退屈なときに描くものを探している人のための無料お絵描きアイデア生成ツールです。Pinterestのボードを延々とスクロールする代わりに、DrawSparkはAIを使って、テーマ（動物、人物、自然、花、ドラゴン、タトゥー、車、アニメ）やスタイル（かわいい、かっこいい、シンプルなスケッチ、美的）に基づいた具体的なアイデアをオンデマンドで生成します。簡単なウォームアップスケッチからタトゥーフラッシュのコンセプトまで、DrawSparkは曖昧でない、イメージしやすいプロンプトを提供します。各アイデアには、テーマ、ポーズ、設定、スタイルが一目でわかるキーワードがハイライト表示されます。また、コミュニティが生成したアイデアの公開ギャラリーもあり、テーマやスタイルで検索・フィルター可能なので、スケッチブックが空になったときも常に新しいインスピレーションが見つかります。",
-          "buttonText": "DrawSparkを無料で試す"
+          "buttonText": "DrawSparkを無料で試す",
+          "buttonRoute": "/generate"
         }
       ]
     },
@@ -51,7 +52,8 @@
           "title": "ステップ3：編集、検索、さらに探索",
           "description": "アイデアの表現を自分のビジョンに合わせて調整したり、公開ギャラリーをキーワードで検索したり、インスピレーションが枯れたら再度生成して新しいスケッチプロンプトを入手できます。"
         }
-      ]
+      ],
+      "buttonRoute": "/generate"
     },
     "doWith": {
       "title": "DrawSparkでできること",
@@ -61,7 +63,8 @@
         {
           "title": "簡単でシンプルなお絵描きアイデアを生成",
           "description": "「簡単」または「シンプル」でフィルターすると、初心者向けのお絵描きアイデアが表示されます。日々のスケッチブック練習や、クリエイティブブロックの解消に最適です。",
-          "buttonText": "簡単なアイデアを入手"
+          "buttonText": "簡単なアイデアを入手",
+          "buttonRoute": "/generate"
         },
         {
           "title": "かわいくて美的なお絵描きアイデアを探索",
@@ -76,14 +79,15 @@
         {
           "title": "ギャラリーでコミュニティのお絵描きアイデアを閲覧",
           "description": "公開ギャラリーを検索・フィルターして、他のユーザーが生成したアイデアを表示。好みのテーマやスタイルを見つけ、自分では思いつかなかったスケッチプロンプトを発見できます。",
-          "buttonText": "ギャラリーを見る"
+          "buttonText": "ギャラリーを見る",
+          "buttonRoute": "/gallery"
         }
       ]
     },
     "Whois": {
       "title": "DrawSparkの対象ユーザー",
       "buttonText": "アイデアを見つける",
-      "buttonRoute": "/home",
+      "buttonRoute": "/explore",
       "content": [
         {
           "title": "初心者",
@@ -102,7 +106,7 @@
     "youNeed": {
       "title": "なぜDrawSparkを選ぶべきか",
       "buttonText": "無料でアイデアを生成",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "瞬時に具体的なお絵描きアイデア",
@@ -121,7 +125,7 @@
     "realVoices": {
       "title": "実際のユーザーレビュー",
       "buttonText": "DrawSparkに参加",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "ext1": "4.9",
       "ext2": "1842件のレビューから",
       "content": [
@@ -172,7 +176,7 @@
     "faq": {
       "title": "よくある質問",
       "buttonText": "始める",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "アイデアがないとき、何を描けばいいですか？",
@@ -219,7 +223,8 @@
           "description": "DrawSparkは不正利用を防ぐためにネットワークごとに適正使用制限を設けていますが、通常の訪問者は通常の使用で制限に引っかかることなく、一日中繰り返しアイデアを生成できます。"
         }
       ]
-    }
+    },
+    "buttonRoute": "/generate"
   },
   "generate": {
     "title": "DrawSparkの無料AIお絵描きアイデア生成ツール",

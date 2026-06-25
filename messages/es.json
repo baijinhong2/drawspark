@@ -21,7 +21,7 @@
       "title": "Nunca te quedes sin ideas para dibujar",
       "description": "DrawSpark genera al instante ideas de dibujo lindas, fáciles y estéticas, filtradas por tema como animales o tatuajes, y estilo como simple, boceto o caricatura, gratis en segundos.",
       "buttonText": "Generar ideas de dibujo",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "photo": "",
       "photoThumbnail": ""
     },
@@ -31,7 +31,8 @@
       "content": [
         {
           "description": "DrawSpark es un generador gratuito de ideas de dibujo creado para quienes miran una página en blanco preguntándose qué dibujar, o buscan cosas para dibujar cuando están aburridos. En lugar de desplazarte sin fin por tableros de Pinterest, DrawSpark usa IA para generar ideas de dibujo frescas y específicas bajo demanda, ordenadas por tema (animales, personas, naturaleza, flores, dragones, tatuajes, coches, anime) y por estilo (ideas de dibujo lindas, geniales, bocetos simples y estéticas). Ya sea que quieras ideas fáciles para un calentamiento rápido o algo genial y estético para un concepto de tatuaje, DrawSpark ofrece sugerencias fáciles de visualizar, sin relleno vago. Cada idea incluye palabras clave resaltadas que muestran el tema, la pose, el entorno y el estilo de un vistazo. DrawSpark también mantiene una galería pública de ideas de dibujo generadas por la comunidad que puedes buscar o filtrar por tema y estilo, para que siempre tengas algo nuevo que mirar cuando tu cuaderno de bocetos se seque.",
-          "buttonText": "Prueba DrawSpark gratis"
+          "buttonText": "Prueba DrawSpark gratis",
+          "buttonRoute": "/generate"
         }
       ]
     },
@@ -51,7 +52,8 @@
           "title": "Paso 3: Edita, busca o explora más",
           "description": "Ajusta el texto de cualquier idea para que se ajuste a tu visión, busca en la galería pública más ideas de dibujo por palabra clave, o genera de nuevo un lote fresco de sugerencias de bocetos cuando la inspiración se agote."
         }
-      ]
+      ],
+      "buttonRoute": "/generate"
     },
     "doWith": {
       "title": "¿Qué puedes hacer con DrawSpark?",
@@ -61,7 +63,8 @@
         {
           "title": "Genera ideas de dibujo fáciles y simples",
           "description": "Filtra por 'fácil' o 'simple' para obtener ideas de dibujo para principiantes, perfectas para un calentamiento rápido, ideales para la práctica diaria en tu cuaderno o para superar el bloqueo creativo sin pensar demasiado en el tema.",
-          "buttonText": "Obtener ideas fáciles"
+          "buttonText": "Obtener ideas fáciles",
+          "buttonRoute": "/generate"
         },
         {
           "title": "Explora ideas de dibujo lindas y estéticas",
@@ -76,14 +79,15 @@
         {
           "title": "Navega por las ideas de dibujo de la comunidad en la galería",
           "description": "Busca o filtra la galería pública para ver ideas de dibujo que otros usuarios han generado, encuentra temas y estilos recurrentes que disfrutes y descubre sugerencias de bocetos que no habías pensado pedir.",
-          "buttonText": "Explorar galería"
+          "buttonText": "Explorar galería",
+          "buttonRoute": "/gallery"
         }
       ]
     },
     "Whois": {
       "title": "¿Para quién es DrawSpark?",
       "buttonText": "Encuentra tu idea",
-      "buttonRoute": "/home",
+      "buttonRoute": "/explore",
       "content": [
         {
           "title": "Principiantes",
@@ -102,7 +106,7 @@
     "youNeed": {
       "title": "¿Por qué elegir DrawSpark para ideas de dibujo?",
       "buttonText": "Generar ideas gratis",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "Ideas de dibujo instantáneas y específicas",
@@ -121,7 +125,7 @@
     "realVoices": {
       "title": "Opiniones de usuarios reales",
       "buttonText": "Únete a DrawSpark",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "ext1": "4.9",
       "ext2": "De 1842 reseñas",
       "content": [
@@ -172,7 +176,7 @@
     "faq": {
       "title": "Preguntas frecuentes",
       "buttonText": "Comenzar",
-      "buttonRoute": "/home",
+      "buttonRoute": "/generate",
       "content": [
         {
           "title": "¿Qué debería dibujar si no tengo ideas?",
@@ -219,7 +223,8 @@
           "description": "DrawSpark aplica un límite de uso justo por red para prevenir abusos, pero los visitantes típicos pueden generar ideas de dibujo repetidamente durante el día sin encontrarse con restricciones durante el uso normal."
         }
       ]
-    }
+    },
+    "buttonRoute": "/generate"
   },
   "generate": {
     "title": "Generador gratuito de ideas de dibujo con IA de DrawSpark",
