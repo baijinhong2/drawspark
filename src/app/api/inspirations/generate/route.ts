@@ -197,6 +197,10 @@ export async function POST(request: NextRequest) {
                 modelVersion: "deepseek-v4-flash",
                 generatedBy: currentUser ? "user" : "anonymous",
                 userId: currentUser?.id ?? null,
+                // Anonymous callers (no userId) attach the session cookie so
+                // the generate page can later query today's items by the
+                // same session, even before they sign in.
+                sessionId: currentUser ? null : sessionId,
               },
             });
             send("item", serializeInspiration(saved));

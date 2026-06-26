@@ -35,6 +35,18 @@ export async function getOrCreateSessionId(): Promise<string> {
 }
 
 /**
+ * Read-only session lookup for Server Components / pages, where writing a
+ * cookie would throw ("Cookies can only be modified in a Server Action or
+ * Route Handler"). Returns the existing sessionId, or null if the visitor
+ * hasn't generated anything yet — the route handler will mint a cookie on
+ * their first POST to /api/inspirations/generate.
+ */
+export async function readSessionId(): Promise<string | null> {
+  const cookieStore = await cookies();
+  return cookieStore.get(SESSION_COOKIE_NAME)?.value ?? null;
+}
+
+/**
  * Check the daily generation limit and atomically increment the counter.
  *
  * - Logged-in users: pass `userId`, counter is keyed by user → 30/day total

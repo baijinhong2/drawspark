@@ -461,7 +461,9 @@
     "tagAnime": "动漫",
     "tagAnimal": "动物",
     "getMore": "获取更多",
-    "exploreMore": "探索更多灵感"
+    "exploreMore": "探索更多灵感",
+    "emptyStateHeading": "你生成的灵感会出现在这里",
+    "emptyStateHint": "在上方输入提示（或选个标签），然后点生成。"
   },
   "explore": {
     "title": "探索社区绘画灵感",
@@ -790,7 +792,8 @@
     "faq": "常见问题",
     "privacy": "隐私政策",
     "terms": "服务条款",
-    "cookies": "Cookie 政策"
+    "cookies": "Cookie 政策",
+    "seoTopics": "按主题浏览"
   },
   "enums": {
     "subject": {
@@ -2376,7 +2379,8 @@
         ],
         "buttonText": "生成无聊时的绘画灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "无聊时可画的东西"
     },
     "what-should-i-draw": {
       "h1Title": "我该画什么？为每一种心情准备的源源不断的具体灵感",
@@ -2628,7 +2632,8 @@
             "description": "可以。许多专业插画师、概念艺术家和设计师用 DrawSpark 打破创作瓶颈、寻找新鲜概念、探索新风格。高级难度筛选可以解锁复杂、详细的提示。"
           }
         ]
-      }
+      },
+      "footerLabel": "我该画什么"
     },
     "drawing-prompts": {
       "h1Title": "绘画提示：500+ 创意灵感，激发你下一个素描",
@@ -3009,7 +3014,8 @@
         ],
         "buttonText": "生成绘画提示",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "绘画提示"
     },
     "what-to-draw-when-bored": {
       "h1Title": "无聊时画什么：100+ 创意，几分钟打败灵感枯竭",
@@ -3390,7 +3396,8 @@
         ],
         "buttonText": "生成无聊时的灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "无聊时该画什么"
     },
     "drawing-inspiration": {
       "h1Title": "绘画灵感：源源不断的新鲜创意，适合每一位艺术家",
@@ -3771,7 +3778,8 @@
         ],
         "buttonText": "生成绘画灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "绘画灵感"
     },
     "best-easy-drawing": {
       "h1Title": "最佳简单绘画灵感：200+ 新手友好提示",
@@ -4152,7 +4160,8 @@
         ],
         "buttonText": "生成简单绘画灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "简单绘画灵感"
     },
     "christmas-drawing-ideas": {
       "h1Title": "圣诞节绘画灵感：80+ 节日素描，让节日更温馨",
@@ -4533,7 +4542,8 @@
         ],
         "buttonText": "生成圣诞节灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "圣诞节绘画灵感"
     },
     "art-drawings": {
       "h1Title": "艺术画作：200+ 创意灵感，适合每种风格和水平",
@@ -4914,7 +4924,8 @@
         ],
         "buttonText": "生成艺术灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "艺术画作灵感"
     },
     "stuff-to-draw-when-your-bored": {
       "h1Title": "无聊时可画的东西：100+ 有趣随机灵感",
@@ -5295,7 +5306,8 @@
         ],
         "buttonText": "生成无聊灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "无聊时可画的东西"
     },
     "aesthetic-things-to-draw": {
       "h1Title": "唯美可画之物：100+ 梦幻、极简、舒适灵感",
@@ -5676,7 +5688,8 @@
         ],
         "buttonText": "生成唯美灵感",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "唯美可画之物"
     },
     "singleCard": {
       "title": "挑一种感觉，给你一张精选灵感",

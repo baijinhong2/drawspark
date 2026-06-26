@@ -459,7 +459,9 @@
     "getMore": "Get more",
     "exploreMore": "Explore more inspirations",
     "tagAnime": "Anime",
-    "tagAnimal": "Animal"
+    "tagAnimal": "Animal",
+    "emptyStateHeading": "Your generated ideas will appear here",
+    "emptyStateHint": "Type a prompt above (or pick a quick tag) and hit Generate."
   },
   "explore": {
     "title": "Explore Drawing Ideas from the Community",

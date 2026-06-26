@@ -9,12 +9,21 @@ import { SEO_TOPIC_PAGES } from "@/lib/seo-pages";
  */
 export async function Footer() {
   const t = await getTranslations("footer");
+  // Footer labels for each topic page live in `topics.{slug}.footerLabel`
+  // so the topic content stays the single source of truth for every
+  // language-specific string tied to a topic.
+  const tTopics = await getTranslations("topics");
   const year = new Date().getFullYear();
 
   // SEO long-tail topic pages. Sorted by descending search volume so the
   // top-of-list links are the highest-traffic pages, not the most-recently
   // added ones. Drained from the registry — no hardcoded link list here.
   const topicLinks = [...SEO_TOPIC_PAGES].sort((a, b) => b.vol - a.vol);
+
+  function topicLabel(slug: string, fallback: string): string {
+    const key = `${slug}.footerLabel` as const;
+    return tTopics.has(key) ? tTopics(key) : fallback;
+  }
 
   return (
     <footer className="mt-auto border-t border-violet-100 bg-slate-50">
@@ -76,7 +85,7 @@ export async function Footer() {
             <FooterColumn title={t("seoTopics")}>
               {topicLinks.map((topic) => (
                 <FooterLink key={topic.slug} href={`/topics/${topic.slug}`}>
-                  {topic.keyword}
+                  {topicLabel(topic.slug, topic.keyword)}
                 </FooterLink>
               ))}
             </FooterColumn>

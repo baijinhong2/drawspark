@@ -53,6 +53,7 @@ model Inspiration {
   commentsCount   Int @default(0) @map("comments_count")
 
   userId       String? @map("user_id")
+  sessionId    String? @map("session_id")
   status       String  @default("published")
   isAiGenerated Boolean @default(true) @map("is_ai_generated")
 
@@ -66,6 +67,7 @@ model Inspiration {
   interactions InspirationInteraction[]
 
   @@index([userId])
+  @@index([sessionId])
   @@index([difficulty])
   @@index([status])
   @@index([createdAt(sort: Desc)])

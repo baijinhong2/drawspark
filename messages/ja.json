@@ -461,7 +461,9 @@
     "tagAnime": "アニメ",
     "tagAnimal": "動物",
     "getMore": "もっと見る",
-    "exploreMore": "さらにインスピレーションを探す"
+    "exploreMore": "さらにインスピレーションを探す",
+    "emptyStateHeading": "生成したインスピレーションはここに表示されます",
+    "emptyStateHint": "上にプロンプトを入力（またはタグを選んで）、生成をクリック。"
   },
   "explore": {
     "title": "コミュニティのお絵描きアイデアを探索",
@@ -790,7 +792,8 @@
     "faq": "よくある質問",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "cookies": "クッキーポリシー"
+    "cookies": "クッキーポリシー",
+    "seoTopics": "トピックで探す"
   },
   "enums": {
     "subject": {
@@ -2423,7 +2426,8 @@
             "description": "はい。各インスピレーションには共有ボタンがあり、リンクをクリップボードにコピーします。退屈なときに何を描くか困っている友達に送るか、次のスケッチ プロジェクトを共有するためにソーシャル メディアに投稿します。"
           }
         ]
-      }
+      },
+      "footerLabel": "退屈なときに描くもの"
     },
     "what-should-i-draw": {
       "h1Title": "何を描くべき？あらゆる気分に対応する終わりのない具体的なインスピレーション",
@@ -2675,7 +2679,8 @@
             "description": "はい。多くのプロ イラストレー、コンセプト アーティスト、デザイナーが、クリエイティブ ブロックを打破したり、新しいコンセプトを見つけたり、新しいスタイルを探索したりするために DrawSpark を使用しています。高度な難易度フィルターは複雑で詳細なプロンプトをアンロックします。"
           }
         ]
-      }
+      },
+      "footerLabel": "何を描くべき"
     },
     "drawing-prompts": {
       "h1Title": "描画プロンプト：500 以上の創造的なアイデアで次のスケッチを刺激",
@@ -2891,7 +2896,8 @@
         ],
         "buttonText": "描画プロンプトを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "描画プロンプト"
     },
     "what-to-draw-when-bored": {
       "h1Title": "退屈なときに何を描く：創作ブロックを即座に解消する 100 以上のアイデア",
@@ -3107,7 +3113,8 @@
         ],
         "buttonText": "退屈なアイデアを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "退屈なときに描くもの"
     },
     "drawing-inspiration": {
       "h1Title": "描画インスピレーション：あらゆるアーティストのための無限の新鮮なアイデア",
@@ -3323,7 +3330,8 @@
         ],
         "buttonText": "描画インスピレーションを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "描画インスピレーション"
     },
     "best-easy-drawing": {
       "h1Title": "最高のかんたんな描画アイデア：200 以上の初心者向けプロンプト",
@@ -3539,7 +3547,8 @@
         ],
         "buttonText": "かんたんな描画アイデアを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "かんたんな描画アイデア"
     },
     "christmas-drawing-ideas": {
       "h1Title": "クリスマスの描画アイデア：80 以上の festive なスケッチ",
@@ -3755,7 +3764,8 @@
         ],
         "buttonText": "クリスマスのアイデアを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "クリスマス描画インスピレーション"
     },
     "art-drawings": {
       "h1Title": "アート作品：あらゆるスタイルとレベルに対応する 200 以上の創造的なアイデア",
@@ -3971,7 +3981,8 @@
         ],
         "buttonText": "アートアイデアを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "アート描画インスピレーション"
     },
     "stuff-to-draw-when-your-bored": {
       "h1Title": "退屈なときに描くもの：100 以上の楽しいランダムなアイデア",
@@ -4187,7 +4198,8 @@
         ],
         "buttonText": "退屈なアイデアを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "退屈なときに描くもの"
     },
     "aesthetic-things-to-draw": {
       "h1Title": "おしゃれに描くもの：100 以上の夢のような、ミニマルで居心地の良いアイデア",
@@ -4403,7 +4415,8 @@
         ],
         "buttonText": "おしゃれなアイデアを生成",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "おしゃれな描画インスピレーション"
     }
   }
 }

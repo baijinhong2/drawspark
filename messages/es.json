@@ -461,7 +461,9 @@
     "tagAnime": "Anime",
     "tagAnimal": "Animal",
     "getMore": "Obtener más",
-    "exploreMore": "Explorar más inspiraciones"
+    "exploreMore": "Explorar más inspiraciones",
+    "emptyStateHeading": "Tus ideas generadas aparecerán aquí",
+    "emptyStateHint": "Escribe un prompt arriba (o elige una etiqueta) y pulsa Generar."
   },
   "explore": {
     "title": "Explora ideas de dibujo de la comunidad",
@@ -790,7 +792,8 @@
     "faq": "Preguntas frecuentes",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
-    "cookies": "Política de Cookies"
+    "cookies": "Política de Cookies",
+    "seoTopics": "Explorar por tema"
   },
   "enums": {
     "subject": {
@@ -2423,7 +2426,8 @@
             "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles. Envíaselo a un amigo que también esté atascado sin saber qué dibujar cuando está aburrido, o publícalo en redes sociales para compartir tu próximo proyecto de boceto."
           }
         ]
-      }
+      },
+      "footerLabel": "Cosas para dibujar aburrido"
     },
     "what-should-i-draw": {
       "h1Title": "¿Qué Debería Dibujar? Ideas Específicas Infinitas para Cada Estado de Ánimo",
@@ -2675,7 +2679,8 @@
             "description": "Sí. Muchos ilustradores profesionales, artistas de concepto y diseñadores usan DrawSpark para romper el bloqueo creativo, encontrar conceptos frescos o explorar nuevos estilos. El filtro de dificultad avanzada desbloquea prompts complejos y detallados."
           }
         ]
-      }
+      },
+      "footerLabel": "Qué debería dibujar"
     },
     "drawing-prompts": {
       "h1Title": "Prompts de dibujo: más de 500 ideas creativas para tu próximo boceto",
@@ -2891,7 +2896,8 @@
         ],
         "buttonText": "Generar prompts de dibujo",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Prompts de dibujo"
     },
     "what-to-draw-when-bored": {
       "h1Title": "Qué dibujar cuando estás aburrido: más de 100 ideas para acabar con el bloqueo creativo rápido",
@@ -3107,7 +3113,8 @@
         ],
         "buttonText": "Generar ideas para dibujar aburrido",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Qué dibujar aburrido"
     },
     "drawing-inspiration": {
       "h1Title": "Inspiración para dibujar: ideas frescas infinitas para cada artista",
@@ -3323,7 +3330,8 @@
         ],
         "buttonText": "Generar inspiración de dibujo",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Inspiración para dibujar"
     },
     "best-easy-drawing": {
       "h1Title": "Mejores ideas de dibujo fáciles: más de 200 prompts amigables para principiantes",
@@ -3539,7 +3547,8 @@
         ],
         "buttonText": "Generar ideas de dibujo fáciles",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Ideas de dibujo fáciles"
     },
     "christmas-drawing-ideas": {
       "h1Title": "Ideas de dibujo de Navidad: más de 80 bocetos festivos para las fiestas",
@@ -3755,7 +3764,8 @@
         ],
         "buttonText": "Generar ideas de dibujo de Navidad",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Ideas de dibujo de Navidad"
     },
     "art-drawings": {
       "h1Title": "Dibujos artísticos: más de 200 ideas creativas para cada estilo y nivel",
@@ -3971,7 +3981,8 @@
         ],
         "buttonText": "Generar ideas de dibujos artísticos",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Dibujos artísticos"
     },
     "stuff-to-draw-when-your-bored": {
       "h1Title": "Cosas para dibujar cuando estás aburrido: más de 100 ideas aleatorias y divertidas",
@@ -4187,7 +4198,8 @@
         ],
         "buttonText": "Generar ideas aburridas",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Cosas para dibujar aburrido"
     },
     "aesthetic-things-to-draw": {
       "h1Title": "Cosas estéticas para dibujar: más de 100 ideas soñadoras, minimalistas y acogedoras",
@@ -4403,7 +4415,8 @@
         ],
         "buttonText": "Generar ideas estéticas",
         "buttonRoute": "/generate"
-      }
+      },
+      "footerLabel": "Cosas estéticas para dibujar"
     }
   }
 }

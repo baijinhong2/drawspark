@@ -1,12 +1,13 @@
 import { cache } from "react";
-import { unstable_cache } from "next/cache";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { GenerateClient } from "@/components/GenerateClient";
 import { SeoSections } from "@/components/SeoSections";
+import { getCurrentUser } from "@/lib/auth";
 import { serializeInspiration } from "@/lib/inspiration";
 import { prisma } from "@/lib/prisma";
 import { DEFAULT_OG_IMAGE, absoluteUrl } from "@/lib/seo";
+import { readSessionId } from "@/lib/session";
 import type { InspirationResponse } from "@/lib/types";
 
 type Props = {
@@ -75,35 +76,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 /**
- * Cacheable, language-agnostic list of popular inspirations to render on
- * first paint before the user generates anything.
+ * Today's inspirations for the current visitor — only what's been generated
+ * since UTC midnight, scoped to their userId (logged-in) or sessionId
+ * (anonymous cookie). Returned oldest-first so the newest item lands at the
+ * bottom of the list and matches how new batches append during streaming.
  *
- * Same hot/warm path as explore: same query within the revalidate window
- * returns from cache, so the page can stream the H1 + 5 inspiration cards
- * quickly on every visit.
+ * Returns `[]` when the visitor hasn't generated anything today — the
+ * generate page should show a clean empty state in that case rather than
+ * a default sample.
  */
-const fetchPopularInspirations = unstable_cache(
-  async () => {
-    const items = await prisma.inspiration.findMany({
-      where: { status: "published" },
-      orderBy: [{ likesCount: "desc" }, { createdAt: "desc" }],
-      take: 5,
-    });
-    return items;
+const loadTodayInspirations = cache(
+  async (userId: string | null, sessionId: string | null): Promise<InspirationResponse[]> => {
+    if (!userId && !sessionId) return [];
+    const since = new Date();
+    since.setUTCHours(0, 0, 0, 0);
+    try {
+      const items = await prisma.inspiration.findMany({
+        where: {
+          createdAt: { gte: since },
+          status: "published",
+          isAiGenerated: true,
+          OR: [
+            userId ? { userId } : undefined,
+            sessionId ? { sessionId } : undefined,
+          ].filter(Boolean) as Array<Record<string, unknown>>,
+        },
+        orderBy: { createdAt: "asc" },
+        take: 50,
+      });
+      return items.map((item) => serializeInspiration(item));
+    } catch (error) {
+      console.error("GeneratePage: failed to load today's inspirations", error);
+      return [];
+    }
   },
-  ["generate-popular-inspirations"],
-  { revalidate: 60, tags: ["inspirations"] },
 );
-
-const loadFallbackInspirations = cache(async (): Promise<InspirationResponse[]> => {
-  try {
-    const items = await fetchPopularInspirations();
-    return items.map((item) => serializeInspiration(item));
-  } catch (error) {
-    console.error("GeneratePage: failed to load popular inspirations", error);
-    return [];
-  }
-});
 
 export default async function GeneratePage({ params, searchParams }: Props) {
   const { locale } = await params;
@@ -111,7 +118,14 @@ export default async function GeneratePage({ params, searchParams }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("generate");
 
-  const initialInspirations = await loadFallbackInspirations();
+  const currentUser = await getCurrentUser();
+  const userId = currentUser?.id ?? null;
+  // Read the session cookie if it exists (don't mint one here — the
+  // /api/inspirations/generate route handler does that on the first POST).
+  // Anonymous visitors without a cookie yet see the empty state until they
+  // actually generate something.
+  const sessionId = userId ? null : await readSessionId();
+  const initialInspirations = await loadTodayInspirations(userId, sessionId);
   const initialQuery = typeof q === "string" ? q : "";
 
   return (

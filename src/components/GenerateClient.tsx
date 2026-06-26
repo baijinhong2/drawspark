@@ -7,6 +7,8 @@ import { InspirationCard } from "@/components/InspirationCard";
 import { IconSparkles, IconClock, IconSearch } from "@/components/icons";
 import type { InspirationResponse } from "@/lib/types";
 
+const BATCH_SIZE = 5;
+
 type DoneEvent = { remaining: number; count: number };
 type ErrorEvent = { error: string; message: string };
 type StreamEvent =
@@ -15,8 +17,10 @@ type StreamEvent =
   | { event: "error"; data: ErrorEvent };
 
 interface Props {
-  /** Inspirations rendered before the user generates anything (popular items
-   *  fetched server-side) so the page is meaningful on first paint. */
+  /** Today's inspirations for the current visitor (server-side resolved by
+   *  userId / sessionId). Empty when the visitor hasn't generated anything
+   *  today — the results area then renders an empty state instead of a
+   *  fallback sample. */
   initialInspirations: InspirationResponse[];
   /** Pre-fill text from `?q=` so topic-page CTAs that link to
    *  /generate?q=<prompt> land the user with the prompt already typed in.
@@ -118,8 +122,11 @@ export function GenerateClient({ initialInspirations, initialQuery = "" }: Props
   const [remaining, setRemaining] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [streamedCount, setStreamedCount] = useState(0);
-  const [hasGenerated, setHasGenerated] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
+  // Anchor element at the end of the results area — scrolled into view when
+  // generation starts so the loading state (and the items streaming in) is
+  // visible without the user having to chase them down the page.
+  const loadingAnchorRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     // Focus the input when arriving from a topic CTA so the user can
@@ -133,6 +140,21 @@ export function GenerateClient({ initialInspirations, initialQuery = "" }: Props
       el?.setSelectionRange(v.length, v.length);
     }
   }, [initialQuery]);
+
+  // Auto-scroll to the loading anchor whenever loading turns on. `behavior:
+  // "smooth"` so the page eases into place rather than jumping.
+  useEffect(() => {
+    if (loading) {
+      // Defer one frame so the just-rendered skeleton is in the DOM before
+      // we measure scroll position.
+      requestAnimationFrame(() => {
+        loadingAnchorRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "end",
+        });
+      });
+    }
+  }, [loading]);
 
   async function generate(opts: {
     tags?: QuickTag["tags"];
@@ -190,7 +212,6 @@ export function GenerateClient({ initialInspirations, initialQuery = "" }: Props
           // New items land at the bottom — "Get more" stacks after history.
           setResults((prev) => [...prev, evt.data]);
           setStreamedCount((c) => c + 1);
-          setHasGenerated(true);
         } else if (evt.event === "done") {
           setRemaining(evt.data.remaining);
         } else if (evt.event === "error") {
@@ -220,8 +241,6 @@ export function GenerateClient({ initialInspirations, initialQuery = "" }: Props
       : undefined;
     generate({ tags: tag?.tags, input: userInput, tagId: tag?.id ?? null });
   }
-
-  const showingFallback = !hasGenerated && !loading;
 
   return (
     <div className="space-y-8">
@@ -286,34 +305,40 @@ export function GenerateClient({ initialInspirations, initialQuery = "" }: Props
         </div>
       </div>
 
-      {/* ---- Results ---- */}
+{/* ---- Results ---- */}
       <div>
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-          <h2 className="text-lg font-bold text-slate-900">
-            <span aria-hidden className="mr-1.5">💡</span>
-            {showingFallback
-              ? t("fallbackHeading")
-              : t("todayInspiration")}
-          </h2>
-          {/* "Explore more" stays anchored to the heading — it's a navigational
-              link, not a generative action. */}
-          <Link
-            href="/explore"
-            prefetch={false}
-            className="inline-flex items-center gap-1 text-sm font-semibold text-slate-600 transition hover:text-violet-700"
-          >
-            {t("exploreMore")} →
-          </Link>
-        </div>
+        {/* Heading + "Explore more" only render when there's actually
+            something to show. Visitors with no generations today get a
+            clean empty state below instead of a stale section header. */}
+        {results.length > 0 && (
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+            <h2 className="text-lg font-bold text-slate-900">
+              <span aria-hidden className="mr-1.5">💡</span>
+              {t("todayInspiration")}
+            </h2>
+            {/* "Explore more" stays anchored to the heading — it's a navigational
+                link, not a generative action. */}
+            <Link
+              href="/explore"
+              prefetch={false}
+              className="inline-flex items-center gap-1 text-sm font-semibold text-slate-600 transition hover:text-violet-700"
+            >
+              {`${t("exploreMore")} →`}
+            </Link>
+          </div>
+        )}
 
-        {loading && streamedCount === 0 && (
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <div
-                key={i}
-                className="h-56 animate-pulse rounded-2xl bg-violet-50"
-              />
-            ))}
+        {/* Empty state: nothing generated today yet. Tells the user the
+            area below is where their results will appear once they click
+            Generate (or pick a quick tag). */}
+        {results.length === 0 && !loading && (
+          <div className="rounded-2xl border border-dashed border-violet-200 bg-violet-50/40 px-6 py-10 text-center">
+            <p className="text-sm font-semibold text-slate-700">
+              {t("emptyStateHeading")}
+            </p>
+            <p className="mt-1 text-xs text-slate-500">
+              {t("emptyStateHint")}
+            </p>
           </div>
         )}
 
@@ -325,41 +350,63 @@ export function GenerateClient({ initialInspirations, initialQuery = "" }: Props
           </div>
         )}
 
-        {/* Inline progress + status — sits right under the list so the user
-            sees the streaming counter / remaining quota while items are
-            landing at the bottom. */}
-        <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-slate-500">
-          {loading && streamedCount > 0 && (
-            <span className="inline-flex items-center gap-2">
-              <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-violet-500" />
-              {streamedCount} / 5
-            </span>
+        {/* Loading skeleton + status — anchored at the END of the results
+            area. When the user clicks Generate we scroll this anchor into
+            view so they watch the batch stream in below their last card. */}
+        <div ref={loadingAnchorRef} className="mt-4">
+          {loading && (
+            <div
+              aria-live="polite"
+              className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
+            >
+              {/* Show the items already streamed + skeletons for the rest
+                  of the in-flight batch, so the row never collapses to a
+                  single column mid-stream. */}
+              {Array.from({
+                length: Math.max(BATCH_SIZE - streamedCount, 0),
+              }).map((_, i) => (
+                <div
+                  key={`skel-${i}`}
+                  className="h-56 animate-pulse rounded-2xl bg-violet-50"
+                />
+              ))}
+            </div>
           )}
-          {remaining !== null && !loading && (
-            <span>
-              {remaining === 0
-                ? t("limitReached")
-                : t("remaining", { count: remaining })}
-            </span>
-          )}
-          {error && (
-            <span className="font-medium text-rose-600">{error}</span>
-          )}
-        </div>
 
-        {/* "Get more" sits at the END of the list — it appends new items
-            below the last card, so the button stays next to where new
-            content lands. */}
-        <div className="mt-6 flex justify-center">
-          <button
-            type="button"
-            onClick={handleShuffle}
-            disabled={loading}
-            className="inline-flex items-center gap-1.5 rounded-full border border-violet-200 bg-white px-5 py-2.5 text-sm font-semibold text-violet-700 shadow-sm transition hover:-translate-y-0.5 hover:border-violet-400 hover:bg-violet-50 disabled:cursor-not-allowed disabled:opacity-60"
-          >
-            <IconSparkles className="size-4" />
-            <span>{t("getMore")}</span>
-          </button>
+          <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-slate-500">
+            {loading && streamedCount > 0 && (
+              <span className="inline-flex items-center gap-2">
+                <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-violet-500" />
+                {streamedCount} / {BATCH_SIZE}
+              </span>
+            )}
+            {remaining !== null && !loading && (
+              <span>
+                {remaining === 0
+                  ? t("limitReached")
+                  : t("remaining", { count: remaining })}
+              </span>
+            )}
+            {error && (
+              <span className="font-medium text-rose-600">{error}</span>
+            )}
+          </div>
+
+          {/* "Get more" only renders when the user has at least one card
+              — clicking it without context would be confusing. */}
+          {results.length > 0 && (
+            <div className="mt-6 flex justify-center">
+              <button
+                type="button"
+                onClick={handleShuffle}
+                disabled={loading}
+                className="inline-flex items-center gap-1.5 rounded-full border border-violet-200 bg-white px-5 py-2.5 text-sm font-semibold text-violet-700 shadow-sm transition hover:-translate-y-0.5 hover:border-violet-400 hover:bg-violet-50 disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                <IconSparkles className="size-4" />
+                <span>{t("getMore")}</span>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
