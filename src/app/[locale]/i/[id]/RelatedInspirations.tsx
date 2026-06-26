@@ -1,6 +1,6 @@
 import { Link } from "@/i18n/navigation";
 import { IconLike } from "@/components/icons";
-import { inspirationSlug } from "@/lib/slug";
+import { inspirationHref } from "@/lib/slug";
 import { formatCount } from "@/lib/format";
 import type { InspirationResponse } from "@/lib/types";
 
@@ -30,7 +30,7 @@ export function RelatedInspirations({
         {inspirations.map((item) => (
           <li key={item.id}>
             <Link
-              href={`/i/${item.id}/${inspirationSlug(item.title)}`}
+              href={inspirationHref(item.id)}
               prefetch={false}
               className="group flex h-full flex-col rounded-xl border border-slate-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-violet-200 hover:shadow-md"
             >

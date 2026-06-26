@@ -15,7 +15,7 @@ import {
 } from "@/components/icons";
 import { useInspirationActions } from "@/lib/useInspirationActions";
 import { truncateDescription } from "@/lib/inspiration";
-import { inspirationSlug } from "@/lib/slug";
+import { inspirationHref } from "@/lib/slug";
 import { formatCount } from "@/lib/format";
 import type { InspirationResponse } from "@/lib/types";
 
@@ -41,7 +41,7 @@ export function InspirationCard({ inspiration }: InspirationCardProps) {
   useEffect(() => {
     if (typeof window !== "undefined") setOrigin(window.location.origin);
   }, []);
-  const detailHref = `/i/${inspiration.id}/${inspirationSlug(inspiration.title)}`;
+  const detailHref = inspirationHref(inspiration.id);
   const shareUrl = origin ? `${origin}${detailHref}` : detailHref;
 
   const {

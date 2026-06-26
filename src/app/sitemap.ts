@@ -1,5 +1,4 @@
 import type { MetadataRoute } from "next";
-import { inspirationSlug } from "@/lib/slug";
 import { prisma } from "@/lib/prisma";
 import { SITE_URL, LOCALES, localePath, DEFAULT_LOCALE } from "@/lib/seo";
 
@@ -89,18 +88,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // ---------- Inspiration detail pages × locales ----------
-  // Pull only the fields we need — slugs are recomputed from titles because
-  // the slug in the URL must match `inspirationSlug(title)` exactly (the
-  // page handler 308-redirects mismatches). updatedAt gives a real signal.
+  // Detail route is `/i/{id}` (no title-derived slug anymore), so we only
+  // need the id. updatedAt gives a real freshness signal.
   let inspirations: Array<{
     id: string;
-    title: string;
     updatedAt: Date;
   }> = [];
   try {
     inspirations = await prisma.inspiration.findMany({
       where: { status: "published" },
-      select: { id: true, title: true, updatedAt: true },
+      select: { id: true, updatedAt: true },
       orderBy: { updatedAt: "desc" },
     });
   } catch (error) {
@@ -110,7 +107,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   for (const insp of inspirations) {
-    const detailPath = `/i/${insp.id}/${inspirationSlug(insp.title)}`;
+    const detailPath = `/i/${insp.id}`;
     for (const locale of LOCALES) {
       const effectivePriority = locale === DEFAULT_LOCALE ? 0.8 : 0.7;
       entries.push({

@@ -1,13 +1,17 @@
 /**
  * Slug helpers for inspiration detail URLs.
  *
- * Format: /i/{id}/{slug}
- *   - {id}  : CUID (always present, unique by itself)
- *   - {slug}: short kebab-cased version of the title, max 60 chars
+ * The detail route is now `/i/{id}` — we intentionally dropped the
+ * title-derived slug. AI-generated titles can be in any language, and
+ * non-ASCII characters break the `Location` HTTP header used by server
+ * redirects. The id alone is unique, stable, and short.
  *
- * The slug is for humans + SEO only. The id is the canonical key — the
- * page handler treats the slug as a hint and 301-redirects if it doesn't
- * match the title-derived slug, so multiple slugs always canonicalize.
+ * The legacy URL form `/i/{id}/{slug}` is handled by a redirect page that
+ * 301s to `/i/{id}`.
+ *
+ * `inspirationSlug` itself is kept because some non-URL callers still want
+ * a deterministic kebab/cjk title fragment (e.g. for logging, sharing,
+ * older integrations). It's just no longer part of the route.
  */
 
 /** Strip emoji + non-letter/non-digit/non-space characters, collapse whitespace. */
@@ -24,17 +28,15 @@ function toAsciiWords(input: string): string[] {
 }
 
 /**
- * Build a URL-friendly slug from an inspiration title.
+ * Build a URL-friendly slug fragment from an inspiration title.
  *
- * - ASCII words → joined with "-"
- * - Non-ASCII (CJK, etc.) → kept as-is, joined with "-"
- * - Empty fallback → "inspiration"
- * - Hard cap: 60 chars
+ * NOT used in the detail route anymore — see the file header. Kept for
+ * downstream consumers (logs, debug output, etc.) that want a stable,
+ * human-readable identifier.
  */
 export function inspirationSlug(title: string): string {
   const words = toAsciiWords(title);
   let slug = words.join("-");
-  // Collapse runs of "-" that may come from emoji stripping.
   slug = slug.replace(/-+/g, "-").replace(/^-+|-+$/g, "");
   if (!slug) slug = "inspiration";
   if (slug.length > 60) {
@@ -43,7 +45,7 @@ export function inspirationSlug(title: string): string {
   return slug;
 }
 
-/** Build the full inspiration URL: `/i/{id}/{slug}`. Locale prefix added by next-intl Link. */
-export function inspirationHref(id: string, title: string): string {
-  return `/i/${id}/${inspirationSlug(title)}`;
+/** Build the canonical detail URL: `/i/{id}`. Locale prefix added by next-intl Link. */
+export function inspirationHref(id: string): string {
+  return `/i/${id}`;
 }

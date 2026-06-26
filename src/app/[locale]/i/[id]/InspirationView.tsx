@@ -18,7 +18,7 @@ import {
 } from "@/components/icons";
 import { useAuth } from "@/components/AuthProvider";
 import { useInspirationActions } from "@/lib/useInspirationActions";
-import { inspirationSlug } from "@/lib/slug";
+import { inspirationHref } from "@/lib/slug";
 import { formatCount } from "@/lib/format";
 import type { InspirationResponse } from "@/lib/types";
 import type { SerializedComment } from "@/lib/comments";
@@ -50,9 +50,7 @@ export function InspirationView({
   const { user, requireAuth } = useAuth();
 
   // Build the absolute share URL on the client.
-  const detailHref = `/i/${inspiration.id}/${inspirationSlug(
-    inspiration.title,
-  )}`;
+  const detailHref = inspirationHref(inspiration.id);
   const [origin, setOrigin] = useState<string>("");
   useEffect(() => {
     if (typeof window !== "undefined") setOrigin(window.location.origin);
