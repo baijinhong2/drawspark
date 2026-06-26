@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
+import { SEO_TOPIC_PAGES } from "@/lib/seo-pages";
 
 /**
  * Site-wide footer. Rendered by `[locale]/layout.tsx`, so it appears on every
@@ -9,6 +10,11 @@ import { Link } from "@/i18n/navigation";
 export async function Footer() {
   const t = await getTranslations("footer");
   const year = new Date().getFullYear();
+
+  // SEO long-tail topic pages. Sorted by descending search volume so the
+  // top-of-list links are the highest-traffic pages, not the most-recently
+  // added ones. Drained from the registry — no hardcoded link list here.
+  const topicLinks = [...SEO_TOPIC_PAGES].sort((a, b) => b.vol - a.vol);
 
   return (
     <footer className="mt-auto border-t border-violet-100 bg-slate-50">
@@ -65,6 +71,14 @@ export async function Footer() {
               <FooterLink href="/contact">{t("contact")}</FooterLink>
               <FooterLink href="/feedback">{t("feedback")}</FooterLink>
               <FooterLink href="/faq">{t("faq")}</FooterLink>
+            </FooterColumn>
+
+            <FooterColumn title={t("seoTopics")}>
+              {topicLinks.map((topic) => (
+                <FooterLink key={topic.slug} href={`/topics/${topic.slug}`}>
+                  {topic.keyword}
+                </FooterLink>
+              ))}
             </FooterColumn>
           </div>
         </div>

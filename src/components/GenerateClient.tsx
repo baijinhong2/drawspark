@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { InspirationCard } from "@/components/InspirationCard";
@@ -18,6 +18,10 @@ interface Props {
   /** Inspirations rendered before the user generates anything (popular items
    *  fetched server-side) so the page is meaningful on first paint. */
   initialInspirations: InspirationResponse[];
+  /** Pre-fill text from `?q=` so topic-page CTAs that link to
+   *  /generate?q=<prompt> land the user with the prompt already typed in.
+   *  Read server-side to avoid the client-side Suspense boundary issue. */
+  initialQuery?: string;
 }
 
 type QuickTagId =
@@ -101,10 +105,13 @@ async function* parseSSEEvents(
   }
 }
 
-export function GenerateClient({ initialInspirations }: Props) {
+export function GenerateClient({ initialInspirations, initialQuery = "" }: Props) {
   const t = useTranslations("generate");
 
-  const [userInput, setUserInput] = useState("");
+  // Pre-fill the input box from the `?q=` value passed in by the server
+  // component. One-shot on mount: re-navigating with a different ?q=
+  // shouldn't re-overwrite what the user is currently typing.
+  const [userInput, setUserInput] = useState(initialQuery);
   const [activeTag, setActiveTag] = useState<QuickTagId | null>(null);
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState<InspirationResponse[]>(initialInspirations);
@@ -113,6 +120,19 @@ export function GenerateClient({ initialInspirations }: Props) {
   const [streamedCount, setStreamedCount] = useState(0);
   const [hasGenerated, setHasGenerated] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    // Focus the input when arriving from a topic CTA so the user can
+    // either press Enter immediately or edit before generating.
+    if (initialQuery) {
+      const el = document.getElementById("gen-input") as HTMLInputElement | null;
+      el?.focus();
+      // Place caret at end so users can keep typing instead of
+      // overwriting the prefix.
+      const v = el?.value ?? "";
+      el?.setSelectionRange(v.length, v.length);
+    }
+  }, [initialQuery]);
 
   async function generate(opts: {
     tags?: QuickTag["tags"];

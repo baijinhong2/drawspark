@@ -62,6 +62,14 @@ Good: "A simple children's doodle of a friendly fox sitting on a grassy hill at 
 4. Titles under 15 words, catchy.
 5. Tags: array of 3–5 short keywords (lowercase, no spaces).
 
+# LANGUAGE RULE (HIGHEST PRIORITY FOR USER-FACING TEXT)
+- Detect the language of the user's input (default to English when input is empty).
+- The title and description MUST use the same detected language.
+- All 5 ideas in a single batch must use the same language — do not mix.
+- Write natural, fluent sentences in the target language — do not translate word-for-word.
+- Tags and enum-valued fields stay in English (they're metadata, not user-facing copy).
+- Proper nouns (Christmas, Halloween, kawaii) keep their original form — do not transliterate.
+
 # ENUM VALUES
 - subject (array, 1–2): "animal" | "people" | "landscape" | "still_life" | "abstract" | "fantasy" | "food" | "architecture" | "nature" | "holiday" | "everyday" | "flower" | "dragon" | "tattoo" | "anime" | "car" | "other"
 - style (array, 1–2): "cute" | "cool" | "simple" | "realistic" | "cartoon" | "abstract" | "vintage" | "dark" | "aesthetic" | "doodle" | "sketch" | "kawaii" | "graffiti" | "minimalist" | "trippy" | "other"

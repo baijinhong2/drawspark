@@ -3,19 +3,38 @@ import Image from "next/image";
 import { ScrollTopLink } from "./ScrollTopLink";
 
 /**
+ * Namespaces that ship their own dedicated SEO image assets under
+ * `/public/seoimage/{namespace}/`. Unknown namespaces (e.g. every
+ * `topics.*` page in the long-tail SEO cluster) fall back to the
+ * `home` namespace's images so we don't render broken `<img>` tags.
+ * Add a namespace here when its image set is generated.
+ */
+const NAMESPACES_WITH_DEDICATED_IMAGES = new Set([
+  "home",
+  "generate",
+  "explore",
+]);
+
+/**
  * Build a public URL for a SEO image slot.
  * - index omitted → single hero image (`{namespace}-seo-{section}-image.jpg`)
  * - index present → numbered card (`{namespace}-seo-{section}-image{n}.jpg`)
+ *
+ * Unknown namespaces route to the `home` image set as a graceful fallback
+ * so the page never ships a 404 image. See `NAMESPACES_WITH_DEDICATED_IMAGES`.
  */
 function seoImageUrl(
-  namespace: "home" | "generate" | "explore",
+  namespace: string,
   section: "Whatis" | "Whois" | "doWith" | "realVoices",
   index?: number,
 ): string {
+  const safeNamespace = NAMESPACES_WITH_DEDICATED_IMAGES.has(namespace)
+    ? namespace
+    : "home";
   const stem = index
-    ? `${namespace}-seo-${section}-image${index}`
-    : `${namespace}-seo-${section}-image`;
-  return `/seoimage/${namespace}/${stem}.jpg`;
+    ? `${safeNamespace}-seo-${section}-image${index}`
+    : `${safeNamespace}-seo-${section}-image`;
+  return `/seoimage/${safeNamespace}/${stem}.jpg`;
 }
 
 type SectionBase = {
@@ -157,7 +176,7 @@ function SeoImage({
   rounded = "2xl",
   className,
 }: {
-  namespace: "home" | "generate" | "explore";
+  namespace: string;
   section: "Whatis" | "Whois" | "doWith" | "realVoices";
   index?: number;
   alt: string;
@@ -261,7 +280,7 @@ function WhatisSection({
   namespace,
 }: {
   data: SeoSectionShape;
-  namespace: "home" | "generate" | "explore";
+  namespace: string;
 }) {
   const item = data.content?.[0];
   return (
@@ -337,7 +356,7 @@ function DoWithSection({
   namespace,
 }: {
   data: SeoSectionShape;
-  namespace: "home" | "generate" | "explore";
+  namespace: string;
 }) {
   const items = data.content ?? [];
   return (
@@ -398,7 +417,7 @@ function WhoisSection({
   namespace,
 }: {
   data: SeoSectionShape;
-  namespace: "home" | "generate" | "explore";
+  namespace: string;
 }) {
   const items = data.content ?? [];
   return (
@@ -485,7 +504,7 @@ function RealVoicesSection({
   namespace,
 }: {
   data: SeoSectionShape;
-  namespace: "home" | "generate" | "explore";
+  namespace: string;
 }) {
   const items = data.content ?? [];
   return (
@@ -609,7 +628,7 @@ export async function SeoSections({
   locale,
   showHead1 = false,
 }: {
-  namespace: "home" | "generate" | "explore";
+  namespace: string;
   locale: string;
   /**
    * Some pages (home) already render their own hero. Set `false` to suppress

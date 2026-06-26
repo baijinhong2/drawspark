@@ -788,7 +788,2554 @@
     "faq": "FAQ",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "cookies": "Cookie Policy"
+    "cookies": "Cookie Policy",
+    "seoTopics": "Browse by Topic"
+  },
+  "topics": {
+    "gridTitle": "Top inspirations for {topic}",
+    "seeAll": "See all",
+    "emptyTitle": "No inspirations yet for this topic",
+    "emptySubtitle": "Be the first to generate one — try DrawSpark's AI drawing ideas generator.",
+    "emptyCta": "Generate Now",
+    "things-to-draw-when-bored": {
+      "h1Title": "Things to Draw When Bored: 120+ Fun Ideas to End Creative Block",
+      "h1Subtitle": "Staring at a blank page with nothing to sketch? DrawSpark hands you hundreds of fun things to draw when bored — easy drawing ideas, cute doodles, cool sketches, and creative prompts you can start in minutes.",
+      "heroCta": "Generate Bored Drawing Ideas",
+      "heroPromptHint": "Pre-fills a bored-scene prompt",
+      "seoTitle": "Things To Draw When Bored — 120+ Fun Drawing Ideas | DrawSpark",
+      "seoDescription": "Out of things to draw when bored? DrawSpark's free AI generator delivers hundreds of fun, easy, cute, and creative drawing ideas so you never sit at a blank page again. Start drawing in seconds.",
+      "seoKeywords": "things to draw when bored, bored drawing ideas, fun things to draw, easy drawing ideas, what to draw when bored, drawing prompts, drawing inspiration, cute drawings, sketch ideas",
+      "head1": {
+        "title": "DrawSpark's Bored Drawing Ideas Generator",
+        "description": "Skip the endless Pinterest scroll. DrawSpark's AI instantly generates fresh things to draw when you're bored — easy, cute, funny, or aesthetic — so you always have somewhere to start.",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Bored Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free, AI-powered drawing ideas generator built for the exact moment you ask yourself \"what should I draw when bored?\" Instead of staring at a blank sketchbook page or scrolling through endless lists of drawing prompts, DrawSpark instantly creates a fresh batch of specific, visual ideas you can start sketching right now. Every idea includes a title, a short description, and highlighted keywords covering the subject, style, mood, and difficulty — so whether you want easy doodles, cute animals, cool character designs, or aesthetic sketches, DrawSpark delivers things to draw when bored that match your current mood. The generator covers the full spectrum of bored-sketching needs: quick 5-minute doodles for a study break, deeper character ideas for an afternoon session, and even themed ideas for holidays, seasons, or specific styles like kawaii, minimalist, or trippy. DrawSpark also keeps a public gallery of community-generated ideas you can filter by subject and style for endless inspiration.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Bored Drawing Ideas Generator Work?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open DrawSpark's Bored Generator",
+            "description": "Visit the bored-drawing-ideas page and click the generate button. No login required — the generator runs instantly."
+          },
+          {
+            "title": "Step 2: Pick From 5 Fresh Drawing Ideas",
+            "description": "DrawSpark creates 5 new things to draw when bored in seconds. Each idea includes a title, a description, subject and style tags, difficulty level, and estimated time."
+          },
+          {
+            "title": "Step 3: Start Sketching Right Away",
+            "description": "Pick the idea that catches your eye, open your sketchbook, and start drawing. Like your favorites to save them for later, or regenerate for a completely new batch."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Bored Drawing Ideas?",
+        "description": "DrawSpark's things to draw when bored generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Easy Things to Draw When Bored",
+            "description": "Filter for easy and beginner-friendly drawing ideas perfect for a quick study break, a slow afternoon, or a relaxed warm-up sketch. Great for kids, beginners, and anyone wanting low-pressure creative fun.",
+            "buttonText": "Get Easy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cute and Aesthetic Bored Doodles",
+            "description": "Find charming, stylized drawing ideas — cute animals, kawaii food, dreamy aesthetic scenes, and cozy everyday objects — ideal for moodboards, journal spreads, or social-media-ready art.",
+            "buttonText": "Find Cute Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Funny and Weird Things to Draw",
+            "description": "Stuck in a weird mood? Get silly, weird, and funny drawing ideas — strange creatures, absurd scenes, and meme-worthy sketches — perfect for loosening up and breaking creative block fast.",
+            "buttonText": "Get Weird Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explore Community Bored-Drawing Ideas",
+            "description": "Browse the public gallery for things other artists drew when they were bored. Filter by subject, style, or difficulty to find inspiration you wouldn't have thought of yourself.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Bored Drawing Ideas Generator For?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Teens and Students",
+            "description": "Looking for things to draw when bored in class or during study breaks? DrawSpark's quick, easy, and creative drawing ideas are perfect for filling notebook margins without anyone noticing.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Beginner Artists",
+            "description": "New to drawing and unsure where to start? DrawSpark's bored-drawing generator gives you achievable, low-pressure prompts that build confidence while keeping things fun and varied.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Facing a Blank Page",
+            "description": "Whether you're a hobbyist, a professional illustrator, or just someone who draws for fun, DrawSpark's endless stream of bored drawing ideas keeps your sketchbook full and your creativity flowing.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Bored Drawing Ideas Generator?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Endless Bored-Drawing Inspiration",
+            "description": "DrawSpark generates a completely new set of things to draw when bored every time you click — no repeats, no recycled lists. Every batch is original and tailored to your selected mood and style.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, No Sign-Up, No Limits",
+            "description": "DrawSpark is 100% free to use. No account, no credit card, no hidden fees. Generate up to 30 fresh drawing ideas per day — that's 150 new prompts to beat boredom every single day.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Actionable Prompts",
+            "description": "Unlike vague lists of drawing prompts, DrawSpark's ideas come with subject, style, mood, and difficulty tags so you know exactly what you're drawing before you put pencil to paper.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Bored Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "The Best Bored-Drawing App I've Used",
+            "description": "I used to scroll Pinterest for 30 minutes every time I was bored before finding anything to draw. Now I just open DrawSpark, click generate, and have 5 fresh ideas in seconds. The variety is wild — cute animals one click, cool character designs the next. My sketchbook has never been fuller.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Thompson",
+            "ext3": "Art Student"
+          },
+          {
+            "title": "Saves My Study Breaks",
+            "description": "Things to draw when bored is literally my most-searched phrase and DrawSpark nails it every single time. The ideas are quick enough for a 5-minute break but interesting enough that I keep drawing past my timer. The pre-filter for easy difficulty is perfect for a tired brain.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Daniel Reyes",
+            "ext3": "University Student"
+          },
+          {
+            "title": "My Kids and I Both Use It",
+            "description": "My 9-year-old and I both use DrawSpark when we're bored. The AI generates ideas at the right difficulty for whoever's drawing — easy cute stuff for her, slightly more advanced for me. We've filled three notebooks together this summer.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sarah Chen",
+            "ext3": "Parent & Hobbyist"
+          },
+          {
+            "title": "Beats Every Drawing Prompt List",
+            "description": "I've tried dozens of drawing prompt websites and apps. DrawSpark is the only one that actually feels like it understands what 'things to draw when bored' means — quick, fun, varied, and never the same thing twice. Highly recommend for any hobbyist.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Endless Creative Block Cure",
+            "description": "Creative block used to ruin my weekends. Now I just open DrawSpark, generate a batch of things to draw when bored, and I'm sketching within minutes. The mood filter is genius — happy, dreamy, weird, whatever I'm feeling, there's an idea for it.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jessica Liu",
+            "ext3": "Freelance Illustrator"
+          },
+          {
+            "title": "Perfect for Travel Sketches",
+            "description": "I'm always looking for things to draw when bored on long flights and train rides. DrawSpark gives me quick, portable ideas that don't need reference photos — perfect for filling a travel sketchbook with fun, original drawings.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Alex Rivera",
+            "ext3": "Travel Journalist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Bored Drawing Ideas Generator",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What are the best things to draw when bored?",
+            "description": "The best things to draw when bored depend on your mood, but popular options include cute animals, funny characters, everyday objects, food with faces, weird mashups, dream scenes, and aesthetic landscapes. DrawSpark's AI generates fresh ideas across all these categories every time you click generate."
+          },
+          {
+            "title": "Is this generator really free to use?",
+            "description": "Yes — DrawSpark is completely free, no login or credit card required. You can generate up to 30 fresh batches of bored-drawing ideas per day, with 5 ideas in each batch. That's 150 new things to draw when bored every single day at zero cost."
+          },
+          {
+            "title": "Do I need to be good at drawing to use these ideas?",
+            "description": "Not at all. DrawSpark lets you filter by difficulty (easy, beginner, medium, hard), so you can find things to draw when bored that match your current skill level. Most of our beginner-friendly ideas work great even if you've never drawn before."
+          },
+          {
+            "title": "Can I save ideas for later?",
+            "description": "Yes. When you find an idea you love, click the heart icon to add it to your favorites. You can revisit your saved ideas anytime from the My Inspirations page, and they'll be waiting whenever you need them."
+          },
+          {
+            "title": "How is DrawSpark different from a regular drawing prompt list?",
+            "description": "Static drawing prompt lists repeat the same 50 ideas over and over. DrawSpark's AI generates unique combinations of subject, style, mood, and difficulty — so you'll never see the same thing twice. Every batch feels fresh and tailored to what you're in the mood for."
+          },
+          {
+            "title": "What styles of bored drawing ideas can I get?",
+            "description": "DrawSpark covers every major drawing style: cute and kawaii, cool and edgy, simple doodles, detailed sketches, aesthetic and dreamy, trippy and weird, minimalist line art, and more. Pick a style filter and the generator focuses on that aesthetic."
+          },
+          {
+            "title": "Can I get ideas for specific subjects like animals or people?",
+            "description": "Absolutely. Use the subject filter to narrow down to animals, people, nature, food, fantasy creatures, cars, architecture, anime characters, or anything else. The generator combines your subject with the perfect style for bored-drawing moments."
+          },
+          {
+            "title": "How long does it take to generate ideas?",
+            "description": "DrawSpark generates 5 fresh things to draw when bored in under 3 seconds. No loading screens, no waiting, no fluff — just instant inspiration the moment you click the button."
+          },
+          {
+            "title": "What should I draw when I'm bored at school?",
+            "description": "DrawSpark has tons of quick, easy ideas perfect for school — simple doodles, cute characters, funny mashups, and aesthetic sketches that fit in notebook margins. Filter for 'easy' difficulty and you'll find ideas that look great without needing hours of focus."
+          },
+          {
+            "title": "Can I share my favorite ideas with friends?",
+            "description": "Yes. Every idea has a share button that copies a link to your clipboard. Send it to a friend who's also stuck on what to draw when bored, or post it to social media to share your next sketch project."
+          }
+        ]
+      }
+    },
+    "what-should-i-draw": {
+      "h1Title": "What Should I Draw? Endless Specific Ideas for Every Mood",
+      "h1Subtitle": "Stuck wondering what to draw next? DrawSpark's AI instantly suggests specific, visual drawing ideas based on your mood, style, and skill level — never vague, always actionable.",
+      "heroCta": "Generate Drawing Ideas",
+      "heroPromptHint": "Describe what you want to draw",
+      "seoTitle": "What Should I Draw? 100+ Specific Drawing Ideas | DrawSpark",
+      "seoDescription": "Wondering what to draw? DrawSpark's free AI generator suggests specific drawing ideas for every mood and skill level — cute, cool, easy, aesthetic, and beyond. Beat creative block in seconds.",
+      "seoKeywords": "what should i draw, drawing ideas, what to draw, drawing inspiration, drawing prompts, things to draw, drawing ideas generator, easy drawing ideas, cute drawings, sketch ideas",
+      "head1": {
+        "title": "DrawSpark's Drawing Ideas Generator",
+        "description": "Stop scrolling. DrawSpark's AI answers \"what should I draw?\" with specific, visual ideas — instantly, for free, and tailored to your style and skill.",
+        "buttonText": "Generate Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free, AI-powered drawing ideas generator built for the moment you stare at a blank page and ask \"what should I draw?\" Instead of vague answers like \"draw anything you want,\" DrawSpark's AI creates specific, visual ideas with a subject, style, mood, and difficulty — so you always have somewhere to start. The generator covers every major category: cute animals, cool characters, easy doodles, aesthetic landscapes, tattoo designs, anime, fantasy creatures, food art, and more. Each idea comes with highlighted keywords showing exactly what you'll draw, so you can pick the one that excites you and start sketching immediately. DrawSpark also maintains a public gallery of community-generated ideas you can filter by subject, style, and difficulty. Whether you're a beginner who wants simple shapes or an experienced artist chasing fresh concepts, DrawSpark keeps your sketchbook full and your creativity flowing.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Drawing Ideas Generator Work?",
+        "buttonText": "Generate Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Tell DrawSpark Your Mood or Theme",
+            "description": "Type what you're feeling or what you want to draw — or leave it blank for a random surprise. DrawSpark's AI understands natural language: \"something cute and simple,\" \"a dark character,\" \"easy flowers,\" or just \"anything.\""
+          },
+          {
+            "title": "Step 2: Get 5 Specific Drawing Ideas",
+            "description": "DrawSpark instantly generates 5 unique ideas, each with a title, description, subject, style, difficulty, and time estimate. No more vague prompts like \"draw an animal\" — every idea is visual and actionable."
+          },
+          {
+            "title": "Step 3: Pick One and Start Drawing",
+            "description": "Browse the 5 ideas, find the one that excites you, and start sketching. Like your favorites, save them to My Inspirations, or share them with friends. Generate again any time for a fresh batch."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Drawing Ideas?",
+        "description": "DrawSpark's what should i draw generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Cute Drawing Ideas",
+            "description": "Get adorable, charming drawing prompts — kawaii animals, cute food, friendly characters, and cozy scenes — perfect for beginners, kids, journal spreads, or anyone who loves cute art.",
+            "buttonText": "Get Cute Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cool and Edgy Sketches",
+            "description": "Find cool drawing ideas — edgy characters, urban art, dark themes, anime-inspired designs, and trippy concepts — great for pushing your skills and building an eye-catching portfolio.",
+            "buttonText": "Get Cool Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Easy Things to Draw",
+            "description": "Filter by easy difficulty to get beginner-friendly drawing ideas — simple shapes, basic subjects, achievable compositions — that build confidence and fill your sketchbook without frustration.",
+            "buttonText": "Get Easy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse the Public Inspiration Gallery",
+            "description": "Explore thousands of community-generated drawing ideas. Filter by subject, style, mood, or difficulty to discover prompts you wouldn't have thought to ask for yourself.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Drawing Ideas Generator For?",
+        "buttonText": "Generate Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Hobbyists and Casual Artists",
+            "description": "Whether you draw every day or once a month, DrawSpark answers \"what should I draw?\" with ideas matched to your skill level, mood, and available time — keeping your creative habit alive.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Students and Beginners",
+            "description": "New to drawing or learning the basics? DrawSpark's easy and beginner-friendly prompts remove the guesswork, giving you clear, achievable ideas that build skills one sketch at a time.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Professional Illustrators",
+            "description": "Even pros hit creative block. DrawSpark's diverse, specific prompts help illustrators break through ruts, explore new subjects and styles, and discover fresh concepts for client work or personal series.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Drawing Ideas Generator?",
+        "buttonText": "Generate Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Specific, Visual Ideas Every Time",
+            "description": "DrawSpark never gives vague answers. Every idea includes a title, description, subject, style, mood, and difficulty — so you know exactly what you're drawing before you put pencil to paper.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, and Limitless",
+            "description": "Generate up to 30 fresh batches of ideas per day, completely free. No login required, no hidden fees, no expiration. Just endless answers to \"what should I draw?\" on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Covers Every Style and Mood",
+            "description": "Cute, cool, aesthetic, dark, dreamy, minimal, detailed, trippy — DrawSpark generates ideas across every major drawing style. Filter to your favorite or let the AI surprise you.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Finally, an Answer to 'What Should I Draw?'",
+            "description": "I asked 'what should I draw' on Google every week for years before finding DrawSpark. Now I just open the app, click generate, and have 5 fresh ideas in seconds. The variety is incredible — I haven't seen the same idea twice in months.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Olivia Bennett",
+            "ext3": "Illustrator"
+          },
+          {
+            "title": "Saved My Sketchbook Habit",
+            "description": "I was about to give up my daily drawing habit because I kept running out of ideas. DrawSpark fixed that instantly. Every morning I generate 5 new ideas, pick one, and draw. I've sketched more in the last month than the previous year combined.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "James Walker",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "My Art Students Love It",
+            "description": "I teach high school art and DrawSpark is now part of every class. When students ask 'what should I draw?' I tell them to open DrawSpark and pick from the 5 ideas. The variety matches every student's interest and skill level.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Patricia Gomez",
+            "ext3": "Art Teacher"
+          },
+          {
+            "title": "Best Free Drawing Idea App",
+            "description": "I've paid for drawing prompt apps before and they were all disappointing. DrawSpark is free and actually better — the AI generates ideas I'd never have thought of myself. My only complaint is I didn't find it sooner.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tom Richardson",
+            "ext3": "Digital Artist"
+          },
+          {
+            "title": "Curated and High Quality",
+            "description": "Most AI generators spit out generic ideas. DrawSpark's ideas feel curated — specific subjects, real styles, achievable compositions. It's clear someone who actually draws designed the system.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hannah Kim",
+            "ext3": "Concept Artist"
+          },
+          {
+            "title": "Perfect for Creative Block",
+            "description": "Whenever I'm stuck and ask myself 'what should I draw?' I open DrawSpark. Within seconds I have a fresh idea I'm excited about. The mood filter is especially good — sad days get dreamy prompts, energetic days get cool character designs.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lucas Müller",
+            "ext3": "Animation Student"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Drawing Ideas Generator",
+        "buttonText": "Generate Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What should I draw when I have no ideas?",
+            "description": "When you have no ideas, DrawSpark is the fastest answer. Just open the generator and click — you'll get 5 fresh, specific drawing ideas in under 3 seconds. Filter by mood, style, or difficulty if you want even more tailored suggestions."
+          },
+          {
+            "title": "Is DrawSpark free to use?",
+            "description": "Yes, DrawSpark is 100% free with no login or payment required. You can generate up to 30 batches of ideas per day, each containing 5 unique prompts. That's 150 new drawing ideas every day at zero cost."
+          },
+          {
+            "title": "Do I need to create an account?",
+            "description": "No account is needed to generate ideas. If you want to save favorites or revisit past ideas, you can optionally create a free account, but the generator works perfectly without one."
+          },
+          {
+            "title": "What kind of drawing ideas does it generate?",
+            "description": "DrawSpark generates ideas across every category: cute animals, cool characters, easy doodles, aesthetic landscapes, anime, fantasy creatures, food, flowers, tattoos, people, nature, architecture, and abstract concepts. Every batch has variety."
+          },
+          {
+            "title": "Can I choose a specific style?",
+            "description": "Yes — DrawSpark supports style filters including cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy. Mix and match to find your perfect prompt."
+          },
+          {
+            "title": "Can I choose a specific subject?",
+            "description": "Absolutely. Filter by subject like animals, people, nature, holiday, flowers, dragons, tattoos, anime, abstract, landscape, architecture, food, cars, or fantasy. The generator combines your subject with your chosen style."
+          },
+          {
+            "title": "What if I don't like the ideas?",
+            "description": "Just click generate again — every batch is completely unique. With up to 30 generations per day, you'll find an idea you love within a few clicks."
+          },
+          {
+            "title": "Can I save ideas for later?",
+            "description": "Yes. Click the heart icon on any idea to add it to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          },
+          {
+            "title": "Is DrawSpark good for beginners?",
+            "description": "DrawSpark is perfect for beginners. Use the easy or beginner difficulty filter to get simple, achievable drawing ideas. Each idea comes with a difficulty level and time estimate so you know what you're getting into."
+          },
+          {
+            "title": "Can professionals use it too?",
+            "description": "Yes. Many professional illustrators, concept artists, and designers use DrawSpark to break creative block, find fresh concepts, or explore new styles. The advanced difficulty filter unlocks complex, detailed prompts."
+          }
+        ]
+      }
+    },
+    "drawing-prompts": {
+      "h1Title": "Drawing Prompts: 500+ Creative Ideas to Spark Your Next Sketch",
+      "h1Subtitle": "From quick doodles to deep-dive character studies, DrawSpark delivers fresh, specific drawing prompts every time you click — for every style, skill level, and mood.",
+      "heroCta": "Generate Drawing Prompts",
+      "heroPromptHint": "Pre-fills a creative drawing prompt",
+      "seoTitle": "Drawing Prompts — 500+ Creative Ideas for Every Style | DrawSpark",
+      "seoDescription": "Need fresh drawing prompts? DrawSpark's free AI generator creates specific, creative prompts for any subject, style, or skill level. Cute, cool, easy, aesthetic — never the same twice.",
+      "seoKeywords": "drawing prompts, drawing prompt ideas, art prompts, sketch prompts, creative drawing prompts, drawing ideas, art prompt generator, things to draw, drawing inspiration, drawing challenges",
+      "head1": {
+        "title": "DrawSpark's Drawing Prompt Generator",
+        "description": "Endless creative drawing prompts tailored to your style, mood, and skill — generated fresh every time you click. Free, fast, and ready to draw.",
+        "buttonText": "Generate Drawing Prompts",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Drawing Prompts?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free, AI-powered drawing prompt generator that creates specific, visual drawing ideas on demand. Unlike static lists of 50 prompts you'll see over and over, DrawSpark's AI generates unique combinations of subject, style, mood, and difficulty — so you get fresh creative prompts every single time. Every prompt comes with a title, a detailed description, and highlighted keywords showing the subject, scene, style, and difficulty. That means you know exactly what you're drawing before you start — no more vague 'draw something cool' prompts that leave you staring at the page. DrawSpark covers every drawing category: cute animals, cool character designs, aesthetic landscapes, simple doodles, dark themes, fantasy creatures, food art, anime, tattoos, and more. Use the filters to focus on your favorite styles, or let the AI surprise you with variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Do DrawSpark's Drawing Prompts Work?",
+        "buttonText": "Generate Drawing Prompts",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Pick a Style or Subject (Optional)",
+            "description": "Choose a style like cute, cool, or aesthetic, plus a subject like animals, nature, or fantasy. Skip the filters entirely and DrawSpark will surprise you with a varied mix of creative prompts."
+          },
+          {
+            "title": "Step 2: Generate 5 Fresh Drawing Prompts",
+            "description": "Click generate and DrawSpark instantly creates 5 unique prompts with titles, descriptions, and tags. Each one is original — you'll never see the same prompt twice across your daily generations."
+          },
+          {
+            "title": "Step 3: Save, Share, or Start Drawing",
+            "description": "Pick the prompt that catches your eye and start sketching immediately. Save favorites to revisit later, share prompts with friends, or regenerate for a completely new batch of creative ideas."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Create With DrawSpark's Drawing Prompts?",
+        "description": "DrawSpark's drawing prompts generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Drawing Prompts",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Cute and Kawaii Prompts",
+            "description": "Get adorable drawing prompts — kawaii animals, cute food, friendly characters, and cozy scenes — perfect for journal spreads, social media art, gifts, or just spreading joy through your sketchbook.",
+            "buttonText": "Get Cute Prompts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cool and Edgy Prompts",
+            "description": "Find creative drawing prompts with attitude — dark characters, urban art, anime designs, and trippy concepts — great for pushing your skills and building a distinctive artistic voice.",
+            "buttonText": "Get Cool Prompts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Aesthetic and Dreamy Prompts",
+            "description": "Discover aesthetic drawing prompts — minimalist landscapes, dreamy scenes, soft color palettes, and atmospheric compositions — ideal for moodboards, prints, or relaxing creative sessions.",
+            "buttonText": "Get Aesthetic Prompts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Beginner-Friendly Prompts",
+            "description": "Filter for easy difficulty to get approachable drawing prompts — simple shapes, basic subjects, achievable compositions — that build confidence and keep your drawing habit consistent.",
+            "buttonText": "Get Easy Prompts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Are DrawSpark's Drawing Prompts For?",
+        "buttonText": "Generate Drawing Prompts",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Hobby Artists",
+            "description": "Whether you draw daily or weekly, DrawSpark's endless drawing prompts keep your creative practice fresh, varied, and exciting — no more 'I don't know what to draw' days.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Art Students and Teachers",
+            "description": "DrawSpark is a powerful classroom tool. Teachers use it for daily warm-ups, art challenges, and skill-building exercises. Students use it for homework, portfolio work, and personal projects.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Content Creators",
+            "description": "YouTubers, TikTokers, and Instagram artists use DrawSpark to plan their content calendars. Generate a month's worth of unique drawing prompts in minutes and never run out of video ideas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Drawing Prompts?",
+        "buttonText": "Generate Drawing Prompts",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Truly Original Prompts Every Time",
+            "description": "DrawSpark's AI generates fresh combinations of subject and style, so the same prompt never appears twice. No recycled lists, no repeats — just endless creative inspiration.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free with No Daily Caps on Creativity",
+            "description": "Generate up to 30 fresh batches per day, each with 5 unique prompts. That's 150 new drawing ideas every single day, completely free, with no account required.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Prompts That Actually Spark Drawing",
+            "description": "Every DrawSpark prompt is specific and visual — clear subject, defined style, achievable composition. No vague 'draw something interesting' filler. Just prompts that make you want to grab a pencil.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Drawing Prompts",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Endless Creative Fuel",
+            "description": "I run a daily drawing challenge on Instagram and DrawSpark keeps me supplied with unique prompts. I've generated over 200 batches in the last 6 months and never seen a repeat. The variety is what makes it special — one click gets cute animals, the next gets dark fantasy.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Zoe Martinez",
+            "ext3": "Instagram Artist"
+          },
+          {
+            "title": "My Students' Favorite Tool",
+            "description": "I teach middle school art and DrawSpark is now part of every lesson. When students finish early I tell them to generate drawing prompts and pick one. The variety keeps every kid engaged — they always find something that matches their interests.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "David Chen",
+            "ext3": "Middle School Art Teacher"
+          },
+          {
+            "title": "Best Free Prompt Generator",
+            "description": "I've tried every drawing prompt app and website. DrawSpark is the only one that consistently delivers prompts I actually want to draw. The AI seems to understand what makes a good prompt — specific, visual, and achievable.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Priya Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Saved My YouTube Channel",
+            "description": "I was burning out trying to come up with weekly drawing video ideas. DrawSpark generates a month's worth of unique prompts in 10 minutes. My channel views doubled once I started using it for content planning.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Kim",
+            "ext3": "YouTube Creator"
+          },
+          {
+            "title": "Prompts Match My Mood Every Time",
+            "description": "The mood filter is genius. Happy days I get cheerful prompts, sad days I get moody aesthetic ones, energetic days I get cool character designs. DrawSpark reads my mood better than I do sometimes.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Isabella Torres",
+            "ext3": "Art Student"
+          },
+          {
+            "title": "Perfect for Daily Sketchbook",
+            "description": "I've drawn every day for 200+ days straight and DrawSpark is the reason. Every morning I generate 5 prompts, pick one, and draw. The prompts are specific enough that I never get stuck, and varied enough that I never get bored.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nathan Brooks",
+            "ext3": "Daily Sketchbook Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Drawing Prompts",
+        "buttonText": "Generate Drawing Prompts",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What are drawing prompts?",
+            "description": "Drawing prompts are specific ideas or concepts designed to inspire what you draw. Good prompts give you a clear subject, style, mood, and difficulty — so you know what to sketch without having to figure it out yourself. DrawSpark generates fresh, specific prompts every time."
+          },
+          {
+            "title": "How many drawing prompts can I generate?",
+            "description": "DrawSpark lets you generate up to 30 batches per day, with 5 unique prompts in each batch. That's 150 fresh drawing ideas every 24 hours, completely free. No login required to start generating."
+          },
+          {
+            "title": "Are the prompts really unique?",
+            "description": "Yes — DrawSpark's AI generates fresh combinations of subject, style, mood, and difficulty. You won't see the same prompt twice across hundreds of generations. The variety is what makes it different from static prompt lists."
+          },
+          {
+            "title": "Can I filter prompts by style?",
+            "description": "Absolutely. DrawSpark supports style filters including cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy. Combine with subject filters for ultra-specific prompts."
+          },
+          {
+            "title": "Can I filter by difficulty?",
+            "description": "Yes — choose from easy, beginner, medium, or hard difficulty. The easy filter generates simple, achievable prompts perfect for warming up or building confidence. The hard filter delivers complex, detailed ideas for advanced artists."
+          },
+          {
+            "title": "Can I use these prompts for commercial work?",
+            "description": "Yes. The prompts are generated by AI and free to use however you like. Many DrawSpark users create prints, sell original art, post on social media, or build portfolios using prompts from the generator."
+          },
+          {
+            "title": "Can I share prompts with friends?",
+            "description": "Yes. Every prompt has a share button that copies a link to your clipboard. Send favorite prompts to friends, post them on social media, or use them to start a collaborative drawing challenge."
+          },
+          {
+            "title": "Are there prompts for specific subjects?",
+            "description": "DrawSpark generates prompts across every major subject: animals, people, nature, fantasy, food, flowers, dragons, tattoos, anime, architecture, cars, abstract, and more. Use the subject filter to focus on what you love most."
+          },
+          {
+            "title": "Can I save prompts for later?",
+            "description": "Yes. Click the heart icon to add a prompt to your favorites. Saved prompts stay on your My Inspirations page as long as your account exists, so you can build a personal library of go-to ideas."
+          },
+          {
+            "title": "Does DrawSpark work for digital and traditional artists?",
+            "description": "DrawSpark works for any medium. Whether you sketch in pencil, paint traditionally, draw digitally, or use mixed media, the prompts are written to be medium-agnostic — focus on subject and style, not technique."
+          }
+        ]
+      }
+    },
+    "what-to-draw-when-bored": {
+      "h1Title": "What to Draw When Bored: 100+ Ideas to End Creative Block Fast",
+      "h1Subtitle": "Out of ideas and wondering what to draw when bored? DrawSpark's AI answers with specific, fun, easy drawing ideas — ready to sketch in minutes, not hours.",
+      "heroCta": "Generate Bored Drawing Ideas",
+      "heroPromptHint": "Pre-fills a bored-scene prompt",
+      "seoTitle": "What To Draw When Bored — 100+ Fun Drawing Ideas | DrawSpark",
+      "seoDescription": "Wondering what to draw when bored? DrawSpark's free AI delivers specific, fun, easy drawing ideas — cute doodles, cool sketches, aesthetic art — instantly. Beat boredom in seconds.",
+      "seoKeywords": "what to draw when bored, bored drawing ideas, fun things to draw, drawing ideas for boredom, easy drawing ideas, drawing prompts, drawing inspiration, things to draw, creative drawing, sketch ideas",
+      "head1": {
+        "title": "DrawSpark's Bored Drawing Idea Generator",
+        "description": "Stop wondering what to draw when bored — DrawSpark's AI delivers specific, fun ideas in seconds. Free, no login, ready to sketch.",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Bored Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free AI drawing ideas generator designed for the exact moment you ask yourself \"what to draw when bored?\" Instead of vague suggestions, DrawSpark instantly generates specific, visual ideas you can start sketching within minutes — covering cute animals, cool characters, funny scenes, aesthetic landscapes, and more. Every idea includes a title, description, subject, style, mood, and difficulty level. That means you can pick an idea that matches your current mood and skill — whether you want quick doodles, deeper character studies, or themed art for a specific vibe. DrawSpark also keeps a public gallery of community-generated drawing ideas. Filter by subject, style, mood, or difficulty to discover ideas you wouldn't have thought of yourself — perfect for filling a sketchbook on a slow afternoon or breaking out of a creative rut.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Bored Drawing Ideas Generator Work?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Click Generate for Bored Drawing Ideas",
+            "description": "Hit the generate button and DrawSpark instantly creates 5 fresh drawing ideas — no login required, no setup, no waiting. The generator runs right in your browser."
+          },
+          {
+            "title": "Step 2: Browse 5 Specific Drawing Ideas",
+            "description": "Each idea includes a title, a short description, and tags covering subject, style, mood, and difficulty. Skim the 5 ideas and pick the one that excites you most."
+          },
+          {
+            "title": "Step 3: Start Drawing Right Away",
+            "description": "Open your sketchbook, pick up your pencil, and start drawing. Save favorites for later, share ideas with friends, or regenerate for a fresh batch whenever you need more inspiration."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Bored Drawing Ideas?",
+        "description": "DrawSpark's what to draw when bored generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Easy Bored Doodles",
+            "description": "Filter for easy difficulty and get beginner-friendly drawing ideas — simple shapes, basic subjects, achievable compositions — perfect for a 5-minute sketch or a quick warm-up.",
+            "buttonText": "Get Easy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cute Bored Drawing Ideas",
+            "description": "Find adorable, charming drawing ideas — kawaii animals, cute food, friendly characters, cozy scenes — ideal for relaxing creative time or filling your journal with happy art.",
+            "buttonText": "Get Cute Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cool and Edgy Bored Art",
+            "description": "Discover cool, edgy drawing ideas — dark characters, urban themes, anime designs, trippy concepts — perfect for breaking out of comfort zones and exploring new styles.",
+            "buttonText": "Get Cool Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explore Community Bored Drawings",
+            "description": "Browse the public gallery for things other artists drew when they were bored. Filter by subject and style to find inspiration, then save your favorites for later.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Bored Drawing Ideas Generator For?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Students and Teens",
+            "description": "Need quick things to draw between classes or during study breaks? DrawSpark's bored drawing ideas are perfect for filling notebook margins with quick, fun, original art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Casual Hobbyists",
+            "description": "Whether you sketch weekly or daily, DrawSpark keeps your drawing habit fresh and fun. Generate a new batch whenever you run out of ideas, and keep your sketchbook full.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Facing Creative Block",
+            "description": "Hit a creative wall? DrawSpark's endless bored drawing ideas break the block instantly. The mood and style filters help you find something that fits exactly how you're feeling.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Bored Drawing Ideas Generator?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Specific, Actionable Ideas",
+            "description": "Every idea comes with a clear subject, style, and difficulty — no vague 'draw something' prompts. You know exactly what you're drawing before you start, so you can focus on making art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Unlimited, Always Fresh",
+            "description": "Generate up to 30 batches of bored drawing ideas per day, completely free. Every batch is unique — you won't see the same prompt twice across hundreds of generations.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Covers Every Mood and Style",
+            "description": "Cute, cool, aesthetic, dark, funny, simple, detailed — DrawSpark generates ideas across every major style. Filter to your favorite mood or let the AI surprise you with variety.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Bored Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "The Best Bored-Drawing App I've Used",
+            "description": "I ask 'what to draw when bored' on Google every week and DrawSpark is the only tool that actually delivers. The ideas are specific, fun, and always match my mood. My sketchbook has never been fuller.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Thompson",
+            "ext3": "Art Student"
+          },
+          {
+            "title": "Saves My Study Breaks",
+            "description": "Things to draw when bored is my most-searched phrase. DrawSpark nails it every single time — quick, easy, creative ideas that fit perfectly into a 5-minute study break.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Daniel Reyes",
+            "ext3": "University Student"
+          },
+          {
+            "title": "My Kids and I Both Use It",
+            "description": "My daughter and I both use DrawSpark when we're bored. The AI generates ideas at the right difficulty for whoever's drawing. We've filled three notebooks together this summer.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sarah Chen",
+            "ext3": "Parent & Hobbyist"
+          },
+          {
+            "title": "Beats Every Drawing Prompt List",
+            "description": "I've tried dozens of prompt websites and apps. DrawSpark is the only one that actually delivers fresh, fun ideas consistently. Highly recommend for any hobbyist who hits 'I don't know what to draw' moments.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Endless Creative Block Cure",
+            "description": "Creative block used to ruin my weekends. Now I just open DrawSpark, generate a batch, and I'm sketching within minutes. The mood filter is genius — there's an idea for every feeling.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jessica Liu",
+            "ext3": "Freelance Illustrator"
+          },
+          {
+            "title": "Perfect for Travel Sketches",
+            "description": "Long flights and train rides are my drawing time. DrawSpark gives me quick, portable ideas that don't need reference photos — perfect for filling travel sketchbooks with fun art.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Alex Rivera",
+            "ext3": "Travel Journalist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Bored Drawing Ideas Generator",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What should I draw when bored?",
+            "description": "When you're bored, the best things to draw depend on your mood. DrawSpark's AI generates ideas across cute animals, cool characters, funny scenes, aesthetic landscapes, and more — all specific and visual. Pick a style filter or generate randomly for variety."
+          },
+          {
+            "title": "Is DrawSpark really free?",
+            "description": "Yes — DrawSpark is 100% free, no login or credit card required. Generate up to 30 batches per day, each with 5 unique ideas. That's 150 new things to draw when bored every day at zero cost."
+          },
+          {
+            "title": "Do I need to be good at drawing?",
+            "description": "Not at all. DrawSpark lets you filter by difficulty (easy, beginner, medium, hard), so you can find ideas that match your skill level. Most beginner ideas work even if you've never drawn before."
+          },
+          {
+            "title": "Can I save ideas for later?",
+            "description": "Yes. Click the heart icon to add an idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          },
+          {
+            "title": "How is this different from a prompt list?",
+            "description": "Static lists repeat the same 50 ideas over and over. DrawSpark's AI generates unique combinations of subject, style, mood, and difficulty — you'll never see the same idea twice across hundreds of generations."
+          },
+          {
+            "title": "What styles are available?",
+            "description": "DrawSpark supports every major style: cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy. Mix and match for custom ideas."
+          },
+          {
+            "title": "Can I filter by subject?",
+            "description": "Absolutely. Filter by animals, people, nature, food, fantasy creatures, cars, architecture, anime characters, abstract, landscape, flowers, dragons, tattoos, and more."
+          },
+          {
+            "title": "How fast does it generate?",
+            "description": "DrawSpark generates 5 fresh ideas in under 3 seconds. No loading screens, no waiting, no fluff — just instant inspiration the moment you click generate."
+          },
+          {
+            "title": "What should I draw when bored at school?",
+            "description": "DrawSpark has tons of quick, easy ideas perfect for school — simple doodles, cute characters, funny mashups, and aesthetic sketches that fit in notebook margins. Filter for 'easy' for low-friction ideas."
+          },
+          {
+            "title": "Can I share ideas with friends?",
+            "description": "Yes. Every idea has a share button that copies a link. Send favorite ideas to friends, post on social media, or use them to start a collaborative drawing challenge."
+          }
+        ]
+      }
+    },
+    "drawing-inspiration": {
+      "h1Title": "Drawing Inspiration: Endless Fresh Ideas for Every Artist",
+      "h1Subtitle": "Out of drawing inspiration? DrawSpark's AI generates specific, visual ideas tailored to your style, mood, and skill — never recycled, always fresh.",
+      "heroCta": "Generate Drawing Inspiration",
+      "heroPromptHint": "Pre-fills an inspiration prompt",
+      "seoTitle": "Drawing Inspiration — Endless Fresh Ideas for Every Artist | DrawSpark",
+      "seoDescription": "Need drawing inspiration? DrawSpark's free AI generator delivers specific, fresh ideas for any style, subject, or skill level. Cute, cool, easy, aesthetic — endless creative fuel.",
+      "seoKeywords": "drawing inspiration, art inspiration, drawing ideas, creative inspiration, sketch inspiration, art ideas, drawing prompts, things to draw, creative drawing ideas, drawing inspiration generator",
+      "head1": {
+        "title": "DrawSpark's Drawing Inspiration Generator",
+        "description": "Endless, specific drawing inspiration — fresh ideas tailored to your style and skill, generated every time you click. Free, fast, and ready to draw.",
+        "buttonText": "Generate Drawing Inspiration",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Drawing Inspiration?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free, AI-powered drawing inspiration generator that creates specific, visual ideas on demand. Whether you're facing a blank sketchbook page, planning your next portfolio piece, or just looking for fresh creative fuel, DrawSpark delivers inspiration tailored to your style, mood, and skill level. Every idea includes a title, description, subject, style, mood, and difficulty. That means you can pick an idea that matches exactly what you feel like drawing — no more vague inspiration that doesn't tell you what to actually sketch. The generator covers every drawing category: cute animals, cool characters, aesthetic landscapes, simple doodles, dark themes, fantasy creatures, food art, anime, tattoos, and more. Use the filters to focus on your favorite styles, or let the AI surprise you with variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Do DrawSpark's Drawing Inspiration Ideas Work?",
+        "buttonText": "Generate Drawing Inspiration",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Choose a Style or Subject",
+            "description": "Pick a style like cute, cool, or aesthetic, plus a subject like animals, nature, or fantasy. Skip the filters and DrawSpark will surprise you with a varied mix of inspiration."
+          },
+          {
+            "title": "Step 2: Get 5 Fresh Ideas",
+            "description": "Click generate and DrawSpark instantly creates 5 unique drawing ideas with titles, descriptions, and tags. Every idea is original — you'll never see the same one twice."
+          },
+          {
+            "title": "Step 3: Start Drawing or Save for Later",
+            "description": "Pick the idea that catches your eye and start sketching immediately. Save favorites to revisit later, share with friends, or regenerate for a completely new batch."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Create With DrawSpark's Drawing Inspiration?",
+        "description": "DrawSpark's drawing inspiration generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Drawing Inspiration",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Cute Drawing Inspiration",
+            "description": "Find adorable, charming drawing ideas — kawaii animals, cute food, friendly characters, cozy scenes — perfect for relaxing creative sessions or filling journals with happy art.",
+            "buttonText": "Get Cute Inspiration",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cool and Edgy Inspiration",
+            "description": "Discover cool, edgy drawing ideas — dark characters, urban themes, anime designs, trippy concepts — great for pushing your skills and building a distinctive artistic voice.",
+            "buttonText": "Get Cool Inspiration",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Aesthetic and Dreamy Inspiration",
+            "description": "Explore aesthetic drawing inspiration — minimalist landscapes, dreamy scenes, soft color palettes, atmospheric compositions — ideal for moodboards, prints, or relaxing sessions.",
+            "buttonText": "Get Aesthetic Inspiration",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Inspiration Gallery",
+            "description": "Browse thousands of community-generated drawing ideas. Filter by subject, style, mood, or difficulty to discover inspiration you wouldn't have thought to ask for yourself.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Are DrawSpark's Drawing Inspiration Ideas For?",
+        "buttonText": "Generate Drawing Inspiration",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Hobbyists and Casual Artists",
+            "description": "Whether you draw every day or once a month, DrawSpark's endless drawing inspiration keeps your creative practice fresh, varied, and exciting — no more 'I don't know what to draw' days.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Art Students and Teachers",
+            "description": "DrawSpark is a powerful classroom tool. Teachers use it for daily warm-ups, art challenges, and skill-building exercises. Students use it for homework and personal projects.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Professional Illustrators",
+            "description": "Even pros hit creative block. DrawSpark's diverse, specific inspiration helps illustrators break through ruts, explore new subjects and styles, and discover fresh concepts for client work.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Drawing Inspiration?",
+        "buttonText": "Generate Drawing Inspiration",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Truly Original Inspiration",
+            "description": "DrawSpark's AI generates fresh combinations of subject and style. No recycled lists, no repeats — just endless creative fuel that keeps your sketchbook full of original work.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free with No Limits",
+            "description": "Generate up to 30 fresh batches per day, each with 5 unique ideas. That's 150 new drawing inspirations every single day, completely free, with no account required.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Inspiration That Actually Sparks Drawing",
+            "description": "Every DrawSpark idea is specific and visual — clear subject, defined style, achievable composition. No vague filler. Just inspiration that makes you want to grab a pencil.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Drawing Inspiration",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Endless Creative Fuel",
+            "description": "I run a daily drawing challenge on Instagram and DrawSpark keeps me supplied with unique inspiration. I've generated hundreds of batches and never seen a repeat. The variety is what makes it special.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Zoe Martinez",
+            "ext3": "Instagram Artist"
+          },
+          {
+            "title": "My Students' Favorite Tool",
+            "description": "I teach middle school art and DrawSpark is part of every lesson. When students finish early I tell them to generate inspiration and pick one. The variety keeps every kid engaged.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "David Chen",
+            "ext3": "Middle School Art Teacher"
+          },
+          {
+            "title": "Best Free Inspiration App",
+            "description": "I've tried every drawing inspiration app and website. DrawSpark is the only one that consistently delivers ideas I actually want to draw. The AI understands what makes good inspiration.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Priya Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Saved My YouTube Channel",
+            "description": "I was burning out trying to come up with weekly drawing video ideas. DrawSpark generates a month's worth of unique inspiration in 10 minutes. My channel views doubled.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Kim",
+            "ext3": "YouTube Creator"
+          },
+          {
+            "title": "Ideas Match My Mood",
+            "description": "The mood filter is genius. Happy days I get cheerful inspiration, sad days I get moody aesthetic ones, energetic days I get cool character designs. DrawSpark reads my mood perfectly.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Isabella Torres",
+            "ext3": "Art Student"
+          },
+          {
+            "title": "Perfect for Daily Sketchbook",
+            "description": "I've drawn every day for 200+ days straight and DrawSpark is the reason. Every morning I generate 5 ideas, pick one, and draw. The inspiration is specific and varied.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nathan Brooks",
+            "ext3": "Daily Sketchbook Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Drawing Inspiration",
+        "buttonText": "Generate Drawing Inspiration",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Where can I find drawing inspiration?",
+            "description": "DrawSpark is the fastest source of fresh drawing inspiration. Click generate to get 5 specific, visual ideas in under 3 seconds. Filter by mood, style, or difficulty for tailored inspiration."
+          },
+          {
+            "title": "Is DrawSpark free?",
+            "description": "Yes, DrawSpark is 100% free with no login or payment required. Generate up to 30 batches per day, each with 5 unique ideas. That's 150 new drawing inspirations every day at zero cost."
+          },
+          {
+            "title": "Do I need to create an account?",
+            "description": "No account is needed to generate ideas. If you want to save favorites or revisit past ideas, create a free account. The generator works perfectly without one."
+          },
+          {
+            "title": "What kind of inspiration does it generate?",
+            "description": "DrawSpark generates ideas across every category: cute animals, cool characters, easy doodles, aesthetic landscapes, anime, fantasy creatures, food, flowers, tattoos, people, nature, architecture, and abstract concepts."
+          },
+          {
+            "title": "Can I choose a specific style?",
+            "description": "Yes — DrawSpark supports style filters including cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy."
+          },
+          {
+            "title": "Can I choose a specific subject?",
+            "description": "Absolutely. Filter by animals, people, nature, holiday, flowers, dragons, tattoos, anime, abstract, landscape, architecture, food, cars, or fantasy. The generator combines subject with your chosen style."
+          },
+          {
+            "title": "What if I don't like the ideas?",
+            "description": "Just click generate again — every batch is unique. With up to 30 generations per day, you'll find inspiration you love within a few clicks."
+          },
+          {
+            "title": "Can I save ideas for later?",
+            "description": "Yes. Click the heart icon to add an idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          },
+          {
+            "title": "Is DrawSpark good for beginners?",
+            "description": "DrawSpark is perfect for beginners. Use the easy or beginner difficulty filter to get simple, achievable ideas. Each idea comes with a difficulty level and time estimate."
+          },
+          {
+            "title": "Can professionals use it too?",
+            "description": "Yes. Many professional illustrators, concept artists, and designers use DrawSpark to break creative block, find fresh concepts, or explore new styles. The advanced difficulty filter unlocks complex prompts."
+          }
+        ]
+      }
+    },
+    "best-easy-drawing": {
+      "h1Title": "Best Easy Drawing Ideas: 200+ Beginner-Friendly Prompts",
+      "h1Subtitle": "Looking for easy drawing ideas that actually work? DrawSpark's AI generates simple, achievable prompts for every style — perfect for beginners, kids, and casual artists.",
+      "heroCta": "Generate Easy Drawing Ideas",
+      "heroPromptHint": "Pre-fills an easy drawing idea",
+      "seoTitle": "Best Easy Drawing Ideas — 200+ Beginner-Friendly Prompts | DrawSpark",
+      "seoDescription": "Searching for the best easy drawing ideas? DrawSpark's free AI generator creates beginner-friendly, achievable drawing prompts for any style. Cute, cool, simple — start drawing in minutes.",
+      "seoKeywords": "best easy drawing, easy drawing ideas, beginner drawing ideas, simple drawing ideas, drawing for beginners, easy drawings, drawing ideas for beginners, things to draw for beginners, simple sketches",
+      "head1": {
+        "title": "DrawSpark's Easy Drawing Idea Generator",
+        "description": "Specific, achievable easy drawing ideas for beginners — generated fresh every time. Free, no login, ready to sketch in minutes.",
+        "buttonText": "Generate Easy Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Easy Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free, AI-powered drawing idea generator focused on beginner-friendly prompts. Every idea is filtered for simplicity and achievability — so you can build confidence, fill your sketchbook, and have fun without frustration. Every easy drawing idea includes a title, description, subject, style, and time estimate. You know exactly what you're drawing and how long it'll take — perfect for warming up, building skills, or relaxing with low-pressure art. The generator covers every easy category: cute animals, simple objects, beginner character designs, easy landscapes, basic food art, and more. Use the filters to focus on your favorite styles, or generate randomly for variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Easy Drawing Ideas Generator Work?",
+        "buttonText": "Generate Easy Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Click Generate for Easy Ideas",
+            "description": "Hit the generate button and DrawSpark instantly creates 5 easy drawing ideas — beginner-friendly, achievable, and ready to sketch. No login required."
+          },
+          {
+            "title": "Step 2: Browse 5 Beginner-Friendly Ideas",
+            "description": "Each idea includes a title, description, and tags. The difficulty filter ensures every prompt is approachable — perfect for building confidence one sketch at a time."
+          },
+          {
+            "title": "Step 3: Start Drawing and Build Skills",
+            "description": "Pick an idea, open your sketchbook, and start drawing. Save favorites to track your progress, share with friends, or regenerate for fresh easy ideas."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Easy Drawing Ideas?",
+        "description": "DrawSpark's best easy drawing generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Easy Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Easy Cute Drawings",
+            "description": "Find adorable, simple drawing ideas — kawaii animals, cute food, friendly characters — perfect for beginners, kids, and anyone wanting low-pressure creative fun.",
+            "buttonText": "Get Easy Cute Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Easy Cool Sketches",
+            "description": "Discover simple but cool drawing ideas — basic character designs, easy landscapes, approachable urban themes — great for building skills while exploring new styles.",
+            "buttonText": "Get Easy Cool Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Easy Aesthetic Art",
+            "description": "Explore easy aesthetic drawing ideas — minimalist compositions, simple dreamy scenes, soft subjects — ideal for relaxing creative sessions and journal spreads.",
+            "buttonText": "Get Easy Aesthetic Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Easy Drawings",
+            "description": "Browse the public gallery for easy drawings from other artists. Filter by difficulty to find beginner-friendly inspiration and see how others approach simple subjects.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Easy Drawing Ideas Generator For?",
+        "buttonText": "Generate Easy Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Drawing Beginners",
+            "description": "New to drawing? DrawSpark's easy prompts remove the guesswork. Every idea is achievable and confidence-building — perfect for your first sketchbook.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Kids and Young Artists",
+            "description": "Looking for kid-friendly drawing ideas? DrawSpark generates simple, fun prompts that are perfect for young artists practicing at home or in class.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Casual Hobbyists",
+            "description": "Whether you draw weekly or just for fun, DrawSpark's easy ideas keep your creative practice relaxed and enjoyable — no pressure, just good art.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Easy Drawing Ideas Generator?",
+        "buttonText": "Generate Easy Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Beginner-Friendly Every Time",
+            "description": "Every idea is filtered for simplicity and achievability. No complex compositions, no advanced techniques — just clear, doable prompts for any skill level.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free with No Sign-Up",
+            "description": "Generate up to 30 batches per day, completely free. No account, no credit card, no hidden fees — just endless easy drawing ideas on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Builds Confidence and Skills",
+            "description": "Easy prompts aren't dumb prompts — they're achievable prompts that let you focus on fundamentals. Build your skills one drawing at a time without frustration.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Easy Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Perfect for Beginners",
+            "description": "I just started drawing 2 months ago and DrawSpark has been a lifesaver. Every idea is genuinely achievable, and the variety keeps me motivated. I've filled a sketchbook already.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lily Anderson",
+            "ext3": "Beginner Artist"
+          },
+          {
+            "title": "My Daughter Loves It",
+            "description": "My 8-year-old asks for drawing ideas every day. DrawSpark gives her simple, fun prompts she can actually draw. Her skills have improved dramatically in just a few weeks.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Karen Liu",
+            "ext3": "Parent"
+          },
+          {
+            "title": "Great for Skill Building",
+            "description": "I'm an experienced artist but I use DrawSpark's easy filter for warm-ups and quick studies. The prompts are simple but interesting — perfect for loosening up before bigger projects.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ryan Cooper",
+            "ext3": "Professional Illustrator"
+          },
+          {
+            "title": "Beats Boring Prompt Lists",
+            "description": "Most easy drawing websites have the same 20 prompts on repeat. DrawSpark's AI generates fresh, fun ideas every time. My sketchbook has never been fuller.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ava Martinez",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Saved My Art Class",
+            "description": "I teach elementary art and DrawSpark is now my go-to resource. The easy prompts are perfect for young students — achievable but interesting enough to keep them engaged.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tom Baker",
+            "ext3": "Elementary Art Teacher"
+          },
+          {
+            "title": "No More Frustration",
+            "description": "I used to give up on drawings halfway through because they were too hard. DrawSpark's easy prompts let me finish sketches and feel accomplished every time.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nina Patel",
+            "ext3": "Casual Hobbyist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Easy Drawing Ideas Generator",
+        "buttonText": "Generate Easy Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What are the best easy drawing ideas for beginners?",
+            "description": "The best easy drawing ideas for beginners include simple animals, basic objects, cute characters, easy landscapes, and food art. DrawSpark's AI generates fresh, achievable ideas across all these categories, filtered for beginners."
+          },
+          {
+            "title": "Are these prompts really easy?",
+            "description": "Yes — every DrawSpark easy drawing idea is filtered for simplicity and achievability. Each idea includes a difficulty level and time estimate, so you know exactly what you're getting into before you start."
+          },
+          {
+            "title": "Is DrawSpark free for beginners?",
+            "description": "Yes, DrawSpark is completely free. Generate up to 30 batches of easy drawing ideas per day, each with 5 unique prompts. No login or payment required to start."
+          },
+          {
+            "title": "Do I need any special tools?",
+            "description": "No special tools required — DrawSpark's easy prompts work with any medium. Pencil and paper, digital tablet, colored pencils, markers — whatever you have on hand."
+          },
+          {
+            "title": "Can kids use DrawSpark?",
+            "description": "Absolutely. DrawSpark is perfect for kids. The easy difficulty filter generates simple, fun prompts that young artists can actually draw. Many parents and teachers use it for art time at home and in class."
+          },
+          {
+            "title": "What styles are available?",
+            "description": "DrawSpark supports every major style: cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy. Easy mode works with all styles."
+          },
+          {
+            "title": "Can I filter by subject?",
+            "description": "Yes — filter by animals, people, nature, food, fantasy creatures, cars, architecture, anime characters, abstract, landscape, flowers, dragons, tattoos, and more."
+          },
+          {
+            "title": "How long does each drawing take?",
+            "description": "Easy drawings typically take 5-30 minutes. Each prompt includes a time estimate so you can plan your session. Many easy ideas are perfect for a 5-minute study break."
+          },
+          {
+            "title": "Will I run out of ideas?",
+            "description": "No — DrawSpark generates up to 30 fresh batches per day, each with 5 unique ideas. That's 150 new easy drawing prompts every day, and you'll never see the same idea twice."
+          },
+          {
+            "title": "Can I save my favorite easy ideas?",
+            "description": "Yes. Click the heart icon to save an idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          }
+        ]
+      }
+    },
+    "christmas-drawing-ideas": {
+      "h1Title": "Christmas Drawing Ideas: 80+ Festive Sketches for the Holidays",
+      "h1Subtitle": "Get into the holiday spirit with Christmas drawing ideas from DrawSpark — festive characters, cozy scenes, magical creatures, and seasonal art for every style.",
+      "heroCta": "Generate Christmas Drawing Ideas",
+      "heroPromptHint": "Pre-fills a festive drawing prompt",
+      "seoTitle": "Christmas Drawing Ideas — 80+ Festive Sketches for the Holidays | DrawSpark",
+      "seoDescription": "Need Christmas drawing ideas? DrawSpark's free AI generator creates festive holiday prompts — Santa, reindeer, cozy scenes, winter magic — for every style. Get in the holiday spirit.",
+      "seoKeywords": "christmas drawing ideas, holiday drawing ideas, christmas art, christmas sketches, christmas drawings, winter drawing ideas, christmas card ideas, holiday art, festive drawing ideas, christmas prompt",
+      "head1": {
+        "title": "DrawSpark's Christmas Drawing Idea Generator",
+        "description": "Festive Christmas drawing ideas — Santa, reindeer, cozy scenes, winter magic — generated fresh every time. Free, no login, ready to sketch.",
+        "buttonText": "Generate Christmas Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Christmas Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark's Christmas drawing generator delivers festive, holiday-themed drawing ideas on demand. From Santa and reindeer to cozy winter scenes, magical snow globes, and holiday characters, every idea captures the magic of the season. Every Christmas idea includes a title, description, subject, style, mood, and difficulty. You can pick an idea that matches your holiday mood — whether you want cute kawaii Santa, realistic winter landscapes, or cozy fireplace scenes. The generator covers every Christmas theme: traditional Santa and reindeer, cute holiday characters, winter wonderlands, festive food, holiday decorations, and more. Use the filters to focus on your favorite styles or generate randomly for variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Christmas Drawing Ideas Generator Work?",
+        "buttonText": "Generate Christmas Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Click Generate for Christmas Ideas",
+            "description": "Hit the generate button and DrawSpark instantly creates 5 festive Christmas drawing ideas — no login required, no setup, just instant holiday inspiration."
+          },
+          {
+            "title": "Step 2: Browse 5 Holiday-Themed Ideas",
+            "description": "Each idea includes a title, description, and tags covering subject, style, and difficulty. Skim the 5 ideas and pick the one that sparks your holiday spirit."
+          },
+          {
+            "title": "Step 3: Start Drawing Holiday Magic",
+            "description": "Pick an idea, open your sketchbook, and start drawing. Save favorites for Christmas cards, share with friends and family, or regenerate for a fresh batch."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Christmas Drawing Ideas?",
+        "description": "DrawSpark's christmas drawing ideas generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Christmas Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Cute Christmas Characters",
+            "description": "Find adorable Christmas drawing ideas — kawaii Santa, cute reindeer, friendly snowmen, holiday pets — perfect for Christmas cards, gifts, and festive family art.",
+            "buttonText": "Get Cute Christmas Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cozy Winter Scenes",
+            "description": "Discover cozy Christmas drawing ideas — fireplaces, hot cocoa, snowy cabins, holiday dinners — ideal for moodboards, prints, and seasonal art collections.",
+            "buttonText": "Get Cozy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Magical Holiday Art",
+            "description": "Explore magical Christmas drawing ideas — Santa's sleigh, flying reindeer, enchanted forests, winter wonderlands — great for fantasy art and storytelling illustrations.",
+            "buttonText": "Get Magical Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Christmas Card Designs",
+            "description": "Find Christmas card drawing ideas — festive borders, holiday messages, seasonal illustrations — perfect for handmade cards and personalized holiday greetings.",
+            "buttonText": "Get Card Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Christmas Drawing Ideas Generator For?",
+        "buttonText": "Generate Christmas Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Holiday Card Makers",
+            "description": "Make handmade Christmas cards this year with DrawSpark's festive drawing ideas. Cute characters, cozy scenes, and seasonal designs ready to sketch and send.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Hobby Artists",
+            "description": "Whether you draw daily or just during the holidays, DrawSpark's Christmas ideas keep your festive art fresh and varied — perfect for seasonal sketchbooks and gifts.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Family Art Time",
+            "description": "Looking for Christmas drawing ideas the whole family can enjoy? DrawSpark's easy-to-medium prompts work for kids and adults — perfect for holiday together-time.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Christmas Drawing Ideas Generator?",
+        "buttonText": "Generate Christmas Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Festive, Specific Ideas",
+            "description": "Every Christmas drawing idea includes a clear holiday subject, style, and difficulty. No vague 'draw something Christmas-y' — just specific, visual prompts ready to sketch.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Unlimited, Always Festive",
+            "description": "Generate up to 30 fresh batches of Christmas ideas per day. Every batch is unique — you won't see the same holiday prompt twice across hundreds of generations.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Covers Every Holiday Style",
+            "description": "Cute Santa, realistic winter scenes, magical fantasy art, cozy domestic moments — DrawSpark generates Christmas drawing ideas across every major style.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Christmas Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Made My Christmas Cards",
+            "description": "I made all my Christmas cards this year using DrawSpark ideas. The cute Santa and reindeer prompts were perfect — my family loved the personalized cards. Way better than store-bought.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Emma Wilson",
+            "ext3": "Holiday Card Maker"
+          },
+          {
+            "title": "Festive and Fun",
+            "description": "I look forward to drawing Christmas ideas every year and DrawSpark makes it so much better. Fresh, varied holiday prompts that capture the magic of the season. My sketchbook is full of festive art.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Noah Garcia",
+            "ext3": "Seasonal Artist"
+          },
+          {
+            "title": "Perfect for Holiday Gifts",
+            "description": "I draw Christmas art for friends and family as gifts every year. DrawSpark's holiday prompts give me endless ideas — everyone gets a unique, personalized piece.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sophia Lee",
+            "ext3": "Gift Artist"
+          },
+          {
+            "title": "My Kids' Christmas Art Time",
+            "description": "Every December we have family art time and DrawSpark's Christmas ideas keep my kids engaged for hours. The cute holiday prompts are perfect for their skill level.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Chen",
+            "ext3": "Parent"
+          },
+          {
+            "title": "Better Than Pinterest",
+            "description": "I used to spend hours scrolling Pinterest for Christmas drawing ideas. Now I just open DrawSpark and get fresh festive ideas in seconds. Saves so much time.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Aria Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Cozy Holiday Vibes",
+            "description": "DrawSpark's cozy Christmas prompts are exactly my vibe — fireplaces, hot cocoa, snowy windows, warm lighting. Perfect for moody winter sketchbook sessions.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Logan Rivera",
+            "ext3": "Cozy Art Lover"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Christmas Drawing Ideas Generator",
+        "buttonText": "Generate Christmas Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What are the best Christmas drawing ideas?",
+            "description": "The best Christmas drawing ideas include Santa, reindeer, snowmen, cozy winter scenes, festive food, holiday decorations, and Christmas characters. DrawSpark generates fresh, specific ideas across all these categories every time you click generate."
+          },
+          {
+            "title": "Is DrawSpark free for Christmas ideas?",
+            "description": "Yes, DrawSpark is 100% free with no login or payment required. Generate up to 30 batches per day, each with 5 unique Christmas prompts. That's 150 new festive ideas every day at zero cost."
+          },
+          {
+            "title": "Can I make Christmas cards with these ideas?",
+            "description": "Absolutely. DrawSpark's Christmas drawing ideas work perfectly for handmade cards. Pick a festive prompt, draw it, add a holiday message, and you have a personalized Christmas card ready to send."
+          },
+          {
+            "title": "Are there cute Christmas drawing ideas?",
+            "description": "Yes — DrawSpark has tons of cute Christmas prompts including kawaii Santa, adorable reindeer, friendly snowmen, and holiday pets. Filter by cute or kawaii style for extra charming results."
+          },
+          {
+            "title": "Are there easy Christmas drawing ideas for kids?",
+            "description": "Yes. Filter for easy difficulty to get beginner-friendly Christmas prompts — simple Santa faces, basic snowmen, easy holiday objects — perfect for kids and beginners."
+          },
+          {
+            "title": "Can I get realistic Christmas drawing ideas?",
+            "description": "DrawSpark supports realistic style alongside cute, cool, aesthetic, and more. Filter by realistic for traditional holiday scenes, detailed winter landscapes, and lifelike Christmas characters."
+          },
+          {
+            "title": "What about winter drawing ideas?",
+            "description": "Many Christmas prompts include winter themes — snowy landscapes, cozy cabins, hot drinks, frosty windows. DrawSpark's winter ideas work year-round for cozy seasonal art."
+          },
+          {
+            "title": "Can I save Christmas ideas for later?",
+            "description": "Yes. Click the heart icon to save a Christmas drawing idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible year-round."
+          },
+          {
+            "title": "Are there Christmas gift drawing ideas?",
+            "description": "Yes — DrawSpark generates Christmas gift art ideas like wrapped presents, holiday ornaments, festive wreaths, and gift-giving scenes perfect for personalized gifts and cards."
+          },
+          {
+            "title": "Can I share Christmas ideas with friends?",
+            "description": "Yes. Every idea has a share button that copies a link. Send favorite Christmas prompts to friends and family, or post them on social media to spread holiday cheer."
+          }
+        ]
+      }
+    },
+    "art-drawings": {
+      "h1Title": "Art Drawings: 200+ Creative Ideas for Every Style and Skill",
+      "h1Subtitle": "Looking for art drawing inspiration? DrawSpark's AI generates specific, creative ideas across every major style — cute, cool, realistic, abstract, and beyond.",
+      "heroCta": "Generate Art Drawing Ideas",
+      "heroPromptHint": "Pre-fills an art drawing idea",
+      "seoTitle": "Art Drawings — 200+ Creative Ideas for Every Style | DrawSpark",
+      "seoDescription": "Looking for art drawing ideas? DrawSpark's free AI generator creates specific, creative prompts for every style — cute, cool, realistic, abstract, and more. Endless inspiration.",
+      "seoKeywords": "art drawings, art drawing ideas, drawing ideas, art inspiration, drawing inspiration, creative drawing ideas, art ideas, drawing prompts, things to draw, sketch ideas",
+      "head1": {
+        "title": "DrawSpark's Art Drawing Idea Generator",
+        "description": "Specific, creative art drawing ideas across every style — generated fresh every time. Free, no login, ready to sketch.",
+        "buttonText": "Generate Art Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Art Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark is a free, AI-powered art drawing generator that creates specific, creative ideas for any artist. Whether you're a beginner looking for approachable prompts or a professional chasing fresh concepts, DrawSpark delivers art drawing ideas tailored to your style, mood, and skill level. Every idea includes a title, description, subject, style, mood, and difficulty. You can pick an idea that matches exactly what you feel like drawing — no more vague inspiration that doesn't tell you what to actually sketch. The generator covers every major art category: cute characters, cool designs, realistic studies, abstract compositions, aesthetic landscapes, fantasy creatures, food art, anime, and more. Use the filters to focus on your favorite styles or generate randomly for variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Art Drawing Ideas Generator Work?",
+        "buttonText": "Generate Art Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Choose a Style or Subject",
+            "description": "Pick a style like cute, cool, or realistic, plus a subject like animals, people, or fantasy. Skip the filters and DrawSpark will surprise you with a varied mix of art drawing ideas."
+          },
+          {
+            "title": "Step 2: Get 5 Fresh Art Ideas",
+            "description": "Click generate and DrawSpark instantly creates 5 unique art drawing ideas with titles, descriptions, and tags. Every idea is original — you'll never see the same one twice."
+          },
+          {
+            "title": "Step 3: Start Drawing or Save for Later",
+            "description": "Pick the idea that catches your eye and start sketching immediately. Save favorites to revisit later, share with friends, or regenerate for a completely new batch."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Art Drawing Ideas?",
+        "description": "DrawSpark's art drawings generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Art Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Cute Art Drawings",
+            "description": "Find adorable art drawing ideas — kawaii characters, cute animals, friendly designs — perfect for relaxing creative sessions, journal spreads, and social media art.",
+            "buttonText": "Get Cute Art Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cool and Edgy Art",
+            "description": "Discover cool art drawing ideas — dark characters, urban themes, anime designs, trippy concepts — great for pushing your skills and building a distinctive artistic voice.",
+            "buttonText": "Get Cool Art Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Realistic Art Studies",
+            "description": "Explore realistic art drawing ideas — detailed portraits, lifelike animals, accurate landscapes — perfect for skill building, portfolio work, and traditional art practice.",
+            "buttonText": "Get Realistic Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Art Gallery",
+            "description": "Browse thousands of community-generated art drawings. Filter by subject, style, or difficulty to discover inspiration you wouldn't have thought to ask for yourself.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Art Drawing Ideas Generator For?",
+        "buttonText": "Generate Art Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Hobbyists and Casual Artists",
+            "description": "Whether you draw every day or once a month, DrawSpark's endless art drawing ideas keep your creative practice fresh, varied, and exciting — no more 'I don't know what to draw' days.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Art Students",
+            "description": "DrawSpark is a powerful tool for art students. Use it for daily warm-ups, homework, portfolio work, and skill-building exercises across every major style and subject.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Professional Artists",
+            "description": "Even pros hit creative block. DrawSpark's diverse, specific ideas help professional artists break through ruts, explore new subjects and styles, and discover fresh concepts.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Art Drawing Ideas Generator?",
+        "buttonText": "Generate Art Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Specific, Creative Ideas Every Time",
+            "description": "Every DrawSpark art drawing idea is specific and visual — clear subject, defined style, achievable composition. No vague filler, just prompts that make you want to grab a pencil.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Unlimited, Always Fresh",
+            "description": "Generate up to 30 fresh batches per day, each with 5 unique ideas. That's 150 new art drawing prompts every single day, completely free, with no account required.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Covers Every Style and Subject",
+            "description": "Cute, cool, realistic, abstract, aesthetic, dark, simple, detailed — DrawSpark generates art drawing ideas across every major style and subject. Filter to your favorites or generate randomly.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Art Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Endless Creative Fuel",
+            "description": "I run a daily art challenge and DrawSpark keeps me supplied with unique art drawing ideas. I've generated hundreds of batches and never seen a repeat. The variety is what makes it special.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Zoe Martinez",
+            "ext3": "Daily Artist"
+          },
+          {
+            "title": "My Students' Favorite Tool",
+            "description": "I teach high school art and DrawSpark is part of every lesson. When students need art drawing ideas, I tell them to open DrawSpark and pick from the 5 generated prompts.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "David Chen",
+            "ext3": "High School Art Teacher"
+          },
+          {
+            "title": "Best Free Art Idea Generator",
+            "description": "I've tried every drawing idea app and website. DrawSpark is the only one that consistently delivers prompts I actually want to draw. The AI understands what makes good art.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Priya Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Saved My Portfolio",
+            "description": "I was struggling to fill my art school portfolio. DrawSpark generated fresh, specific ideas across every style I needed to demonstrate. I got into my top choice school.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Kim",
+            "ext3": "Art Student"
+          },
+          {
+            "title": "Ideas Match My Mood Every Time",
+            "description": "The mood filter is genius. Happy days I get cheerful art ideas, sad days I get moody aesthetic ones, energetic days I get cool character designs. DrawSpark reads my mood perfectly.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Isabella Torres",
+            "ext3": "Art Student"
+          },
+          {
+            "title": "Perfect for Daily Sketchbook",
+            "description": "I've drawn every day for 200+ days straight and DrawSpark is the reason. Every morning I generate 5 ideas, pick one, and draw. The art drawing prompts are specific and varied.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nathan Brooks",
+            "ext3": "Daily Sketchbook Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Art Drawing Ideas Generator",
+        "buttonText": "Generate Art Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Where can I find art drawing ideas?",
+            "description": "DrawSpark is the fastest source of fresh art drawing ideas. Click generate to get 5 specific, visual prompts in under 3 seconds. Filter by mood, style, or difficulty for tailored inspiration."
+          },
+          {
+            "title": "Is DrawSpark free?",
+            "description": "Yes, DrawSpark is 100% free with no login or payment required. Generate up to 30 batches per day, each with 5 unique ideas. That's 150 new art drawings every day at zero cost."
+          },
+          {
+            "title": "What kind of art drawing ideas does it generate?",
+            "description": "DrawSpark generates ideas across every category: cute animals, cool characters, easy doodles, aesthetic landscapes, anime, fantasy creatures, food, flowers, tattoos, people, nature, architecture, and abstract concepts."
+          },
+          {
+            "title": "Can I choose a specific style?",
+            "description": "Yes — DrawSpark supports style filters including cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy."
+          },
+          {
+            "title": "Can I choose a specific subject?",
+            "description": "Absolutely. Filter by animals, people, nature, holiday, flowers, dragons, tattoos, anime, abstract, landscape, architecture, food, cars, or fantasy. The generator combines subject with your chosen style."
+          },
+          {
+            "title": "What if I don't like the ideas?",
+            "description": "Just click generate again — every batch is unique. With up to 30 generations per day, you'll find art drawing ideas you love within a few clicks."
+          },
+          {
+            "title": "Can I save ideas for later?",
+            "description": "Yes. Click the heart icon to add an art drawing idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          },
+          {
+            "title": "Is DrawSpark good for beginners?",
+            "description": "DrawSpark is perfect for beginners. Use the easy or beginner difficulty filter to get simple, achievable art ideas. Each idea comes with a difficulty level and time estimate."
+          },
+          {
+            "title": "Can professionals use it too?",
+            "description": "Yes. Many professional artists, concept artists, and designers use DrawSpark to break creative block, find fresh concepts, or explore new styles. The advanced difficulty filter unlocks complex prompts."
+          },
+          {
+            "title": "Can I share ideas with friends?",
+            "description": "Yes. Every idea has a share button that copies a link. Send favorite art drawing ideas to friends, post on social media, or use them to start a collaborative challenge."
+          }
+        ]
+      }
+    },
+    "stuff-to-draw-when-your-bored": {
+      "h1Title": "Stuff to Draw When You're Bored: 100+ Fun Random Ideas",
+      "h1Subtitle": "Bored out of your mind? DrawSpark delivers specific, fun stuff to draw when you're bored — easy doodles, cute sketches, weird ideas, all ready in seconds.",
+      "heroCta": "Generate Bored Drawing Ideas",
+      "heroPromptHint": "Pre-fills a bored-scene prompt",
+      "seoTitle": "Stuff To Draw When You're Bored — 100+ Fun Random Ideas | DrawSpark",
+      "seoDescription": "Bored and need stuff to draw? DrawSpark's free AI delivers specific, fun, random drawing ideas — cute doodles, weird sketches, creative prompts — instantly.",
+      "seoKeywords": "stuff to draw when your bored, bored drawing ideas, random drawing ideas, things to draw when bored, fun things to draw, drawing ideas for boredom, drawing prompts, drawing inspiration",
+      "head1": {
+        "title": "DrawSpark's Bored Drawing Idea Generator",
+        "description": "Random, fun stuff to draw when you're bored — generated fresh every time. Free, no login, ready to sketch.",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Bored Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark's bored drawing generator delivers random, fun stuff to draw the moment you need it. From cute doodles to weird sketches to creative prompts, every idea is specific and ready to sketch — no more blank-page frustration. Every idea includes a title, description, subject, style, mood, and difficulty. You can pick an idea that matches your current mood — whether you want something cute, cool, aesthetic, or just plain weird. The generator covers every bored-drawing need: quick doodles for a 5-minute break, deeper ideas for an afternoon session, themed art for holidays, and more. Use the filters to focus on your favorite styles or generate randomly for variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Bored Drawing Ideas Generator Work?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Click Generate for Random Ideas",
+            "description": "Hit the generate button and DrawSpark instantly creates 5 fresh drawing ideas — random, fun, and ready to sketch. No login required."
+          },
+          {
+            "title": "Step 2: Browse 5 Fun Drawing Ideas",
+            "description": "Each idea includes a title, description, and tags. Skim the 5 ideas and pick the one that catches your eye, or regenerate for a different vibe."
+          },
+          {
+            "title": "Step 3: Start Drawing and Beat Boredom",
+            "description": "Pick an idea, open your sketchbook, and start drawing. Save favorites for later, share with friends, or regenerate for endless fresh ideas."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Bored Drawing Ideas?",
+        "description": "DrawSpark's stuff to draw when bored generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Easy Bored Doodles",
+            "description": "Find simple, achievable drawing ideas perfect for a 5-minute break or quick study pause. Easy, fun, and instantly satisfying.",
+            "buttonText": "Get Easy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cute Random Sketches",
+            "description": "Discover adorable drawing ideas — kawaii characters, cute animals, friendly designs — perfect for beating boredom with happy art.",
+            "buttonText": "Get Cute Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Weird and Funny Stuff",
+            "description": "Explore weird, silly, and funny drawing ideas — strange creatures, absurd scenes, meme-worthy sketches — perfect for loosening up and breaking boredom fast.",
+            "buttonText": "Get Weird Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Bored Art",
+            "description": "Browse the public gallery for stuff other artists drew when they were bored. Filter by subject and style for endless inspiration.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Bored Drawing Ideas Generator For?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Students and Teens",
+            "description": "Need quick stuff to draw between classes or during study breaks? DrawSpark's bored drawing ideas are perfect for filling notebook margins with quick, fun art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Casual Hobbyists",
+            "description": "Whether you sketch weekly or daily, DrawSpark keeps your drawing habit fresh and fun. Generate a new batch whenever you run out of ideas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Beating Boredom",
+            "description": "Hit a boring afternoon? DrawSpark's endless bored drawing ideas break the monotony instantly. The mood filter helps you find something that fits how you're feeling.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Bored Drawing Ideas Generator?",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Specific, Random Ideas",
+            "description": "Every DrawSpark bored idea is specific and visual — clear subject, defined style, achievable composition. No vague 'draw something' prompts, just fun stuff to draw.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Unlimited, Always Fresh",
+            "description": "Generate up to 30 fresh batches per day, completely free. Every batch is unique — you won't see the same prompt twice across hundreds of generations.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Covers Every Mood and Style",
+            "description": "Cute, cool, aesthetic, dark, funny, simple, detailed — DrawSpark generates bored drawing ideas across every major style.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Bored Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Best Bored-Drawing App",
+            "description": "I ask 'stuff to draw when your bored' all the time and DrawSpark is the only tool that actually delivers. The ideas are specific, fun, and always match my mood.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Thompson",
+            "ext3": "Student Artist"
+          },
+          {
+            "title": "Saves My Downtime",
+            "description": "Whenever I'm bored — waiting for a friend, on a long bus ride, between meetings — I open DrawSpark and get instant ideas. My sketchbook is full of random, fun art.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Daniel Reyes",
+            "ext3": "Casual Hobbyist"
+          },
+          {
+            "title": "My Kids Love It",
+            "description": "My daughter and I use DrawSpark when we're bored. The AI generates ideas at the right difficulty for whoever's drawing. We draw together every weekend now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sarah Chen",
+            "ext3": "Parent"
+          },
+          {
+            "title": "Beats Every Bored-Prompt List",
+            "description": "I've tried dozens of bored-drawing websites. DrawSpark is the only one that consistently delivers fresh, fun ideas. Highly recommend for anyone who hits creative boredom.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Patel",
+            "ext3": "Hobbyist Artist"
+          },
+          {
+            "title": "Endless Creative Block Cure",
+            "description": "Boredom used to mean scrolling my phone for hours. Now I open DrawSpark, generate a batch, and I'm sketching within minutes. The mood filter is genius.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jessica Liu",
+            "ext3": "Freelance Artist"
+          },
+          {
+            "title": "Perfect for Random Sessions",
+            "description": "I love opening DrawSpark when I'm bored and just sketching whatever it suggests. The random ideas always surprise me — I've discovered styles I never would have tried otherwise.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Alex Rivera",
+            "ext3": "Hobbyist Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Bored Drawing Ideas Generator",
+        "buttonText": "Generate Bored Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What should I draw when bored?",
+            "description": "When you're bored, DrawSpark's AI generates fresh drawing ideas across cute animals, cool characters, funny scenes, aesthetic landscapes, and more. Every idea is specific and ready to sketch."
+          },
+          {
+            "title": "Is DrawSpark really free?",
+            "description": "Yes — DrawSpark is 100% free, no login or credit card required. Generate up to 30 batches per day, each with 5 unique ideas. That's 150 new stuff to draw when bored every day at zero cost."
+          },
+          {
+            "title": "Do I need to be good at drawing?",
+            "description": "Not at all. DrawSpark lets you filter by difficulty, so you can find ideas that match your skill level. Beginner-friendly prompts work great even if you've never drawn before."
+          },
+          {
+            "title": "Can I save ideas for later?",
+            "description": "Yes. Click the heart icon to add an idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          },
+          {
+            "title": "How is this different from a prompt list?",
+            "description": "Static lists repeat the same 50 ideas over and over. DrawSpark's AI generates unique combinations every time — you'll never see the same idea twice across hundreds of generations."
+          },
+          {
+            "title": "What styles are available?",
+            "description": "DrawSpark supports every major style: cute, cool, sketch, simple, aesthetic, kawaii, cartoon, dark, doodle, minimalist, realistic, abstract, vintage, graffiti, and trippy."
+          },
+          {
+            "title": "Can I filter by subject?",
+            "description": "Absolutely. Filter by animals, people, nature, food, fantasy creatures, cars, architecture, anime characters, abstract, landscape, flowers, dragons, tattoos, and more."
+          },
+          {
+            "title": "How fast does it generate?",
+            "description": "DrawSpark generates 5 fresh ideas in under 3 seconds. No loading screens, no waiting, no fluff — just instant inspiration the moment you click generate."
+          },
+          {
+            "title": "What should I draw when bored at school?",
+            "description": "DrawSpark has tons of quick, easy ideas perfect for school — simple doodles, cute characters, funny mashups, and aesthetic sketches that fit in notebook margins."
+          },
+          {
+            "title": "Can I share ideas with friends?",
+            "description": "Yes. Every idea has a share button that copies a link. Send favorite bored-drawing ideas to friends, post on social media, or start a collaborative challenge."
+          }
+        ]
+      }
+    },
+    "aesthetic-things-to-draw": {
+      "h1Title": "Aesthetic Things to Draw: 100+ Dreamy, Minimalist, Cozy Ideas",
+      "h1Subtitle": "Looking for aesthetic drawing ideas? DrawSpark's AI generates dreamy, minimalist, cozy prompts — perfect for moodboards, journal spreads, and trendy social media art.",
+      "heroCta": "Generate Aesthetic Drawing Ideas",
+      "heroPromptHint": "Pre-fills an aesthetic drawing idea",
+      "seoTitle": "Aesthetic Things To Draw — 100+ Dreamy Minimalist Ideas | DrawSpark",
+      "seoDescription": "Looking for aesthetic things to draw? DrawSpark's free AI generates dreamy, minimalist, cozy drawing ideas — perfect for moodboards, journals, and aesthetic social media art.",
+      "seoKeywords": "aesthetic things to draw, aesthetic drawing ideas, aesthetic art, aesthetic sketches, dreamy drawing ideas, minimalist drawing, cozy drawing ideas, aesthetic illustrations, cute aesthetic drawings",
+      "head1": {
+        "title": "DrawSpark's Aesthetic Drawing Idea Generator",
+        "description": "Dreamy, minimalist, cozy aesthetic drawing ideas — generated fresh every time. Free, no login, ready to sketch.",
+        "buttonText": "Generate Aesthetic Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Aesthetic Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "description": "DrawSpark's aesthetic drawing generator delivers dreamy, minimalist, cozy art ideas on demand. From soft color palettes to atmospheric compositions, every idea captures the trendy aesthetic vibe popular on social media and in modern illustration. Every aesthetic idea includes a title, description, subject, style, mood, and difficulty. You can pick an idea that matches your aesthetic — whether you want minimalist line art, cozy domestic scenes, dreamy landscapes, or trendy character designs. The generator covers every aesthetic category: minimalist compositions, dreamy scenes, cozy interiors, atmospheric landscapes, soft character designs, and more. Use the filters to focus on your favorite aesthetic styles or generate randomly for variety.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Aesthetic Drawing Ideas Generator Work?",
+        "buttonText": "Generate Aesthetic Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Click Generate for Aesthetic Ideas",
+            "description": "Hit the generate button and DrawSpark instantly creates 5 dreamy aesthetic drawing ideas — no login required, no setup, just instant aesthetic inspiration."
+          },
+          {
+            "title": "Step 2: Browse 5 Aesthetic-Themed Ideas",
+            "description": "Each idea includes a title, description, and tags covering subject, style, and mood. Skim the 5 ideas and pick the one that sparks your aesthetic vibe."
+          },
+          {
+            "title": "Step 3: Start Drawing Aesthetic Magic",
+            "description": "Pick an idea, open your sketchbook, and start drawing. Save favorites for moodboards, share with friends, or regenerate for a fresh batch."
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Aesthetic Drawing Ideas?",
+        "description": "DrawSpark's aesthetic things to draw generator adapts to whatever kind of sketching session you're in the mood for, from quick cute doodles to focused subject studies and detailed character work.",
+        "buttonText": "Generate Aesthetic Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Generate Dreamy Aesthetic Scenes",
+            "description": "Find dreamy aesthetic drawing ideas — soft skies, atmospheric landscapes, ethereal scenes — perfect for moodboards, prints, and dreamy art collections.",
+            "buttonText": "Get Dreamy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Minimalist Aesthetic Art",
+            "description": "Discover minimalist aesthetic drawing ideas — clean line art, simple compositions, negative space — ideal for modern art and Instagram-worthy posts.",
+            "buttonText": "Get Minimalist Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cozy Aesthetic Sketches",
+            "description": "Explore cozy aesthetic drawing ideas — warm interiors, hot drinks, soft lighting, everyday cozy moments — perfect for journal spreads and comforting art.",
+            "buttonText": "Get Cozy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Generate Cute Aesthetic Characters",
+            "description": "Find cute aesthetic drawing ideas — soft character designs, friendly faces, charming illustrations — great for stickers, social media, and personal art.",
+            "buttonText": "Get Cute Aesthetic Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Aesthetic Drawing Ideas Generator For?",
+        "buttonText": "Generate Aesthetic Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Aesthetic Art Lovers",
+            "description": "Whether you're into dreamy, minimalist, or cozy aesthetics, DrawSpark's generator delivers ideas that match your vibe — perfect for moodboards and personal collections.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Journal and Planner Artists",
+            "description": "Looking for aesthetic things to draw in your journal? DrawSpark generates cozy, dreamy, minimalist prompts perfect for bullet journals, planners, and sketchbooks.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Social Media Artists",
+            "description": "Build your aesthetic feed with DrawSpark's trendy drawing ideas. Every prompt is social-media-ready — perfect for Instagram, Pinterest, and TikTok art.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Aesthetic Drawing Ideas Generator?",
+        "buttonText": "Generate Aesthetic Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "Specific Aesthetic Ideas",
+            "description": "Every aesthetic drawing idea includes a clear subject, dreamy style, and achievable composition. No vague 'draw something aesthetic' — just specific, visual prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Unlimited, Always Fresh",
+            "description": "Generate up to 30 fresh batches of aesthetic ideas per day. Every batch is unique — you won't see the same dreamy prompt twice across hundreds of generations.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Covers Every Aesthetic Style",
+            "description": "Dreamy, minimalist, cozy, vintage, indie, cottagecore, dark academia — DrawSpark generates aesthetic drawing ideas across every popular style.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Aesthetic Drawing Ideas Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "ext1": "4.9",
+        "ext2": "From 1127 Reviews",
+        "content": [
+          {
+            "title": "Perfect for My Aesthetic",
+            "description": "I love aesthetic art and DrawSpark nails it every time. The dreamy, minimalist, cozy prompts are exactly my vibe. My sketchbook is full of aesthetic art now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Zoe Martinez",
+            "ext3": "Aesthetic Artist"
+          },
+          {
+            "title": "My Journal is Full of Aesthetic Art",
+            "description": "I use DrawSpark for my bullet journal spreads. The aesthetic drawing ideas are perfect — minimalist, dreamy, cozy. My journal looks like a Pinterest board.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sophia Lee",
+            "ext3": "Journal Artist"
+          },
+          {
+            "title": "Saved My Instagram Feed",
+            "description": "I was struggling to make my Instagram aesthetic consistent. DrawSpark generates trendy aesthetic ideas that match my feed perfectly. Followers love it.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Aria Patel",
+            "ext3": "Instagram Artist"
+          },
+          {
+            "title": "My Cozy Sketchbook Sessions",
+            "description": "I love opening DrawSpark on a rainy afternoon and sketching whatever aesthetic ideas it suggests. The cozy, dreamy prompts are perfect for relaxing art time.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Logan Rivera",
+            "ext3": "Cozy Art Lover"
+          },
+          {
+            "title": "Better Than Pinterest",
+            "description": "I used to spend hours scrolling Pinterest for aesthetic drawing ideas. Now I just open DrawSpark and get fresh aesthetic ideas in seconds. Saves so much time.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Emma Wilson",
+            "ext3": "Aesthetic Hobbyist"
+          },
+          {
+            "title": "My Dreamy Art Style",
+            "description": "DrawSpark helped me find my signature aesthetic style. The dreamy, minimalist prompts gave me a consistent direction for my art. I sold my first print last month.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Noah Garcia",
+            "ext3": "Aesthetic Illustrator"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Aesthetic Drawing Ideas Generator",
+        "buttonText": "Generate Aesthetic Drawing Ideas",
+        "buttonRoute": "/generate",
+        "content": [
+          {
+            "title": "What are the best aesthetic things to draw?",
+            "description": "The best aesthetic things to draw include dreamy landscapes, minimalist line art, cozy interiors, soft character designs, atmospheric scenes, and trendy illustrations. DrawSpark generates fresh, specific aesthetic ideas across all these categories."
+          },
+          {
+            "title": "Is DrawSpark free for aesthetic ideas?",
+            "description": "Yes, DrawSpark is 100% free with no login or payment required. Generate up to 30 batches per day, each with 5 unique aesthetic prompts. That's 150 new aesthetic drawing ideas every day at zero cost."
+          },
+          {
+            "title": "Can I get minimalist aesthetic ideas?",
+            "description": "Absolutely. DrawSpark supports minimalist style alongside dreamy, cozy, vintage, and more. Filter by minimalist for clean line art, simple compositions, and modern aesthetic designs."
+          },
+          {
+            "title": "What about cozy aesthetic ideas?",
+            "description": "Yes — DrawSpark has tons of cozy aesthetic prompts including warm interiors, hot drinks, soft lighting, and everyday cozy moments perfect for journal spreads and comforting art."
+          },
+          {
+            "title": "Are there cute aesthetic ideas?",
+            "description": "Yes — DrawSpark has cute aesthetic prompts including soft character designs, friendly faces, and charming illustrations. Filter by cute + aesthetic for extra charming results."
+          },
+          {
+            "title": "Are there easy aesthetic ideas for beginners?",
+            "description": "Yes. Filter for easy difficulty to get beginner-friendly aesthetic prompts — simple shapes, basic subjects, achievable compositions — perfect for anyone starting their aesthetic art journey."
+          },
+          {
+            "title": "What aesthetic styles are available?",
+            "description": "DrawSpark supports every popular aesthetic: dreamy, minimalist, cozy, vintage, indie, cottagecore, dark academia, kawaii, and more. Mix and match for custom aesthetic ideas."
+          },
+          {
+            "title": "Can I save aesthetic ideas for later?",
+            "description": "Yes. Click the heart icon to save an aesthetic drawing idea to your favorites. Saved ideas appear on your My Inspirations page and stay accessible as long as you have an account."
+          },
+          {
+            "title": "Can I use these for social media?",
+            "description": "Absolutely. DrawSpark's aesthetic drawing ideas are perfect for social media art — Instagram, Pinterest, TikTok. Every prompt is trendy and aesthetic-ready."
+          },
+          {
+            "title": "Can I share ideas with friends?",
+            "description": "Yes. Every idea has a share button that copies a link. Send favorite aesthetic prompts to friends, post on social media, or use them to start a collaborative aesthetic challenge."
+          }
+        ]
+      }
+    },
+    "singleCard": {
+      "title": "Pick a vibe, get one featured idea",
+      "subtitle": "Tap Surprise Me to flip through more",
+      "generateCta": "Generate 5 Personalized Ideas",
+      "emptyHint": "No inspirations yet — be the first!",
+      "vibeAny": "Any",
+      "vibeCute": "Cute",
+      "vibeCool": "Cool",
+      "vibeEasy": "Easy",
+      "vibeAesthetic": "Aesthetic"
+    },
+    "lottery": {
+      "title": "Bored? Pull the lever for 3 fresh ideas",
+      "subtitle": "Three reels spin together — three drawings to pick from",
+      "leverIdle": "Pull the Lever!",
+      "leverSpinning": "Spinning…",
+      "generateCta": "Or generate 5 custom ideas",
+      "emptyHint": "No inspirations yet — be the first!"
+    }
   },
   "auth": {
     "loginTitle": "Welcome back",

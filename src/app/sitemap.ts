@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 import { SITE_URL, LOCALES, localePath, DEFAULT_LOCALE } from "@/lib/seo";
+import { SEO_TOPIC_PAGES } from "@/lib/seo-pages";
 
 /**
  * Sitemap policy:
@@ -117,6 +118,38 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: effectivePriority,
         alternates: {
           languages: buildLanguages(detailPath),
+        },
+      });
+    }
+  }
+
+  // ---------- SEO long-tail topic pages × locales ----------
+  // Programmatic SEO cluster: one URL per keyword in the registry, each
+  // with full hreflang coverage so search engines treat every locale
+  // variant as the same content in different languages.
+  //
+  // Priority is keyword-volume-proportional (clamped 0.6-0.85) so high-vol
+  // pages get more crawl budget than long-tail ones without competing
+  // with the inspiration detail pages (0.8) or the homepage (1.0).
+  for (const topic of SEO_TOPIC_PAGES) {
+    const topicPath = `/topics/${topic.slug}`;
+    // Map raw monthly search volume onto a sitemap priority bucket.
+    // Caps keep us from over-prioritizing single pages relative to the
+    // homepage (1.0) and inspiration detail pages (0.8).
+    const volumeScore =
+      topic.vol >= 10000 ? 0.85 : topic.vol >= 5000 ? 0.8 : topic.vol >= 2000 ? 0.7 : 0.6;
+    for (const locale of LOCALES) {
+      const effectivePriority =
+        locale === DEFAULT_LOCALE
+          ? volumeScore
+          : Math.round((volumeScore - 0.1) * 10) / 10;
+      entries.push({
+        url: `${SITE_URL}${localePath(locale, topicPath)}`,
+        lastModified: SITE_LAUNCH_DATE,
+        changeFrequency: "monthly",
+        priority: effectivePriority,
+        alternates: {
+          languages: buildLanguages(topicPath),
         },
       });
     }

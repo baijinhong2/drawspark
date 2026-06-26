@@ -9,7 +9,10 @@ import { prisma } from "@/lib/prisma";
 import { DEFAULT_OG_IMAGE, absoluteUrl } from "@/lib/seo";
 import type { InspirationResponse } from "@/lib/types";
 
-type Props = { params: Promise<{ locale: string }> };
+type Props = {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ q?: string }>;
+};
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -102,12 +105,14 @@ const loadFallbackInspirations = cache(async (): Promise<InspirationResponse[]> 
   }
 });
 
-export default async function GeneratePage({ params }: Props) {
+export default async function GeneratePage({ params, searchParams }: Props) {
   const { locale } = await params;
+  const { q } = await searchParams;
   setRequestLocale(locale);
   const t = await getTranslations("generate");
 
   const initialInspirations = await loadFallbackInspirations();
+  const initialQuery = typeof q === "string" ? q : "";
 
   return (
     <>
@@ -121,7 +126,10 @@ export default async function GeneratePage({ params }: Props) {
             {t("subtitle")}
           </p>
         </div>
-        <GenerateClient initialInspirations={initialInspirations} />
+        <GenerateClient
+          initialInspirations={initialInspirations}
+          initialQuery={initialQuery}
+        />
       </div>
       <SeoSections namespace="generate" locale={locale} />
     </>
