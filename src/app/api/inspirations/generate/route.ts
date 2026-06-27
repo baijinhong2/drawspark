@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { getCurrentUser } from "@/lib/auth";
 import { streamInspirations } from "@/lib/deepseek";
 import {
@@ -227,13 +227,30 @@ export async function POST(request: NextRequest) {
               : "No valid inspirations were generated. Please try again.",
         });
       } else {
-        // New inspirations went into the DB — kick the sitemap cache so the
-        // generated URLs become visible to crawlers without waiting for the
-        // ISR window. Failures here must not abort the response.
+        // New inspirations went into the DB — kick the relevant caches so the
+        // generated URLs become visible everywhere without waiting for the
+        // ISR / revalidate windows.
+        //
+        // - revalidatePath("/sitemap.xml"): newly created /i/{id} URLs join
+        //   the sitemap immediately.
+        // - revalidateTag("inspirations"): busts every list-style query that
+        //   is wrapped in `unstable_cache(..., { tags: ["inspirations"] })` —
+        //   i.e. the homepage "Popular Inspirations" grid, the explore
+        //   listing, and every long-tail topic page widget. Without this,
+        //   freshly generated rows wouldn't show up in those lists until the
+        //   60s revalidate window elapsed (or, on the homepage, until the
+        //   full-route cache happened to expire).
+        //
+        // Failures here must not abort the response.
         try {
           revalidatePath("/sitemap.xml");
         } catch (err) {
           console.error("[generate] revalidatePath(/sitemap.xml) failed:", err);
+        }
+        try {
+          revalidateTag("inspirations");
+        } catch (err) {
+          console.error("[generate] revalidateTag(inspirations) failed:", err);
         }
         send("done", { remaining, count: savedCount });
       }

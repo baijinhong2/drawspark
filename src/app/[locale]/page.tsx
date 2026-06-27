@@ -5,8 +5,7 @@ import { FaqJsonLd } from "@/components/FaqJsonLd";
 import { SeoSections } from "@/components/SeoSections";
 import { Link } from "@/i18n/navigation";
 import { SUBJECTS } from "@/lib/constants";
-import { serializeInspiration } from "@/lib/inspiration";
-import { prisma } from "@/lib/prisma";
+import { getHomePopularInspirations } from "@/lib/home-popular";
 import { DEFAULT_OG_IMAGE, absoluteUrl } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -54,14 +53,9 @@ export default async function HomePage({ params }: Props) {
   const t = await getTranslations("home");
   const tEnum = await getTranslations("enums");
 
-  let popular: ReturnType<typeof serializeInspiration>[] = [];
+  let popular: Awaited<ReturnType<typeof getHomePopularInspirations>> = [];
   try {
-    const items = await prisma.inspiration.findMany({
-      where: { status: "published" },
-      orderBy: { likesCount: "desc" },
-      take: 6,
-    });
-    popular = items.map((item) => serializeInspiration(item));
+    popular = await getHomePopularInspirations();
   } catch (error) {
     console.error("HomePage: failed to load popular inspirations", error);
   }
