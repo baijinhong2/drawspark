@@ -248,7 +248,7 @@ export async function POST(request: NextRequest) {
           console.error("[generate] revalidatePath(/sitemap.xml) failed:", err);
         }
         try {
-          revalidateTag("inspirations");
+          revalidateTag("inspirations", "default");
         } catch (err) {
           console.error("[generate] revalidateTag(inspirations) failed:", err);
         }

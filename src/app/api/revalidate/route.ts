@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
   }
 
   for (const p of paths) revalidatePath(p);
-  for (const t of tags) revalidateTag(t);
+  for (const t of tags) revalidateTag(t, "default");
 
   return Response.json({
     ok: true,
