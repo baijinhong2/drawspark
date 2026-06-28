@@ -6949,6 +6949,2916 @@
         ]
       },
       "footerLabel": "Dibujos geniales para hacer"
+    },
+    "cartoon-drawing-ideas": {
+      "h1Title": "Ideas de Dibujos de Caricaturas: 100+ Bocetos, Personajes y Diseños Divertidos",
+      "h1Subtitle": "¿Quieres dibujar caricaturas? La IA de DrawSpark genera ideas divertidas — figuras chibi, escenas de cómic, mascotas, expresiones exageradas y arte caricaturesco para cada nivel.",
+      "heroCta": "Generar Ideas de Caricaturas",
+      "heroPromptHint": "Pre-rellena una idea estilo caricatura",
+      "seoTitle": "Ideas de Dibujos de Caricaturas — 100+ Bocetos Divertidos | DrawSpark",
+      "seoDescription": "¿Buscas ideas de caricaturas? El generador gratuito de IA de DrawSpark entrega bocetos divertidos — personajes chibi, escenas cómicas, mascotas, expresiones y arte caricaturesco listo para dibujar.",
+      "seoKeywords": "ideas de dibujos de caricaturas, bocetos de caricaturas, personajes de caricaturas para dibujar, dibujos de caricaturas divertidos, ideas chibi, ideas de cómics, ideas de arte caricaturesco, ideas de mascotas",
+      "head1": {
+        "title": "Generador de Ideas de Caricaturas de DrawSpark",
+        "description": "¿Quieres dibujar caricaturas realmente divertidas? La IA de DrawSpark entrega ideas de caricaturas juguetonas y expresivas — personajes chibi, escenas cómicas, mascotas, expresiones exageradas y arte que da vida a tu cuaderno.",
+        "buttonText": "Generar Ideas de Caricaturas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas de Caricaturas de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de ideas de caricaturas de DrawSpark está hecho para artistas que quieren temas juguetones y expresivos con la diversión incorporada. La IA genera prompts estilo caricatura — personajes chibi, viñetas de cómic, diseños de mascotas, expresiones exageradas y escenas narrativas — adaptados a tu nivel. Cada idea viene con título, descripción, etiqueta de tema, etiqueta de estilo y nivel de dificultad. El generador cubre todo el espectro del arte caricaturesco: personajes estilo Disney clásico, chibi inspirados en anime, escenas de acción de cómic, mascotas para branding, animales graciosos, retratos expresivos y escenas completas. Puedes filtrar por estilo para enfocarte en cute, kawaii, simple o realista. DrawSpark también mantiene una galería pública de arte caricaturesco comunitario para inspiración.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas de Caricaturas de DrawSpark?",
+        "buttonText": "Generar Ideas de Caricaturas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas de Caricaturas",
+            "description": "Visita esta página y pulsa generar. El generador de ideas de caricaturas es gratis, instantáneo y sin login — perfecto para caricaturistas que quieren prompts frescos y juguetones bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas de Caricaturas Divertidas",
+            "description": "DrawSpark crea al instante 5 ideas de caricaturas. Cada una viene con título, descripción, tema, estilo y dificultad — todo enfocado en arte caricaturesco divertido y expresivo.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Caricatura y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas de caricaturas, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para nuevas ideas anytime.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas de Caricaturas de DrawSpark?",
+        "description": "Las ideas de caricaturas de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas divertidos y expresivos — desde personajes de cuaderno hasta tiras cómicas hasta arte social que enganche.",
+        "buttonText": "Generar Ideas de Caricaturas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Personajes Chibi y Caricaturas Adorables",
+            "description": "Encuentra ideas adorables — chibi, kawaii, mascotas, expresiones y personajes originales con la diversión incorporada. Perfecto para práctica de OC y fichas de personaje.",
+            "buttonText": "Obtener Ideas Chibi",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte Caricaturesco Estilo Cómic",
+            "description": "Obtén ideas en el género cómic — viñetas de acción, poses dinámicas, burbujas de diálogo, superhéroes, villanos — perfecto para artistas que aman el arte caricaturesco expresivo y narrativo.",
+            "buttonText": "Obtener Ideas de Cómic",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Animales y Mascotas Caricaturescas",
+            "description": "Descubre ideas de animales caricaturescos — mascotas antropomórficas, fauna linda, personajes mascota, criaturas expresivas — genial para artistas que aman temas divertidos y amistosos.",
+            "buttonText": "Obtener Ideas de Mascotas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Caricaturesco Comunitario",
+            "description": "Explora la galería pública de ideas de caricaturas compartidas por otros artistas. Mira qué crean otros caricaturistas y encuentra inspiración para tu próxima pieza expresiva.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas de Caricaturas de DrawSpark?",
+        "buttonText": "Generar Ideas de Caricaturas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Caricaturistas Principiantes",
+            "description": "¿Aprendiendo a dibujar caricaturas y quieres temas divertidos para practicar? DrawSpark entrega ideas amigables para principiantes con formas claras, expresiones simples y escenas alcanzables.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artistas de Cómic y Manga",
+            "description": "¿Construyendo un portafolio de cómic o manga? Las ideas de caricaturas de DrawSpark te dan personajes expresivos, viñetas dinámicas y escenas narrativas que muestran tu rango caricaturesco.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Aficionados que Aman el Arte Divertido",
+            "description": "¿Quieres que tu cuaderno se sienta más juguetón? Las ideas de DrawSpark te empujan hacia temas divertidos y expresivos más allá de las listas genéricas. Energía caricaturesca real, en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas de Caricaturas de DrawSpark?",
+        "buttonText": "Generar Ideas de Caricaturas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Caricaturesco, No Solo Genérico",
+            "description": "La mayoría de listas de caricaturas sugieren personajes genéricos. La IA de DrawSpark genera ideas con energía caricaturesca real — caras expresivas, proporciones exageradas, poses divertidas y personajes vivos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas de caricaturas por día — 150 prompts divertidos cada día para mantener tu cuaderno juguetón.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea incluye un personaje claro, estilo expresivo y nivel de dificultad — para que sepas exactamente qué pieza divertida estás asumiendo antes de empezar. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas de Caricaturas de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 968 Reseñas",
+        "content": [
+          {
+            "title": "Mis Personajes Cobran Vida",
+            "description": "Mis personajes siempre se veían rígidos. Las ideas de caricaturas de DrawSpark me dan poses expresivas, expresiones divertidas y prompts de personalidad que hacen que mis OC se sientan vivos cuando los comparto online.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lily Park",
+            "ext3": "Diseñadora de Personajes"
+          },
+          {
+            "title": "Oro para Tiras Cómicas",
+            "description": "Estoy trabajando en mi primer webcómic y las ideas de caricaturas de DrawSpark me dieron diseños de viñetas, interacciones de personajes y escenas narrativas que mantienen enganchados a mis lectores desde el capítulo uno.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Reed",
+            "ext3": "Creador de Webcómic"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista de caricaturas que probé estaba llena de clones genéricos de Disney. La IA de DrawSpark realmente entrega ideas con personalidad — personajes únicos, escenas divertidas, energía caricaturesca real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hana Tanaka",
+            "ext3": "Caricaturista Aficionada"
+          },
+          {
+            "title": "Mi Engagement en TikTok",
+            "description": "Publico mi arte caricaturesco en TikTok y las ideas de DrawSpark han cambiado completamente mi engagement. Los prompts coinciden con la estética expresiva que aman mis seguidores — mis vistas se triplicaron en 3 meses.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Diego Santos",
+            "ext3": "Caricaturista de TikTok"
+          },
+          {
+            "title": "Perfecto para Stickers",
+            "description": "Tengo una pequeña tienda de stickers y las ideas de DrawSpark me dan inspiración infinita para nuevos diseños de mascotas, caras expresivas y stickers de personajes lindos que mis clientes siguen comprando.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nina Chen",
+            "ext3": "Dueña de Tienda de Stickers"
+          },
+          {
+            "title": "Diversión para Todos los Niveles",
+            "description": "Uso las ideas de caricaturas de DrawSpark con mis estudiantes de arte de secundaria. Las clasificaciones de dificultad significan que todos obtienen un prompt que realmente pueden terminar, y los resultados siempre se ven genuinamente divertidos.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Karen Williams",
+            "ext3": "Profesora de Arte"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas de Caricaturas de DrawSpark",
+        "buttonText": "Generar Ideas de Caricaturas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las ideas de dibujos de caricaturas?",
+            "description": "Las ideas de caricaturas incluyen personajes expresivos, figuras chibi, viñetas de cómic, mascotas, poses exageradas y escenas narrativas que se ven divertidas y animadas. La IA de DrawSpark genera prompts frescos de caricaturas en todas estas categorías.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas de caricaturas?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de ideas de caricaturas por día, con 5 ideas en cada lote. Son 150 prompts nuevos cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se ven mejor como caricaturas?",
+            "description": "Los temas que a menudo se ven geniales como caricaturas incluyen personajes expresivos, animales lindos, objetos antropomórficos, héroes de cómic, mascotas, retratos exagerados y escenas narrativas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas de caricaturas para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos. Tus ideas guardadas viven en la página Mis Inspiraciones, perfectas para rastrear las piezas divertidas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren personajes genéricos. El generador de DrawSpark está específicamente ajustado para sugerir personajes, expresiones y escenas que se ven caricaturescos y divertidos. La energía está incorporada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos de caricatura puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: chibi, kawaii, estilo Disney, anime, cómic, manga, caricatura simple, estilo Pixar, mascota, doodle y más. Elige un filtro de estilo para enfocarte en tu estética favorita.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para temas específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en personas, animales, criaturas fantásticas, comida, objetos cotidianos o cualquier otro. El generador combina tu tema con expresiones y proporciones divertidas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea de caricatura?",
+            "description": "La mayoría de ideas de DrawSpark toman 30 minutos a 1 hora para completarse bien. La IA incluye estimaciones de tiempo para que planifiques tu sesión.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para práctica de animación?",
+            "description": "Sí — muchos animadores usan las ideas de DrawSpark para estudios de personajes y práctica. Las poses expresivas, características exageradas y escenas narrativas son perfectas para habilidades listas para animación.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos de caricaturas?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles. Comparte tu arte terminado en redes sociales, comunidades de arte o tu portafolio.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Ideas de Dibujos de Caricaturas"
+    },
+    "summer-drawing-ideas": {
+      "h1Title": "Ideas de Dibujos de Verano: 100+ Bocetos Soleados, Playeros y Estacionales",
+      "h1Subtitle": "¿Quieres dibujar verano? La IA de DrawSpark genera ideas cálidas y soleadas — escenas de playa, animales tropicales, helados, momentos de vacaciones y arte brillante para cada nivel.",
+      "heroCta": "Generar Ideas de Verano",
+      "heroPromptHint": "Pre-rellena una idea estilo verano",
+      "seoTitle": "Ideas de Dibujos de Verano — 100+ Bocetos Soleados | DrawSpark",
+      "seoDescription": "¿Buscas ideas de verano? El generador gratuito de IA de DrawSpark entrega bocetos cálidos y estacionales — escenas de playa, arte tropical, helados, momentos de vacaciones listos para dibujar.",
+      "seoKeywords": "ideas de dibujos de verano, ideas de arte de verano, bocetos de verano, garabatos de verano, ideas de dibujos de playa, dibujos de vacaciones de verano, ilustraciones de verano, arte de temporada, ideas tropicales",
+      "head1": {
+        "title": "Generador de Ideas de Verano de DrawSpark",
+        "description": "¿Quieres dibujar verano? La IA de DrawSpark entrega ideas cálidas y soleadas — escenas de playa, criaturas tropicales, helados, momentos de vacaciones y arte brillante que captura la energía del verano en tu cuaderno.",
+        "buttonText": "Generar Ideas de Verano",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas de Verano de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de ideas de verano de DrawSpark está hecho para artistas que quieren temas cálidos y soleados con la energía del verano incorporada. La IA genera prompts temáticos veraniegos — escenas de playa, fauna tropical, helados, momentos de vacaciones, piscinas, aventuras al aire libre y composiciones brillantes estacionales. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre el espectro completo: paisajes playeros, criaturas oceánicas, aves tropicales, helados y paletas, sombreros y gafas de sol, tablas de surf, puestos de limonada, escenas de camping, fuegos artificiales, flores de jardín y atardeceres brillantes. Puedes filtrar por tema para enfocarte en animales, comida, paisajes o momentos cotidianos. DrawSpark mantiene una galería pública de arte veraniego comunitario para inspiración.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas de Verano de DrawSpark?",
+        "buttonText": "Generar Ideas de Verano",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas de Verano",
+            "description": "Visita esta página y pulsa generar. El generador de ideas de verano es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts estacionales frescos bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas de Verano Soleadas",
+            "description": "DrawSpark crea al instante 5 ideas de verano. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que capturan la energía brillante y soleada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Escena de Verano y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas veraniegas, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para nuevas ideas estacionales.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas de Verano de DrawSpark?",
+        "description": "Las ideas de verano de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas cálidos y soleados — desde escenas playeras en cuaderno hasta tarjetas de vacaciones hasta arte social temático.",
+        "buttonText": "Generar Ideas de Verano",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Escenas de Playa y Océano",
+            "description": "Encuentra ideas veraniegas hermosas — paisajes playeros, olas, atardeceres tropicales, palmeras y fauna costera — perfecto para artistas que aman temas cálidos y brillantes.",
+            "buttonText": "Obtener Ideas de Playa",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte de Comidas y Helados de Verano",
+            "description": "Obtén ideas en categoría comida — conos de helado, paletas, sandía, limonada, bebidas tropicales — perfecto para artistas que aman temas divertidos, coloridos y veraniegos.",
+            "buttonText": "Obtener Ideas de Comida",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Animales Tropicales y Aves",
+            "description": "Descubre ideas de fauna veraniega — flamencos, tucanes, peces tropicales, tortugas marinas, criaturas playeras — genial para artistas que aman temas animales vibrantes y exóticos.",
+            "buttonText": "Obtener Ideas de Fauna",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte de Verano Comunitario",
+            "description": "Explora la galería pública de ideas de verano compartidas por otros artistas. Mira qué piezas estacionales crean otros y encuentra inspiración para tu próximo boceto brillante.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas de Verano de DrawSpark?",
+        "buttonText": "Generar Ideas de Verano",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas de Cuaderno Estacionales",
+            "description": "¿Te encanta llenar tu cuaderno con temas estacionales? Las ideas de verano de DrawSpark te dan prompts cálidos y soleados que coinciden con la estación — perfectos para spreads de diario, series de verano y práctica estacional.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Diseñadores de Tarjetas e Impresiones",
+            "description": "¿Diseñando tarjetas de verano, impresiones o stickers? Las ideas de DrawSpark entregan escenas playeras, helados y temas brillantes listos para diseños de tarjetas e impresiones.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Aficionados que Aman Arte Brillante",
+            "description": "¿Anhelas temas cálidos y coloridos? Las ideas de DrawSpark te empujan hacia composiciones brillantes y estacionales más allá de las listas genéricas. Energía veraniega real, en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas de Verano de DrawSpark?",
+        "buttonText": "Generar Ideas de Verano",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Estacional, No Solo Genérico",
+            "description": "La mayoría de listas veraniegas sugieren escenas de playa genéricas. La IA de DrawSpark genera ideas con energía veraniega real — luz cálida, colores tropicales, vibras de vacaciones y temas que se sienten como julio.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas de verano por día — 150 prompts soleados cada día para mantener tu cuaderno cálido.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea veraniega incluye un tema claro, estilo brillante y nivel de dificultad — para que sepas exactamente qué pieza estacional estás asumiendo antes de empezar. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas de Verano de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 823 Reseñas",
+        "content": [
+          {
+            "title": "Vibras de Playa Todo el Año",
+            "description": "Me encanta dibujar escenas de verano incluso en invierno. Las ideas de DrawSpark me dan paisajes playeros, aves tropicales y atardeceres cálidos que mantienen mi cuaderno soleado sin importar la estación.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sofia Martinez",
+            "ext3": "Artista de Bocetos de Playa"
+          },
+          {
+            "title": "Tienda de Tarjetas Salvada",
+            "description": "Tengo una tienda de tarjetas de verano en Etsy y las ideas de DrawSpark me dieron inspiración infinita para tarjetas playeras, impresiones de helados y diseños tropicales que mis clientes aman cada junio.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Olivia Bennett",
+            "ext3": "Dueña de Tienda de Tarjetas"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista de verano que probé estaba llena del mismo clipart de palmeras. La IA de DrawSpark realmente entrega ideas de verano con personalidad — escenas únicas, momentos divertidos, calidez real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Alex Rivera",
+            "ext3": "Artista Aficionado"
+          },
+          {
+            "title": "Mi Clase de Campamento lo Adora",
+            "description": "Enseño arte en un campamento de verano y las ideas de DrawSpark me dan prompts apropiados para la edad — playa, helados, tropical — que mis estudiantes terminan en una sesión. Cada niño se va con una obra maestra soleada.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tina Park",
+            "ext3": "Profesora de Campamento de Verano"
+          },
+          {
+            "title": "Cuaderno de Viaje Lleno",
+            "description": "Llevé las ideas de verano de DrawSpark a mis vacaciones en la playa y volví con un cuaderno lleno de aves tropicales, escenas oceánicas y momentos de vacaciones. Mucho mejor que mis dibujos de viaje habituales.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jonas Weber",
+            "ext3": "Artista de Viaje"
+          },
+          {
+            "title": "Inspiración Junto a la Piscina",
+            "description": "Me siento junto a la piscina cada fin de semana y las ideas de DrawSpark me dan exactamente los prompts brillantes y cálidos que quiero dibujar. Flamencos inflables, camiones de helados, cielos de atardecer — energía sin fin.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Thompson",
+            "ext3": "Artista Junto a la Piscina"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas de Verano de DrawSpark",
+        "buttonText": "Generar Ideas de Verano",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las ideas de dibujos de verano?",
+            "description": "Las ideas de verano incluyen escenas de playa, fauna tropical, helados, momentos de vacaciones, piscinas, aventuras al aire libre y composiciones brillantes estacionales que capturan la energía soleada del verano.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas de verano?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de ideas de verano por día, con 5 ideas en cada lote. Son 150 nuevos prompts soleados cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se sienten más veraniegos para dibujar?",
+            "description": "Los temas que se sienten más veraniegos incluyen playas, océanos, aves tropicales, helados, paletas, gafas de sol, sombreros, palmeras, camping, fuegos artificiales y cielos de atardecer brillante.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas de verano para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos. Tus ideas guardadas viven en la página Mis Inspiraciones.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren escenas de naturaleza genéricas. El generador de DrawSpark está ajustado para sugerir temas, composiciones y colores que se sienten veraniegos. La calidez estacional está incorporada en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos de verano puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: tropical, playero, vintage veraniego, vacaciones modernas, verano cute, kawaii, ilustrado, pictórico y más. Elige un filtro de estilo para enfocarte en tu estética favorita.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para temas específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, comida, paisajes, escenas de vacaciones, aves tropicales o cualquier otro. El generador combina tu tema con colores cálidos, luz brillante y vibras veraniegas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea de verano?",
+            "description": "La mayoría de ideas de verano de DrawSpark toman 30 minutos a 1 hora para completarse bien. La IA incluye estimaciones de tiempo para que planifiques tu sesión.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para niños?",
+            "description": "Sí — muchos padres y profesores usan las ideas de verano de DrawSpark con niños. Los prompts vienen con clasificaciones de dificultad para que puedas elegir escenas apropiadas para la edad.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos de verano?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles. Comparte tu arte terminado en redes sociales, comunidades de arte o tu portafolio.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Ideas de Dibujos de Verano"
+    },
+    "easter-drawing-ideas": {
+      "h1Title": "Ideas de Dibujos de Pascua: 100+ Bocetos, Conejitos y Huevos Lindos",
+      "h1Subtitle": "¿Quieres dibujar Pascua? La IA de DrawSpark genera ideas festivas — conejitos, huevos decorados, pollitos, cestas y arte pascuero para cada nivel.",
+      "heroCta": "Generar Ideas de Pascua",
+      "heroPromptHint": "Pre-rellena una idea estilo Pascua",
+      "seoTitle": "Ideas de Dibujos de Pascua — 100+ Conejitos y Huevos Lindos | DrawSpark",
+      "seoDescription": "¿Buscas ideas de Pascua? El generador gratuito de IA de DrawSpark entrega bocetos festivos — conejitos, huevos decorados, pollitos, cestas y arte pascuero listo para dibujar.",
+      "seoKeywords": "ideas de dibujos de Pascua, ideas de arte de Pascua, bocetos de Pascua, garabatos de Pascua, dibujo de conejo de Pascua, dibujo de huevo de Pascua, ideas de primavera, dibujo de cesta de Pascua, ilustraciones de Pascua",
+      "head1": {
+        "title": "Generador de Ideas de Pascua de DrawSpark",
+        "description": "¿Quieres dibujar Pascua? La IA de DrawSpark entrega ideas festivas y estacionales — conejitos, huevos decorados, pollitos, cestas y arte temático que captura la alegría de la temporada en tu cuaderno.",
+        "buttonText": "Generar Ideas de Pascua",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas de Pascua de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de ideas de Pascua de DrawSpark está hecho para artistas que quieren temas festivos y estacionales con la energía alegre de Pascua incorporada. La IA genera prompts temáticos pascueros — conejitos lindos, huevos decorados, pollitos primaverales, cestas de Pascua, flores primaverales, animales bebés y composiciones estacionales. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre el espectro completo del arte de Pascua: conejos clásicos, huevos decorados, pollitos bebés, cestas con golosinas, tulipanes y narcisos, sombreros de Pascua, corderos primaverales, escenas religiosas, dulces y composiciones pastel. Puedes filtrar por estilo para enfocarte en cute, kawaii, simple o realista. DrawSpark mantiene una galería pública de arte pascuero comunitario.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas de Pascua de DrawSpark?",
+        "buttonText": "Generar Ideas de Pascua",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas de Pascua",
+            "description": "Visita esta página y pulsa generar. El generador de ideas de Pascua es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts estacionales frescos bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas de Pascua Festivas",
+            "description": "DrawSpark crea al instante 5 ideas de Pascua. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que capturan la energía alegre y primaveral.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea de Pascua y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas pascueras, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para nuevas ideas estacionales.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas de Pascua de DrawSpark?",
+        "description": "Las ideas de Pascua de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas festivos y estacionales — desde conejitos en cuaderno hasta tarjetas hasta arte social que enganche.",
+        "buttonText": "Generar Ideas de Pascua",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Conejitos y Animales Primaverales",
+            "description": "Encuentra ideas adorables — conejitos, pollitos, corderos bebés, patitos esponjosos, animales bebés con encanto pascuero. Perfecto para tarjetas, práctica de OC y diseños estacionales.",
+            "buttonText": "Obtener Ideas de Conejos",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte de Huevos y Cestas",
+            "description": "Obtén ideas en el género de huevos y cestas — huevos decorados, cestas tejidas, dulces de Pascua, arreglos festivos — perfecto para artistas que aman temas tradicionales con colores pastel.",
+            "buttonText": "Obtener Ideas de Huevos",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte de Flores y Paisajes Primaverales",
+            "description": "Descubre ideas en el género de paisajes primaverales — tulipanes, narcisos, jardines florecidos, praderas primaverales — genial para artistas que aman temas florales frescos y brillantes.",
+            "buttonText": "Obtener Ideas de Primavera",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte de Pascua Comunitario",
+            "description": "Explora la galería pública de ideas de Pascua compartidas por otros artistas. Mira qué piezas festivas crean otros y encuentra inspiración para tu próximo boceto alegre.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas de Pascua de DrawSpark?",
+        "buttonText": "Generar Ideas de Pascua",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Diseñadores de Tarjetas Festivas",
+            "description": "¿Diseñando tarjetas de Pascua o impresiones estacionales? Las ideas de DrawSpark entregan conejitos, huevos decorados y temas primaverales listos para diseños de tarjetas e impresiones.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Padres y Profesores",
+            "description": "¿Buscas proyectos de arte de Pascua para niños? El generador de DrawSpark entrega prompts apropiados para la edad con clasificaciones de dificultad para que los niños terminen una pieza festiva cada vez.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artistas de Cuaderno Estacionales",
+            "description": "¿Te encanta capturar festividades en tu cuaderno? Las ideas de DrawSpark te empujan hacia temas estacionales festivos más allá de las listas genéricas de primavera. Alegría real, en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas de Pascua de DrawSpark?",
+        "buttonText": "Generar Ideas de Pascua",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Pascua, No Solo Primavera Genérica",
+            "description": "La mayoría de listas pascueras sugieren flores primaverales genéricas. La IA de DrawSpark genera ideas con energía pascuera real — conejitos festivos, huevos decorados, cestas y temas con encanto pastel.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas de Pascua por día — 150 prompts festivos cada día para llenar tu cuaderno pascuero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea de Pascua incluye un tema claro, estilo festivo y nivel de dificultad — para que sepas exactamente qué pieza estacional estás asumiendo. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas de Pascua de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 712 Reseñas",
+        "content": [
+          {
+            "title": "Mi Tienda de Tarjetas Salvada Cada Primavera",
+            "description": "Tengo una tienda de tarjetas de Pascua y las ideas de DrawSpark me dan diseños frescos de conejitos, huevos y cestas cada marzo. A mis clientes les encantan las nuevas tarjetas estacionales y mis ventas saltan cada Pascua.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Helen Foster",
+            "ext3": "Diseñadora de Tarjetas"
+          },
+          {
+            "title": "Ganadora en Clase de Niños",
+            "description": "Enseño arte los sábados a niños y las ideas de Pascua de DrawSpark me dieron prompts apropiados para la edad que cada niño podía terminar en 45 minutos. Los padres enmarcaron los resultados como regalos de Pascua.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Patricia Gomez",
+            "ext3": "Profesora de Arte Infantil"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista de Pascua que probé estaba llena de los mismos conejitos de caricatura. La IA de DrawSpark realmente entrega ideas con personalidad — diseños únicos de huevos, pollitos lindos, encanto festivo real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Emma Walsh",
+            "ext3": "Artista Aficionada"
+          },
+          {
+            "title": "Éxito del Pack de Stickers",
+            "description": "Hice un pack de stickers de Pascua con las ideas de DrawSpark — conejitos, huevos, flores primaverales — y se agotó en dos semanas en Etsy. Los clientes siguen preguntando cuándo sale el pack de 2026.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Liam O'Brien",
+            "ext3": "Diseñador de Stickers"
+          },
+          {
+            "title": "Aprobado por la Escuela Dominical",
+            "description": "Enseño en escuela dominical y las ideas de Pascua de DrawSpark me dieron prompts primaverales amigables con la fe que los niños aman. Conejitos, huevos, jardines — cada niño se va con una obra maestra alegre.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sarah Mitchell",
+            "ext3": "Profesora de Escuela Dominical"
+          },
+          {
+            "title": "Tradición de Cuaderno",
+            "description": "Cada Pascua lleno un spread del cuaderno con ideas de DrawSpark. Este año dibujé conejitos, huevos decorados y un cordero primaveral. Se ha convertido en mi tradición estacional favorita.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Megan Cole",
+            "ext3": "Artista de Cuaderno Estacional"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas de Pascua de DrawSpark",
+        "buttonText": "Generar Ideas de Pascua",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las ideas de dibujos de Pascua?",
+            "description": "Las ideas de Pascua incluyen conejitos lindos, huevos decorados, pollitos primaverales, cestas, flores primaverales, animales bebés y composiciones festivas estacionales. La IA de DrawSpark genera prompts frescos cada vez.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas de Pascua?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos por día, con 5 ideas en cada lote. Son 150 nuevos prompts festivos cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se sienten más pascueros?",
+            "description": "Los temas que se sienten más pascueros incluyen conejitos lindos, huevos decorados, pollitos bebés, cestas, tulipanes primaverales, narcisos, corderos bebés, sombreros de Pascua, dulces y escenas pastel.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas de Pascua para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos. Tus ideas guardadas viven en la página Mis Inspiraciones.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt de primavera regular?",
+            "description": "La mayoría de listas sugieren flores genéricas. El generador de DrawSpark está ajustado para sugerir temas, decoraciones y composiciones que se sienten específicamente pascueros. El encanto festivo está incorporado.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos de Pascua puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: cute, kawaii, simple, realista, vintage, pastel moderno, ilustrado, pictórico y más. Elige un filtro de estilo para enfocarte en tu estética favorita.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para temas específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, comida, paisajes, decoraciones festivas o cualquier otro. El generador combina tu tema con colores pastel, detalles festivos y encanto pascuero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea de Pascua?",
+            "description": "La mayoría de ideas de Pascua de DrawSpark toman 30 minutos a 1 hora para completarse bien. La IA incluye estimaciones de tiempo para que planifiques tu sesión.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para niños?",
+            "description": "Sí — muchos padres y profesores usan las ideas de DrawSpark con niños. Los prompts vienen con clasificaciones de dificultad para que puedas elegir temas apropiados para la edad.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos de Pascua?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles. Comparte tu arte terminado en redes sociales, comunidades de arte o tu portafolio.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Ideas de Dibujos de Pascua"
+    },
+    "weird-things-to-draw": {
+      "h1Title": "Cosas Raras para Dibujar: 100+ Bocetos Extraños, Surrealistas y Extraños",
+      "h1Subtitle": "¿Quieres dibujar algo raro? La IA de DrawSpark genera ideas extrañas, surrealistas y excéntricas — criaturas bizarras, objetos derritiéndose, escenas oníricas y arte extraño.",
+      "heroCta": "Generar Ideas Raras",
+      "heroPromptHint": "Pre-rellena una idea estilo raro",
+      "seoTitle": "Cosas Raras para Dibujar — 100+ Bocetos Extraños | DrawSpark",
+      "seoDescription": "¿Buscas cosas raras para dibujar? El generador gratuito de IA de DrawSpark entrega bocetos extraños, surrealistas y bizarros — criaturas, objetos derritiéndose, escenas oníricas listas para dibujar.",
+      "seoKeywords": "cosas raras para dibujar, ideas de dibujos raros, cosas extrañas para dibujar, ideas surrealistas, ideas de arte bizarro, cosas raras para dibujar, ideas raras, ideas de dibujos extraños, prompts inusuales",
+      "head1": {
+        "title": "Generador de Ideas Raras de DrawSpark",
+        "description": "¿Quieres dibujar algo realmente raro? La IA de DrawSpark entrega ideas extrañas, surrealistas y excéntricas — criaturas bizarras, objetos derritiéndose, escenas oníricas y arte extraño que hace tu cuaderno inolvidable.",
+        "buttonText": "Generar Ideas Raras",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas Raras de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de cosas raras para dibujar de DrawSpark está hecho para artistas que quieren temas extraños, surrealistas y excéntricos con rareza real incorporada. La IA genera prompts raros — criaturas bizarras, objetos derritiéndose, escenas oníricas, objetos cotidianos antropomorfizados, retratos inquietantes, paisajes surrealistas y composiciones imposibles. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre todo el espectro del arte extraño: paisajes oníricos surrealistas, relojes derritiéndose, criaturas híbridas, retratos distorsionados, pesadillas abstractas, patrones psicodélicos, personajes del valle inquietante, figuras fantasmales y objetos bizarros. Puedes filtrar por estilo para enfocarte en surreal, oscuro, psicodélico o inquietante. DrawSpark mantiene una galería pública de arte raro comunitario.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas Raras de DrawSpark?",
+        "buttonText": "Generar Ideas Raras",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas Raras",
+            "description": "Visita esta página y pulsa generar. El generador de cosas raras es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts extraños bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas Raras Extrañas",
+            "description": "DrawSpark crea al instante 5 ideas raras. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que se ven realmente extraños y surrealistas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea Rara y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas raras, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para ideas más extrañas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas Raras de DrawSpark?",
+        "description": "Las ideas raras de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas extraños y surrealistas — desde experimentos en cuaderno hasta portafolios hasta arte social que detiene el scroll.",
+        "buttonText": "Generar Ideas Raras",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Diseños de Criaturas Surrealistas",
+            "description": "Encuentra ideas extrañas — animales híbridos, figuras derritiéndose, criaturas distorsionadas, seres surrealistas — perfecto para artistas que quieren diseños bizarros que superan lo ordinario.",
+            "buttonText": "Obtener Ideas Surrealistas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Escenas Oníricas y Psicodélicas",
+            "description": "Obtén ideas en el género de paisajes surrealistas — paisajes derritiéndose, arquitectura imposible, cielos oníricos, patrones psicodélicos — perfecto para artistas que aman composiciones de otro mundo.",
+            "buttonText": "Obtener Ideas de Sueños",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Retratos Inquietantes y Oscuros",
+            "description": "Descubre ideas en el género de retratos — caras distorsionadas, expresiones inquietantes, personajes del valle inquietante — genial para artistas que aman temas desafiantes y provocadores.",
+            "buttonText": "Obtener Ideas de Retratos",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Raro Comunitario",
+            "description": "Explora la galería pública de ideas raras compartidas por otros artistas. Mira qué piezas extrañas crean otros y encuentra inspiración para tu próximo boceto excéntrico.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas Raras de DrawSpark?",
+        "buttonText": "Generar Ideas Raras",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas Surrealistas y de Concepto",
+            "description": "¿Construyendo un portafolio surrealista? Las ideas raras de DrawSpark te dan criaturas bizarras, objetos derritiéndose y escenas oníricas que muestran tu imaginación y rango conceptual.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Aficionados que Quieren Romper la Rutina",
+            "description": "¿Atascado dibujando siempre lo mismo? Las ideas raras de DrawSpark te empujan hacia temas extraños y sorprendentes que rompen tu rutina y te recuerdan por qué hacer arte es divertido.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Adolescentes Explorando Estéticas Oscuras",
+            "description": "¿Atraído por el arte raro, surrealista o inquietante? El generador de DrawSpark entrega prompts extraños apropiados para la edad con el borde excéntrico que tu estética ama.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas Raras de DrawSpark?",
+        "buttonText": "Generar Ideas Raras",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Raro, No Solo Genérico",
+            "description": "La mayoría de listas raras sugieren cosas creepy genéricas. La IA de DrawSpark genera ideas con rareza real — conceptos bizarros, composiciones surrealistas, temas excéntricos y arte que te sorprende.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas raras por día — 150 prompts extraños cada día para mantener tu cuaderno raro.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea rara incluye un tema claro, estilo surrealista y nivel de dificultad — para que sepas exactamente qué pieza extraña estás asumiendo. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas Raras de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "De 654 Reseñas",
+        "content": [
+          {
+            "title": "Rompió Mi Bloqueo",
+            "description": "Estuve atascado semanas dibujando lo mismo aburrido. El generador de cosas raras de DrawSpark me lanzó un gato derritiéndose montando una nube y no he parado de dibujar desde entonces. Rompedor total de bloqueos.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Casey Liu",
+            "ext3": "Artista de Concepto"
+          },
+          {
+            "title": "Destacado en Portafolio",
+            "description": "Necesitaba piezas de portafolio que destacaran entre otros aplicantes a arte conceptual. Las ideas raras de DrawSpark me dieron diseños surrealistas de criaturas y escenas oníricas que mis entrevistadores dijeron que aún recuerdan.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nikolai Petrov",
+            "ext3": "Aplicante a Portafolio"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista rara que probé estaba llena de los mismos payasos aterradores. La IA de DrawSpark realmente entrega ideas con imaginación — conceptos extraños, escenas surrealistas, energía excéntrica real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Riley Adams",
+            "ext3": "Artista Aficionado"
+          },
+          {
+            "title": "Mis Ventas en Etsy",
+            "description": "Vendo impresiones de arte raro en Etsy y las ideas de DrawSpark me dieron inspiración infinita para impresiones de criaturas bizarras, diseños de objetos derritiéndose y paisajes surrealistas que mi audiencia de nicho ama.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Quinn Hayes",
+            "ext3": "Dueño de Tienda de Impresiones"
+          },
+          {
+            "title": "Dibujo Terapéutico",
+            "description": "Dibujar cosas raras de DrawSpark se ha convertido en mi terapia favorita. Los prompts extraños y surrealistas me ayudan a sacar emociones que el dibujo realista nunca lograba. Mi cuaderno es mucho más honesto ahora.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Devon Cole",
+            "ext3": "Artista Expresivo"
+          },
+          {
+            "title": "Detén el Scroll",
+            "description": "Publico mi arte raro en Instagram y las ideas de DrawSpark me ayudan a detener el scroll. Los prompts extraños y surrealistas generan mucho más engagement que mis dibujos genéricos anteriores.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sage Patel",
+            "ext3": "Artista de Instagram"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas Raras de DrawSpark",
+        "buttonText": "Generar Ideas Raras",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las cosas raras para dibujar?",
+            "description": "Las cosas raras para dibujar incluyen criaturas bizarras, objetos derritiéndose, escenas oníricas, retratos distorsionados, objetos cotidianos antropomorfizados y paisajes surrealistas. La IA de DrawSpark genera prompts frescos cada vez.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas raras?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos por día, con 5 ideas en cada lote. Son 150 nuevos prompts extraños cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se sienten más raros?",
+            "description": "Los temas que se sienten más raros incluyen criaturas híbridas, relojes derritiéndose, retratos distorsionados, objetos antropomorfizados, arquitectura imposible, cielos oníricos y personajes del valle inquietante.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas raras para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren temas genéricos. El generador de DrawSpark está ajustado para sugerir temas, composiciones y estilos que se ven extraños y surrealistas. La energía excéntrica está incorporada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos raros puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: surreal, oscuro, psicodélico, abstracto, distorsionado, derritiéndose, onírico, inquietante, gótico, terror ligero y más. Elige un filtro de estilo para enfocarte en tu estética favorita.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para temas específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, personas, objetos, paisajes o cualquier otro. El generador combina tu tema con distorsiones surrealistas y energía extraña.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea rara?",
+            "description": "La mayoría de ideas raras de DrawSpark toman 30 minutos a 1 hora para completarse bien.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para portafolios surrealistas?",
+            "description": "Sí — muchos artistas surrealistas usan las ideas de DrawSpark para piezas de portafolio. Los conceptos bizarros, formas que se derriten y composiciones oníricas son perfectas para mostrar imaginación y rango técnico.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos raros?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles. Comparte tu arte terminado en redes sociales, comunidades de arte o tu portafolio.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Cosas Raras para Dibujar"
+    },
+    "cute-things-to-draw-when-your-bored": {
+      "h1Title": "Cosas Lindas para Dibujar Cuando Estás Aburrido: 100+ Bocetos Adorables",
+      "h1Subtitle": "¿Aburrido y quieres dibujar algo lindo? La IA de DrawSpark genera ideas adorables — animales kawaii, comidas lindas, personajes chibi y temas acogedores perfectos para sesiones relajadas.",
+      "heroCta": "Generar Ideas Lindas",
+      "heroPromptHint": "Pre-rellena una idea linda anti-aburrimiento",
+      "seoTitle": "Cosas Lindas para Dibujar Cuando Estás Aburrido | DrawSpark",
+      "seoDescription": "¿Aburrido y quieres dibujar algo lindo? El generador gratuito de IA de DrawSpark entrega bocetos adorables — animales kawaii, comidas lindas, chibi y temas acogedores para relajarse.",
+      "seoKeywords": "cosas lindas para dibujar cuando estás aburrido, ideas de dibujos lindos, cosas adorables para dibujar, ideas kawaii, cosas lindas para dibujar cuando aburrido, garabatos lindos, bocetos lindos, dibujos lindos fáciles, cosas chibi para dibujar",
+      "head1": {
+        "title": "Generador de Ideas Lindas de DrawSpark",
+        "description": "¿Aburrido y quieres dibujar algo lindo? La IA de DrawSpark entrega ideas adorables — animales kawaii, comidas lindas, personajes chibi y temas acogedores que hacen que cada sesión de boceto aburrida se sienta cálida y divertida.",
+        "buttonText": "Generar Ideas Lindas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas Lindas de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de cosas lindas para dibujar cuando estás aburrido de DrawSpark está hecho para artistas que quieren temas adorables, acogedores y relajantes con máxima ternura incorporada. La IA genera prompts lindos — animales kawaii, comidas adorables, personajes chibi, escenas pastel, criaturas dormidas, objetos acogedores y composiciones cálidas. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre todo el espectro del arte lindo: gatos y cachorros kawaii, animales durmiendo, postres y bebidas lindos, versiones chibi de objetos cotidianos, bebés animales con ojos grandes, paisajes pastel, escenas de habitación acogedoras, amigos plantas, comida antropomorfizada y personajes pequeños en mundos pequeños. Puedes filtrar por estilo para enfocarte en kawaii, cute, simple o acogedor.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas Lindas de DrawSpark?",
+        "buttonText": "Generar Ideas Lindas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas Lindas",
+            "description": "Visita esta página y pulsa generar. El generador de cosas lindas es gratis, instantáneo y sin login — perfecto para sesiones acogedoras cuando estás aburrido.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas Lindas Adorables",
+            "description": "DrawSpark crea al instante 5 ideas lindas. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que se ven realmente adorables y acogedores.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea Linda y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas lindas, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para más ideas adorables.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas Lindas de DrawSpark?",
+        "description": "Las cosas lindas para dibujar cuando aburrido de DrawSpark se adaptan a cualquier proyecto que necesite temas adorables y acogedores — desde calentamientos de cuaderno hasta spreads de diario hasta arte social que obtiene likes.",
+        "buttonText": "Generar Ideas Lindas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Animales y Mascotas Kawaii",
+            "description": "Encuentra ideas adorables — gatos kawaii, cachorros dormidos, bebés animales, mascotas chibi, criaturas acogedoras. Perfecto para sesiones relajadas y calentar tu estilo con máxima ternura.",
+            "buttonText": "Obtener Ideas de Animales",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Comidas y Bebidas Lindas",
+            "description": "Obtén ideas en categoría comida — cajas bento sonrientes, postres kawaii, bebidas adorables, snacks antropomorfizados — perfecto para artistas que aman temas alimentarios adorables con personalidad.",
+            "buttonText": "Obtener Ideas de Comida",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte de Escenas Acogedoras y Kawaii",
+            "description": "Descubre ideas en género de escenas — dormitorios acogedores, ventanas lluviosas, amigos plantas pequeños, cielos pastel — genial para artistas que aman temas cálidos y cómodos perfectos para bocetos relajados.",
+            "buttonText": "Obtener Ideas de Escenas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Lindo Comunitario",
+            "description": "Explora la galería pública de ideas lindas compartidas por otros artistas. Mira qué piezas adorables y acogedoras crean otros y encuentra inspiración para tu próximo boceto cálido y relajado.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas Lindas de DrawSpark?",
+        "buttonText": "Generar Ideas Lindas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas Aburridos que Quieren Bocetos Acogedores",
+            "description": "¿Atascado en casa sin nada que dibujar? El generador de cosas lindas de DrawSpark te da prompts adorables y relajantes que convierten cualquier tarde aburrida en una sesión cálida y satisfactoria.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Principiantes Construyendo Confianza",
+            "description": "¿Aprendiendo a dibujar y quieres temas amigables? Las ideas lindas de DrawSpark entregan prompts simples y alcanzables con la estética kawaii que ayuda a principiantes a terminar piezas de las que estar orgulloso.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Diseñadores de Diarios y Stickers",
+            "description": "¿Diseñando spreads de bullet journal, packs de stickers o impresiones acogedoras? Las ideas lindas de DrawSpark te dan temas adorables listos para layouts, productos y proyectos personales.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas Lindas de DrawSpark?",
+        "buttonText": "Generar Ideas Lindas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Lindo, No Solo Genérico",
+            "description": "La mayoría de listas lindas sugieren animales de caricatura genéricos. La IA de DrawSpark genera ideas con energía kawaii real — ojos grandes, formas suaves, colores pastel, composiciones acogedoras y detalles adorables.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas lindas por día — 150 prompts adorables cada día para mantener tus tardes aburridas acogedoras.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea linda incluye un tema claro, estilo kawaii y nivel de dificultad — para que sepas exactamente qué pieza adorable estás asumiendo. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas Lindas de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 1087 Reseñas",
+        "content": [
+          {
+            "title": "Mi Cura del Aburrimiento",
+            "description": "Me aburro cada fin de semana y el generador de cosas lindas de DrawSpark me da exactamente los prompts kawaii acogedores que amo. Gatos dormidos, pudines sonrientes, amigos plantas — cada boceto se siente como un abrazo.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Zoe Williams",
+            "ext3": "Artista de Bocetos Kawaii"
+          },
+          {
+            "title": "Magia de Spreads de Diario",
+            "description": "Tengo un canal de YouTube de bullet journal y las ideas lindas de DrawSpark me dan prompts acogedores infinitos para spreads. Mis suscriptores siempre preguntan de dónde saco las ideas adorables — siempre les envío DrawSpark.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Aria Patel",
+            "ext3": "YouTuber de Diarios"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista linda que probé estaba llena de los mismos clones de Hello Kitty. La IA de DrawSpark realmente entrega ideas con personalidad — diseños kawaii únicos, escenas acogedoras originales, encanto adorable real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mei Lin",
+            "ext3": "Artista Aficionada"
+          },
+          {
+            "title": "Éxito del Pack de Stickers",
+            "description": "Hice un pack de stickers kawaii con las ideas lindas de DrawSpark — gatos dormidos, bento sonriente, plantas acogedoras — y es mi producto más vendido en Etsy. Los clientes dicen que les hace sonreír al instante.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hana Kim",
+            "ext3": "Diseñadora de Stickers"
+          },
+          {
+            "title": "Dibujo Anti-Ansiedad",
+            "description": "Tengo ansiedad y las ideas lindas de DrawSpark son mi actividad calmante favorita. Los prompts adorables y acogedores me ayudan a concentrarme en algo gentil y siempre termino con una pieza de la que estoy orgulloso.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sam Mitchell",
+            "ext3": "Artista de Bocetos Calmantes"
+          },
+          {
+            "title": "Mi Hija lo Adora",
+            "description": "Mi hija de 9 años y yo usamos el generador de cosas lindas de DrawSpark para vincularnos los fines de semana. Elegimos ideas lindas juntas y dibujamos una al lado de la otra. Se ha convertido en nuestra tradición favorita del sábado por la tarde.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Rebecca Foster",
+            "ext3": "Madre Artista"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas Lindas de DrawSpark",
+        "buttonText": "Generar Ideas Lindas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las cosas lindas para dibujar cuando estás aburrido?",
+            "description": "Las cosas lindas para dibujar cuando estás aburrido incluyen animales kawaii, comidas adorables, personajes chibi, escenas acogedoras, criaturas dormidas, objetos antropomorfizados y composiciones pastel.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas lindas?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos por día, con 5 ideas en cada lote. Son 150 nuevos prompts adorables cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se sienten más lindos?",
+            "description": "Los temas que se sienten más lindos incluyen animales kawaii, bebés animales, postres lindos, comida sonriente, mascotas dormidas, habitaciones acogedoras, amigos plantas pequeños y personajes chibi.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas lindas para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren temas genéricos. El generador de DrawSpark está ajustado para sugerir temas, estilos y colores que se ven kawaii y adorables. La ternura acogedora está incorporada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos lindos puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: kawaii, chibi, pastel, acogedor, simple lindo, ilustrado, estilo sticker, inspirado en peluche y más. Elige un filtro de estilo para enfocarte en tu estética favorita.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para temas específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, comida, plantas, personajes o cualquier otro. El generador combina tu tema con proporciones kawaii, colores suaves y expresiones adorables.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea linda?",
+            "description": "La mayoría de ideas lindas de DrawSpark toman 15 minutos a 45 minutos para completarse bien. Perfecto para bocetos relajados cuando estás aburrido.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para bullet journals?",
+            "description": "Sí — muchos artistas de diario usan las ideas lindas de DrawSpark para ilustraciones de spreads, garabatos en márgenes y acentos estilo sticker.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos lindos?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Cosas Lindas para Dibujar Cuando Estás Aburrido"
+    },
+    "drawing-themes": {
+      "h1Title": "Temas para Dibujar: 100+ Ideas Inspiradoras de Sujetos para tu Cuaderno",
+      "h1Subtitle": "¿Necesitas un tema de dibujo? La IA de DrawSpark genera ideas de temas inspiradores — naturaleza, fantasía, retratos, animales, vida cotidiana y prompts creativos para llenar tu cuaderno por meses.",
+      "heroCta": "Generar Ideas de Temas",
+      "heroPromptHint": "Pre-rellena una idea de tema fresco",
+      "seoTitle": "Temas para Dibujar — 100+ Ideas Inspiradoras para Cuadernos | DrawSpark",
+      "seoDescription": "¿Necesitas un tema de dibujo? El generador gratuito de IA de DrawSpark entrega ideas de temas inspiradores — naturaleza, fantasía, retratos, animales y vida cotidiana para cada cuaderno.",
+      "seoKeywords": "temas para dibujar, temas de arte, temas de cuaderno, ideas de temas para dibujar, ideas de sujetos de arte, temas creativos para dibujar, temas mensuales para dibujar, temas semanales para dibujar",
+      "head1": {
+        "title": "Generador de Temas para Dibujar de DrawSpark",
+        "description": "¿Necesitas un tema fresco? La IA de DrawSpark entrega ideas de temas inspiradores — naturaleza, fantasía, retratos, animales, vida cotidiana y prompts creativos que llenan tu cuaderno por meses de dibujo satisfactorio.",
+        "buttonText": "Generar Ideas de Temas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Temas para Dibujar de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de temas para dibujar de DrawSpark está hecho para artistas que quieren temas inspiradores y enfocados para comprometerse con una serie. La IA genera prompts temáticos — estudios de naturaleza, arcos de personajes, retos mensuales, sujetos semanales, proyectos festivos, exploraciones de color y restricciones creativas. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre el espectro completo de temas artísticos: retos mensuales, prompts semanales, series de 30 días, proyectos de color del mes, estudios de animales, series de retratos, mundos fantásticos, estudios de objetos cotidianos, temas estacionales y prompts de exploración personal. Puedes elegir un tema y usar el generador para producir docenas de ideas relacionadas. DrawSpark también mantiene una galería pública de arte temático comunitario para inspiración.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Temas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas de Temas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Temas para Dibujar",
+            "description": "Visita esta página y pulsa generar. El generador de temas es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts temáticos frescos bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas de Temas Inspiradores",
+            "description": "DrawSpark crea al instante 5 ideas de temas. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas sobre los que puedes construir una serie.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige un Tema y Comienza tu Serie",
+            "description": "Revisa las 5 ideas de temas, elige la que más te emocione y comienza tu serie de dibujo. Guarda favoritas para series futuras, comparte tu arte temático o regenera para nuevos temas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con los Temas para Dibujar de DrawSpark?",
+        "description": "Los temas de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas enfocados y sostenidos — desde retos mensuales hasta series de cuaderno hasta colecciones de portafolio temáticas.",
+        "buttonText": "Generar Ideas de Temas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Inicia un Reto de Dibujo Mensual",
+            "description": "Encuentra temas inspiradores — retos mensuales, series de 30 días, prompts semanales — perfecto para construir práctica disciplinada, llenar tu cuaderno y crecer como artista a través de temas enfocados.",
+            "buttonText": "Obtener Ideas de Retos",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Construye una Colección de Portafolio Temática",
+            "description": "Obtén temas para construir portafolio — series de naturaleza, arcos de personajes, estudios de color, exploración de sujetos — perfecto para artistas que quieren un portafolio cohesivo y temático.",
+            "buttonText": "Obtener Temas de Portafolio",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Nuevas Áreas de Sujetos",
+            "description": "Descubre temas que te empujan a territorio nuevo — animales que nunca has dibujado, lugares que nunca has visitado, sujetos fuera de tu zona de confort — genial para romper la rutina y crecer como artista.",
+            "buttonText": "Obtener Temas de Exploración",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Temático Comunitario",
+            "description": "Explora la galería pública de ideas temáticas compartidas por otros artistas. Mira cómo otros abordan temas sostenidos y encuentra inspiración para tu propia serie.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Temas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas de Temas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas de Cuaderno",
+            "description": "¿Quieres llenar tu cuaderno con páginas enfocadas y temáticas? El generador de temas de DrawSpark entrega temas mensuales, semanales y de serie que mantienen tu práctica de cuaderno consistente e inspiradora.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Estudiantes y Aprendices de Arte",
+            "description": "¿Estudiando arte y quieres práctica estructurada? Las ideas temáticas de DrawSpark te dan prompts de sujetos sostenidos que construyen habilidades en naturaleza, retrato, personaje y naturaleza muerta en una serie cohesiva.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Constructores de Portafolio",
+            "description": "¿Construyendo un portafolio alrededor de un tema específico? El generador de temas de DrawSpark entrega prompts de nivel serie que producen colecciones cohesivas y temáticas perfectas para aplicaciones y trabajo con clientes.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Temas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas de Temas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Temático, No Solo Genérico",
+            "description": "La mayoría de listas de temas sugieren sujetos vagos. La IA de DrawSpark genera temas con enfoque real — sujetos específicos, exploración sostenida, prompts listos para series e ideas que se mantienen cohesionadas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas de temas por día — 150 prompts inspiradores cada día para alimentar tu cuaderno.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada tema de dibujo incluye un sujeto claro, estilo enfocado y nivel de dificultad — para que sepas exactamente qué serie estás asumiendo. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Temas para Dibujar de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "De 542 Reseñas",
+        "content": [
+          {
+            "title": "Llené Mi Cuaderno",
+            "description": "Compré un cuaderno nuevo y el generador de temas de DrawSpark me dio una serie de naturaleza de 30 días. Llené todo el libro en un mes — primera vez que termino uno. Cambio total en mi práctica.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Eleanor Brooks",
+            "ext3": "Artista de Cuaderno"
+          },
+          {
+            "title": "Cohesión de Portafolio",
+            "description": "Necesitaba un tema de portafolio para aplicaciones a escuelas de arte. Las ideas temáticas de DrawSpark me dieron una serie enfocada de naturaleza urbana que impresionó a mis entrevistadores y me ganó una beca.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jordan Hayes",
+            "ext3": "Aplicante a Portafolio"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista de temas que probé estaba llena de los mismos prompts 'dibuja una flor'. La IA de DrawSpark realmente entrega ideas temáticas con enfoque — sujetos específicos, ángulos sostenidos, profundidad real lista para series.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Priya Sharma",
+            "ext3": "Artista Aficionada"
+          },
+          {
+            "title": "Tradición de Serie Mensual",
+            "description": "Hago un tema mensual de DrawSpark — meses pasados fueron zorros, tacitas, hongos y hojas de otoño. Mis seguidores de Instagram aman la serie enfocada y el engagement se ha triplicado.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Naomi Reyes",
+            "ext3": "Artista de Serie Mensual"
+          },
+          {
+            "title": "Victoria en Proyecto de Clase",
+            "description": "Enseño arte en secundaria y el generador de temas de DrawSpark me dio temas mensuales que mis estudiantes podían sostener todo el semestre. Sus portafolios finales fueron mucho más cohesivos que años anteriores.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "David Lin",
+            "ext3": "Profesor de Arte de Secundaria"
+          },
+          {
+            "title": "Inspiración Cuando Estoy Atascado",
+            "description": "Cuando tengo un bloqueo creativo, las ideas temáticas de DrawSpark me dan una dirección estructurada para seguir. El enfoque de un tema rompe mi parálisis y me pone a dibujar de nuevo en minutos.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Maya Ahmed",
+            "ext3": "Artista Rompedora de Bloqueos"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Temas para Dibujar de DrawSpark",
+        "buttonText": "Generar Ideas de Temas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son los temas para dibujar?",
+            "description": "Los temas para dibujar son prompts de sujetos enfocados sobre los que construyes una serie — estudios de naturaleza, arcos de personajes, retos mensuales, bocetos semanales y restricciones creativas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de temas?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de ideas de temas por día, con 5 ideas en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué sujetos hacen los mejores temas?",
+            "description": "Los sujetos que hacen los mejores temas incluyen estudios de naturaleza, arcos de personajes, exploraciones de color, series de animales, colecciones de retratos, sujetos estacionales y exploraciones personales.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar temas para después?",
+            "description": "Sí. Cuando encuentres un tema que te encante, haz clic en el corazón para añadirlo a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren sujetos únicos. El generador de DrawSpark está ajustado para sugerir sujetos enfocados y sostenidos sobre los que puedes construir una serie. La profundidad de serie está incorporada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos de temas puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: naturaleza, personaje, abstracto, estudio de color, práctica diaria, reto mensual, boceto semanal y exploración personal. Elige un tipo de tema que coincida con tu objetivo artístico.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener temas para sujetos específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, plantas, personajes, paisajes, objetos o cualquier otro. El generador combina tu sujeto con exploración sostenida y enfoque temático.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una serie temática?",
+            "description": "La mayoría de temas de DrawSpark toman una semana a un mes para completarse como serie. La IA incluye estimaciones de ritmo para que planifiques tu práctica.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenos los temas para estudiantes de arte?",
+            "description": "Sí — muchos estudiantes usan los temas de DrawSpark para tareas de clase, piezas de portafolio y práctica personal. Los prompts estructurados ayudan a construir habilidades en áreas enfocadas en una serie cohesiva.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos temáticos?",
+            "description": "Sí. Cada tema tiene un botón de compartir que copia un enlace al portapapeles.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Temas para Dibujar"
+    },
+    "drawing-best-ideas": {
+      "h1Title": "Mejores Ideas para Dibujar: 100+ Bocetos, Personajes y Escenas Top",
+      "h1Subtitle": "¿Buscas las mejores ideas para dibujar? La IA de DrawSpark genera prompts mejor valorados y favoritos de la comunidad — personajes probados, escenas de tendencia y arte de alta calidad que la comunidad ama.",
+      "heroCta": "Generar Mejores Ideas",
+      "heroPromptHint": "Pre-rellena una idea mejor valorada",
+      "seoTitle": "Mejores Ideas para Dibujar — 100+ Bocetos y Personajes Top | DrawSpark",
+      "seoDescription": "¿Buscas las mejores ideas para dibujar? El generador gratuito de IA de DrawSpark entrega prompts favoritos de la comunidad — personajes probados, escenas de tendencia y arte de alta calidad listo para dibujar.",
+      "seoKeywords": "mejores ideas para dibujar, mejores ideas de la historia, ideas top, mejores bocetos, mejores ideas de arte, mejores prompts, ideas populares, mejores ideas para principiantes",
+      "head1": {
+        "title": "Generador de Mejores Ideas para Dibujar de DrawSpark",
+        "description": "¿Quieres las mejores ideas disponibles? La IA de DrawSpark entrega prompts mejor valorados y favoritos de la comunidad — personajes probados, escenas de tendencia y arte de alta calidad que la comunidad ama constantemente.",
+        "buttonText": "Generar Mejores Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Mejores Ideas para Dibujar de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de mejores ideas para dibujar de DrawSpark está hecho para artistas que quieren temas probados y mejor valorados que la comunidad ama constantemente. La IA genera prompts favoritos de la comunidad — personajes populares, escenas de tendencia, sujetos bien amados, composiciones clásicas e ideas de arte de alta calidad que han ganado engagement y elogio. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre el espectro completo del arte más amado: personajes expresivos, poses dinámicas, paisajes atmosféricos, animales amados, criaturas fantásticas, retratos clásicos, estilos estéticos de tendencia, arte festivo popular, escenas favoritas de fans y composiciones atemporales. Puedes filtrar por estilo para enfocarte en cute, cool, estético, simple o realista.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Mejores Ideas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Mejores Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Mejores Ideas",
+            "description": "Visita esta página y pulsa generar. El generador de mejores ideas es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts probados y top bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas Top para Dibujar",
+            "description": "DrawSpark crea al instante 5 mejores ideas. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que la comunidad de dibujo ama y comparte constantemente.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea y Dibuja Algo Genial",
+            "description": "Revisa las 5 ideas top, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para más ideas favoritas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Mejores Ideas para Dibujar de DrawSpark?",
+        "description": "Las mejores ideas de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas probados y favoritos de la comunidad — desde destacados de cuaderno hasta portafolios hasta arte social que obtiene engagement constante.",
+        "buttonText": "Generar Mejores Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Arte de Personajes Top",
+            "description": "Encuentra ideas más amadas — diseños de personajes populares, conceptos OC de tendencia, retratos expresivos, poses dinámicas — perfecto para artistas que quieren temas que la comunidad ya ha probado amar.",
+            "buttonText": "Obtener Ideas de Personajes",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Escenas Favoritas de la Comunidad",
+            "description": "Obtén ideas en el género de escenas — paisajes atmosféricos, escenas de naturaleza amadas, momentos acogedores populares, composiciones estéticas de tendencia — perfecto para artistas que quieren temas con engagement probado.",
+            "buttonText": "Obtener Ideas de Escenas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte Estético de Tendencia",
+            "description": "Descubre ideas estéticas más amadas — composiciones modernas, paletas populares, estilos artísticos de tendencia — genial para artistas que quieren dibujar temas alineados con lo que está obteniendo engagement ahora mismo.",
+            "buttonText": "Obtener Ideas Estéticas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Top Comunitario",
+            "description": "Explora la galería pública más engagement de mejores ideas compartidas por otros artistas. Mira qué piezas top crean otros y encuentra inspiración para tu próximo boceto favorito.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Mejores Ideas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Mejores Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas que Quieren Éxitos Confiables",
+            "description": "¿Quieres temas que constantemente funcionen bien? El generador de DrawSpark entrega prompts probados y top que la comunidad ya ama — para que pases menos tiempo adivinando y más dibujando.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Creadores de Redes Sociales",
+            "description": "¿Construyendo una presencia artística en Instagram, TikTok o YouTube? Las mejores ideas de DrawSpark te dan los temas favoritos de la comunidad que obtienen más engagement, guardados y compartidos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Aficionados que Buscan Prompts de Calidad",
+            "description": "¿Cansado de listas débiles que no van a ningún lado? Las mejores ideas de DrawSpark te dan temas curados y top en los que puedes confiar para producir arte satisfactorio y compartible cada vez.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Mejores Ideas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Mejores Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente las Mejores, No Solo Genéricas",
+            "description": "La mayoría de listas de 'mejores' son solo compilaciones de opiniones. La IA de DrawSpark genera ideas basadas en lo que la comunidad ha amado constantemente — datos de engagement, patrones de compartición y popularidad probada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de mejores ideas por día — 150 prompts top cada día para mantener tu cuaderno encantando al público.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada mejor idea incluye un tema claro, estilo top y nivel de dificultad — para que sepas exactamente qué pieza probada estás asumiendo. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Mejores Ideas para Dibujar de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 891 Reseñas",
+        "content": [
+          {
+            "title": "Engagement Duplicado",
+            "description": "Mi engagement en Instagram se duplicó el mes que cambié a las mejores ideas de DrawSpark. Los prompts simplemente funcionan — temas que la audiencia realmente ama, escenas que se guardan y comparten. Desbloqueo total.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Avery Chen",
+            "ext3": "Artista de Instagram"
+          },
+          {
+            "title": "Salto de Calidad en Portafolio",
+            "description": "Necesitaba piezas de portafolio que destacaran y las mejores ideas de DrawSpark me dieron temas favoritos de la comunidad con atractivo probado. Mis piezas de aplicación se veían más fuertes que cualquier cosa que había hecho antes.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tom Bradley",
+            "ext3": "Aplicante a Portafolio"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista de 'mejores ideas' que probé estaba llena de los mismos dibujos de ratones de caricatura. La IA de DrawSpark realmente entrega ideas top — temas probados, escenas de tendencia, calidad favorita real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Chloe Davis",
+            "ext3": "Artista Aficionada"
+          },
+          {
+            "title": "Viral en TikTok",
+            "description": "Publicé un time-lapse de una mejor idea de DrawSpark y se volvió viral en TikTok — 2 millones de vistas. El prompt era simplemente así de bueno. He estado usando DrawSpark para cada video desde entonces.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jake Morrison",
+            "ext3": "Artista de Time-Lapse de TikTok"
+          },
+          {
+            "title": "Bestseller en Tienda de Impresiones",
+            "description": "Tengo una tienda de impresiones y las mejores ideas de DrawSpark me dieron temas top para mis impresiones más vendidas. Los clientes siguen volviendo por la calidad probada y mi tienda de Etsy prospera.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nora Williams",
+            "ext3": "Dueña de Tienda de Impresiones"
+          },
+          {
+            "title": "Victoria de Engagement en Clase",
+            "description": "Enseño arte después de la escuela y las mejores ideas de DrawSpark me dan temas que los niños realmente terminan y se sienten orgullosos. Mi engagement en el aula ha subido mucho desde que comencé a usar los prompts top.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sandra Lopez",
+            "ext3": "Profesora de Arte Después de la Escuela"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Mejores Ideas para Dibujar de DrawSpark",
+        "buttonText": "Generar Mejores Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las mejores ideas para dibujar?",
+            "description": "Las mejores ideas para dibujar son prompts probados y top que la comunidad ama constantemente — personajes populares, escenas de tendencia, sujetos amados, composiciones clásicas y arte de alta calidad que obtiene engagement.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de mejores ideas?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de mejores ideas por día, con 5 ideas en cada lote. Son 150 prompts top cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué sujetos hacen las mejores ideas?",
+            "description": "Los sujetos que constantemente clasifican como mejores incluyen personajes expresivos, poses dinámicas, paisajes atmosféricos, animales amados, criaturas fantásticas, retratos clásicos y escenas estéticas de tendencia.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar mejores ideas para después?",
+            "description": "Sí. Cuando encuentres una idea top que te encante, haz clic en el corazón para añadirla a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de una lista regular?",
+            "description": "La mayoría de listas son compilaciones de opiniones. El generador de DrawSpark está ajustado para sugerir temas, composiciones y estilos que la comunidad ya ha probado amar. La popularidad está respaldada por datos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos puedo obtener en mejores ideas?",
+            "description": "DrawSpark cubre cada estilo mayor: cute, cool, estético, simple, realista, oscuro, vintage, minimalista, ilustrado y más. Elige un filtro de estilo para enfocarte en tu estética favorita probada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para sujetos específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, personas, paisajes, criaturas fantásticas, comida o cualquier otro. El generador combina tu tema con composiciones probadas y energía favorita.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea top?",
+            "description": "La mayoría de mejores ideas de DrawSpark toman 30 minutos a 1 hora para completarse bien. La IA incluye estimaciones de tiempo.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para portafolios?",
+            "description": "Sí — muchos artistas usan las mejores ideas de DrawSpark para piezas de portafolio. Los temas probados y las composiciones favoritas son perfectas para demostrar rango, habilidad y gusto.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis mejores dibujos?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Mejores Ideas para Dibujar"
+    },
+    "creative-in-drawing": {
+      "h1Title": "Ideas Creativas para Dibujar: 100+ Bocetos Originales, Imaginativos y Audaces",
+      "h1Subtitle": "¿Quieres dibujar más creativamente? La IA de DrawSpark genera ideas originales e imaginativas — conceptos audaces, ángulos inusuales, restricciones creativas y arte inventivo que empuja tu estilo hacia adelante.",
+      "heroCta": "Generar Ideas Creativas",
+      "heroPromptHint": "Pre-rellena una idea imaginativa",
+      "seoTitle": "Ideas Creativas para Dibujar — 100+ Bocetos Originales | DrawSpark",
+      "seoDescription": "¿Quieres ideas creativas para dibujar? El generador gratuito de IA de DrawSpark entrega prompts originales e imaginativos — conceptos audaces, ángulos inusuales, restricciones creativas para cada nivel.",
+      "seoKeywords": "creatividad en el dibujo, ideas creativas para dibujar, ideas de arte creativo, ideas imaginativas, ideas creativas para bocetos, prompts originales, prompts creativos, cómo ser creativo, ejercicios creativos",
+      "head1": {
+        "title": "Generador de Ideas Creativas para Dibujar de DrawSpark",
+        "description": "¿Quieres dibujar más creativamente? La IA de DrawSpark entrega ideas originales e imaginativas — conceptos audaces, ángulos inusuales, restricciones creativas y arte inventivo que empuja tu estilo hacia adelante.",
+        "buttonText": "Generar Ideas Creativas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas Creativas para Dibujar de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de creatividad en el dibujo de DrawSpark está hecho para artistas que quieren temas originales, imaginativos e inventivos con profundidad creativa incorporada. La IA genera prompts creativos — conceptos audaces, composiciones inusuales, restricciones creativas, mashups inventivos, perspectivas originales y escenas imaginativas. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre todo el espectro del arte creativo: mashups de sujetos, ángulos inesperados, experimentos de color, conceptos de medios mixtos, interpretaciones abstractas del realismo, composiciones surrealistas y estudios de personajes inventivos. Puedes filtrar por estilo para enfocarte en experimental, abstracto, surreal o imaginativo.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas Creativas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas Creativas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas Creativas",
+            "description": "Visita esta página y pulsa generar. El generador de ideas creativas es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts imaginativos bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas Creativas Imaginativas",
+            "description": "DrawSpark crea al instante 5 ideas creativas. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que激发 pensamiento original e inventivo.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea y Dibuja Creativamente",
+            "description": "Revisa las 5 ideas creativas, elige la que más te emocione y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para más ideas imaginativas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas Creativas para Dibujar de DrawSpark?",
+        "description": "La creatividad en el dibujo de DrawSpark se adapta a cualquier proyecto artístico que necesite temas originales e inventivos — desde experimentos en cuaderno hasta portafolios hasta desarrollo de estilo personal.",
+        "buttonText": "Generar Ideas Creativas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Mashups de Personajes Inventivos",
+            "description": "Encuentra ideas creativas — mashups inesperados de personajes, conceptos de criaturas híbridas, diseños OC originales — perfecto para artistas que quieren ir más allá de prompts genéricos.",
+            "buttonText": "Obtener Ideas de Mashup",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Restricciones Creativas Audaces",
+            "description": "Obtén ideas creativas con restricciones integradas — paletas limitadas, ángulos inusuales, sujetos restringidos — perfecto para artistas que quieren ejercicios creativos enfocados que producen resultados sorprendentes e inventivos.",
+            "buttonText": "Obtener Ideas de Restricción",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte de Perspectiva Original",
+            "description": "Descubre ideas creativas con perspectivas inusuales — ángulos extremos, puntos de vista sorprendentes, composiciones inventivas — genial para artistas que quieren romper hábitos visuales y estirar su rango creativo.",
+            "buttonText": "Obtener Ideas de Perspectiva",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Creativo Comunitario",
+            "description": "Explora la galería pública de ideas creativas compartidas por otros artistas. Mira qué piezas originales e imaginativas crean otros y encuentra inspiración para tu próximo boceto inventivo.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas Creativas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas Creativas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas en una Rutina Creativa",
+            "description": "¿Dibujando siempre lo mismo? Las ideas creativas de DrawSpark rompen tu rutina con prompts imaginativos que te empujan a territorio nuevo y te recuerdan por qué hacer arte importa.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Exploradores de Estilo",
+            "description": "¿Buscando tu propio estilo? El generador de creatividad en el dibujo de DrawSpark te da prompts inventivos a través de muchas estéticas — permitiéndote explorar ampliamente hasta que encuentres lo que se siente más tú.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artistas de Concepto y Diseñadores",
+            "description": "¿Construyendo rango creativo para trabajo de concepto? Las ideas inventivas de DrawSpark te dan temas imaginativos, composiciones inesperadas y conceptos originales perfectos para portafolios de diseño.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas Creativas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas Creativas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Creativo, No Solo Genérico",
+            "description": "La mayoría de listas creativas sugieren sujetos sobreutilizados. La IA de DrawSpark genera ideas con imaginación real — conceptos originales, ángulos inesperados, composiciones inventivas y arte que te sorprende.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas creativas por día — 150 prompts imaginativos cada día para alimentar tu práctica creativa.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea creativa incluye un concepto claro, estilo imaginativo y nivel de dificultad — para que sepas exactamente qué pieza inventiva estás asumiendo. Sin relleno 'sé creativo'.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas Creativas para Dibujar de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "De 612 Reseñas",
+        "content": [
+          {
+            "title": "Rompió Mi Meseta de Estilo",
+            "description": "Había estado dibujando el mismo estilo durante dos años y estaba aburrido. Las ideas creativas de DrawSpark me empujaron hacia mashups y restricciones inventivas — mi estilo evolucionó más en un mes que el año anterior.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ravi Patel",
+            "ext3": "Explorador de Estilo"
+          },
+          {
+            "title": "Ventaja en Arte Conceptual",
+            "description": "Soy artista conceptual junior y el generador de creatividad en el dibujo de DrawSpark me dio prompts inventivos que mis colegas senior dijeron eran dignos de portafolio. Me ayudó a conseguir mi trabajo actual en el estudio.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Theo Park",
+            "ext3": "Artista Conceptual Junior"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista creativa que probé estaba llena de los mismos prompts 'dibuja tu habitación'. La IA de DrawSpark realmente entrega ideas creativas con imaginación — conceptos originales, ángulos inventivos, profundidad creativa real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ines Garcia",
+            "ext3": "Artista Aficionada"
+          },
+          {
+            "title": "Refresco de Mi Tienda de Etsy",
+            "description": "Me estaba quedando sin ideas originales para mi tienda de arte en Etsy. Las ideas creativas de DrawSpark me dieron conceptos inventivos que refrescaron toda mi línea de productos. Las ventas subieron inmediatamente.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Megan Walters",
+            "ext3": "Dueña de Tienda Etsy"
+          },
+          {
+            "title": "Chispa Creativa en Clase",
+            "description": "Enseño arte en secundaria y los prompts de creatividad en el dibujo de DrawSpark dan a mis estudiantes ejercicios inventivos que realmente les emocionan. Sus portafolios finales son mucho más originales ahora.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Bennett",
+            "ext3": "Profesor de Arte de Secundaria"
+          },
+          {
+            "title": "Refresco de Boceto de Viaje",
+            "description": "Llevo las ideas creativas de DrawSpark en viajes y las aplico a lo que veo. Los prompts inventivos convierten escenas ordinarias de viaje en composiciones originales. Mis cuadernos de viaje son mucho más interesantes ahora.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lucia Romano",
+            "ext3": "Artista de Bocetos de Viaje"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas Creativas para Dibujar de DrawSpark",
+        "buttonText": "Generar Ideas Creativas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las ideas creativas para dibujar?",
+            "description": "Las ideas creativas para dibujar incluyen conceptos originales, composiciones imaginativas, perspectivas inusuales, mashups inventivos y restricciones creativas audaces.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas creativas?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de ideas creativas por día, con 5 ideas en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se sienten más creativos?",
+            "description": "Los temas que se sienten más creativos incluyen mashups de conceptos, perspectivas inesperadas, experimentos de color, interpretaciones abstractas del realismo y estudios de personajes inventivos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas creativas para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren temas seguros y genéricos. El generador de DrawSpark está ajustado para sugerir temas, composiciones y estilos que estiran tu imaginación. La profundidad creativa está incorporada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos creativos puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: experimental, abstracto, surreal, mashup, medios mixtos, estudio de color, juego de perspectiva y más.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas creativas para sujetos específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, personas, paisajes, objetos o cualquier otro. El generador combina tu sujeto con restricciones creativas, ángulos inesperados y composiciones inventivas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea creativa?",
+            "description": "La mayoría de ideas creativas de DrawSpark toman 30 minutos a 1 hora para completarse bien.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para desarrollar estilo?",
+            "description": "Sí — muchos artistas usan las ideas creativas de DrawSpark para desarrollar su estilo personal. Los prompts inventivos te empujan fuera de tu zona de confort, que es exactamente donde se descubren nuevos elementos de estilo.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos creativos?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Ideas Creativas para Dibujar"
+    },
+    "silly-things-to-draw": {
+      "h1Title": "Cosas Tontas para Dibujar: 100+ Bocetos Divertidos, Locos y Absurdos",
+      "h1Subtitle": "¿Quieres dibujar algo tonto? La IA de DrawSpark genera ideas divertidas, locas y absurdas — animales ridículos, escenarios absurdos, mashups tontos y arte garantizado para hacerte reír.",
+      "heroCta": "Generar Ideas Tontas",
+      "heroPromptHint": "Pre-rellena una idea tonta divertida",
+      "seoTitle": "Cosas Tontas para Dibujar — 100+ Bocetos Divertidos y Absurdos | DrawSpark",
+      "seoDescription": "¿Quieres cosas tontas para dibujar? El generador gratuito de IA de DrawSpark entrega bocetos divertidos, locos y absurdos — animales ridículos, mashups tontos y arte para reír.",
+      "seoKeywords": "cosas tontas para dibujar, ideas de dibujos divertidos, ideas tontas, cosas locas para dibujar, ideas absurdas, cosas ridículas para dibujar, ideas de dibujos divertidos, garabatos tontos, bocetos tontos",
+      "head1": {
+        "title": "Generador de Ideas Tontas para Dibujar de DrawSpark",
+        "description": "¿Quieres dibujar algo tonto? La IA de DrawSpark entrega ideas divertidas, locas y absurdas — animales ridículos, mashups tontos, escenarios absurdos y arte garantizado para hacerte sonreír a ti y a tus espectadores.",
+        "buttonText": "Generar Ideas Tontas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Ideas Tontas para Dibujar de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de cosas tontas para dibujar de DrawSpark está hecho para artistas que quieren temas divertidos, locos y absurdos con máxima tontería incorporada. La IA genera prompts tontos — animales ridículos, escenarios locos, mashups absurdos, comportamientos humanos raros, comida tonta, personajes que hacen reír y situaciones cotidianas absurdas. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador cubre todo el espectro del arte tonto: animales con ropa, comida con caras, profesiones ridículas, deportes tontos, mascotas absurdas, retratos locos, mashups graciosos y escenarios absurdos. Puedes filtrar por estilo para enfocarte en caricatura, cute, simple o tonto exagerado.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Ideas Tontas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas Tontas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Ideas Tontas",
+            "description": "Visita esta página y pulsa generar. El generador de cosas tontas es gratis, instantáneo y sin login — perfecto para artistas que quieren prompts divertidos y locos bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas Tontas Divertidas",
+            "description": "DrawSpark crea al instante 5 ideas tontas. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en temas que se ven genuinamente divertidos, locos y absurdos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea Tonta y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas tontas, elige la que más te haga reír y empieza a dibujar. Guarda favoritas para portafolio, comparte tu arte terminado o regenera para ideas más divertidas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas Tontas para Dibujar de DrawSpark?",
+        "description": "Las cosas tontas de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas divertidos y absurdos — desde calentamientos de cuaderno hasta tarjetas hasta arte social que genera risas y compartidos.",
+        "buttonText": "Generar Ideas Tontas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Genera Mashups de Animales Locos",
+            "description": "Encuentra ideas tontas — animales con ropa, escenarios ridículos de mascotas, mashups graciosos de criaturas, expresiones animales divertidas — perfecto para artistas que quieren temas que hagan reír a carcajadas a los espectadores.",
+            "buttonText": "Obtener Ideas de Animales",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Escenarios Humanos Absurdos",
+            "description": "Obtén ideas tontas en el género humano — profesiones ridículas, pasatiempos locos, situaciones cotidianas absurdas — perfecto para artistas que quieren temas con humor relatable.",
+            "buttonText": "Obtener Ideas Humanas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Genera Arte de Comida y Objetos Divertidos",
+            "description": "Descubre ideas tontas en el género de comida y objetos — comida sonriente, objetos ridículos, cosas antropomorfizadas — genial para artistas que quieren temas con humor y encanto absurdo incorporados.",
+            "buttonText": "Obtener Ideas de Objetos",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Arte Tonto Comunitario",
+            "description": "Explora la galería pública de ideas tontas compartidas por otros artistas. Mira qué piezas divertidas y locas crean otros y encuentra inspiración para tu próximo boceto que hace reír.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Ideas Tontas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas Tontas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas Aburridos que Quieren Risas",
+            "description": "¿Aburrido y quieres algo divertido para dibujar? El generador de cosas tontas de DrawSpark te da prompts ridículos que garantizan risas y convierten cualquier sesión aburrida en un buen momento garantizado.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artistas de Cómic y Memes",
+            "description": "¿Creando webcómics, memes o ilustraciones humorísticas? Las ideas tontas de DrawSpark te dan escenarios absurdos y personajes ridículos listos para viñetas, formatos de memes y arte de bromas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Aficionados que Quieren Diversión",
+            "description": "¿Cansado de arte serio? Las ideas tontas de DrawSpark te dan prompts divertidos y ridículos que te recuerdan que hacer arte debe ser divertido. Alegría creativa pura, en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Ideas Tontas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas Tontas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Tonto, No Solo Genérico",
+            "description": "La mayoría de listas tontas sugieren bromas genéricas. La IA de DrawSpark genera ideas con absurdo real — conceptos ridículos, escenarios divertidos, temas que hacen reír y arte que te sorprende con humor.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas tontas por día — 150 prompts divertidos y absurdos cada día para mantener tu cuaderno riendo.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea tonta incluye un tema claro, estilo divertido y nivel de dificultad — para que sepas exactamente qué pieza ridícula estás asumiendo. Sin relleno genérico.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Ideas Tontas para Dibujar de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 489 Reseñas",
+        "content": [
+          {
+            "title": "Mi Grupo de Chat Vive por Esto",
+            "description": "Dibujo una cosa tonta de DrawSpark cada día y la envío a mi grupo de amigos. Llevamos 6 meses haciéndolo y el chat sigue fuerte. Los prompts absurdos siguen entregando risas.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Kai Foster",
+            "ext3": "Artista de Chat Grupal"
+          },
+          {
+            "title": "Oro de Webcómic",
+            "description": "Tengo un webcómic diario y el generador de cosas tontas de DrawSpark me da prompts de escenarios absurdos infinitos. Mi número de suscriptores se ha triplicado desde que empecé a usar el generador para inspiración.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Zhang",
+            "ext3": "Creadora de Webcómic"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista tonta que probé estaba llena de los mismos dibujos de perros de caricatura. La IA de DrawSpark realmente entrega ideas tontas con humor — escenarios absurdos, personajes ridículos, energía que hace reír real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Owen Reed",
+            "ext3": "Artista Aficionado"
+          },
+          {
+            "title": "Alivio de Estrés por Dibujo",
+            "description": "Tuve un año difícil en el trabajo y las ideas tontas de DrawSpark se convirtieron en mi alivio de estrés. Dibujar pingüinos ridículos con trajes de negocios cada noche salvó mi salud mental. El arte divertido es terapia real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hannah Cole",
+            "ext3": "Artista de Alivio de Estrés"
+          },
+          {
+            "title": "Victoria de Engagement en Clase",
+            "description": "Enseño arte en secundaria y los prompts de cosas tontas de DrawSpark enganchan a cada estudiante. Incluso mis artistas más reacios terminan con una pieza de la que están orgullosos de compartir con amigos y familia.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Brandon Hayes",
+            "ext3": "Profesor de Arte de Secundaria"
+          },
+          {
+            "title": "Éxito del Pack de Stickers",
+            "description": "Hice un pack de stickers tontos con las ideas de DrawSpark — animales con ropa, comida con caras, profesiones ridículas — y es mi producto más vendido en Redbubble. Los clientes dicen que les hace reír.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Layla Petrov",
+            "ext3": "Diseñadora de Stickers"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Ideas Tontas para Dibujar de DrawSpark",
+        "buttonText": "Generar Ideas Tontas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué son las cosas tontas para dibujar?",
+            "description": "Las cosas tontas para dibujar incluyen animales graciosos, escenarios ridículos, mashups absurdos, personajes locos, objetos antropomorfizados y situaciones cotidianas que hacen reír. La IA de DrawSpark genera prompts frescos cada vez.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas tontas?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de ideas tontas por día, con 5 ideas en cada lote.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué temas se sienten más tontos?",
+            "description": "Los temas que se sienten más tontos incluyen animales con ropa, comida con caras, profesiones ridículas, deportes tontos, mascotas absurdas y objetos antropomorfizados.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas tontas para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de un prompt regular?",
+            "description": "La mayoría de listas sugieren temas serios. El generador de DrawSpark está ajustado para sugerir temas, escenarios y estilos que se ven divertidos y absurdos. La energía que hace reír está incorporada.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos tontos puedo obtener?",
+            "description": "DrawSpark cubre cada estilo mayor: caricatura, exagerado, caricaturesco, caricatura simple, garabato tonto, estilo cómic, absurdo ilustrado y más.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas tontas para temas específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, personas, comida, objetos o cualquier otro. El generador combina tu tema con escenarios ridículos, expresiones divertidas y energía absurda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea tonta?",
+            "description": "La mayoría de ideas tontas de DrawSpark toman 15 minutos a 45 minutos para completarse bien.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para alivio del estrés?",
+            "description": "Sí — muchos artistas usan las ideas tontas de DrawSpark para alivio del estrés y salud mental. Los prompts divertidos y absurdos convierten el dibujo en juego creativo puro.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos tontos?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Cosas Tontas para Dibujar"
+    },
+    "thigs-to-draw": {
+      "h1Title": "Cosas para Dibujar: 100+ Ideas Inspiradoras para Cada Estado de Ánimo",
+      "h1Subtitle": "¿Buscas cosas para dibujar? La IA de DrawSpark genera ideas inspiradoras — personajes, escenas, animales, conceptos abstractos y temas creativos para cada estado de ánimo y nivel.",
+      "heroCta": "Generar Ideas para Dibujar",
+      "heroPromptHint": "Pre-rellena una idea fresca",
+      "seoTitle": "Cosas para Dibujar — 100+ Ideas Inspiradoras | DrawSpark",
+      "seoDescription": "¿Buscas cosas para dibujar? El generador gratuito de IA de DrawSpark entrega ideas inspiradoras — personajes, escenas, animales, conceptos abstractos y temas creativos para cada estado de ánimo.",
+      "seoKeywords": "thigs to draw, cosas para dibujar, ideas para dibujar, qué dibujar, lista de ideas para dibujar, ideas para principiantes, ideas para artistas, ideas de arte, inspiración para dibujar",
+      "head1": {
+        "title": "Generador de Ideas para Dibujar de DrawSpark",
+        "description": "¿Buscas cosas para dibujar? La IA de DrawSpark entrega ideas inspiradoras — personajes, escenas, animales, conceptos abstractos y temas creativos para cada estado de ánimo y nivel. Nunca te quedes sin cosas para dibujar.",
+        "buttonText": "Generar Ideas para Dibujar",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "¿Qué es el Generador de Cosas para Dibujar de DrawSpark?",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "El generador de ideas para dibujar de DrawSpark está hecho para artistas que quieren un flujo constante de temas inspiradores, variados y frescos — las cosas que puedes dibujar cada día sin quedarte sin ideas. La IA genera prompts diversos a través de cada área temática mayor — personajes, animales, paisajes, objetos, conceptos abstractos, escenas, comida, plantas, fantasía, retratos y exploraciones creativas. Cada idea viene con título, descripción, tema, estilo y nivel de dificultad. El generador extrae de la biblioteca completa de temas artísticos: animales lindos, personajes dinámicos, paisajes atmosféricos, objetos interesantes, ideas abstractas, conceptos fantásticos, escenas cotidianas y experimentos creativos. Puedes filtrar por tema, estilo, dificultad, escena o audiencia para reducir a exactamente el tipo de cosa que quieres dibujar.",
+            "buttonText": "Probar Generador Gratis",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "¿Cómo Funciona el Generador de Cosas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas para Dibujar",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Paso 1: Abre el Generador de Cosas para Dibujar",
+            "description": "Visita esta página y pulsa generar. El generador de ideas es gratis, instantáneo y sin login — perfecto para artistas que quieren cosas frescas para dibujar bajo demanda.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 2: Obtén 5 Ideas Inspiradoras para Dibujar",
+            "description": "DrawSpark crea al instante 5 ideas de la biblioteca completa de temas. Cada una viene con título, descripción, tema, estilo y dificultad — todas enfocadas en cosas que vale la pena dibujar.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Paso 3: Elige una Idea y Empieza a Dibujar",
+            "description": "Revisa las 5 ideas, elige la que más te emocione y empieza a dibujar. Guarda favoritas para bocetos futuros, comparte tu arte terminado o regenera para cosas frescas.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "¿Qué Puedes Hacer con las Ideas para Dibujar de DrawSpark?",
+        "description": "Las cosas para dibujar de DrawSpark se adaptan a cualquier proyecto artístico que necesite temas inspiradores y variados — desde práctica diaria de cuaderno hasta portafolios hasta colecciones temáticas y arte de regalo.",
+        "buttonText": "Generar Ideas para Dibujar",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Llena Tu Cuaderno Diario",
+            "description": "Encuentra cosas frescas para dibujar cada día — personajes, animales, paisajes, objetos, conceptos abstractos — perfecto para práctica diaria que se mantiene variada e inspiradora.",
+            "buttonText": "Obtener Ideas Diarias",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Construye un Portafolio Diverso",
+            "description": "Obtén ideas para dibujar a través de cada área temática — personajes, animales, paisajes, retratos, abstracto, fantasía — perfecto para construir un portafolio versátil que muestre rango y amplitud.",
+            "buttonText": "Obtener Ideas de Portafolio",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Sujetos que No Has Probado",
+            "description": "Descubre cosas para dibujar fuera de tu zona de confort — nuevos sujetos, diferentes estilos, ángulos inesperados — genial para romper la rutina y crecer como artista en todo el rango del arte.",
+            "buttonText": "Obtener Ideas de Exploración",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Explora Dibujos Comunitarios",
+            "description": "Explora la galería pública de ideas para dibujar compartidas por otros artistas. Mira qué diversos sujetos dibujan otros creadores y encuentra inspiración para tu próximo boceto variado.",
+            "buttonText": "Explorar Galería",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "¿Para Quién es el Generador de Cosas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas para Dibujar",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artistas de Cuaderno Diario",
+            "description": "¿Quieres dibujar cada día sin quedarte sin ideas? El generador de ideas para dibujar de DrawSpark te da un flujo interminable de temas frescos y variados perfecto para práctica diaria y crecimiento constante.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artistas Explorando Rango",
+            "description": "¿Quieres probar nuevos sujetos y estilos? Las diversas ideas para dibujar de DrawSpark cubren cada área artística mayor — para que puedas explorar ampliamente, encontrar lo que amas y crecer tu rango.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Cualquiera que Busca Inspiración",
+            "description": "¿Necesitas una fuente constante de cosas para dibujar? El generador de ideas para dibujar de DrawSpark entrega 150 prompts frescos cada día, sin repeticiones y sin relleno — solo temas inspiradores para cada estado de ánimo.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "¿Por Qué Elegir el Generador de Cosas para Dibujar de DrawSpark?",
+        "buttonText": "Generar Ideas para Dibujar",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Realmente Variado, No Solo Genérico",
+            "description": "La mayoría de listas de cosas para dibujar son cortas y se agotan rápido. La IA de DrawSpark genera temas frescos y variados a través de cada área artística mayor — personajes, animales, paisajes, abstracto, fantasía y más.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Gratis, Rápido, Sin Límites",
+            "description": "DrawSpark es 100% gratis sin necesidad de cuenta. Genera hasta 30 lotes frescos de ideas por día — 150 prompts inspiradores cada día. Nunca te quedes sin cosas para dibujar.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Específico, Visual, Alcanzable",
+            "description": "Cada idea para dibujar incluye un tema claro, estilo y nivel de dificultad — para que sepas exactamente qué estás asumiendo antes de empezar. Sin relleno 'dibuja algo'.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "Qué Dicen los Artistas Sobre el Generador de Cosas para Dibujar de DrawSpark",
+        "buttonText": "Probar Generador Gratis",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "De 1342 Reseñas",
+        "content": [
+          {
+            "title": "Racha de 365 Días en Marcha",
+            "description": "He dibujado cada día durante un año usando las ideas de DrawSpark. La variedad es insuperable — personajes un día, paisajes al siguiente, abstracto después. Mi cuaderno nunca ha sido mejor.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Felix Schmidt",
+            "ext3": "Artista de Bocetos Diarios"
+          },
+          {
+            "title": "Explosión de Rango",
+            "description": "Solo dibujaba retratos antes de DrawSpark. Ahora dibujo animales, paisajes, abstracto, comida y más. Mi portafolio pasó de estrecho a versátil en seis meses. Cambio de juego para mi rango.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Yuki Tanaka",
+            "ext3": "Artista de Construcción de Rango"
+          },
+          {
+            "title": "Supera las Listas Genéricas",
+            "description": "Cada otra lista de cosas para dibujar que probé eran los mismos 30 prompts reciclados. La IA de DrawSpark realmente entrega variedad — diferentes sujetos cada vez, ángulos frescos, inspiración interminable real.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Brandon Liu",
+            "ext3": "Artista Aficionado"
+          },
+          {
+            "title": "Recurso de Clase",
+            "description": "Enseño fundamentos de arte y las ideas para dibujar de DrawSpark dan a mis estudiantes prompts diversos a través de cada área temática. Su rango de habilidades ha crecido mucho más rápido que cohortes anteriores.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Diana Park",
+            "ext3": "Profesora de Fundamentos de Arte"
+          },
+          {
+            "title": "Arte de Regalo Cada Semana",
+            "description": "Dibujo una pieza cada semana para mi mejor amiga usando las ideas de DrawSpark. Hemos recibido animales, personajes, paisajes, abstracto — cada regalo es una sorpresa y ella atesora cada uno.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Camille Dubois",
+            "ext3": "Artista de Regalos"
+          },
+          {
+            "title": "Reencendió Mi Práctica",
+            "description": "Había estado en un bloqueo artístico durante meses. Las ideas variadas de DrawSpark me dieron un sujeto fresco cada día que realmente quería dibujar. Después de dos semanas el bloqueo desapareció. Renacimiento total de práctica.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ryan Nguyen",
+            "ext3": "Artista Rompedor de Bloqueos"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes Sobre el Generador de Cosas para Dibujar de DrawSpark",
+        "buttonText": "Generar Ideas para Dibujar",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "¿Qué tipo de cosas puedo dibujar?",
+            "description": "Puedes dibujar cualquier cosa que la IA de DrawSpark sugiera — personajes, animales, paisajes, objetos, conceptos abstractos, criaturas fantásticas, escenas cotidianas, comida, plantas, retratos y exploraciones creativas en cada área temática mayor.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Es gratis este generador de ideas para dibujar?",
+            "description": "Sí — DrawSpark es completamente gratis sin login ni tarjeta de crédito. Puedes generar hasta 30 lotes frescos de ideas por día, con 5 ideas en cada lote. Son 150 nuevos prompts inspiradores cada día a coste cero.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Para qué temas puedo obtener ideas?",
+            "description": "Los temas incluyen animales, personas, paisajes, objetos, ideas abstractas, criaturas fantásticas, comida, plantas, retratos, escenas cotidianas y exploraciones creativas.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo guardar ideas para después?",
+            "description": "Sí. Cuando encuentres una idea que te encante, haz clic en el corazón para añadirla a favoritos.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cómo es esto diferente de una lista regular?",
+            "description": "La mayoría de listas son cortas y se agotan rápido. El generador de DrawSpark entrega temas frescos y variados cada vez — a través de cada área temática mayor — para que nunca te quedes sin cosas para dibujar.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Qué estilos puedo obtener?",
+            "description": "DrawSpark cubre cada estilo artístico mayor: cute, cool, estético, simple, realista, oscuro, vintage, minimalista, ilustrado, abstracto, surreal, caricatura y más.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo obtener ideas para sujetos específicos?",
+            "description": "Por supuesto. Usa el filtro de tema para enfocarte en animales, personas, paisajes, objetos, fantasía o cualquier otro.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Cuánto tiempo toma una idea para dibujar?",
+            "description": "La mayoría de ideas de DrawSpark toman 15 minutos a 1 hora para completarse bien.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Son buenas estas ideas para principiantes?",
+            "description": "Sí — cada idea viene con clasificación de dificultad. Los principiantes pueden elegir prompts fáciles y de nivel inicial; artistas experimentados pueden abordar medios y difíciles.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "¿Puedo compartir mis dibujos?",
+            "description": "Sí. Cada idea tiene un botón de compartir que copia un enlace al portapapeles.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Cosas para Dibujar"
     }
   }
 }

@@ -6947,6 +6947,2916 @@
         ]
       },
       "footerLabel": "クールな描画アイデア"
+    },
+    "cartoon-drawing-ideas": {
+      "h1Title": "漫画風イラストの描き方:100以上の面白いスケッチ・キャラクター・デザイン",
+      "h1Subtitle": "漫画風の絵を描きたいですか?DrawSpark の AI が面白い漫画風イラストのアイデアを生成します — ちびキャラ、コミックスシーン、マスコット、表情豊かな作品まで全レベル対応。",
+      "heroCta": "漫画風イラストのアイデアを生成",
+      "heroPromptHint": "漫画風のアイデアを事前入力",
+      "seoTitle": "漫画風イラストの描き方 — 100以上の面白いスケッチ・キャラクター | DrawSpark",
+      "seoDescription": "漫画風のイラストアイデアをお探しですか?DrawSpark の無料 AI が面白いスケッチを生成します — ちびキャラ、コミックスシーン、マスコット、表情豊かな作品まで全レベル対応。",
+      "seoKeywords": "漫画風イラスト 描き方,漫画風スケッチ,描ける漫画キャラ,面白い漫画イラスト,ちびキャラ描き方,コミックイラスト描き方,漫画アートアイデア,可愛い漫画アイデア,マスコット描き方",
+      "head1": {
+        "title": "DrawSpark の漫画風イラストアイデア生成ツール",
+        "description": "本当に面白い漫画風の絵を描きたいですか?DrawSpark の AI が遊び心と表現力豊かなアイデアをお届けします — ちびキャラ、コミックスシーン、マスコット、大げさな表情であなたのスケッチブックに命を吹き込みます。",
+        "buttonText": "漫画風イラストのアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の漫画風イラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の漫画風イラストアイデア生成ツールは、面白さと表現力を備えたテーマを求めるアーティストのために作られています。AI が漫画風のプロンプトを生成します — ちびキャラ、コミックスのコマ、マスコットデザイン、大げさな表情、物語性のあるシーンであなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度レベルが含まれます。生成ツールは漫画アートの全範囲をカバーします:クラシックな Disney スタイルキャラ、アニメからインスピレーションを得たちびキャラ、コミックアクションシーン、ブランディング用マスコット、面白い動物キャラ、表情豊かなポートレート、完全なシーン。スタイルでフィルタリングして、可愛い、kawaii、シンプル、リアルなどに焦点を絞れます。DrawSpark にはコミュニティアートギャラリーもあり、他の漫画家が使うテクニックを学ぶことができます。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の漫画風イラストアイデア生成ツールの使い方",
+        "buttonText": "漫画風イラストのアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:漫画風イラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリックします。生成ツールは無料、即時実行、ログイン不要 — いつでも新鮮な遊び心のあるプロンプトが必要な漫画家にぴったりです。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの面白い漫画風アイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成します。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます — すべて面白くて表現力豊かな作品にマッチします。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:アイデアを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。お気に入りをポートフォリオ用に保存し、完成した作品をシェアし、いつでも新しいアイデアを再生成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の漫画風イラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、スケッチブックのキャラからコミックストリップ、エンゲージメントを得るソーシャルメディアアートまで、楽しく表現力豊かなテーマを必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "漫画風イラストのアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ちびキャラと可愛い漫画キャラを生成",
+            "description": "可愛い漫画風イラストのアイデアが見つかります — ちびキャラ、kawaii な生き物、可愛いマスコット、表情豊かな顔、遊び心あるオリジナルキャラ。OC 練習やキャラシートに最適。",
+            "buttonText": "ちびキャラのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミックス風アートを生成",
+            "description": "コミックジャンルのアイデアを取得 — アクションパネル、ダイナミックなポーズ、セリフバブル、スーパーヒーローキャラ、悪役デザイン — 表現力豊かな物語漫画を愛するアーティストに最適。",
+            "buttonText": "コミックのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "動物とマスコットキャラを生成",
+            "description": "擬人化されたペット、可愛い野生動物、マスコットキャラ、表情豊かな生き物など、楽しい親しみやすいテーマを愛するアーティストに最適なアイデアを発見。",
+            "buttonText": "マスコットのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティ漫画アートを探索",
+            "description": "他のアーティストが共有する漫画風イラストの公開ギャラリーを探索。他の漫画家が何を作っているかを確認し、次の表現力豊かな作品のインスピレーションを得てください。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の漫画風イラストアイデア生成ツールは誰向け?",
+        "buttonText": "漫画風イラストのアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "初心者漫画家",
+            "description": "漫画風の絵を練習中で、楽しいテーマが必要ですか?DrawSpark は初心者向けの明確な形状、シンプルな表情、達成可能なシーンを備えたアイデアを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミック・漫画アーティスト",
+            "description": "コミックや漫画スタイルのポートフォリオを構築中?DrawSpark のアイデアは、表現力豊かなキャラ、ダイナミックなパネル、物語シーンを提供し、あなたの漫画スキルを示します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "楽しいアートを愛するホビーアーティスト",
+            "description": "スケッチブックをもっと遊び心豊かにしたい?DrawSpark のアイデアは、汎用的なプロンプトリストを超えた楽しく表現力豊かなテーマにあなたを導きます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の漫画風イラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "漫画風イラストのアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に漫画風、汎用ではない",
+            "description": "ほとんどの漫画プロンプトリストは汎用的なキャラを提案します。DrawSpark の AI は、表情豊かな顔、大げさなプロポーション、楽しいポーズ、生きているようなキャラを備えたアイデアを生成します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット生成可能 — 毎日 150 の楽しいプロンプトでスケッチブックを遊び心あるものに保ちます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各アイデアには明確なキャラ、表現力豊かなスタイル、難易度レベルが含まれます — 始める前にどんな楽しい作品に取り組んでいるか正確にわかります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の漫画風イラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "968 件のレビューより",
+        "content": [
+          {
+            "title": "私のキャラが生きる",
+            "description": "以前は私のキャラは硬く見えました。DrawSpark のアイデアは、表現力豊かなポーズ、楽しい表情、個性的なプロンプトを提供し、オンラインでシェアする時に OC を生き生きと感じさせます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lily Park",
+            "ext3": "キャラクターデザイナー"
+          },
+          {
+            "title": "コミックストリップの宝",
+            "description": "最初のウェブコミックを制作中で、DrawSpark のアイデアはパネルレイアウト、キャラインタラクション、物語シーンを提供し、第 1 章から読者を引き込みました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Reed",
+            "ext3": "ウェブコミック制作者"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の漫画リストは汎用的な Disney クローンばかり。DrawSpark の AI は個性あるアイデアを生成 — ユニークなキャラ、楽しいシーン、本物の漫画エネルギー。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hana Tanaka",
+            "ext3": "ホビー漫画家"
+          },
+          {
+            "title": "TikTok のエンゲージメント",
+            "description": "TikTok で漫画風アートを投稿していますが、DrawSpark のアイデアがエンゲージメントを完全に変えました。フォロワーが大好きな表現力豊かな美学と一致し、3 ヶ月で視聴数が 3 倍になりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Diego Santos",
+            "ext3": "TikTok 漫画家"
+          },
+          {
+            "title": "ステッカーに最適",
+            "description": "小さなステッカーショップを運営しており、DrawSpark のアイデアは無限のインスピレーションを提供し、新しいマスコットデザイン、表情豊かな顔、可愛いキャラステッカーは顧客が繰り返し購入しています。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nina Chen",
+            "ext3": "ステッカーショップオーナー"
+          },
+          {
+            "title": "全レベル向け",
+            "description": "中学校の美術クラスで DrawSpark を使用しています。難易度評価があるため、全員が実際に完成できるプロンプトを取得でき、結果はいつも本当に楽しいです。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Karen Williams",
+            "ext3": "美術教師"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の漫画風イラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "漫画風イラストのアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "漫画風イラストアイデアとは何ですか?",
+            "description": "漫画風アイデアには、表現力豊かなキャラ、ちびキャラ、コミックスコマ、マスコット、大げさなポーズ、物語シーンが含まれます。DrawSpark の AI はクリックごとにこれらのカテゴリーの新鮮なプロンプトを生成します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料で、ログインやクレジットカードは不要です。1 日最大 30 ロット、各 5 アイデアを生成可能。毎日 150 の新プロンプトを無料で。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマが漫画風に見えますか?",
+            "description": "漫画風に見えやすいテーマには、表現力豊かなキャラ、可愛い動物、擬人化オブジェクト、コミックスヒーロー、マスコット、大げさなポートレート、物語シーンが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたら、ハートアイコンをクリックしてお気に入りに追加できます。保存したアイデアは「マイインスピレーション」ページにあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは汎用的なキャラを提案します。DrawSpark の生成ツールは、漫画風で楽しく見えるキャラ、表情、シーンを提案するように特別調整されています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの漫画スタイルが取得できますか?",
+            "description": "DrawSpark は各主要スタイルをカバー:ちびキャラ、kawaii、Disney スタイル、アニメ、コミック、漫画、シンプル漫画、Pixar スタイル、マスコット、ドゥードルなど。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定のキャラでアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターを使用して人物、動物、ファンタジー生物、食べ物、日常用品などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの DrawSpark アイデアは 30 分から 1 時間で完成できます。AI には時間見積もりが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アニメーション練習に適していますか?",
+            "description": "はい — 多くのアニメーターがキャラ研究やアニメーション練習に DrawSpark を使用しています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはクリップボードにリンクをコピーするシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "漫画風イラストの描き方"
+    },
+    "summer-drawing-ideas": {
+      "h1Title": "夏のイラストアイデア:100以上の陽光・ビーチ・季節のスケッチ",
+      "h1Subtitle": "夏を描きたいですか?DrawSpark の AI が温かく陽光あふれるアイデアを生成 — ビーチシーン、熱帯動物、アイスクリーム、バカンスの瞬間まで全レベル対応の明るい季節アート。",
+      "heroCta": "夏のイラストアイデアを生成",
+      "heroPromptHint": "夏風のアイデアを事前入力",
+      "seoTitle": "夏のイラストアイデア — 100以上の陽光・ビーチスケッチ | DrawSpark",
+      "seoDescription": "夏のイラストアイデアをお探しですか?DrawSpark の無料 AI が温かく季節感のあるスケッチを生成 — ビーチシーン、熱帯アート、アイスクリーム、バカンスの瞬間まで描く準備完了。",
+      "seoKeywords": "夏のイラスト 描き方,夏 アートアイデア,夏 スケッチ,夏 落書き,ビーチ 描き方,夏 バカンス 絵,夏 イラスト,夏の季節 アート,トロピカル 描き方",
+      "head1": {
+        "title": "DrawSpark の夏のイラストアイデア生成ツール",
+        "description": "夏を描きたいですか?DrawSpark の AI が温かく陽光あふれるアイデアを提供 — ビーチシーン、熱帯生物、アイスクリーム、バカンスの瞬間、明るい季節アートであなたのスケッチブックに夏のエネルギーを。",
+        "buttonText": "夏のイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の夏のイラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の夏のイラストアイデア生成ツールは、温かく陽光あふれる季節テーマを求めるアーティストのために作られています。AI が夏テーマのプロンプトを生成 — ビーチシーン、熱帯野生動物、冷たいおやつ、バカンスの瞬間、プール、屋外冒険、明るい季節構図。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールは夏アートの全範囲をカバーします:ビーチ風景、海洋生物、熱帯の鳥、アイスクリームとアイスキャンディー、サンバイザー、サングラス、サーフボード、レモネードスタンド、キャンプ、花火、庭の花、明るい夕日構図。テーマでフィルタリングして動物、食べ物、風景、日常の夏の瞬間に焦点を絞れます。DrawSpark にはコミュニティ夏アートギャラリーもあり、インスピレーションを得られます。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の夏のイラストアイデア生成ツールの使い方",
+        "buttonText": "夏のイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:夏のイラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要 — いつでも新鮮な季節プロンプトが必要なアーティストに最適。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの陽光あふれる夏のアイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます — すべて夏の明るい陽光エネルギーを捉えます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:夏のシーンを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。お気に入りをポートフォリオに保存し、完成した夏アートをシェアできます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の夏のイラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、温かく陽光あふれる季節テーマを必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "夏のイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ビーチと海のシーンを生成",
+            "description": "美しい夏のアイデアが見つかります — ビーチ風景、波、トロピカル夕日、ヤシの木、海岸の野生動物 — 温かい海岸テーマと明るい陽光エネルギーを愛するアーティストに最適。",
+            "buttonText": "ビーチのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "夏のおやつと食べ物のアートを生成",
+            "description": "食べ物カテゴリーのアイデアを取得 — アイスクリームコーン、アイスキャンディー、スイカ、レモネード、トロピカルドリンク — 楽しいカラフルな夏テーマを愛するアーティストに最適。",
+            "buttonText": "食べ物のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "熱帯動物と鳥を生成",
+            "description": "夏の野生動物アイデアを発見 — フラミンゴ、オオハシ、熱帯の魚、ウミガメ、ビーチの生き物 — 夏の暖かい色の鮮やかなエキゾチック動物テーマを愛するアーティストに最適。",
+            "buttonText": "野生動物のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティ夏アートを探索",
+            "description": "他のアーティストが共有する夏のイラストアイデアの公開ギャラリーを探索。次の明るい陽光スケッチのインスピレーションを得てください。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の夏のイラストアイデア生成ツールは誰向け?",
+        "buttonText": "夏のイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "季節スケッチブックアーティスト",
+            "description": "スケッチブックを季節テーマで埋めるのが好きですか?DrawSpark の夏のアイデアは、季節にマッチした温かく陽光あふれるプロンプトを提供し、アートジャーナルやシリーズに最適。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "カードとプリントデザイナー",
+            "description": "夏のグリーティングカード、プリント、ステッカーをデザイン中?DrawSpark の夏のアイデアは、ビーチシーン、アイスクリーム、明るいテーマをカードレイアウトとプリントデザインに提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "明るいアートを愛するホビーアーティスト",
+            "description": "温かくカラフルなテーマを切望?DrawSpark の夏のアイデアは、汎用的なプロンプトリストを超えた明るく季節的な構図にあなたを導きます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の夏のイラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "夏のイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に季節的、汎用ではない",
+            "description": "ほとんどの夏のリストは汎用的なビーチシーンを提案します。DrawSpark の AI は、本物の夏のエネルギーを持つアイデアを生成 — 暖かい光、熱帯色、バカンスの雰囲気、7 月のように感じるテーマ。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット — 毎日 150 の陽光プロンプトでスケッチブックを暖かく保ちます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各アイデアには明確なテーマ、明るいスタイル、難易度レベルが含まれます — 始める前にどんな季節作品に取り組んでいるか正確にわかります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の夏のイラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "823 件のレビューより",
+        "content": [
+          {
+            "title": "通年ビーチの雰囲気",
+            "description": "冬でも夏のシーンを描くのが好きです。DrawSpark の夏のアイデアは、ビーチ風景、熱帯の鳥、暖かい夕日のプロンプトを提供し、外の季節に関わらずスケッチブックを陽光で満たします。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sofia Martinez",
+            "ext3": "ビーチスケッチアーティスト"
+          },
+          {
+            "title": "カードショップ救済",
+            "description": "Etsy で夏のカードショップを運営しており、DrawSpark の夏のアイデアは無限のビーチテーマカード、アイスクリームプリント、トロピカルデザインのインスピレーションを提供し、顧客は毎年 6 月に気に入ります。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Olivia Bennett",
+            "ext3": "カードショップオーナー"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の夏のリストは同じヤシの木クリップアートばかり。DrawSpark の AI は個性ある夏のアイデアを生成 — ユニークなビーチシーン、楽しいバカンスの瞬間、本物の夏の暖かさ。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Alex Rivera",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "サマーキャンプのクラスが熱狂",
+            "description": "サマーキャンプで美術を教えており、DrawSpark の夏のアイデアは年齢に合ったビーチ、アイスクリーム、トロピカルのプロンプトを提供し、生徒はセッションごとに完成させます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tina Park",
+            "ext3": "サマーキャンプ教師"
+          },
+          {
+            "title": "旅行スケッチブック満タン",
+            "description": "ビーチバカンスに DrawSpark の夏のアイデアを持っていき、熱帯の鳥、海洋シーン、バカンスの瞬間でいっぱいのスケッチブックを持って帰りました。いつもの旅行絵よりはるかに良いです。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jonas Weber",
+            "ext3": "旅行アーティスト"
+          },
+          {
+            "title": "プールサイドのインスピレーション",
+            "description": "毎週末プールサイドで過ごしており、DrawSpark の夏のアイデアは欲しい明るく暖かいプロンプトを提供。インフレータブルフラミンゴ、アイスクリームトラック、夕日空 — 終わりのない夏のエネルギー。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Thompson",
+            "ext3": "プールサイドアーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の夏のイラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "夏のイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "夏のイラストアイデアとは何ですか?",
+            "description": "夏のアイデアには、ビーチシーン、熱帯野生動物、アイスクリーム、バカンスの瞬間、プール、屋外冒険、明るい季節構図が含まれます。DrawSpark の AI はクリックごとにこれらのカテゴリーの新鮮なプロンプトを生成します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料で、ログインやクレジットカードは不要です。1 日最大 30 ロット、各 5 アイデアを生成可能。毎日 150 の新プロンプトを無料で。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマが夏らしく感じますか?",
+            "description": "夏らしく感じるテーマには、ビーチ、海、熱帯の鳥、アイスクリーム、サンバイザー、ヤシの木、キャンプ、花火、明るい夕日空が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたら、ハートアイコンをクリックしてお気に入りに追加できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは汎用的な自然シーンを提案します。DrawSpark の生成ツールは、夏らしく感じるテーマ、構図、色を提案するように特別調整されています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの夏スタイルが取得できますか?",
+            "description": "DrawSpark は各主要スタイルをカバー:トロピカル、ビーチ、ビンテージ夏、モダンバカンス、可愛い夏、kawaii 夏、イラスト夏、絵画夏など。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定のテーマでアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターを使用して動物、食べ物、風景、バカンスシーン、熱帯の鳥などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの夏のアイデアは 30 分から 1 時間で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "子供に適していますか?",
+            "description": "はい — 多くの親や教師が子供と一緒に DrawSpark を使用しています。プロンプトには難易度評価があるため、年齢に合ったビーチシーンやアイスクリームを選べます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "夏のイラストアイデア"
+    },
+    "easter-drawing-ideas": {
+      "h1Title": "イースターのイラストアイデア:100以上の可愛いウサギと卵のスケッチ",
+      "h1Subtitle": "イースターを描きたいですか?DrawSpark の AI が楽しい季節のアイデアを生成 — 可愛いウサギ、装飾された卵、春のひよこ、バスケットまで全レベル対応のイースターアート。",
+      "heroCta": "イースターのイラストアイデアを生成",
+      "heroPromptHint": "イースター風のアイデアを事前入力",
+      "seoTitle": "イースターのイラストアイデア — 100以上の可愛いウサギと卵 | DrawSpark",
+      "seoDescription": "イースターのイラストアイデアをお探しですか?DrawSpark の無料 AI が楽しい季節スケッチを生成 — 可愛いウサギ、装飾された卵、春のひよこ、バスケットまで全レベル対応。",
+      "seoKeywords": "イースター イラスト 描き方,イースター アート,イースター スケッチ,イースター 落書き,イースター ウサギ 描き方,イースター 卵 描き方,春 イラスト 描き方,イースター バスケット 描き方,イースター イラスト",
+      "head1": {
+        "title": "DrawSpark のイースターイラストアイデア生成ツール",
+        "description": "イースターを描きたいですか?DrawSpark の AI が楽しい季節のアイデアを提供 — 可愛いウサギ、装飾された卵、春のひよこ、バスケット、イースターテーマアートであなたのスケッチブックに季節の喜びを。",
+        "buttonText": "イースターのイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark のイースターイラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark のイースターイラストアイデア生成ツールは、楽しい季節テーマを求めるアーティストのために作られています。AI がイースターテーマのプロンプトを生成 — 可愛いウサギ、装飾された卵、春のひよこ、イースター バスケット、春の花、動物の赤ちゃん、季節構図。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールはイースターアートの全範囲をカバーします:クラシックなウサギ、装飾されたイースター卵、ひよこ、お菓子の詰まったバスケット、チューリップと水仙、イースター ハット、春の羊、宗教的イースターシーン、キャンディとチョコレート、パステル季節構図。スタイルでフィルタリングして可愛い、kawaii、シンプル、リアルなどに焦点を絞れます。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark のイースターイラストアイデア生成ツールの使い方",
+        "buttonText": "イースターのイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:イースターイラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの楽しいイースターアイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:イースターアイデアを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark のイースターイラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、楽しい季節テーマを必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "イースターのイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "イースターウサギと春の動物を生成",
+            "description": "可愛いウサギ、春のひよこ、子羊、ふわふわのアヒルの赤ちゃんなど、イースターの魅力を持つ季節動物のアイデアが見つかります。",
+            "buttonText": "ウサギのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "卵とバスケットアートを生成",
+            "description": "卵とバスケットジャンルのアイデアを取得 — 装飾された卵、織られたバスケット、イースターキャンディ、楽しい配置 — パステル色と伝統的なイースターデザインを愛するアーティストに最適。",
+            "buttonText": "卵のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "春の花と風景を生成",
+            "description": "春風景ジャンルのアイデアを発見 — チューリップ、水仙、咲く庭、春の野原 — 明るくパステル色の花テーマを愛するアーティストに最適。",
+            "buttonText": "春のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティイースターアートを探索",
+            "description": "他のアーティストが共有するイースターイラストの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark のイースターイラストアイデア生成ツールは誰向け?",
+        "buttonText": "イースターのイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ホリデーカードデザイナー",
+            "description": "イースターグリーティングカードや季節プリントをデザイン中?DrawSpark のアイデアは、ウサギ、装飾された卵、春のテーマをカードレイアウトと製品デザインに提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "親と教師",
+            "description": "子供向けのイースターアートプロジェクトを探している?DrawSpark は年齢に合ったウサギ、卵、ひよこのプロンプトを難易度評価付きで提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "季節スケッチブックアーティスト",
+            "description": "スケッチブックで祝日を捉えるのが好き?DrawSpark のアイデアは、汎用的な春のリストを超えた楽しい季節テーマにあなたを導きます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark のイースターイラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "イースターのイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当にイースター、汎用的な春ではない",
+            "description": "ほとんどのイースターリストは汎用的な春の花を提案します。DrawSpark の AI は、楽しいウサギ、装飾された卵、バスケット、パステル魅力を持つ季節テーマを生成します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット — 毎日 150 の楽しい季節プロンプト。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各アイデアには明確なテーマ、楽しいスタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark のイースターイラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "712 件のレビューより",
+        "content": [
+          {
+            "title": "毎年春にカードショップ救済",
+            "description": "イースターカードショップを運営しており、DrawSpark のアイデアは毎年 3 月に新鮮なウサギ、卵、バスケットデザインを提供。顧客は新しい季節カードが好きで、毎年販売が伸びます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Helen Foster",
+            "ext3": "カードデザイナー"
+          },
+          {
+            "title": "子供向け美術クラスで大成功",
+            "description": "土曜の子供向け美術を教えており、DrawSpark のイースターアイデアは年齢に合ったプロンプトを提供し、各子供が 45 分で完成できます。親は結果をイースターギフトとして額装します。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Patricia Gomez",
+            "ext3": "子供美術教師"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他のイースターリストは同じ漫画ウサギばかり。DrawSpark の AI は個性あるイースターアイデアを生成 — ユニークな卵デザイン、可愛い春のひよこ、本物の楽しい魅力。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Emma Walsh",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "ステッカーパック大ヒット",
+            "description": "DrawSpark のイースターアイデアでステッカーパックを作りました — ウサギ、卵、春の花 — Etsy で 2 週間で完売。顧客は 2026 年パックがいつ出るか聞き続けます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Liam O'Brien",
+            "ext3": "ステッカーデザイナー"
+          },
+          {
+            "title": "日曜学校承認",
+            "description": "日曜学校を教えており、DrawSpark のイースターアイデアは子供たちが大好きな信仰に優しい春のプロンプトを提供。ウサギ、卵、春の庭 — 各子供が楽しい傑作を持って帰ります。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sarah Mitchell",
+            "ext3": "日曜学校教師"
+          },
+          {
+            "title": "スケッチブックの伝統",
+            "description": "毎年イースターに DrawSpark のアイデアでスケッチブックを広げます。今年はウサギ、装飾された卵、春の羊を描きました。お気に入りの季節伝統になりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Megan Cole",
+            "ext3": "季節スケッチブックアーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark のイースターイラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "イースターのイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "イースターのイラストアイデアとは何ですか?",
+            "description": "イースターのアイデアには、可愛いウサギ、装飾された卵、春のひよこ、バスケット、春の花、動物の赤ちゃん、楽しい季節構図が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマがイースターらしく感じますか?",
+            "description": "イースターらしく感じるテーマには、可愛いウサギ、装飾された卵、ひよこ、バスケット、チューリップ、水仙、子羊、イースターハット、キャンディ、パステルシーンが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常の春のプロンプトとどう違いますか?",
+            "description": "ほとんどの春のリストは汎用的な花を提案。DrawSpark はイースター特有のテーマ、装飾、構図を提案します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのイースタースタイルが取得できますか?",
+            "description": "DrawSpark は各主要スタイルをカバー:可愛い、kawaii、シンプル、リアル、ビンテージ、モダンパステル、イラスト、絵画など。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定のテーマでアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、食べ物、風景、祝日の装飾などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどのアイデアは 30 分から 1 時間で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "子供に適していますか?",
+            "description": "はい — 多くの親や教師が子供と一緒に使用。プロンプトには難易度評価があります。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "イースターのイラストアイデア"
+    },
+    "weird-things-to-draw": {
+      "h1Title": "変なものの描き方:100以上の奇妙でシュールで奇抜なスケッチ",
+      "h1Subtitle": "変なものを描きたいですか?DrawSpark の AI が奇妙でシュールで奇抜なアイデアを生成 — 風変わりな生物、溶ける物体、夢のようなシーン、退屈なプロンプトリストを破る奇抜なアート。",
+      "heroCta": "変なイラストアイデアを生成",
+      "heroPromptHint": "変なスタイルのアイデアを事前入力",
+      "seoTitle": "変なものの描き方 — 100以上の奇妙でシュールなスケッチ | DrawSpark",
+      "seoDescription": "変なものを描くアイデアをお探しですか?DrawSpark の無料 AI が奇妙でシュールで奇抜なスケッチを生成 — 風変わりな生物、溶ける物体、夢のようなシーン、奇抜なアートを描く準備完了。",
+      "seoKeywords": "変なものの描き方,変なイラストアイデア,奇妙なものの描き方,シューレア 描き方,不気味な アートアイデア,奇抜なものの描き方,不気味なイラスト,珍しいプロンプト,トリッピー 描き方",
+      "head1": {
+        "title": "DrawSpark の変なイラストアイデア生成ツール",
+        "description": "本当に変なものを描きたいですか?DrawSpark の AI が奇妙でシュールで奇抜なアイデアを提供 — 風変わりな生物、溶ける物体、夢のようなシーン、あなたのスケッチブックを忘れられないものにする奇抜なアート。",
+        "buttonText": "変なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の変なイラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の変なものの描き方生成ツールは、奇妙でシュールで奇抜なテーマを求めるアーティストのために作られています。AI が変なテーマのプロンプトを生成 — 風変わりな生物、溶ける物体、夢のようなシーン、擬人化された家庭用品、不安なポートレート、シュールな風景、不可能な構図。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールは変なアートの全範囲をカバーします:シュールな夢、溶ける時計、ハイブリッド生物、歪んだポートレート、抽象的な悪夢、トリッピーなパターン、不気味なキャラクター、幽霊のような姿、奇妙な日常オブジェクト。スタイルでフィルタリングしてシュール、暗い、トリッピー、不安などに焦点を絞れます。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の変なイラストアイデア生成ツールの使い方",
+        "buttonText": "変なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:変なイラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの奇妙な変なアイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:変なアイデアを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の変なイラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、奇妙でシュールなテーマを必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "変なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "シュール生物デザインを生成",
+            "description": "変なイラストアイデアが見つかります — ハイブリッド動物、溶ける姿、歪んだ生物、シュールな存在 — 普通を超えた風変わりなキャラクターデザインを求めるアーティストに最適。",
+            "buttonText": "シュールのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "夢とトリッピーなシーンを生成",
+            "description": "シュールな風景ジャンルのアイデアを取得 — 溶ける風景、不可能な建築、夢のような空、トリッピーなパターン — 異世界構図を愛するアーティストに最適。",
+            "buttonText": "夢のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "不気味で暗いポートレートを生成",
+            "description": "ポートレートジャンルのアイデアを発見 — 歪んだ顔、不安な表情、不気味なキャラクター — 挑戦的で思索的なテーマを愛するアーティストに最適。",
+            "buttonText": "ポートレートのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティ変なアートを探索",
+            "description": "他のアーティストが共有する変なイラストの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の変なイラストアイデア生成ツールは誰向け?",
+        "buttonText": "変なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "シュールとコンセプトアーティスト",
+            "description": "シュールなアートポートフォリオを構築中?DrawSpark の変なアイデアは、風変わりな生物、溶ける物体、夢のようなシーンを提供し、あなたの想像力とコンセプト幅を示します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ルーティンを壊したいホビースト",
+            "description": "いつも同じものを描いて行き詰まっていますか?DrawSpark の変なアイデアは、奇妙で驚くテーマにあなたを押し出し、なぜアートが楽しいか思い出させてくれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "暗い美学を探るティーンエイジャー",
+            "description": "変な、シュール、または不安アートに引き寄せられていますか?DrawSpark はあなたの美学が好きな奇抜なエッジを持つ年齢に合った奇妙なプロンプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の変なイラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "変なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に変、汎用ではない",
+            "description": "ほとんどの変なプロンプトリストは汎用的な不気味なものを提案します。DrawSpark の AI は、本当の奇抜さを持つアイデアを生成 — 風変わりなコンセプト、シュールな構図、奇抜なテーマ、あなたを驚かせるアート。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット — 毎日 150 の奇妙なプロンプト。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各変なアイデアには明確なテーマ、シュールスタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の変なイラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "654 件のレビューより",
+        "content": [
+          {
+            "title": "ブロッカーを破った",
+            "description": "数週間同じ退屈なものを描いて行き詰まっていました。DrawSpark の変なものの描き方ツールが雲に乗る溶ける猫を投げてきて、それ以来ずっと描き続けています。完全なるブロッカー破り。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Casey Liu",
+            "ext3": "コンセプトアーティスト"
+          },
+          {
+            "title": "ポートフォリオ目立つ",
+            "description": "他のコンセプトアート志望者から目立つポートフォリオ作品が必要でした。DrawSpark の変なアイデアは、面接官がまだ覚えているシュールな生物デザインと夢のようなシーンを提供しました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nikolai Petrov",
+            "ext3": "ポートフォリオ志望者"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の変なリストは同じ恐ろしいピエロばかり。DrawSpark の AI は想像力ある変なアイデアを生成 — 奇妙なコンセプト、シュールなシーン、本物の奇抜エネルギー。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Riley Adams",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "Etsy 売上",
+            "description": "Etsy で変なアートプリントを販売しており、DrawSpark の変なアイデアは、風変わりな生物プリント、溶ける物体デザイン、シュールな風景の無限のインスピレーションを提供し、ニッチな観客が愛しています。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Quinn Hayes",
+            "ext3": "プリントショップオーナー"
+          },
+          {
+            "title": "セラピー的ドローイング",
+            "description": "DrawSpark で変なものを描くことが私の一番好きなセラピーになりました。奇妙でシュールなプロンプトは、リアルなドローイングでは決してできなかった感情を表に出させてくれます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Devon Cole",
+            "ext3": "表現派アーティスト"
+          },
+          {
+            "title": "スクロールを止める",
+            "description": "Instagram で変なアートを投稿しており、DrawSpark のアイデアがスクロールを止めてくれます。奇妙でシュールなプロンプトは以前の汎用的な絵よりはるかに多くのエンゲージメントを獲得します。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sage Patel",
+            "ext3": "Instagram アーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の変なイラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "変なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "変なものの描き方とは何ですか?",
+            "description": "変なアイデアには、風変わりな生物、溶ける物体、夢のようなシーン、歪んだポートレート、擬人化された家庭用品、シュールな風景が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマが最も変に感じますか?",
+            "description": "最も変に感じるテーマには、ハイブリッド生物、溶ける時計、歪んだポートレート、擬人化された物体、不可能な建築、夢のような空、不気味なキャラクターが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは汎用的なテーマを提案。DrawSpark は奇妙でシュールに見えるテーマ、構図、スタイルを提案します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの変なスタイルが取得できますか?",
+            "description": "DrawSpark は各主要スタイルをカバー:シュール、暗い、トリッピー、抽象、歪んだ、溶ける、夢のような、不気味、ゴシック、ホラーなど。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定のテーマでアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、人物、物体、風景などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの変なアイデアは 30 分から 1 時間で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "シュールアートポートフォリオに適していますか?",
+            "description": "はい — 多くのシュールアーティストがポートフォリオ作品に DrawSpark の変なアイデアを使用しています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "変なものの描き方"
+    },
+    "cute-things-to-draw-when-your-bored": {
+      "h1Title": "退屈な時に描く可愛いもの:100以上の愛らしいスケッチ",
+      "h1Subtitle": "退屈で可愛いものを描きたいですか?DrawSpark の AI が愛らしいアイデアを生成 — kawaii な動物、可愛い食べ物、ちびキャラ、心地よいリラックススケッチテーマ。",
+      "heroCta": "可愛いイラストアイデアを生成",
+      "heroPromptHint": "可愛い退屈解消アイデアを事前入力",
+      "seoTitle": "退屈な時に描く可愛いもの — 100以上の愛らしいスケッチ | DrawSpark",
+      "seoDescription": "退屈で可愛いものを描きたいですか?DrawSpark の無料 AI が愛らしいスケッチを生成 — kawaii 動物、可愛い食べ物、ちびキャラ、心地よいテーマ、リラックススケッチに最適。",
+      "seoKeywords": "退屈な時に描く可愛いもの,可愛いイラスト 描き方,愛らしいものの描き方,kawaii 描き方,可愛いものの描き方,可愛い落書き,可愛いスケッチ,可愛い簡単イラスト,ちびキャラ 描き方",
+      "head1": {
+        "title": "DrawSpark の可愛いイラストアイデア生成ツール",
+        "description": "退屈で可愛いものを描きたいですか?DrawSpark の AI が愛らしいアイデアを提供 — kawaii 動物、可愛い食べ物、ちびキャラ、心地よい可愛いテーマで、退屈なスケッチセッションを温かく楽しいものにします。",
+        "buttonText": "可愛いイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の可愛いイラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の可愛いものの描き方生成ツールは、愛らしく心地よいリラックステーマを求めるアーティストのために作られています。AI が可愛いテーマのプロンプトを生成 — kawaii 動物、可愛い食べ物、ちびキャラ、パステルシーン、眠る生き物、心地よいオブジェクト、暖かい小構図。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールは可愛いアートの全範囲をカバーします:kawaii 猫と子犬、眠る動物、可愛いデザートと飲み物、日常オブジェクトのちびバージョン、目の大きい動物赤ちゃん、パステル風景、心地よい部屋シーン、可愛い植物友達、擬人化食べ物、小さな世界の小さなキャラ。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の可愛いイラストアイデア生成ツールの使い方",
+        "buttonText": "可愛いイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:可愛いイラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要 — 退屈な時の心地よいくつろぎスケッチセッションに最適。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの愛らしい可愛いアイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:可愛いアイデアを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の可愛いイラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、愛らしく心地よいテーマを必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "可愛いイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "kawaii 動物とペットを生成",
+            "description": "可愛いアイデアが見つかります — kawaii 猫、眠る子犬、動物の赤ちゃん、ちびペット、心地よい生き物 — リラックススケッチセッションとアートスタイルのウォームアップに最適。",
+            "buttonText": "動物のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可愛い食べ物と飲み物を生成",
+            "description": "食べ物カテゴリーのアイデアを取得 — 笑顔のお弁当、kawaii デザート、可愛い飲み物、擬人化スナック — 愛らしく楽しい性格ある食べ物テーマを愛するアーティストに最適。",
+            "buttonText": "食べ物のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "心地よい kawaii シーンを生成",
+            "description": "シーンジャンルのアイデアを発見 — 心地よい寝室、雨の窓、小さな植物友達、パステルの空 — 暖かい心地よいテーマを愛するアーティストに最適。",
+            "buttonText": "シーンのアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティ可愛いアートを探索",
+            "description": "他のアーティストが共有する可愛いイラストの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の可愛いイラストアイデア生成ツールは誰向け?",
+        "buttonText": "可愛いイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "心地よいくつろぎスケッチを求める退屈なアーティスト",
+            "description": "家で何も描かずに退屈ですか?DrawSpark の可愛いアイデアは、どんな退屈な午後も暖かくて満足なスケッチセッションに変える愛らしくリラックスできるプロンプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "自信を構築する初心者",
+            "description": "描くことを学び、優しいテーマが必要ですか?DrawSpark の可愛いアイデアは、kawaii 美学が初心者が誇りに思える作品を完成させるのに役立つシンプルで達成可能なプロンプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ジャーナルとステッカーデザイナー",
+            "description": "バレットジャーナル、ステッカーパック、心地よいくらしいプリントをデザイン中?DrawSpark の可愛いアイデアは、レイアウト、製品、個人プロジェクト準備完了の愛らしいテーマを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の可愛いイラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "可愛いイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に可愛い、汎用ではない",
+            "description": "ほとんどの可愛いプロンプトリストは汎用的な漫画動物を提案します。DrawSpark の AI は、本物の kawaii エネルギーを持つアイデアを生成 — 大きい目、柔らかい形、パステル色、心地よい構図、愛らしいディテール。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット — 毎日 150 の愛らしいプロンプトで退屈な午後を心地よく。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各可愛いアイデアには明確なテーマ、kawaii スタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の可愛いイラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "1087 件のレビューより",
+        "content": [
+          {
+            "title": "私の退屈治療法",
+            "description": "毎週末退屈で、DrawSpark の可愛いアイデアが欲しい心地よく kawaii プロンプトをくれます。眠る猫、笑顔プリン、小さな植物友達 — どのスケッチもハグのように感じます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Zoe Williams",
+            "ext3": "kawaii スケッチアーティスト"
+          },
+          {
+            "title": "ジャーナルスプレッドの魔法",
+            "description": "バレットジャーナル YouTube チャンネルを運営しており、DrawSpark の可愛いアイデアはスプレッド用の終わりのない心地よくプロンプトを提供します。サブスクライバーはいつも私が愛らしいアイデアをどこから得るか聞きます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Aria Patel",
+            "ext3": "ジャーナル YouTuber"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の可愛いリストは同じハローキティのクローンばかり。DrawSpark の AI は個性ある可愛いアイデアを生成 — ユニークな kawaii デザイン、オリジナル心地よくシーン、本物の愛らしい魅力。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mei Lin",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "ステッカーパック大ヒット",
+            "description": "DrawSpark の可愛いアイデアで kawaii ステッカーパックを作りました — 眠る猫、笑顔のお弁当、心地よく植物 — Etsy で最も売れる商品です。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hana Kim",
+            "ext3": "ステッカーデザイナー"
+          },
+          {
+            "title": "不安解消ドローイング",
+            "description": "不安があり、DrawSpark の可愛いアイデアは一番好きな落ち着くアクティビティです。愛らしく心地よくプロンプトが穏やかなことに集中するのを助けてくれます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sam Mitchell",
+            "ext3": "落ち着くスケッチアーティスト"
+          },
+          {
+            "title": "私の娘が大好き",
+            "description": "9 歳の娘と DrawSpark の可愛いものの描き方ツールを週末の絆の時間として使用。一緒に可愛いアイデアを選んで並んで描きます。お気に入りの土曜午後の伝統になりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Rebecca Foster",
+            "ext3": "保護者アーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の可愛いイラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "可愛いイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "退屈な時に描く可愛いものとは何ですか?",
+            "description": "退屈な時に描く可愛いものには、kawaii 動物、可愛い食べ物、ちびキャラ、心地よくシーン、眠る生き物、擬人化されたオブジェクト、パステル構図が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマが最も可愛く感じますか?",
+            "description": "最も可愛く感じるテーマには、kawaii 動物、動物の赤ちゃん、可愛いデザート、笑顔食べ物、眠るペット、心地よく部屋、小さな植物友達、ちびキャラが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは汎用的なテーマを提案。DrawSpark は kawaii で愛らしく見えるテーマ、スタイル、色を提案します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの可愛いスタイルが取得できますか?",
+            "description": "DrawSpark は各主要スタイルをカバー:kawaii、ちびキャラ、パステル、心地よく、シンプル可愛い、イラスト、ステッカー風、ぬいぐるみインスパイアなど。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定のテーマでアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、食べ物、植物、キャラなどに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの可愛いアイデアは 15 分から 45 分で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "バレットジャーナルに適していますか?",
+            "description": "はい — 多くのジャーナルアーティストがスプレッドイラストやステッカー風アクセントに DrawSpark を使用しています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "退屈な時に描く可愛いもの"
+    },
+    "drawing-themes": {
+      "h1Title": "イラストのテーマ:100以上のスケッチブック向けインスピレーション",
+      "h1Subtitle": "イラストのテーマが必要ですか?DrawSpark の AI がインスピレーションのあるテーマアイデアを生成 — 自然、ファンタジー、ポートレート、動物、日常生活、創造的なテーマで数ヶ月スケッチブックを埋めます。",
+      "heroCta": "テーマアイデアを生成",
+      "heroPromptHint": "新鮮なテーマアイデアを事前入力",
+      "seoTitle": "イラストのテーマ — 100以上のスケッチブック向けインスピレーション | DrawSpark",
+      "seoDescription": "イラストのテーマが必要ですか?DrawSpark の無料 AI がインスピレーションのあるテーマアイデアを提供 — 自然、ファンタジー、ポートレート、動物、日常生活、創造的なテーマ。",
+      "seoKeywords": "イラストのテーマ,アートのテーマ,スケッチブックのテーマ,イラストのテーマ アイデア,描画のテーマ,創造的な描画テーマ,毎月の描画テーマ,毎週の描画テーマ",
+      "head1": {
+        "title": "DrawSpark のイラストテーマ生成ツール",
+        "description": "新鮮なイラストのテーマが必要ですか?DrawSpark の AI がインスピレーションのあるテーマアイデアを提供 — 自然、ファンタジー、ポートレート、動物、日常生活、創造的なテーマで数ヶ月分の満足な描画をスケッチブックに。",
+        "buttonText": "テーマアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark のイラストテーマ生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark のイラストテーマ生成ツールは、シリーズを組むためのインスピレーションのある焦点を絞ったテーマを求めるアーティストのために作られています。AI がテーマベースのプロンプトを生成 — 自然研究、キャラクターアーク、マンスリーチャレンジ、ウィークリーサブジェクト、ホリデープロジェクト、カラー探索、創造的制約。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールはアートテーマの全範囲をカバーします:マンスリーチャレンジ、ウィークリースケッチプロンプト、30 日シリーズ、カラーオブザマンスプロジェクト、動物研究、ポートレートシリーズ、ファンタジーワールド、日常オブジェクト研究、季節テーマ、個人的な探索プロンプト。テーマを選んで、生成ツールで関連する数十のアイデアを生み出せます。DrawSpark にはコミュニティテーマアートギャラリーもあります。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark のイラストテーマ生成ツールの使い方",
+        "buttonText": "テーマアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:イラストテーマ生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つのインスピレーションあるテーマを取得",
+            "description": "DrawSpark が即座に 5 つのテーマアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:テーマを選んでシリーズを開始",
+            "description": "5 つのテーマを閲覧し、最も心惹かれるものを選んで描画シリーズを開始。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark のイラストテーマで何ができる?",
+        "description": "DrawSpark のテーマは、焦点を絞った持続的なテーマを必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "テーマアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "マンスリーチャレンジを開始",
+            "description": "インスピレーションのあるテーマが見つかります — マンスリーチャレンジ、30 日シリーズ、ウィークリープロンプト — 規律ある練習の構築に最適。",
+            "buttonText": "チャレンジアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "テーマ別ポートフォリオを構築",
+            "description": "ポートフォリオ構築のためのテーマを取得 — 自然シリーズ、キャラクターアーク、カラー研究、主題探索 — 一貫したテーマ別ポートフォリオを求めるアーティストに最適。",
+            "buttonText": "ポートフォリオテーマを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "新しい主題領域を探索",
+            "description": "新しい領域に押し出すテーマを発見 — 描いたことのない動物、行ったことのない場所、快適ゾーン外の主題。",
+            "buttonText": "探索テーマを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティテーマアートを探索",
+            "description": "他のアーティストが共有するテーマアイデアの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark のイラストテーマ生成ツールは誰向け?",
+        "buttonText": "テーマアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "スケッチブックアーティスト",
+            "description": "スケッチブックを焦点を絞ったテーマページで埋める?DrawSpark のテーマ生成ツールは、マンスリー、ウィークリー、シリーズレベルのテーマを提供し、練習を一貫してインスピレーションのあるものに保ちます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "美術学生と学習者",
+            "description": "美術を勉強し、構造化された練習が必要ですか?DrawSpark のテーマは、一貫したシリーズで自然、ポートレート、キャラクター、静物領域のスキル構築を持続的な主題プロンプトで提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ポートフォリオビルダー",
+            "description": "特定のテーマでポートフォリオを構築中?DrawSpark のテーマ生成ツールは、申請やクライアント作品に完璧な一貫したテーマ別コレクションを生み出すシリーズレベルのプロンプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark のイラストテーマ生成ツールを選ぶべき?",
+        "buttonText": "テーマアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当にテーマ的、汎用ではない",
+            "description": "ほとんどのテーマリストは曖昧な主題を提案します。DrawSpark の AI は、真のフォーカスを持つテーマを生成 — 特定の主題、持続的な探索、シリーズ準備完了プロンプト。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各イラストテーマには明確な主題、焦点を絞ったスタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark のイラストテーマ生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "542 件のレビューより",
+        "content": [
+          {
+            "title": "スケッチブックを埋めた",
+            "description": "新しいスケッチブックを買い、DrawSpark のテーマ生成ツールが 30 日自然シリーズを提供。1 ヶ月で本を埋めました — 初めて本を完成させた。練習のゲームチェンジャー。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Eleanor Brooks",
+            "ext3": "スケッチブックアーティスト"
+          },
+          {
+            "title": "ポートフォリオの一貫性",
+            "description": "美術学校の申請のためのポートフォリオテーマが必要でした。DrawSpark のテーマは、面接官を感動させ奨学金を得た焦点を絞った都市自然シリーズを提供しました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jordan Hayes",
+            "ext3": "ポートフォリオ志望者"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他のテーマリストは同じ「花を描いて」プロンプトばかり。DrawSpark の AI は焦点を絞ったテーマアイデアを生成 — 特定の主題、持続的な角度、本物のシリーズ準備深度。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Priya Sharma",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "マンスリーシリーズの伝統",
+            "description": "DrawSpark からマンスリーテーマを作る — 過去の月はキツネ、ティーカップ、キノコ、秋の葉。Instagram フォロワーは焦点を絞ったシリーズを愛し、エンゲージメントが 3 倍になりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Naomi Reyes",
+            "ext3": "マンスリーシリーズアーティスト"
+          },
+          {
+            "title": "クラスプロジェクト勝利",
+            "description": "高校美術を教えており、DrawSpark のテーマ生成ツールが生徒が学期中ずっと維持できるマンスリーテーマを提供。最終ポートフォリオが前年よりずっと一貫していました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "David Lin",
+            "ext3": "高校美術教師"
+          },
+          {
+            "title": "行き詰った時のインスピレーション",
+            "description": "クリエイティブなブロックに遭遇したとき、DrawSpark のテーマアイデアが構造化された方向性をくれます。テーマのフォーカスが麻痺を破り、数分で再び描き始められます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Maya Ahmed",
+            "ext3": "ブロッカー破りアーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark のイラストテーマ生成ツールに関するよくある質問",
+        "buttonText": "テーマアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "イラストのテーマとは何ですか?",
+            "description": "イラストのテーマは、シリーズを組むための焦点を絞った主題プロンプトです — 自然研究、キャラクターアーク、マンスリーチャレンジ、ウィークリースケッチ、創造的制約。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの主題が最高のテーマを作りますか?",
+            "description": "最高のテーマを作る主題には、自然研究、キャラクターアーク、カラー探索、動物シリーズ、ポートレートコレクション、季節テーマ、個人的な探索が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "テーマを後で保存できますか?",
+            "description": "はい。好きなテーマを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは一回限りの主題を提案。DrawSpark はシリーズを組める焦点を絞った持続的な主題を提案します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマスタイルが取得できますか?",
+            "description": "DrawSpark は各主要テーマスタイルをカバー:自然、キャラクター、抽象、カラー研究、日常練習、マンスリーチャレンジ、ウィークリースケッチ、個人的探索。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定の主題でテーマを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、植物、キャラクター、風景、オブジェクトなどに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "テーマシリーズ完成にどれくらい時間がかかりますか?",
+            "description": "ほとんどの DrawSpark テーマは 1 週間から 1 ヶ月でシリーズとして完成します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "美術学生に適していますか?",
+            "description": "はい — 多くの学生が課題、ポートフォリオ作品、個人練習に DrawSpark を使用しています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "テーマアートをシェアできますか?",
+            "description": "はい。各テーマにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "イラストのテーマ"
+    },
+    "drawing-best-ideas": {
+      "h1Title": "最高のイラストアイデア:100以上のトップスケッチ・キャラクター・シーン",
+      "h1Subtitle": "最高のイラストアイデアをお探しですか?DrawSpark の AI がトップ評価、コミュニティお気に入りのプロンプトを生成 — 証明済みのキャラ、トレンドシーン、人気主題、コミュニティが愛する高品質アート。",
+      "heroCta": "最高のアイデアを生成",
+      "heroPromptHint": "トップ評価アイデアを事前入力",
+      "seoTitle": "最高のイラストアイデア — 100以上のトップスケッチ | DrawSpark",
+      "seoDescription": "最高のイラストアイデアをお探しですか?DrawSpark の無料 AI がトップ評価、コミュニティお気に入りのプロンプトを提供 — 証明済みのキャラ、トレンドシーン、人気の主題、高品質アート。",
+      "seoKeywords": "最高のイラストアイデア,史上最高のイラストアイデア,トップのイラストアイデア,最高のスケッチ,最高のアートアイデア,最高のプロンプト,人気のイラストアイデア,初心者向けの最高アイデア",
+      "head1": {
+        "title": "DrawSpark の最高イラストアイデア生成ツール",
+        "description": "利用可能な最高のイラストアイデアが必要ですか?DrawSpark の AI がトップ評価、コミュニティお気に入りのプロンプトを提供 — 証明済みのキャラ、トレンドシーン、人気主題、コミュニティが常に愛する高品質アート。",
+        "buttonText": "最高のアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の最高イラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の最高イラストアイデア生成ツールは、コミュニティが常に愛する証明済みのトップ評価主題を求めるアーティストのために作られています。AI がコミュニティお気に入りのプロンプトを生成 — 人気キャラ、トレンドシーン、愛されている主題、クラシック構図、何千ものコミュニティ作品でエンゲージメントと称賛を得た高品質アイデア。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールは最も愛されているアートの全範囲をカバーします:表現力豊かなキャラ、ダイナミックなポーズ、雰囲気のある風景、愛されている動物、ファンタジー生物、クラシックポートレート、トレンディな美学スタイル、人気祝日アート、ファンダムお気に入りシーン、時代を超越した構図。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の最高イラストアイデア生成ツールの使い方",
+        "buttonText": "最高のアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:最高イラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つのトップ評価アイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:アイデアを選んで傑作を描く",
+            "description": "5 つのトップアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の最高イラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、証明済みのコミュニティお気に入り主題を必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "最高のアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "トップ評価キャラアートを生成",
+            "description": "最も愛されているアイデアが見つかります — 人気のキャラデザイン、トレンディな OC コンセプト、表現力豊かなポートレート、ダイナミックなポーズ。",
+            "buttonText": "キャラアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティお気に入りシーンを生成",
+            "description": "シーンジャンルのアイデアを取得 — 雰囲気のある風景、愛されている自然シーン、人気心地よく瞬間、トレンディな美学構図。",
+            "buttonText": "シーンアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "トレンディな美学アートを生成",
+            "description": "最も愛されている美学アイデアを発見 — モダン構図、人気パレット、トレンディなアートスタイル。",
+            "buttonText": "美学アイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "トップコミュニティアートを探索",
+            "description": "最高アイデアの最もエンゲージメントされた公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の最高イラストアイデア生成ツールは誰向け?",
+        "buttonText": "最高のアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "確実な当たりが欲しいアーティスト",
+            "description": "一貫してうまく機能する主題が必要ですか?DrawSpark の最高アイデア生成ツールは、コミュニティが既に愛している証明済みのトッププロンプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ソーシャルメディアクリエイター",
+            "description": "Instagram、TikTok、YouTube のアートプレゼンスを構築中?DrawSpark の最高アイデアは、最もエンゲージメント、保存、シェアを獲得するコミュニティお気に入り主題を提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "高品質プロンプトを求めるホビースト",
+            "description": "どこにも行かない弱いプロンプトリストにうんざり?DrawSpark の最高アイデアは、毎回満足で共有可能なアートを生み出すと信頼できるキュレーションされたトップ主題を提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の最高イラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "最高のアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に最高、汎用ではない",
+            "description": "ほとんどの「最高」リストは意見のコンパイルに過ぎません。DrawSpark の AI は、コミュニティが常に愛するものに基づいてアイデアを生成 — エンゲージメントデータ、シェアパターン、証明済みの人気。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット — 毎日 150 のトッププロンプト。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各最高アイデアには明確な主題、トップスタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の最高イラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "891 件のレビューより",
+        "content": [
+          {
+            "title": "エンゲージメント倍増",
+            "description": "DrawSpark の最高アイデアに切り替えた月、Instagram のエンゲージメントが倍になりました。プロンプトは機能する — 視聴者が実際に愛する主題、保存・シェアされるシーン。私のページの完全なアンロック。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Avery Chen",
+            "ext3": "Instagram アーティスト"
+          },
+          {
+            "title": "ポートフォリオ品質ジャンプ",
+            "description": "他のコンセプトアート志望者から目立つポートフォリオ作品が必要でした。DrawSpark の最高アイデアは、証明済みの魅力を持つコミュニティお気に入り主題を提供しました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tom Bradley",
+            "ext3": "ポートフォリオ志望者"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の「最高イラスト」リストは同じ漫画ネズミの絵ばかり。DrawSpark の AI は本当に最高アイデアを提供 — 証明済みの主題、トレンディなシーン、本物のコミュニティお気に入り品質。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Chloe Davis",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "TikTok バイラル",
+            "description": "DrawSpark の最高アイデアのタイムラプスを投稿し、TikTok でバイラル — 200 万回再生。プロンプトはそれだけ良かった。それ以来すべてのビデオに DrawSpark を使用しています。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Jake Morrison",
+            "ext3": "TikTok タイムラプスアーティスト"
+          },
+          {
+            "title": "プリントショップ ベストセラー",
+            "description": "プリントショップを運営しており、DrawSpark の最高アイデアがベストセラープリントのためのトップ主題を提供。顧客は証明済みの品質のために繰り返し戻ってきます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Nora Williams",
+            "ext3": "プリントショップオーナー"
+          },
+          {
+            "title": "クラスエンゲージメント勝利",
+            "description": "課外アートを教えており、DrawSpark の最高アイデアは子供たちが実際に完成し誇りに思える主題を提供します。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sandra Lopez",
+            "ext3": "課外アート教師"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の最高イラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "最高のアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "最高のイラストアイデアとは何ですか?",
+            "description": "最高のイラストアイデアは、コミュニティが常に愛する証明済みのトッププロンプトです — 人気キャラ、トレンドシーン、愛されている主題、クラシック構図、エンゲージメントを獲得する高品質アート。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの主題が最高のアイデアを作りますか?",
+            "description": "常に最高と評価される主題には、表現力豊かなキャラ、ダイナミックなポーズ、雰囲気のある風景、愛されている動物、ファンタジー生物、クラシックポートレート、トレンディな美学シーンが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "最高のアイデアを後で保存できますか?",
+            "description": "はい。好きなトップ評価イラストアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトリストとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは意見のコンパイル。DrawSpark の最高アイデア生成ツールは、コミュニティが既に愛していると証明した主題、構図、スタイルを提案します。人気はデータに裏付けられています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのスタイルを取得できますか?",
+            "description": "DrawSpark は各主要スタイルをカバー:可愛い、クール、エステティック、シンプル、リアル、ダーク、ビンテージ、ミニマリスト、イラストなど。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定の主題でアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、人物、風景、ファンタジー生物、食べ物などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの DrawSpark 最高アイデアは 30 分から 1 時間で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ポートフォリオに適していますか?",
+            "description": "はい — 多くのアーティストがポートフォリオ作品に DrawSpark の最高アイデアを使用しています。証明済みの主題とコミュニティお気に入り構図は、範囲、スキル、センスを示すのに完璧。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "最高のイラストアイデア"
+    },
+    "creative-in-drawing": {
+      "h1Title": "クリエイティブなイラストアイデア:100以上のオリジナルで想像力豊かな大胆なスケッチ",
+      "h1Subtitle": "よりクリエイティブに描きたいですか?DrawSpark の AI がオリジナルで想像力豊かなアイデアを生成 — 大胆なコンセプト、珍しい角度、創造的制約、あなたのスタイルを前進させる独創的なアート。",
+      "heroCta": "クリエイティブなアイデアを生成",
+      "heroPromptHint": "想像力豊かなアイデアを事前入力",
+      "seoTitle": "クリエイティブなイラストアイデア — 100以上のオリジナルスケッチ | DrawSpark",
+      "seoDescription": "クリエイティブなイラストアイデアが必要ですか?DrawSpark の無料 AI がオリジナルで想像力豊かなプロンプトを提供 — 大胆なコンセプト、珍しい角度、創造的制約、すべてのスキルレベル向け。",
+      "seoKeywords": "描画の創造性,クリエイティブなイラストアイデア,創造的なアートアイデア,想像力豊かなイラストアイデア,創造的なスケッチアイデア,オリジナルプロンプト,創造的なプロンプト,描画でクリエイティブになる方法",
+      "head1": {
+        "title": "DrawSpark のクリエイティブイラストアイデア生成ツール",
+        "description": "よりクリエイティブに描きたいですか?DrawSpark の AI がオリジナルで想像力豊かなアイデアを提供 — 大胆なコンセプト、珍しい角度、創造的制約、あなたのスタイルを新しい領域に押し出す独創的なアート。",
+        "buttonText": "クリエイティブなアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark のクリエイティブイラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の描画の創造性生成ツールは、創造的深度を組み込んだオリジナルで想像力豊かな独創的な主題を求めるアーティストのために作られています。AI がクリエイティブテーマのプロンプトを生成 — 大胆なコンセプト、珍しい構図、創造的制約、独創的なマッシュアップ、オリジナルな視点、想像力豊かなシーン。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールはクリエイティブアートの全範囲をカバーします:マッシュアップ主題、予期しない角度、カラー実験、混合メディアコンセプト、写実への抽象的アプローチ、シュール構図、独創的なキャラ研究。スタイルでフィルタリングして実験的、抽象、シュール、想像力豊かな美学に焦点を絞れます。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark のクリエイティブイラストアイデア生成ツールの使い方",
+        "buttonText": "クリエイティブなアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:クリエイティブイラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの想像力豊かなアイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:アイデアを選んでクリエイティブに描く",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark のクリエイティブイラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、オリジナルで独創的な主題を必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "クリエイティブなアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "独創的なキャラマッシュアップを生成",
+            "description": "クリエイティブアイデアが見つかります — 予期しないキャラマッシュアップ、ハイブリッド生物コンセプト、オリジナル OC デザイン — 汎用プロンプトを超えた想像力豊かな組み合わせを求めるアーティストに最適。",
+            "buttonText": "マッシュアップアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "大胆なクリエイティブ制約を生成",
+            "description": "組み込み制約のあるクリエイティブアイデアを取得 — 限定パレット、珍しい角度、制限された主題 — 驚くべき独創的な結果を生み出す焦点を絞ったクリエイティブ練習を求めるアーティストに最適。",
+            "buttonText": "制約アイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "オリジナル視点アートを生成",
+            "description": "珍しい視点を持つクリエイティブアイデアを発見 — 極端な角度、驚くべき視点、独創的な構図。",
+            "buttonText": "視点アイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティクリエイティブアートを探索",
+            "description": "他のアーティストが共有するクリエイティブアイデアの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark のクリエイティブイラストアイデア生成ツールは誰向け?",
+        "buttonText": "クリエイティブなアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "クリエイティブなルーティンにいるアーティスト",
+            "description": "いつも同じものを描いていますか?DrawSpark のクリエイティブアイデアは、想像力豊かなプロンプトであなたのルーティンを破り、新しい領域に押し出し、なぜアートが重要かを思い出させてくれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "スタイルエクスプローラー",
+            "description": "自分のスタイルを探している?DrawSpark の描画の創造性生成ツールは、多くの美学の独創的なプロンプトを提供し、最も自分らしく感じるものを見つけるまで広く探索できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コンセプトアーティストとデザイナー",
+            "description": "コンセプト作業のためのクリエイティブ幅を構築中?DrawSpark の独創的なアイデアは、想像力豊かな主題、予期しない構図、デザインポートフォリオに完璧なオリジナルコンセプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark のクリエイティブイラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "クリエイティブなアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当にクリエイティブ、汎用ではない",
+            "description": "ほとんどのクリエイティブなプロンプトリストは使い古された主題を提案します。DrawSpark の AI は、真の想像力を持つアイデアを生成 — オリジナルコンセプト、予期しない角度、独創的な構図、あなたを驚かせるアート。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各クリエイティブアイデアには明確なコンセプト、想像力豊かなスタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark のクリエイティブイラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "612 件のレビューより",
+        "content": [
+          {
+            "title": "スタイルプラトーを破った",
+            "description": "2 年間同じスタイルで描いていて退屈でした。DrawSpark のクリエイティブアイデアがマッシュアップと独創的な制約に押し出してくれ、スタイルが 1 ヶ月で前年よりも多く進化しました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ravi Patel",
+            "ext3": "スタイルエクスプローラー"
+          },
+          {
+            "title": "コンセプトアートエッジ",
+            "description": "ジュニアコンセプトアーティストで、DrawSpark の描画の創造性生成ツールがシニア同僚がポートフォリオ級と言わしめた独創的なプロンプトを提供。現在のスタジオジョブを得るのに役立ちました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Theo Park",
+            "ext3": "ジュニアコンセプトアーティスト"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他のクリエイティブリストは同じ「部屋を描いて」プロンプトばかり。DrawSpark の AI は想像力あるクリエイティブアイデアを生成 — オリジナルコンセプト、独創的な角度、本物のクリエイティブ深度。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ines Garcia",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "Etsy ショップリフレッシュ",
+            "description": "Etsy アートショップの独創的なアイデアが尽きていました。DrawSpark のクリエイティブアイデアが製品ライン全体をリフレッシュする独創的なコンセプトを提供。売上がすぐに上がりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Megan Walters",
+            "ext3": "Etsy ショップオーナー"
+          },
+          {
+            "title": "クラスクリエイティブスパーク",
+            "description": "高校美術を教えており、DrawSpark の描画の創造性プロンプトが生徒が本当に興奮する独創的な練習を提供します。最終ポートフォリオがずっとオリジナルになりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Bennett",
+            "ext3": "高校美術教師"
+          },
+          {
+            "title": "旅行スケッチリフレッシュ",
+            "description": "DrawSpark のクリエイティブアイデアを旅行に持って行き、見たものに適用します。独創的なプロンプトが普通の旅行シーンをオリジナル構図に変えます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lucia Romano",
+            "ext3": "旅行スケッチアーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark のクリエイティブイラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "クリエイティブなアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "クリエイティブなイラストアイデアとは何ですか?",
+            "description": "クリエイティブなアイデアには、オリジナルコンセプト、想像力豊かな構図、珍しい視点、独創的なマッシュアップ、大胆な創造的制約が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの主題が最もクリエイティブに感じますか?",
+            "description": "最もクリエイティブに感じる主題には、マッシュアップコンセプト、予期しない視点、カラー実験、写実への抽象的アプローチ、独創的なキャラ研究が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなクリエイティブアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは安全な汎用主題を提案。DrawSpark は想像力を伸ばす主題、構図、スタイルを提案します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのクリエイティブスタイルが取得できますか?",
+            "description": "DrawSpark は各主要クリエイティブスタイルをカバー:実験的、抽象、シュール、マッシュアップ、混合メディア、カラー研究、視点遊びなど。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定の主題でアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、人物、風景、物体などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどのクリエイティブアイデアは 30 分から 1 時間で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "スタイル発展に適していますか?",
+            "description": "はい — 多くのアーティストが個人スタイル発展に DrawSpark のクリエイティブアイデアを使用しています。独創的なプロンプトが快適ゾーン外に押し出します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "クリエイティブなイラストアイデア"
+    },
+    "silly-things-to-draw": {
+      "h1Title": "滑稽なものの描き方:100以上の面白く、ばかばかしくて、突飛なスケッチ",
+      "h1Subtitle": "滑稽なものを描きたいですか?DrawSpark の AI が面白く、ばかばかしくて、突飛なイラストアイデアを生成 — 馬鹿げた動物、突飛なシナリオ、滑稽なマッシュアップ、笑いを保証するアート。",
+      "heroCta": "滑稽なイラストアイデアを生成",
+      "heroPromptHint": "滑稽で楽しいアイデアを事前入力",
+      "seoTitle": "滑稽なものの描き方 — 100以上の面白くて突飛なスケッチ | DrawSpark",
+      "seoDescription": "滑稽なものを描くアイデアをお探しですか?DrawSpark の無料 AI が面白くて突飛なスケッチを生成 — 馬鹿げた動物、滑稽なマッシュアップ、突飛なシナリオ、笑えるアート。",
+      "seoKeywords": "滑稽なものの描き方,面白いイラストアイデア,滑稽な描き方,ばかばかしいものの描き方,突飛なアイデア,馬鹿げたものの描き方,面白い落書き,滑稽なスケッチ",
+      "head1": {
+        "title": "DrawSpark の滑稽なイラストアイデア生成ツール",
+        "description": "滑稽なものを描きたいですか?DrawSpark の AI が面白く、ばかばかしくて、突飛なアイデアを提供 — 馬鹿げた動物、滑稽なマッシュアップ、突飛なシナリオ、あなたとあなたの視聴者を笑顔にさせるアート。",
+        "buttonText": "滑稽なイラストアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の滑稽なイラストアイデア生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の滑稽なものの描き方生成ツールは、面白く、ばかばかしくて、突飛な主題を求めるアーティストのために作られています。AI が滑稽なテーマのプロンプトを生成 — 馬鹿げた動物、面白いシナリオ、突飛なマッシュアップ、おかしな人間の行動、滑稽な食べ物、笑えるキャラ、突飛な日常状況。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールは滑稽なアートの全範囲をカバーします:服を着た動物、顔を持つ食べ物、馬鹿げた職業、おかしなスポーツ、突飛なペット、面白いポートレート、楽しいマッシュアップ、突飛なシナリオ。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の滑稽なイラストアイデア生成ツールの使い方",
+        "buttonText": "滑稽なアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:滑稽なイラストアイデア生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つの面白いアイデアを取得",
+            "description": "DrawSpark が即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:滑稽なアイデアを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も笑えるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の滑稽なイラストアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、面白く突飛な主題を必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "滑稽なアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "面白い動物マッシュアップを生成",
+            "description": "滑稽なアイデアが見つかります — 服を着た動物、馬鹿げたペットシナリオ、面白い生物マッシュアップ、楽しい動物表情 — 視聴者を声を出して笑わせる主題を求めるアーティストに最適。",
+            "buttonText": "動物アイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "突飛な人間のシナリオを生成",
+            "description": "人間ジャンルのアイデアを取得 — 馬鹿げた職業、おかしな趣味、突飛な日常状況 —  relatable humor と声を出して笑える可能性を備えた主題を求めるアーティストに最適。",
+            "buttonText": "人間のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "面白い食べ物と物体アートを生成",
+            "description": "食べ物と物体ジャンルのアイデアを発見 — 笑顔食べ物、馬鹿げた物体、擬人化オブジェクト — 内蔵ユーモアを持つ主題を愛するアーティストに最適。",
+            "buttonText": "物体アイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティ滑稽なアートを探索",
+            "description": "他のアーティストが共有する滑稽なアイデアの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の滑稽なイラストアイデア生成ツールは誰向け?",
+        "buttonText": "滑稽なアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "笑いを求める退屈なアーティスト",
+            "description": "退屈で何か楽しいものを描きたい?DrawSpark の滑稽なアイデアは、どんな退屈なセッションも保証された良い時間に変える馬鹿げた、声を出して笑えるプロンプトを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミックとミームアーティスト",
+            "description": "ウェブコミック、ミーム、ユーモラスイラストを作成中?DrawSpark の滑稽なアイデアは、突飛なシナリオと馬鹿げたキャラをコミックパネル、ミームフォーマット、ジョークアートに準備完了で提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "楽しさを求めるホビースト",
+            "description": "真面目なアートに疲れた?DrawSpark の滑稽なアイデアは、アートを作ることは楽しいべきだと思い出させてくれる面白く馬鹿げたプロンプトを提供します。純粋なクリエイティブの喜び、各ロットに。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の滑稽なイラストアイデア生成ツールを選ぶべき?",
+        "buttonText": "滑稽なアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に滑稽、汎用ではない",
+            "description": "ほとんどの滑稽なプロンプトリストは汎用的なジョークを提案します。DrawSpark の AI は真の突飛さを持つアイデアを生成 — 馬鹿げたコンセプト、楽しいシナリオ、声を出して笑える主題。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各滑稽なアイデアには明確な主題、楽しいスタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の滑稽なイラストアイデア生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "489 件のレビューより",
+        "content": [
+          {
+            "title": "グループチャットがこれで生きている",
+            "description": "DrawSpark から毎日 1 つ滑稽なものを描いて友達グループに送っています。6 ヶ月間続けていて、チャットはまだ続いています。突飛なプロンプトは笑いを提供し続けます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Kai Foster",
+            "ext3": "グループチャットアーティスト"
+          },
+          {
+            "title": "ウェブコミック金",
+            "description": "毎日ウェブコミックを運営しており、DrawSpark の滑稽なものの描き方ツールが突飛なシナリオプロンプトの終わりのない供給を提供。インスピレーションに使い始めてから購読者数が 3 倍になりました。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mia Zhang",
+            "ext3": "ウェブコミック制作者"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の滑稽なリストは同じ漫画犬の絵ばかり。DrawSpark の AI は本当にユーモアあるアイデアを生成 — 突飛なシナリオ、馬鹿げたキャラ、本物の声を出して笑えるエネルギー。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Owen Reed",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "ストレス解消ドローイング",
+            "description": "仕事で厳しい年を過ごしていましたが、DrawSpark の滑稽なアイデアがストレス解消になりました。毎晩ビジネススーツを着た馬鹿げたペンギンを描くことがメンタルヘルスを救いました。面白いアートは本物のセラピーです。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hannah Cole",
+            "ext3": "ストレス解消アーティスト"
+          },
+          {
+            "title": "クラスエンゲージメント勝利",
+            "description": "中学校美術を教えており、DrawSpark の滑稽なもののプロンプトがすべての生徒を引き込みます。最も乗り気でなかったアーティストでも、友達と家族とシェアできる作品を完成させます。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Brandon Hayes",
+            "ext3": "中学校美術教師"
+          },
+          {
+            "title": "ステッカーパック大ヒット",
+            "description": "DrawSpark のアイデアで滑稽なステッカーパックを作り — 服を着た動物、顔を持つ食べ物、馬鹿げた職業 — Redbubble で最も売れる商品です。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Layla Petrov",
+            "ext3": "ステッカーデザイナー"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の滑稽なイラストアイデア生成ツールに関するよくある質問",
+        "buttonText": "滑稽なアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "滑稽なものの描き方とは何ですか?",
+            "description": "滑稽なアイデアには、面白い動物、突飛なシナリオ、馬鹿げたマッシュアップ、おかしなキャラ、擬人化物体、声を出して笑える日常状況が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのテーマが最も滑稽に感じますか?",
+            "description": "最も滑稽に感じるテーマには、服を着た動物、顔を持つ食べ物、馬鹿げた職業、おかしなスポーツ、突飛なペット、擬人化物体が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは真面目な主題を提案。DrawSpark は面白く突飛に見える主題、シナリオ、スタイルを提案します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの滑稽なスタイルが取得できますか?",
+            "description": "DrawSpark は各主要滑稽スタイルをカバー:漫画、誇張、風刺画、シンプル漫画、ドゥードル滑稽、コミックスタイル、イラスト突飛など。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定の主題でアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、人物、食べ物、物体などに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの滑稽なアイデアは 15 分から 45 分で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ストレス解消に適していますか?",
+            "description": "はい — 多くのアーティストがストレス解消とメンタルヘルスに DrawSpark の滑稽なアイデアを使用しています。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "滑稽なものの描き方"
+    },
+    "thigs-to-draw": {
+      "h1Title": "描けるもの:100以上のあらゆる気分に合うインスピレーションあるイラストアイデア",
+      "h1Subtitle": "描けるものを探していますか?DrawSpark の AI がインスピレーションあるアイデアを生成 — キャラ、シーン、動物、抽象コンセプト、創造的な主題、あらゆる気分とスキルレベルに対応。",
+      "heroCta": "描けるもののアイデアを生成",
+      "heroPromptHint": "新鮮なアイデアを事前入力",
+      "seoTitle": "描けるもの — 100以上のあらゆる気分に合うインスピレーション | DrawSpark",
+      "seoDescription": "描けるものを探していますか?DrawSpark の無料 AI がインスピレーションあるアイデアを提供 — キャラ、シーン、動物、抽象コンセプト、創造的な主題、あらゆる気分とスキルレベルに対応。",
+      "seoKeywords": "描けるもの,イラスト アイデア,何を描くか,イラスト アイデア 一覧,初心者向けイラスト アイデア,アーティスト向けアイデア,アート アイデア,描画 インスピレーション",
+      "head1": {
+        "title": "DrawSpark の描けるもの生成ツール",
+        "description": "描けるものを探していますか?DrawSpark の AI がインスピレーションあるアイデアを提供 — キャラ、シーン、動物、抽象コンセプト、創造的な主題、あらゆる気分とスキルレベルに対応。描けるものが尽きることがありません。",
+        "buttonText": "描けるもののアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark の描けるもの生成ツールとは?",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark の描けるものアイデア生成ツールは、インスピレーションある、多様で新鮮な主題の安定した流れを求めるアーティストのために作られています — 毎日描けるもの、アイデアが尽きることがありません。AI が各主要主題領域の多様なプロンプトを生成 — キャラ、動物、風景、物体、抽象コンセプト、シーン、食べ物、植物、ファンタジー、ポートレート、創造的探索。あなたのスキルレベルに合わせます。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。生成ツールは完全なアート主題ライブラリから引きます:可愛い動物、ダイナミックなキャラ、雰囲気のある風景、興味深い物体、抽象アイデア、ファンタジーコンセプト、日常シーン、創造的実験。テーマ、スタイル、難易度、シーン、観客でフィルタリングして、描きたいものの種類を正確に絞り込めます。",
+            "buttonText": "無料ツールを試す",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark の描けるもの生成ツールの使い方",
+        "buttonText": "描けるもののアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "ステップ 1:描けるもの生成ツールを開く",
+            "description": "このページにアクセスして生成ボタンをクリック。無料、即時実行、ログイン不要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 2:5 つのインスピレーションあるアイデアを取得",
+            "description": "DrawSpark が完全な主題ライブラリから即座に 5 つのアイデアを作成。各アイデアにはタイトル、説明、テーマタグ、スタイルタグ、難易度が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "ステップ 3:アイデアを選んで描き始める",
+            "description": "5 つのアイデアを閲覧し、最も心惹かれるものを選んで描き始めます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark の描けるものアイデアで何ができる?",
+        "description": "DrawSpark のアイデアは、インスピレーションある多様な主題を必要とするあらゆるアートプロジェクトに適応します。",
+        "buttonText": "描けるもののアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "毎日のスケッチブックを埋める",
+            "description": "毎日新鮮な描けるものが見つかります — キャラ、動物、風景、物体、抽象コンセプト — 多様でインスピレーションある、決して退屈しない日常スケッチブック練習に完璧。",
+            "buttonText": "毎日のアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "多様なポートフォリオを構築",
+            "description": "各主題領域のアイデアを取得 — キャラ、動物、風景、ポートレート、抽象、ファンタジー — 範囲と幅を示す versatile ポートフォリオ構築に完璧。",
+            "buttonText": "ポートフォリオアイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "試したことのない主題を探索",
+            "description": "快適ゾーン外の描けるものを発見 — 新しい主題、異なるスタイル、予期しない角度 — ルーティンを破り、アート全体範囲で成長。",
+            "buttonText": "探索アイデアを取得",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "コミュニティドロイングを探索",
+            "description": "他のアーティストが共有する描けるものの公開ギャラリーを探索。",
+            "buttonText": "ギャラリーを探索",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark の描けるもの生成ツールは誰向け?",
+        "buttonText": "描けるもののアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "毎日スケッチブックアーティスト",
+            "description": "アイデアが尽きることなく毎日描きたい?DrawSpark の生成ツールは、日常練習と着実な成長に完璧な新鮮で多様な主題の終わりのない流れを提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "範囲を探索するアーティスト",
+            "description": "新しい主題とスタイルを試したい?DrawSpark の多様なアイデアは各主要アート領域をカバー — 広く探索し、好きなものを見つけ、範囲を成長。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "インスピレーションを求めるすべての人",
+            "description": "安定した描けるもののソースが必要ですか?DrawSpark の生成ツールは毎日 150 の新鮮なプロンプトを、重複なく、フィルなしで、あらゆる気分のインスピレーションある主題で提供します。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "なぜ DrawSpark の描けるもの生成ツールを選ぶべき?",
+        "buttonText": "描けるもののアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "本当に多様、汎用ではない",
+            "description": "ほとんどの描けるものリストは短く、すぐに尽きます。DrawSpark の AI は各主要アート領域の新鮮で多様な主題を生成 — キャラ、動物、風景、抽象、ファンタジーなど。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "無料、迅速、無制限",
+            "description": "DrawSpark は 100% 無料、アカウント不要。1 日最大 30 ロット — 毎日 150 のインスピレーションあるプロンプト。描けるものが尽きません。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体的、視覚的、達成可能",
+            "description": "各アイデアには明確な主題、スタイル、難易度レベルが含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "アーティストが DrawSpark の描けるもの生成ツールについて語る",
+        "buttonText": "無料ツールを試す",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "1342 件のレビューより",
+        "content": [
+          {
+            "title": "365 日ストリーク進行中",
+            "description": "DrawSpark のアイデアを使って 1 年間毎日描いています。 다양性は比類なし — 一日キャラ、次の日風景、その次抽象。スケッチブックが今までで一番良いです。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Felix Schmidt",
+            "ext3": "毎日スケッチアーティスト"
+          },
+          {
+            "title": "範囲エクスプロージョン",
+            "description": "DrawSpark 以前はポートレートだけ描いていました。今では動物、風景、抽象、食べ物を描いています。ポートフォリオが 6 ヶ月で狭く versatile に。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Yuki Tanaka",
+            "ext3": "範囲ビルダーアーティスト"
+          },
+          {
+            "title": "汎用リストを超える",
+            "description": "試した他の描けるものリストは同じ 30 プロンプトのリサイクル。DrawSpark の AI は本当に多様性を提供 — 毎回異なる主題、新鮮な角度、本当の終わりのないインスピレーション。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Brandon Liu",
+            "ext3": "ホビーアーティスト"
+          },
+          {
+            "title": "クラスリソース",
+            "description": "美術基礎を教えており、DrawSpark のアイデアが各主題領域の多様なプロンプトを学生に提供。スキル範囲が以前のコホートよりずっと速く成長しています。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Diana Park",
+            "ext3": "美術基礎教師"
+          },
+          {
+            "title": "毎週ギフトアート",
+            "description": "毎週 DrawSpark のアイデアで親友のために作品を 1 つ描きます。動物、キャラ、風景、抽象を受け取ってきました — 各ギフトがサプライズで、彼女は各々を宝物にしています。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Camille Dubois",
+            "ext3": "ギフトアーティスト"
+          },
+          {
+            "title": "実践を再点火",
+            "description": "数ヶ月間アートブロックに陥っていました。DrawSpark の多様なアイデアが毎日本当に描きたい新鮮な主題を提供。2 週間後ブロックが消えました。実践の完全な復活。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ryan Nguyen",
+            "ext3": "ブロッカー破りアーティスト"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark の描けるもの生成ツールに関するよくある質問",
+        "buttonText": "描けるもののアイデアを生成",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "どんなものを描けますか?",
+            "description": "DrawSpark の AI が提案するあらゆるものを描けます — キャラ、動物、風景、物体、抽象コンセプト、ファンタジー生物、日常シーン、食べ物、植物、ポートレート、各主要アート主題領域の創造的探索。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "この生成ツールは無料ですか?",
+            "description": "はい — DrawSpark は完全無料、ログインやクレジットカード不要。1 日最大 30 ロット、各 5 アイデア。毎日 150 の新インスピレーションプロンプトを無料で。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どの主題でアイデアを取得できますか?",
+            "description": "主題には動物、人物、風景、物体、抽象アイデア、ファンタジー生物、食べ物、植物、ポートレート、日常シーン、創造的探索が含まれます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "アイデアを後で保存できますか?",
+            "description": "はい。好きなアイデアを見つけたらハートアイコンをクリックしてお気に入りに追加。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "通常のプロンプトリストとどう違いますか?",
+            "description": "ほとんどのプロンプトリストは短く、すぐに尽きます。DrawSpark の生成ツールは毎回新鮮で多様な主題を提供 — 各主要主題領域で — 描けるものが尽きません。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "どのスタイルを取得できますか?",
+            "description": "DrawSpark は各主要アートスタイルをカバー:可愛い、クール、エステティック、シンプル、リアル、ダーク、ビンテージ、ミニマリスト、イラスト、抽象、シュール、漫画など。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "特定の主題でアイデアを取得できますか?",
+            "description": "もちろん。テーマフィルターで動物、人物、風景、物体、ファンタジーなどに焦点を絞れます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成するのにどれくらい時間がかかりますか?",
+            "description": "ほとんどの DrawSpark アイデアは 15 分から 1 時間で完成できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "初心者に適していますか?",
+            "description": "はい — 各アイデアには難易度評価があります。初心者は easy と beginner レベルのプロンプトを選択でき、上級者は medium と hard に挑戦できます。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品をシェアできますか?",
+            "description": "はい。各アイデアにはシェアボタンがあります。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "描けるもの"
     }
   }
 }

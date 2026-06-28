@@ -8239,6 +8239,2916 @@
         ]
       },
       "footerLabel": "酷炫可画图"
+    },
+    "cartoon-drawing-ideas": {
+      "h1Title": "卡通绘画灵感:100+ 趣味卡通素描、角色与设计",
+      "h1Subtitle": "想画卡通?DrawSpark 的 AI 生成趣味卡通绘画灵感——Q 版角色、漫画场景、吉祥物、夸张表情,适合每个技能水平的生动卡通艺术。",
+      "heroCta": "生成卡通绘画灵感",
+      "heroPromptHint": "预填一个卡通风格灵感",
+      "seoTitle": "卡通绘画灵感 — 100+ 趣味素描与角色 | DrawSpark",
+      "seoDescription": "寻找卡通绘画灵感?DrawSpark 的免费 AI 生成器提供趣味卡通素描——Q 版角色、漫画场景、吉祥物、表情丰富的人物形象,任何技能水平都能下笔。",
+      "seoKeywords": "卡通绘画灵感,卡通素描,可画的卡通角色,趣味卡通画,Q 版绘画灵感,漫画绘画灵感,卡通艺术灵感,可爱卡通灵感,吉祥物绘画灵感",
+      "head1": {
+        "title": "DrawSpark 的卡通绘画灵感生成器",
+        "description": "想画出真正有趣的卡通?DrawSpark 的 AI 提供趣味、表情丰富的卡通绘画灵感——Q 版角色、漫画场景、吉祥物、夸张表情,让你的速写本充满活力。",
+        "buttonText": "生成卡通绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的卡通绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的卡通绘画灵感生成器,为想要趣味、表情丰富主题的艺术家打造,乐趣属性直接嵌入。AI 生成卡通风格灵感——Q 版角色、漫画分镜、吉祥物设计、夸张表情、讲故事场景——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级,让你清楚自己将要画什么。生成器覆盖整个卡通艺术光谱:经典迪士尼风格角色、动漫灵感 Q 版、漫画动作镜头、品牌吉祥物设计、搞笑动物卡通、表情丰富肖像和完整卡通场景。你可以按风格筛选,聚焦可爱、卡哇伊、简约或写实卡通风格。DrawSpark 还维护着社区卡通艺术公共画廊,你可以浏览找灵感,学习其他漫画家使用的技巧。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的卡通绘画灵感生成器怎么用?",
+        "buttonText": "生成卡通绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开卡通绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。卡通绘画灵感生成器免费、即时运行、无需登录——非常适合想随时获得趣味灵感的漫画家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个趣味卡通绘画灵感",
+            "description": "DrawSpark 立即创建 5 个卡通绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配真正有趣和表情丰富的卡通艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个卡通开始画",
+            "description": "浏览 5 个卡通灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品卡通艺术,或随时重新生成获得新灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的卡通绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的卡通绘画灵感适配任何需要趣味、表情丰富主题的艺术项目——从速写本角色到漫画条到能获得互动的社交媒体卡通。",
+        "buttonText": "生成卡通绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成 Q 版和可爱卡通角色",
+            "description": "找到迷人的卡通绘画灵感——Q 版角色、卡哇伊生物、可爱吉祥物、表情丰富面部、乐趣属性嵌入的原创卡通角色。完美适合 OC 练习和角色表。",
+            "buttonText": "获取 Q 版灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成漫画风格卡通艺术",
+            "description": "获取漫画题材的卡通绘画灵感——动作分镜、动态姿势、对话气泡、超级英雄角色、反派设计——完美适合喜欢表情丰富、叙事性卡通艺术的艺术家。",
+            "buttonText": "获取漫画灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成卡通动物和吉祥物",
+            "description": "发现卡通动物绘画灵感——拟人化宠物、可爱野生动物、吉祥物角色、表情丰富的生物——非常适合喜欢有趣、友善、有个性的卡通主题的艺术家。",
+            "buttonText": "获取吉祥物灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区卡通艺术",
+            "description": "探索其他艺术家分享的卡通绘画灵感公共画廊。看看其他漫画家在创作什么,为你的下一幅表情丰富的作品寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的卡通绘画灵感生成器适合谁?",
+        "buttonText": "生成卡通绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "初学漫画家",
+            "description": "学画卡通想要有趣的练习主题?DrawSpark 的生成器提供对初学者友好的卡通绘画灵感,形状清晰、表情简单、场景可达成,助你建立技能。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "漫画和漫画艺术家",
+            "description": "打造漫画或漫画风格作品集?DrawSpark 的卡通绘画灵感给你表情丰富的角色、动态分镜和讲故事场景,展示你的漫画范围和一致性。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "喜欢趣味艺术的爱好者艺术家",
+            "description": "想让速写本更有趣?DrawSpark 的卡通绘画灵感推动你超越通用提示列表,获得有趣、表情丰富的主题。每一批都有真正的卡通能量。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的卡通绘画灵感生成器?",
+        "buttonText": "生成卡通绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真卡通,不是泛泛而谈",
+            "description": "大多数卡通提示列表都建议通用角色。DrawSpark 的 AI 生成具有真正卡通能量的灵感——表情丰富的面部、夸张比例、趣味姿势和活灵活现的角色。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜卡通绘画灵感——每天 150 个趣味卡通提示,让你的速写本保持趣味。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个卡通绘画灵感都包含清晰的角色、表情丰富的风格和难度等级——所以你清楚自己将要承诺什么趣味卡通作品。没有“画点可爱的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的卡通绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 968 条评价",
+        "content": [
+          {
+            "title": "我的角色活了",
+            "description": "我的角色以前总是看起来僵硬。DrawSpark 的卡通绘画灵感给我表情丰富的姿势、有趣的表情和充满个性的提示,让我的 OC 在网上分享时活灵活现。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "李丽",
+            "ext3": "角色设计师"
+          },
+          {
+            "title": "连环画宝藏",
+            "description": "我正在做第一部网络漫画,DrawSpark 的卡通绘画灵感给了我分镜布局、角色互动和讲故事场景,从第一章就让读者保持投入。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "马库斯·里德",
+            "ext3": "网络漫画创作者"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他卡通列表都是相同的通用迪士尼克隆。DrawSpark 的 AI 真正提供有个性的卡通灵感——独特角色、有趣场景、真正的卡通能量。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "田中花",
+            "ext3": "爱好漫画家"
+          },
+          {
+            "title": "我的 TikTok 互动",
+            "description": "我在 TikTok 上发布我的卡通艺术,DrawSpark 的绘画灵感彻底改变了我的互动。提示匹配我的粉丝喜欢的表情丰富的卡通美学——3 个月内观看量翻了三倍。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "迭戈·桑托斯",
+            "ext3": "TikTok 漫画家"
+          },
+          {
+            "title": "完美适合贴纸",
+            "description": "我经营一家小贴纸店,DrawSpark 的卡通绘画灵感给了我无穷无尽的灵感来设计新吉祥物、表情丰富的面部和我的客户反复回购的可爱角色贴纸。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "尼娜·陈",
+            "ext3": "贴纸店主"
+          },
+          {
+            "title": "所有技能水平都适合",
+            "description": "我和我中学艺术班的学生用 DrawSpark 的卡通绘画灵感。难度等级意味着每个人都能拿到能真正完成的提示,结果看起来总是真的有趣。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "凯伦·威廉姆斯",
+            "ext3": "美术教师"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的卡通绘画灵感生成器常见问题",
+        "buttonText": "生成卡通绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是卡通绘画灵感?",
+            "description": "卡通绘画灵感包括表情丰富的角色、Q 版形象、漫画分镜、吉祥物、夸张姿势和看起来有趣生动的讲故事场景。DrawSpark 的 AI 每次点击都跨这些类别生成新鲜卡通提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个卡通绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜卡通绘画灵感,每批 5 个灵感。也就是说每天 150 个新趣味卡通提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题作为卡通看起来最好?",
+            "description": "作为卡通看起来通常最好的主题包括表情丰富的角色、可爱动物、拟人化物体、漫画英雄、吉祥物、夸张肖像和讲故事场景。DrawSpark 的 AI 专门匹配这些与你的技能水平。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存卡通灵感以后用吗?",
+            "description": "可以。当你找到喜欢的卡通绘画灵感,点击心形图标添加到收藏。你保存的灵感存在于我的灵感页面,完美适合追踪你想画的趣味卡通作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议通用角色。DrawSpark 的卡通绘画灵感生成器专门调整建议看起来卡通风格有趣的角色、表情和场景。卡通能量嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些卡通风格?",
+            "description": "DrawSpark 涵盖所有主要卡通风格:Q 版、卡哇伊、迪士尼风格、动漫灵感、漫画、漫画风格、简单卡通、皮克斯风格、吉祥物、涂鸦卡通等等。挑选风格筛选器聚焦你喜爱的卡通美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定角色的卡通灵感吗?",
+            "description": "当然。使用主题筛选器聚焦人物、动物、幻想生物、食物、日常物品或任何其他。生成器将你的主题与卡通表情、有趣比例和动画能量结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个卡通绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数卡通绘画灵感需要 30 分钟到 1 小时完成得很好。AI 包含时间估计,所以你可以规划你的会话。完美适合专注的艺术时间,不是快速涂鸦。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合动画练习吗?",
+            "description": "是的——许多动画师使用 DrawSpark 的卡通绘画灵感进行角色研究和动画练习。表情丰富的姿势、夸张特征和讲故事场景完美适合建立动画就绪的角色技能。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的卡通画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品卡通艺术,展示你有趣、表情丰富的作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "卡通绘画灵感"
+    },
+    "summer-drawing-ideas": {
+      "h1Title": "夏日绘画灵感:100+ 阳光、海滩与季节主题素描",
+      "h1Subtitle": "想画夏天?DrawSpark 的 AI 生成温暖、阳光的夏日绘画灵感——海滩场景、热带动物、冰淇淋、度假时刻,适合每个技能水平的明亮季节艺术。",
+      "heroCta": "生成夏日绘画灵感",
+      "heroPromptHint": "预填一个夏日风格灵感",
+      "seoTitle": "夏日绘画灵感 — 100+ 阳光与海滩素描 | DrawSpark",
+      "seoDescription": "寻找夏日绘画灵感?DrawSpark 的免费 AI 生成器提供温暖、季节主题的素描——海滩场景、热带艺术、冰淇淋、度假时刻和明亮的夏日插画,准备好下笔。",
+      "seoKeywords": "夏日绘画灵感,夏日艺术灵感,夏日素描,夏日涂鸦,海滩绘画灵感,夏日度假绘画,夏日插画,夏季艺术,热带绘画灵感",
+      "head1": {
+        "title": "DrawSpark 的夏日绘画灵感生成器",
+        "description": "想画夏天?DrawSpark 的 AI 提供温暖、阳光的绘画灵感——海滩场景、热带生物、冰淇淋、度假时刻和明亮的季节艺术,在你的速写本中捕捉夏日的能量。",
+        "buttonText": "生成夏日绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的夏日绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的夏日绘画灵感生成器,为想要温暖、阳光季节主题的艺术家打造,夏日能量直接嵌入。AI 生成夏日主题灵感——海滩场景、热带野生动物、冷饮、度假时刻、游泳池、户外冒险和明亮季节构图——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级,让你清楚自己将要画什么夏季作品。生成器覆盖整个夏日艺术光谱:海滩风景、海洋生物、热带鸟类、冰淇淋和冰棒、太阳帽和墨镜、冲浪板、柠檬水摊、露营场景、烟花、花园花朵和明亮日落构图。你可以按主题筛选聚焦动物、食物、风景或日常夏日时刻。DrawSpark 还维护着社区夏日艺术公共画廊,你可以浏览找灵感,学习其他艺术家使用的技巧。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的夏日绘画灵感生成器怎么用?",
+        "buttonText": "生成夏日绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开夏日绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想随时获得新鲜季节提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个阳光夏日绘画灵感",
+            "description": "DrawSpark 立即创建 5 个夏日绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配捕捉夏日明亮阳光能量的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个夏日场景开始画",
+            "description": "浏览 5 个夏日灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品夏日艺术,或随时重新生成获得新季节灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的夏日绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的夏日绘画灵感适配任何需要温暖、阳光季节主题的艺术项目——从速写本海滩场景到度假贺卡到夏日主题社交媒体艺术。",
+        "buttonText": "生成夏日绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成海滩和海洋场景",
+            "description": "找到美丽的夏日绘画灵感——海滩风景、海浪、热带日落、棕榈树和海岸野生动物——完美适合喜欢温暖海滨主题和明亮阳光能量的艺术家。",
+            "buttonText": "获取海滩灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成夏日美食艺术",
+            "description": "获取食物类别的夏日绘画灵感——冰淇淋甜筒、冰棒、西瓜片、柠檬水、热带饮料——完美适合喜欢有趣、彩色、夏日食物主题的艺术家。",
+            "buttonText": "获取美食灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成热带动物和鸟类",
+            "description": "发现夏日野生动物绘画灵感——火烈鸟、巨嘴鸟、热带鱼、海龟、海滩生物——非常适合喜欢夏日温暖色彩的鲜艳、异国动物主题的艺术家。",
+            "buttonText": "获取野生动物灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区夏日艺术",
+            "description": "探索其他艺术家分享的夏日绘画灵感公共画廊。看看其他创作者在做什么季节作品,为你的下一幅明亮阳光素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的夏日绘画灵感生成器适合谁?",
+        "buttonText": "生成夏日绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "季节性速写本艺术家",
+            "description": "喜欢用季节主题填满速写本?DrawSpark 的夏日绘画灵感给你温暖、阳光的提示,匹配季节——完美适合艺术日记展开、夏季系列和季节性练习。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "卡片和印刷品设计师",
+            "description": "设计夏日贺卡、印刷品或贴纸?DrawSpark 的夏日绘画灵感提供海滩场景、冰淇淋和明亮主题,准备好卡片布局和印刷设计。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "喜欢明亮艺术的爱好者艺术家",
+            "description": "渴望温暖、彩色主题?DrawSpark 的夏日绘画灵感推动你超越通用提示列表,获得明亮、季节性构图。每一批都有真正的夏日能量。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的夏日绘画灵感生成器?",
+        "buttonText": "生成夏日绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真季节性,不是泛泛而谈",
+            "description": "大多数夏日提示列表都建议通用海滩场景。DrawSpark 的 AI 生成具有真正夏日能量的灵感——温暖光线、热带色彩、度假氛围和感觉像七月的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜夏日绘画灵感——每天 150 个阳光季节提示,让你的速写本保持温暖。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个夏日绘画灵感都包含清晰的主题、明亮的风格和难度等级——所以你清楚自己将要承诺什么季节作品。没有“画点温暖的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的夏日绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 823 条评价",
+        "content": [
+          {
+            "title": "全年海滩氛围",
+            "description": "即使在冬天我也喜欢画夏日场景。DrawSpark 的夏日绘画灵感给我海滩风景、热带鸟类和温暖日落提示,无论外面什么季节,我的速写本都保持阳光。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "索菲亚·马丁内斯",
+            "ext3": "海滩素描艺术家"
+          },
+          {
+            "title": "卡片店得救",
+            "description": "我在 Etsy 经营夏日卡片店,DrawSpark 的夏日绘画灵感给了我无穷无尽的海滩主题贺卡、冰淇淋印刷品和热带设计的灵感,我的客户每年六月都喜欢。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "奥利维亚·贝内特",
+            "ext3": "卡片店主"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他夏日列表都是相同的棕榈树剪贴画。DrawSpark 的 AI 真正提供有个性的夏日灵感——独特的海滩场景、有趣的度假时刻、真正的夏日温暖。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "亚历克斯·里维拉",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "我的夏令营班喜欢",
+            "description": "我教夏令营艺术课,DrawSpark 的夏日绘画灵感给我适合年龄段的海滩、冰淇淋和热带提示,我的学生每次课都能完成。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "蒂娜·朴",
+            "ext3": "夏令营老师"
+          },
+          {
+            "title": "旅行速写本填满",
+            "description": "我带着 DrawSpark 的夏日绘画灵感去海滩度假,回来时带了一整本热带鸟类、海洋场景和度假时刻的速写本。比往常的旅行画好太多。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "乔纳斯·韦伯",
+            "ext3": "旅行艺术家"
+          },
+          {
+            "title": "泳池边灵感",
+            "description": "我每个周末都坐在泳池边,DrawSpark 的夏日绘画灵感给我正想要的明亮、温暖提示。充气火烈鸟、冰淇淋卡车、日落天空——无尽的夏日能量。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "米娅·汤普森",
+            "ext3": "泳池边艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的夏日绘画灵感生成器常见问题",
+        "buttonText": "生成夏日绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是夏日绘画灵感?",
+            "description": "夏日绘画灵感包括海滩场景、热带野生动物、冰淇淋、度假时刻、游泳池、户外冒险和捕捉夏日阳光能量的明亮季节构图。DrawSpark 的 AI 跨这些类别生成新鲜夏日提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个夏日绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜夏日绘画灵感,每批 5 个灵感。也就是说每天 150 个新阳光季节提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题感觉最夏日?",
+            "description": "感觉最夏日的主题包括海滩、海洋、热带鸟类、冰淇淋、冰棒、墨镜、太阳帽、棕榈树、露营场景、烟花和明亮日落天空。DrawSpark 的 AI 专门匹配这些与你的技能水平。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存夏日灵感以后用吗?",
+            "description": "可以。当你找到喜欢的夏日绘画灵感,点击心形图标添加到收藏。你保存的灵感存在于我的灵感页面,完美适合追踪你想画的阳光季节作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议通用自然场景。DrawSpark 的夏日绘画灵感生成器专门调整建议感觉夏日的主题、构图和颜色。季节温暖嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些夏日风格?",
+            "description": "DrawSpark 涵盖所有主要夏日风格:热带、海滩、复古夏日、现代度假、可爱夏日、卡哇伊夏日、插画夏日、绘画夏日等等。挑选风格筛选器聚焦你喜爱的夏日美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的夏日灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、食物、风景、度假场景、热带鸟类或任何其他。生成器将你的主题与温暖色彩、明亮光线和夏日氛围结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个夏日绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数夏日绘画灵感需要 30 分钟到 1 小时完成得很好。AI 包含时间估计,所以你可以规划你的会话。完美适合专注的艺术时间。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合孩子吗?",
+            "description": "是的——许多家长和老师用 DrawSpark 的夏日绘画灵感配合孩子。提示包含难度等级,所以你可以为孩子挑选适合年龄段的海滩场景、冰淇淋和热带动物。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的夏日画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品夏日艺术,展示你温暖阳光的季节作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "夏日绘画灵感"
+    },
+    "easter-drawing-ideas": {
+      "h1Title": "复活节绘画灵感:100+ 可爱复活节素描、兔子与彩蛋",
+      "h1Subtitle": "想画复活节?DrawSpark 的 AI 生成节日复活节绘画灵感——可爱兔子、装饰彩蛋、春天小鸡、复活节篮子,适合每个技能水平的季节性复活节艺术。",
+      "heroCta": "生成复活节绘画灵感",
+      "heroPromptHint": "预填一个复活节风格灵感",
+      "seoTitle": "复活节绘画灵感 — 100+ 可爱兔子与彩蛋素描 | DrawSpark",
+      "seoDescription": "寻找复活节绘画灵感?DrawSpark 的免费 AI 生成器提供节日季节素描——可爱兔子、装饰彩蛋、春天小鸡、篮子和复活节艺术,任何技能水平都能下笔。",
+      "seoKeywords": "复活节绘画灵感,复活节艺术灵感,复活节素描,复活节涂鸦,复活节兔子画,复活节彩蛋画,春天绘画灵感,复活节篮子画,复活节插画",
+      "head1": {
+        "title": "DrawSpark 的复活节绘画灵感生成器",
+        "description": "想画复活节?DrawSpark 的 AI 提供节日、季节性绘画灵感——可爱兔子、装饰彩蛋、春天小鸡、篮子和复活节主题艺术,在你的速写本中捕捉季节的喜悦。",
+        "buttonText": "生成复活节绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的复活节绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的复活节绘画灵感生成器,为想要节日季节主题的艺术家打造,复活节的欢乐能量直接嵌入。AI 生成复活节主题灵感——可爱兔子、装饰彩蛋、春天小鸡、复活节篮子、春天花朵、动物宝宝和季节性构图——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级,让你清楚自己将要画什么。生成器覆盖整个复活节艺术光谱:经典兔子、装饰复活节彩蛋、小鸡、装满零食的篮子、春天郁金香和水仙花、复活节礼帽、春羊、宗教复活节场景、糖果巧克力和柔和色调季节构图。你可以按风格筛选聚焦可爱、卡哇伊、简约或写实复活节风格。DrawSpark 还维护着社区复活节艺术公共画廊,你可以浏览找灵感,学习其他艺术家使用的技巧。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的复活节绘画灵感生成器怎么用?",
+        "buttonText": "生成复活节绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开复活节绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想随时获得新鲜季节提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个节日复活节绘画灵感",
+            "description": "DrawSpark 立即创建 5 个复活节绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配捕捉复活节欢乐春天能量的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个复活节灵感开始画",
+            "description": "浏览 5 个复活节灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品复活节艺术,或随时重新生成获得新季节灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的复活节绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的复活节绘画灵感适配任何需要节日季节主题的艺术项目——从速写本兔子到贺卡到复活节主题社交媒体艺术。",
+        "buttonText": "生成复活节绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成复活节兔子和春天动物",
+            "description": "找到迷人的复活节绘画灵感——可爱兔子、春天小鸡、羊羔、毛茸茸的小鸭、有复活节魅力的季节性动物宝宝。完美适合卡片、OC 练习和季节性角色设计。",
+            "buttonText": "获取兔子灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成复活节彩蛋和篮子艺术",
+            "description": "获取彩蛋和篮子类别的复活节绘画灵感——装饰彩蛋、编织篮子、复活节糖果、节日排列——完美适合喜欢柔和色彩传统复活节主题的艺术家。",
+            "buttonText": "获取彩蛋灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成春花和风景艺术",
+            "description": "发现春天风景类别的复活节绘画灵感——郁金香、水仙花、盛开的花园、春天草地——非常适合喜欢清新季节花卉主题和明亮柔和能量的艺术家。",
+            "buttonText": "获取春天灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区复活节艺术",
+            "description": "探索其他艺术家分享的复活节绘画灵感公共画廊。看看其他创作者在做什么节日季节作品,为你的下一幅欢乐复活节素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的复活节绘画灵感生成器适合谁?",
+        "buttonText": "生成复活节绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "节日贺卡设计师",
+            "description": "设计复活节贺卡或季节性印刷品?DrawSpark 的复活节绘画灵感提供兔子、装饰彩蛋和春天主题,准备好卡片布局、印刷品和节日产品设计。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "家长和老师",
+            "description": "为孩子找复活节美术项目?DrawSpark 的生成器提供适合年龄段的兔子、彩蛋和小鸡提示,带难度等级,所以孩子每次都能完成节日作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "季节性速写本艺术家",
+            "description": "喜欢在速写本中捕捉节日?DrawSpark 的复活节绘画灵感推动你超越通用春天列表,获得节日季节主题。每一批都有真正的复活节喜悦。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的复活节绘画灵感生成器?",
+        "buttonText": "生成复活节绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真复活节,不是泛泛春天",
+            "description": "大多数复活节提示列表都建议通用春天花朵。DrawSpark 的 AI 生成具有真正复活节能量的灵感——节日兔子、装饰彩蛋、篮子和有柔和魅力的季节主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜复活节绘画灵感——每天 150 个节日季节提示,填满你的复活节速写本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个复活节绘画灵感都包含清晰的主题、节日风格和难度等级——所以你清楚自己将要承诺什么季节作品。没有“画点春天的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的复活节绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 712 条评价",
+        "content": [
+          {
+            "title": "每年春天都救我卡片店",
+            "description": "我经营一家复活节卡片店,DrawSpark 的复活节绘画灵感每年三月给我新鲜的兔子、彩蛋和篮子设计。我的客户喜欢新的季节卡片,每年复活节我的销量都跳涨。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "海伦·福斯特",
+            "ext3": "贺卡设计师"
+          },
+          {
+            "title": "儿童美术课赢家",
+            "description": "我教周六儿童艺术课,DrawSpark 的复活节绘画灵感给我适合年龄段的兔子和彩蛋提示,每个孩子 45 分钟内都能完成。家长把成品裱框作为复活节礼物。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "帕特里夏·戈麦斯",
+            "ext3": "儿童美术教师"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他复活节列表都是相同的卡通兔子。DrawSpark 的 AI 真正提供有个性的复活节灵感——独特的彩蛋设计、可爱的春天小鸡、真正的节日魅力。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "艾玛·沃尔什",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "贴纸包大热",
+            "description": "我用 DrawSpark 的复活节绘画灵感做了一个复活节贴纸包——兔子、彩蛋、春花——两周内在 Etsy 售罄。客户一直问什么时候出 2026 年的新包。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "利亚姆·奥布莱恩",
+            "ext3": "贴纸设计师"
+          },
+          {
+            "title": "主日学校认可",
+            "description": "我教主日学校,DrawSpark 的复活节绘画灵感给了我孩子们喜欢的信仰友好的春天提示。兔子、彩蛋、春天的花园——每个孩子都带着欢乐的复活节杰作离开。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "莎拉·米切尔",
+            "ext3": "主日学校教师"
+          },
+          {
+            "title": "速写本传统",
+            "description": "每个复活节我都用 DrawSpark 的复活节绘画灵感填满速写本的一个展开。今年我画了兔子、装饰彩蛋和一只春羊。已成为我最爱的季节性传统。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "梅根·科尔",
+            "ext3": "季节性速写本艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的复活节绘画灵感生成器常见问题",
+        "buttonText": "生成复活节绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是复活节绘画灵感?",
+            "description": "复活节绘画灵感包括可爱兔子、装饰彩蛋、春天小鸡、复活节篮子、春天花朵、动物宝宝和节日季节构图。DrawSpark 的 AI 每次点击都跨这些类别生成新鲜复活节提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个复活节绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜复活节绘画灵感,每批 5 个灵感。也就是说每天 150 个新节日季节提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题感觉最像复活节?",
+            "description": "感觉最像复活节的主题包括可爱兔子、装饰彩蛋、小鸡、篮子、春天郁金香、水仙花、羊羔、复活节礼帽、糖果和柔和色调季节场景。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存复活节灵感以后用吗?",
+            "description": "可以。当你找到喜欢的复活节绘画灵感,点击心形图标添加到收藏。你保存的灵感存在于我的灵感页面,完美适合追踪你想画的节日季节作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通春天提示有什么不同?",
+            "description": "大多数春天提示列表都建议通用花朵。DrawSpark 的复活节绘画灵感生成器专门调整建议感觉复活节特定的主题、装饰和构图。节日魅力嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些复活节风格?",
+            "description": "DrawSpark 涵盖所有主要复活节风格:可爱、卡哇伊、简约、写实、复古复活节、现代柔和、插画复活节、绘画复活节等等。挑选风格筛选器聚焦你喜爱的复活节美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的复活节灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、食物、风景、节日装饰或任何其他。生成器将你的主题与柔和色彩、节日细节和复活节魅力结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个复活节绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数复活节绘画灵感需要 30 分钟到 1 小时完成得很好。AI 包含时间估计,所以你可以规划你的会话。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合孩子吗?",
+            "description": "是的——许多家长和老师用 DrawSpark 的复活节绘画灵感配合孩子。提示包含难度等级,所以你可以为孩子挑选适合年龄段的兔子、彩蛋和小鸡。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的复活节画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品复活节艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "复活节绘画灵感"
+    },
+    "weird-things-to-draw": {
+      "h1Title": "怪异可画之物:100+ 奇特、超现实与离奇素描",
+      "h1Subtitle": "想画点怪异的?DrawSpark 的 AI 生成奇特、超现实、离奇的绘画灵感——奇异生物、融化物体、梦境场景和打破无聊提示列表的怪异艺术。",
+      "heroCta": "生成怪异绘画灵感",
+      "heroPromptHint": "预填一个怪异风格灵感",
+      "seoTitle": "怪异可画之物 — 100+ 奇特与超现实素描 | DrawSpark",
+      "seoDescription": "寻找怪异可画之物?DrawSpark 的免费 AI 生成器提供奇特、超现实、离奇的素描——奇异生物、融化物体、梦境场景和离奇艺术,准备好下笔。",
+      "seoKeywords": "怪异可画之物,怪异绘画灵感,奇特可画之物,超现实绘画灵感,奇异艺术灵感,离奇可画之物,诡异绘画灵感,异常绘画提示,迷幻绘画灵感",
+      "head1": {
+        "title": "DrawSpark 的怪异绘画灵感生成器",
+        "description": "想画点真正怪异的?DrawSpark 的 AI 提供奇特、超现实、离奇的绘画灵感——奇异生物、融化物体、梦境场景和让速写本难忘的离奇艺术。",
+        "buttonText": "生成怪异绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的怪异绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的怪异可画之物生成器,为想要奇特、超现实、离奇主题的艺术家打造,真正的怪异属性直接嵌入。AI 生成怪异主题灵感——奇异生物、融化物体、梦境场景、拟人化家居用品、令人不安的肖像、超现实风景和不可能的构图——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级。生成器覆盖整个怪异艺术光谱:超现实梦境、融化时钟、混合生物、扭曲肖像、抽象噩梦、迷幻图案、诡异谷角色、幽灵形象和奇异日常物件。你可以按风格筛选聚焦超现实、黑暗、迷幻或不安美学。DrawSpark 还维护着社区怪异艺术公共画廊,你可以浏览找灵感,学习其他超现实主义者使用的技巧。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的怪异绘画灵感生成器怎么用?",
+        "buttonText": "生成怪异绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开怪异绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想随时获得奇特离奇提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个奇特怪异绘画灵感",
+            "description": "DrawSpark 立即创建 5 个怪异绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配看起来真正奇特超现实的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个怪异灵感开始画",
+            "description": "浏览 5 个怪异灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品怪异艺术,或随时重新生成获得更奇特的灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的怪异绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的怪异可画之物适配任何需要奇特超现实主题的艺术项目——从速写本实验到作品集作品到让滚动停下的社交媒体艺术。",
+        "buttonText": "生成怪异绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成超现实生物设计",
+            "description": "找到奇特的怪异绘画灵感——混合动物、融化人物、扭曲生物、超现实存在——完美适合想要突破常规的奇异角色设计。",
+            "buttonText": "获取超现实灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成梦幻与迷幻场景",
+            "description": "获取超现实风景类别的怪异绘画灵感——融化风景、不可能建筑、梦幻天空、迷幻图案——完美适合喜欢超凡脱俗构图的艺术家。",
+            "buttonText": "获取梦境灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成诡异与黑暗肖像",
+            "description": "发现肖像类别的怪异绘画灵感——扭曲面部、不安表情、诡异角色——非常适合喜欢挑战性和发人深省主题的艺术家。",
+            "buttonText": "获取肖像灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区怪异艺术",
+            "description": "探索其他艺术家分享的怪异绘画灵感公共画廊。看看其他创作者在做什么奇特超现实作品,为你的下一幅离奇素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的怪异绘画灵感生成器适合谁?",
+        "buttonText": "生成怪异绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "超现实与概念艺术家",
+            "description": "打造超现实艺术作品集?DrawSpark 的怪异绘画灵感给你奇异生物、融化物体和梦境场景,展示你的想象力和概念范围。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "想打破常规的爱好者",
+            "description": "总是画同样的东西?DrawSpark 的怪异绘画灵感推动你获得奇特、惊喜的主题,打破你的常规,提醒你为什么做艺术有趣。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "探索黑暗美学的青少年",
+            "description": "被怪异、超现实或不安艺术吸引?DrawSpark 的生成器提供适合年龄段的奇特提示,带有你的美学喜欢的不羁边缘——没有淡化的通用列表。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的怪异绘画灵感生成器?",
+        "buttonText": "生成怪异绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真怪异,不是泛泛而谈",
+            "description": "大多数怪异提示列表都建议通用的恐怖东西。DrawSpark 的 AI 生成具有真正奇特性的灵感——奇异概念、超现实构图、离奇主题和让你惊讶的艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜怪异绘画灵感——每天 150 个奇特超现实提示,让你的速写本保持怪异。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个怪异绘画灵感都包含清晰的主题、超现实风格和难度等级——所以你清楚自己将要承诺什么奇特作品。没有“画点怪异的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的怪异绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "来自 654 条评价",
+        "content": [
+          {
+            "title": "打破了我的瓶颈",
+            "description": "我被卡了几周总是画同样无聊的东西。DrawSpark 的怪异可画之物生成器丢给我一只骑着云的融化猫,我从那以后就停不下来画。完美的瓶颈打破者。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "凯西·刘",
+            "ext3": "概念艺术家"
+          },
+          {
+            "title": "作品集亮点",
+            "description": "我需要从其他概念艺术申请者中脱颖而出的作品集作品。DrawSpark 的怪异绘画灵感给了我超现实生物设计和梦境场景,面试官说他们仍然记得。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "尼古拉·彼得罗夫",
+            "ext3": "作品集申请者"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他怪异列表都是相同恐怖小丑画的。DrawSpark 的 AI 真正提供有想象力的怪异灵感——奇异概念、超现实场景、真正不羁的能量。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "赖利·亚当斯",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "我的 Etsy 销售",
+            "description": "我在 Etsy 卖怪异艺术印刷品,DrawSpark 的怪异绘画灵感给了我无穷无尽的奇异生物印刷品、融化物体设计和超现实风景的灵感,我的小众观众喜欢。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "奎因·海斯",
+            "ext3": "印刷店主"
+          },
+          {
+            "title": "治疗性绘画",
+            "description": "画 DrawSpark 的怪异东西已成为我最喜欢的治疗方式。奇特超现实的提示帮我释放写实绘画从未表达过的情感。我的速写本现在诚实多了。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "德文·科尔",
+            "ext3": "表达性艺术家"
+          },
+          {
+            "title": "停下滚动",
+            "description": "我在 Instagram 发布我的怪异艺术,DrawSpark 的绘画灵感帮我停下滚动。奇特超现实的提示比我以前的通用画获得的互动多得多。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "塞奇·帕特尔",
+            "ext3": "Instagram 艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的怪异绘画灵感生成器常见问题",
+        "buttonText": "生成怪异绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是怪异可画之物?",
+            "description": "怪异可画之物包括奇异生物、融化物体、梦境场景、扭曲肖像、拟人化家居用品和超现实风景。DrawSpark 的 AI 每次点击都跨这些类别生成新鲜奇特的提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个怪异绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜怪异绘画灵感,每批 5 个灵感。也就是说每天 150 个新奇特提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题感觉最怪异?",
+            "description": "感觉最怪异的主题包括混合生物、融化时钟、扭曲肖像、拟人化物体、不可能建筑、梦幻天空和诡异角色。DrawSpark 的 AI 专门匹配这些与你的技能水平。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存怪异灵感以后用吗?",
+            "description": "可以。当你找到喜欢的怪异绘画灵感,点击心形图标添加到收藏。你保存的灵感存在于我的灵感页面,完美适合追踪你想画的奇特作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议通用主题。DrawSpark 的怪异绘画灵感生成器专门调整建议看起来奇特超现实的主题、构图和风格。不羁能量嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些怪异风格?",
+            "description": "DrawSpark 涵盖所有主要怪异风格:超现实、黑暗、迷幻、抽象、扭曲、融化、梦幻、诡异、哥特、轻度恐怖等等。挑选风格筛选器聚焦你喜爱的怪异美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的怪异灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、人物、物体、风景或任何其他。生成器将你的主题与超现实扭曲、不羁构图和奇特能量结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个怪异绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数怪异绘画灵感需要 30 分钟到 1 小时完成得很好。AI 包含时间估计,所以你可以规划你的会话。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合超现实艺术作品集吗?",
+            "description": "是的——许多超现实艺术家使用 DrawSpark 的怪异绘画灵感做作品集作品。奇异概念、融化形态和梦境构图完美适合展示想象力和技术范围。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的怪异画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品怪异艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "怪异可画之物"
+    },
+    "cute-things-to-draw-when-your-bored": {
+      "h1Title": "无聊时可画的可爱之物:100+ 迷人素描",
+      "h1Subtitle": "无聊想画点可爱的?DrawSpark 的 AI 生成迷人的绘画灵感——卡哇伊动物、可爱的食物、Q 版角色和舒适的放松素描主题,完美适合轻松的绘画会话。",
+      "heroCta": "生成可爱绘画灵感",
+      "heroPromptHint": "预填一个可爱适合无聊的灵感",
+      "seoTitle": "无聊时可画的可爱之物 — 100+ 迷人素描 | DrawSpark",
+      "seoDescription": "无聊想画点可爱的?DrawSpark 的免费 AI 生成器提供迷人素描——卡哇伊动物、可爱的食物、Q 版角色和舒适主题,完美适合放松的素描。",
+      "seoKeywords": "无聊时可画的可爱之物,可爱绘画灵感,迷人可画之物,卡哇伊绘画灵感,无聊时可画的可爱,可爱涂鸦,可爱素描,可爱简笔画,可画的 Q 版东西",
+      "head1": {
+        "title": "DrawSpark 的可爱绘画灵感生成器",
+        "description": "无聊想画点可爱的?DrawSpark 的 AI 提供迷人的绘画灵感——卡哇伊动物、可爱的食物、Q 版角色和舒适的可爱主题,让每个无聊的绘画会话都温暖有趣。",
+        "buttonText": "生成可爱绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的可爱绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的可爱可画之物生成器,为想要迷人、舒适、放松主题的艺术家打造,最大可爱度直接嵌入。AI 生成可爱主题灵感——卡哇伊动物、可爱的食物、Q 版角色、柔和场景、困倦生物、舒适物件和温暖的小构图——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级。生成器覆盖整个可爱艺术光谱:卡哇伊猫狗、睡觉的动物、可爱的甜点和饮料、Q 版日常物品、大眼睛动物宝宝、柔和风景、舒适房间场景、可爱植物朋友、拟人化食物和小世界的小角色。你可以按风格筛选聚焦卡哇伊、可爱、简约或舒适风格。DrawSpark 还维护着社区可爱艺术公共画廊,你可以浏览找灵感。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的可爱绘画灵感生成器怎么用?",
+        "buttonText": "生成可爱绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开可爱绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——完美适合无聊时的舒适素描会话。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个迷人可爱绘画灵感",
+            "description": "DrawSpark 立即创建 5 个可爱绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配看起来真正迷人舒适的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个可爱灵感开始画",
+            "description": "浏览 5 个可爱灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品可爱艺术,或随时重新生成获得更多迷人灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的可爱绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的可爱可画之物适配任何需要迷人舒适主题的艺术项目——从速写本热身到日记展开到能获得点赞的社交媒体艺术。",
+        "buttonText": "生成可爱绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成卡哇伊动物和宠物",
+            "description": "找到迷人的可爱绘画灵感——卡哇伊猫、困倦小狗、动物宝宝、Q 版宠物、舒适生物。完美适合放松素描会话和以最大可爱度热身你的艺术风格。",
+            "buttonText": "获取动物灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成可爱食物和饮料",
+            "description": "获取食物类别的可爱绘画灵感——微笑便当盒、卡哇伊甜点、可爱的饮料、拟人化零食——完美适合喜欢迷人快乐有性格的食物主题的艺术家。",
+            "buttonText": "获取美食灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成舒适卡哇伊场景艺术",
+            "description": "发现场景类别的可爱绘画灵感——舒适卧室、雨窗、小植物朋友、柔和天空——非常适合喜欢温暖舒适主题的放松素描艺术家。",
+            "buttonText": "获取场景灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区可爱艺术",
+            "description": "探索其他艺术家分享的可爱绘画灵感公共画廊。看看其他创作者在做什么迷人舒适作品,为你的下一幅温暖放松素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的可爱绘画灵感生成器适合谁?",
+        "buttonText": "生成可爱绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "想舒适素描的无聊艺术家",
+            "description": "困在家里没什么可画的?DrawSpark 的可爱可画之物生成器给你迷人放松的提示,把任何无聊的下午变成温暖满意的素描会话。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "建立信心的初学者",
+            "description": "学画想要友好的主题?DrawSpark 的可爱绘画灵感提供简单可实现的提示,卡哇伊美学帮助初学者完成他们引以为豪的作品。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "日记和贴纸设计师",
+            "description": "设计子弹日记展开、贴纸包或舒适印刷品?DrawSpark 的可爱绘画灵感给你迷人主题,准备好布局、产品和个人项目。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的可爱绘画灵感生成器?",
+        "buttonText": "生成可爱绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真可爱,不是泛泛而谈",
+            "description": "大多数可爱提示列表都建议通用卡通动物。DrawSpark 的 AI 生成具有真正卡哇伊能量的灵感——大眼睛、柔软形状、柔和色彩、舒适构图和迷人细节。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜可爱绘画灵感——每天 150 个迷人提示,让你的无聊下午保持舒适。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个可爱绘画灵感都包含清晰的主题、卡哇伊风格和难度等级——所以你清楚自己将要承诺什么迷人作品。没有“画点可爱的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的可爱绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 1087 条评价",
+        "content": [
+          {
+            "title": "我的无聊疗法",
+            "description": "我每个周末都无聊,DrawSpark 的可爱可画之物生成器给我正想要的舒适卡哇伊提示。睡觉的猫、微笑的布丁、小植物朋友——每一幅素描都像拥抱。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "佐伊·威廉姆斯",
+            "ext3": "卡哇伊素描艺术家"
+          },
+          {
+            "title": "日记展开魔法",
+            "description": "我运营一个子弹日记 YouTube 频道,DrawSpark 的可爱绘画灵感给我无穷无尽的舒适提示用于展开。我的订阅者总是问我从哪里获得迷人灵感——每次我都给他们发 DrawSpark。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "阿里亚·帕特尔",
+            "ext3": "日记 YouTuber"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他可爱列表都是相同的凯蒂猫克隆。DrawSpark 的 AI 真正提供有个性的可爱灵感——独特的卡哇伊设计、原创舒适场景、真正迷人的魅力。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "梅·林",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "贴纸包大热",
+            "description": "我用 DrawSpark 的可爱绘画灵感做了一个卡哇伊贴纸包——睡觉的猫、微笑便当、舒适植物——这是我 Etsy 上的畅销产品。客户说它让他们瞬间微笑。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "哈娜·金",
+            "ext3": "贴纸设计师"
+          },
+          {
+            "title": "焦虑缓解绘画",
+            "description": "我有焦虑,DrawSpark 的可爱绘画灵感是我最喜欢的平静活动。迷人舒适的提示帮我专注于温柔的事情,总是以我引以为豪的作品结束。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "山姆·米切尔",
+            "ext3": "平静素描艺术家"
+          },
+          {
+            "title": "我女儿喜欢",
+            "description": "我 9 岁的女儿和我用 DrawSpark 的可爱可画之物生成器做周末亲子活动。我们一起挑可爱灵感并排画。已成为我们最爱的周六下午传统。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "丽贝卡·福斯特",
+            "ext3": "家长艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的可爱绘画灵感生成器常见问题",
+        "buttonText": "生成可爱绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是无聊时可画的可爱之物?",
+            "description": "无聊时可画的可爱之物包括卡哇伊动物、可爱的食物、Q 版角色、舒适场景、困倦生物、拟人化物体和柔和构图。DrawSpark 的 AI 每次点击都生成新鲜迷人提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个可爱绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜可爱绘画灵感,每批 5 个灵感。也就是说每天 150 个新迷人提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题感觉最可爱?",
+            "description": "感觉最可爱的主题包括卡哇伊动物、动物宝宝、可爱的甜点、微笑食物、困倦宠物、舒适房间、小植物朋友和 Q 版角色。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存可爱灵感以后用吗?",
+            "description": "可以。当你找到喜欢的可爱绘画灵感,点击心形图标添加到收藏。你保存的灵感存在于我的灵感页面。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议通用主题。DrawSpark 的可爱绘画灵感生成器专门调整建议看起来卡哇伊迷人的主题、风格和颜色。舒适可爱嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些可爱风格?",
+            "description": "DrawSpark 涵盖所有主要可爱风格:卡哇伊、Q 版、柔和、舒适、简单可爱、插画可爱、贴纸风格、毛绒玩具灵感等等。挑选风格筛选器聚焦你喜爱的可爱美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的可爱灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、食物、植物、角色或任何其他。生成器将你的主题与卡哇伊比例、柔和色彩和迷人表情结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个可爱绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数可爱绘画灵感需要 15 分钟到 45 分钟完成得很好。AI 包含时间估计。完美适合无聊时的放松素描。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合子弹日记吗?",
+            "description": "是的——许多日记艺术家使用 DrawSpark 的可爱绘画灵感做展开插画、页边涂鸦和贴纸风格装饰。舒适迷人提示完美适合个人日记布局。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的可爱画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品可爱艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "无聊时可画的可爱之物"
+    },
+    "drawing-themes": {
+      "h1Title": "绘画主题:100+ 启发性速写本主题创意",
+      "h1Subtitle": "需要绘画主题?DrawSpark 的 AI 生成启发性的主题创意——自然、奇幻、肖像、动物、日常生活和创意主题提示,填满你几个月的速写本。",
+      "heroCta": "生成绘画主题灵感",
+      "heroPromptHint": "预填一个新鲜主题灵感",
+      "seoTitle": "绘画主题 — 100+ 启发性速写本主题创意 | DrawSpark",
+      "seoDescription": "需要绘画主题?DrawSpark 的免费 AI 生成器提供启发性的主题创意——自然、奇幻、肖像、动物、日常生活和创意主题提示,适合每个速写本。",
+      "seoKeywords": "绘画主题,艺术主题,速写本主题,绘画主题创意,绘画主题想法,创意绘画主题,每月绘画主题,每周绘画主题",
+      "head1": {
+        "title": "DrawSpark 的绘画主题生成器",
+        "description": "需要新鲜的绘画主题?DrawSpark 的 AI 提供启发性的主题创意——自然、奇幻、肖像、动物、日常生活和创意主题提示,填满你几个月的有满足感的绘画。",
+        "buttonText": "生成绘画主题灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的绘画主题生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的绘画主题生成器,为想要启发性、专注主题来围绕一个系列创作的艺术家打造。AI 生成基于主题的提示——自然研究、角色弧线、每月挑战、每周主题、节日项目、色彩探索和创意约束——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级,让你清楚自己将要承诺什么主题作品。生成器覆盖整个艺术主题光谱:每月绘画挑战、每周素描提示、30 天系列、本月色彩项目、动物研究、肖像系列、奇幻世界、日常物品研究、季节主题和个人探索提示。你可以挑一个主题,用生成器产出数十个相关灵感。DrawSpark 还维护着社区主题艺术公共画廊,你可以浏览找灵感,学习其他艺术家如何处理持续主题。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的绘画主题生成器怎么用?",
+        "buttonText": "生成绘画主题灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开绘画主题生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想随时获得新鲜主题提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个启发性绘画主题灵感",
+            "description": "DrawSpark 立即创建 5 个绘画主题灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配你能围绕创作系列的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个主题开始你的系列",
+            "description": "浏览 5 个主题灵感,挑你最兴奋的,开始你的绘画系列。收藏喜欢的以备未来系列使用,分享你的主题艺术,或随时重新生成。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的绘画主题灵感可以用来做什么?",
+        "description": "DrawSpark 的绘画主题适配任何需要专注、持续主题的艺术项目——从每月挑战到速写本系列到主题作品集收藏。",
+        "buttonText": "生成绘画主题灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "开始每月绘画挑战",
+            "description": "找到启发性的绘画主题——每月挑战、30 天系列、每周提示——完美适合建立有纪律的练习、填满速写本、通过专注主题提升你的艺术技能。",
+            "buttonText": "获取挑战灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "建立主题作品集收藏",
+            "description": "获取作品集构建的绘画主题——自然系列、角色弧线、色彩研究、主题探索——完美适合想要能打动客户的统一主题作品集的艺术家。",
+            "buttonText": "获取作品集主题",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "探索新主题领域",
+            "description": "发现将你推向新领域的绘画主题——你从未画过的动物、你从未去过的地方、你舒适区外的主题——非常适合打破常规和成长。",
+            "buttonText": "获取探索主题",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区主题艺术",
+            "description": "探索其他艺术家分享的主题绘画灵感公共画廊。看看其他创作者如何处理持续主题,为你的下一个系列寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的绘画主题生成器适合谁?",
+        "buttonText": "生成绘画主题灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "速写本艺术家",
+            "description": "想用专注主题页面填满速写本?DrawSpark 的绘画主题生成器给你每月、每周和系列级的主题,让你的速写本练习保持一致和启发性。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "艺术学生和学习者",
+            "description": "学艺术想要结构化练习?DrawSpark 的主题绘画灵感给你持续的主题提示,在自然、肖像、角色和静物领域通过一个统一系列建立技能。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "作品集构建者",
+            "description": "围绕特定主题构建作品集?DrawSpark 的绘画主题生成器给你系列级提示,产出适合申请和客户作品的统一主题收藏。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的绘画主题生成器?",
+        "buttonText": "生成绘画主题灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真主题,不是泛泛而谈",
+            "description": "大多数主题列表都建议模糊主题。DrawSpark 的 AI 生成具有真正专注性的主题——特定主题、持续探索、系列就绪提示和能作为收藏凝聚在一起的想法。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜绘画主题灵感——每天 150 个启发性主题提示,给你的速写本加油。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个绘画主题都包含清晰的主题、专注的风格和难度等级——所以你清楚自己将要承诺什么系列。没有“画个主题”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的绘画主题生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "来自 542 条评价",
+        "content": [
+          {
+            "title": "填满我的速写本",
+            "description": "我买了一本新速写本,DrawSpark 的绘画主题生成器给了我一个 30 天的自然系列。我一个月内就画满了——这是我有史以来第一次画完一本速写本。练习的彻底改变者。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "埃莉诺·布鲁克斯",
+            "ext3": "速写本艺术家"
+          },
+          {
+            "title": "作品集凝聚力",
+            "description": "我需要艺术学校申请的作品集主题。DrawSpark 的主题绘画灵感给了我一个专注的城市自然系列,打动了我的面试官,赢得了奖学金名额。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "乔丹·海斯",
+            "ext3": "作品集申请者"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他主题列表都是相同的“画朵花”提示。DrawSpark 的 AI 真正提供有专注的主题灵感——特定主题、持续角度、真正的系列就绪深度。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "普里亚·夏尔马",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "每月系列传统",
+            "description": "我用 DrawSpark 做每月绘画主题——过去的月份是狐狸、茶杯、蘑菇和秋叶。我的 Instagram 粉丝喜欢这个专注系列,互动率翻了三倍。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "娜奥米·雷耶斯",
+            "ext3": "每月系列艺术家"
+          },
+          {
+            "title": "课堂项目赢家",
+            "description": "我教高中艺术,DrawSpark 的绘画主题生成器给了我学生可以持续整个学期的主题月。他们的期末作品集比以前几年更有凝聚力。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "大卫·林",
+            "ext3": "高中美术教师"
+          },
+          {
+            "title": "卡壳时的灵感",
+            "description": "当我遇到创作瓶颈,DrawSpark 的主题绘画灵感给我一个有结构的方向去遵循。主题的专注打破我的瘫痪,让我在几分钟内重新开始画。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "玛雅·艾哈迈德",
+            "ext3": "瓶颈打破艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的绘画主题生成器常见问题",
+        "buttonText": "生成绘画主题灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是绘画主题?",
+            "description": "绘画主题是你围绕创作系列的专注主题提示——自然研究、角色弧线、每月挑战、每周素描和创意约束。DrawSpark 的 AI 每次点击都生成新鲜主题提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个绘画主题生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜绘画主题灵感,每批 5 个灵感。也就是说每天 150 个新主题提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题是最好的主题?",
+            "description": "最好的主题包括自然研究、角色弧线、色彩探索、动物系列、肖像收藏、季节主题和个人探索。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存绘画主题以后用吗?",
+            "description": "可以。当你找到喜欢的绘画主题,点击心形图标添加到收藏。你保存的主题存在于我的灵感页面。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议一次性主题。DrawSpark 的绘画主题生成器专门调整建议你能围绕创作系列的专注、持续主题。系列深度嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些主题风格?",
+            "description": "DrawSpark 涵盖所有主要主题风格:自然、角色、抽象、色彩研究、日常练习、每月挑战、每周素描和个人探索。挑选主题类型匹配你当前的艺术目标。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的主题灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、植物、角色、风景、物体或任何其他。生成器将你的主题与持续探索、系列级深度和主题专注结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个主题系列需要多长时间?",
+            "description": "DrawSpark 的大多数绘画主题需要一周到一个月作为系列完成。AI 包含节奏估计,所以你可以规划你的练习。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "主题适合艺术学生吗?",
+            "description": "是的——许多艺术学生使用 DrawSpark 的绘画主题做课堂作业、作品集作品和个人练习。结构化提示帮助在一个统一系列中跨专注主题领域建立技能。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的主题画吗?",
+            "description": "可以。每个主题都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品主题系列。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "绘画主题"
+    },
+    "drawing-best-ideas": {
+      "h1Title": "最佳绘画灵感:100+ 顶级素描、角色与场景",
+      "h1Subtitle": "寻找最佳绘画灵感?DrawSpark 的 AI 生成顶级、社区最爱的绘画提示——经过验证的角色、热门场景、流行主题和社区持续喜爱的高质量艺术。",
+      "heroCta": "生成最佳绘画灵感",
+      "heroPromptHint": "预填一个顶级灵感",
+      "seoTitle": "最佳绘画灵感 — 100+ 顶级素描与角色 | DrawSpark",
+      "seoDescription": "寻找最佳绘画灵感?DrawSpark 的免费 AI 生成器提供顶级、社区最爱的提示——经过验证的角色、热门场景、流行主题和高质量艺术灵感。",
+      "seoKeywords": "最佳绘画灵感,有史以来最佳绘画灵感,顶级绘画灵感,最佳素描,最佳艺术灵感,最佳绘画提示,流行绘画灵感,初学者最佳绘画灵感",
+      "head1": {
+        "title": "DrawSpark 的最佳绘画灵感生成器",
+        "description": "想要能获得的最佳绘画灵感?DrawSpark 的 AI 提供顶级、社区最爱的提示——经过验证的角色、热门场景、流行主题和社区持续喜爱的高质量艺术。",
+        "buttonText": "生成最佳绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的最佳绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的最佳绘画灵感生成器,为想要经过验证的、社区持续喜爱的顶级主题的艺术家打造。AI 生成社区最爱的提示——流行角色、热门场景、广受喜爱的主题、经典构图和高质量艺术灵感,在数千社区绘画中获得互动和赞誉。每个灵感都包含标题、简介、主题标签、风格标签和难度等级。生成器覆盖整个最受喜爱艺术光谱:表情丰富的角色、动态姿势、氛围风景、喜爱的动物、奇幻生物、经典肖像、热门美学风格、流行节日艺术、同人最爱场景和永恒构图。你可以按风格筛选聚焦可爱、酷炫、美学、简约或写实风格。DrawSpark 还维护着最受互动社区艺术公共画廊,你可以浏览找灵感。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的最佳绘画灵感生成器怎么用?",
+        "buttonText": "生成最佳绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开最佳绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想要经过验证的顶级提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个顶级绘画灵感",
+            "description": "DrawSpark 立即创建 5 个最佳绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配绘画社区持续喜爱和分享的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个灵感开始画杰作",
+            "description": "浏览 5 个顶级灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品艺术,或随时重新生成获得更多最受喜爱灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的最佳绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的最佳绘画灵感适配任何需要经过验证的、社区最爱主题的艺术项目——从速写本亮点到作品集作品到持续获得互动的社交媒体艺术。",
+        "buttonText": "生成最佳绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成顶级角色艺术",
+            "description": "找到最受喜爱的绘画灵感——流行角色设计、热门 OC 概念、表情丰富的肖像、动态姿势——完美适合想要绘画社区已经证明喜爱的主题的艺术家。",
+            "buttonText": "获取角色灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成社区最爱场景",
+            "description": "获取场景类别的最佳绘画灵感——氛围风景、喜爱的自然场景、流行的舒适时刻、热门美学构图——完美适合想要经过验证的互动主题的艺术家。",
+            "buttonText": "获取场景灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成热门美学艺术",
+            "description": "发现最受喜爱的美学绘画灵感——现代构图、流行的色彩搭配、热门艺术风格——非常适合想要绘制与当前获得互动的主题一致的艺术家。",
+            "buttonText": "获取美学灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览顶级社区艺术",
+            "description": "探索其他艺术家分享的最佳绘画灵感最受互动公共画廊。看看顶级作品其他创作者在做什么,为你的下一幅社区最爱素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的最佳绘画灵感生成器适合谁?",
+        "buttonText": "生成最佳绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "想要可靠热点的艺术家",
+            "description": "想要持续受欢迎的主题?DrawSpark 的最佳绘画灵感生成器提供经过验证的、顶级提示,社区已经喜爱——所以你花更少时间猜测,更多时间画。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "社交媒体创作者",
+            "description": "构建 Instagram、TikTok 或 YouTube 艺术形象?DrawSpark 的最佳绘画灵感给你获得最多互动、保存和分享的社区最爱主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "寻找优质提示的爱好者",
+            "description": "厌倦了无处可去的弱提示列表?DrawSpark 的最佳绘画灵感给你精心策划的顶级主题,你可以信任每次都产生令人满意、可分享的艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的最佳绘画灵感生成器?",
+        "buttonText": "生成最佳绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真最佳,不是泛泛而谈",
+            "description": "大多数“最佳”提示列表都只是观点汇编。DrawSpark 的 AI 基于绘画社区持续喜爱的东西生成灵感——互动数据、分享模式和经过验证的流行度。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜最佳绘画灵感——每天 150 个顶级提示,让你的速写本持续取悦大众。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个最佳绘画灵感都包含清晰的主题、顶级风格和难度等级——所以你清楚自己将要承诺什么经过验证的作品。没有“画点好的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的最佳绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 891 条评价",
+        "content": [
+          {
+            "title": "互动翻倍",
+            "description": "我换到 DrawSpark 的最佳绘画灵感那个月,我的 Instagram 互动翻倍。提示就是有效——观众真正喜爱的主题,获得保存和分享的场景。我的页面彻底解锁。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "艾弗里·陈",
+            "ext3": "Instagram 艺术家"
+          },
+          {
+            "title": "作品集质量飞跃",
+            "description": "我需要从其他概念艺术申请者中脱颖而出的作品集作品。DrawSpark 的最佳绘画灵感给了我社区最爱的主题和经过验证的吸引力。我的申请作品比我以前做的任何东西都强。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "汤姆·布拉德利",
+            "ext3": "作品集申请者"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他“最佳绘画”列表都是相同的卡通老鼠画。DrawSpark 的 AI 真正提供顶级灵感——经过验证的主题、热门场景、真正的社区最爱质量。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "克洛伊·戴维斯",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "TikTok 病毒式",
+            "description": "我发布了一个 DrawSpark 最佳绘画灵感的时间流逝视频,在 TikTok 上爆红——200 万浏览量。提示就是那么好用。我从那以后每个视频都用 DrawSpark。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "杰克·莫里森",
+            "ext3": "TikTok 时间流逝艺术家"
+          },
+          {
+            "title": "印刷店畅销",
+            "description": "我经营一家印刷店,DrawSpark 的最佳绘画灵感给了我畅销印刷品的顶级主题。客户持续回购经过验证的品质,我的 Etsy 店蒸蒸日上。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "诺拉·威廉姆斯",
+            "ext3": "印刷店主"
+          },
+          {
+            "title": "课堂互动赢家",
+            "description": "我教课外艺术,DrawSpark 的最佳绘画灵感给我孩子们真正能完成并引以为豪的主题。我开始使用顶级提示后,我的课堂互动大增。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "桑德拉·洛佩兹",
+            "ext3": "课外美术教师"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的最佳绘画灵感生成器常见问题",
+        "buttonText": "生成最佳绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是最佳绘画灵感?",
+            "description": "最佳绘画灵感是经过社区持续喜爱的经过验证的、顶级提示——流行角色、热门场景、喜爱的主题、经典构图和获得互动的高质量艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个最佳绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜最佳绘画灵感,每批 5 个灵感。也就是说每天 150 个顶级提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题是最佳绘画灵感?",
+            "description": "持续被评为最佳的主题包括表情丰富的角色、动态姿势、氛围风景、喜爱的动物、奇幻生物、经典肖像和热门美学场景。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存最佳绘画灵感以后用吗?",
+            "description": "可以。当你找到喜欢的顶级绘画灵感,点击心形图标添加到收藏。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通提示列表有什么不同?",
+            "description": "大多数提示列表都是观点汇编。DrawSpark 的最佳绘画灵感生成器调整建议社区已经证明喜爱的主题、构图和风格。流行度由数据支持。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "最佳绘画灵感可以获取哪些风格?",
+            "description": "DrawSpark 涵盖所有主要风格:可爱、酷炫、美学、简约、写实、黑暗、复古、极简、插画等等。挑选风格筛选器聚焦你喜爱的经过验证的美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的最佳灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、人物、风景、奇幻生物、食物或任何其他。生成器将你的主题与经过验证的构图和社区最爱能量结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个顶级绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数最佳绘画灵感需要 30 分钟到 1 小时完成得很好。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合作品集吗?",
+            "description": "是的——许多艺术家使用 DrawSpark 的最佳绘画灵感做作品集作品。经过验证的主题和社区最爱构图完美适合向客户、学校和粉丝展示范围、技能和品味。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的最佳画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品顶级艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "最佳绘画灵感"
+    },
+    "creative-in-drawing": {
+      "h1Title": "创意绘画灵感:100+ 原创、富有想象力的大胆素描",
+      "h1Subtitle": "想更有创意地画?DrawSpark 的 AI 生成原创、富有想象力的绘画灵感——大胆概念、不寻常角度、创意约束和推动你风格前进的独创艺术。",
+      "heroCta": "生成创意绘画灵感",
+      "heroPromptHint": "预填一个富有想象力的灵感",
+      "seoTitle": "创意绘画灵感 — 100+ 原创与富有想象力的素描 | DrawSpark",
+      "seoDescription": "想要创意绘画灵感?DrawSpark 的免费 AI 生成器提供原创、富有想象力的提示——大胆概念、不寻常角度、创意约束和每个技能水平的独创艺术。",
+      "seoKeywords": "绘画中的创意,创意绘画灵感,创意艺术灵感,富有想象力的绘画灵感,创意素描灵感,原创绘画提示,创意绘画提示,如何在绘画中有创意,创意绘画练习",
+      "head1": {
+        "title": "DrawSpark 的创意绘画灵感生成器",
+        "description": "想更有创意地画?DrawSpark 的 AI 提供原创、富有想象力的绘画灵感——大胆概念、不寻常角度、创意约束和将你的风格推进到新领域的独创艺术。",
+        "buttonText": "生成创意绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的创意绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的绘画中的创意生成器,为想要原创、富有想象力、独创主题的艺术家打造,创意深度直接嵌入。AI 生成创意主题灵感——大胆概念、不寻常构图、创意约束、独创混合、原创视角和富有想象力的场景——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级。生成器覆盖整个创意艺术光谱:混合主题、意外角度、色彩实验、混合媒体概念、写实的抽象、超现实构图和独创角色研究。你可以按风格筛选聚焦实验性、抽象、超现实或富有想象力的美学。DrawSpark 还维护着社区创意艺术公共画廊,你可以浏览找灵感,学习其他独创艺术家使用的技巧。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的创意绘画灵感生成器怎么用?",
+        "buttonText": "生成创意绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开创意绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想要富有想象力提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个富有想象力的创意绘画灵感",
+            "description": "DrawSpark 立即创建 5 个创意绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配激发原创独创思维的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个灵感开始创意绘画",
+            "description": "浏览 5 个创意灵感,挑你最兴奋的,开始画。收藏喜欢的作为作品集作品,分享你的成品创意艺术,或随时重新生成获得更多富有想象力的灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的创意绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的绘画中的创意适配任何需要原创、独创主题的艺术项目——从速写本实验到作品集作品到个人风格发展。",
+        "buttonText": "生成创意绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成独创角色混合",
+            "description": "找到创意绘画灵感——意外角色混合、混合生物概念、原创 OC 设计——完美适合想要超越通用提示探索富有想象力的组合的艺术家。",
+            "buttonText": "获取混合灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成大胆创意约束",
+            "description": "获取带内置约束的创意绘画灵感——有限调色板、不寻常角度、受限主题——完美适合想要产生惊喜独创结果的专注创意练习的艺术家。",
+            "buttonText": "获取约束灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成原创视角艺术",
+            "description": "发现带不寻常视角的创意绘画灵感——极端角度、惊喜视角、独创构图——非常适合想要打破视觉习惯和伸展创意范围的艺术家。",
+            "buttonText": "获取视角灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区创意艺术",
+            "description": "探索其他艺术家分享的创意绘画灵感公共画廊。看看其他创作者在做什么原创富有想象力的作品,为你的下一幅独创素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的创意绘画灵感生成器适合谁?",
+        "buttonText": "生成创意绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "创意瓶颈中的艺术家",
+            "description": "总是画同样的东西?DrawSpark 的创意绘画灵感用富有想象力的提示打破你的常规,把你推向新领域,提醒你为什么做艺术重要。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "风格探索者",
+            "description": "寻找自己的风格?DrawSpark 的绘画中的创意生成器给你许多美学中的独创提示——让你广泛探索直到找到最像你的东西。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "概念艺术家和设计师",
+            "description": "为概念工作建立创意范围?DrawSpark 的独创绘画灵感给你富有想象力的主题、意外构图和完美适合设计作品集的原创概念。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的创意绘画灵感生成器?",
+        "buttonText": "生成创意绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真创意,不是泛泛而谈",
+            "description": "大多数创意提示列表都建议用过头的主题。DrawSpark 的 AI 生成具有真正想象力的灵感——原创概念、意外角度、独创构图和让你惊讶的艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜创意绘画灵感——每天 150 个富有想象力的提示,给你的创意练习加油。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个创意绘画灵感都包含清晰的概念、富有想象力的风格和难度等级——所以你清楚自己将要承诺什么独创作品。没有“要有创意”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的创意绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.8",
+        "ext2": "来自 612 条评价",
+        "content": [
+          {
+            "title": "打破了我的风格平台期",
+            "description": "我用同样的风格画了两年,感到无聊。DrawSpark 的创意绘画灵感推动我进入混合和独创约束——我的风格在一个月内演变比前一年都多。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "拉维·帕特尔",
+            "ext3": "风格探索者"
+          },
+          {
+            "title": "概念艺术优势",
+            "description": "我是初级概念艺术家,DrawSpark 的绘画中的创意生成器给了我资深同事说是作品集级的独创提示。帮我找到了现在的工作室工作。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "西奥·朴",
+            "ext3": "初级概念艺术家"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他创意列表都是相同的“画你的房间”提示。DrawSpark 的 AI 真正提供有想象力的创意灵感——原创概念、独创角度、真正的创意深度。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "伊内斯·加西亚",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "我的 Etsy 店焕新",
+            "description": "我的 Etsy 艺术店创意用完了。DrawSpark 的创意绘画灵感给了我独创概念,刷新了我的整个产品线。销售立即回升。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "梅根·沃尔特斯",
+            "ext3": "Etsy 店主"
+          },
+          {
+            "title": "课堂创意火花",
+            "description": "我教高中艺术,DrawSpark 的绘画中的创意提示给我的学生他们真正兴奋的独创练习。他们的期末作品集现在原创多了。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "马库斯·贝内特",
+            "ext3": "高中美术教师"
+          },
+          {
+            "title": "旅行素描焕新",
+            "description": "我带着 DrawSpark 的创意绘画灵感旅行,把它们应用到我看到的一切。独创提示把普通旅行场景变成原创构图。我的旅行速写本现在有趣多了。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "露西亚·罗马诺",
+            "ext3": "旅行素描艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的创意绘画灵感生成器常见问题",
+        "buttonText": "生成创意绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是创意绘画灵感?",
+            "description": "创意绘画灵感包括原创概念、富有想象力的构图、不寻常视角、独创混合和大胆创意约束。DrawSpark 的 AI 每次点击都生成新鲜独创提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个创意绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜创意绘画灵感,每批 5 个灵感。也就是说每天 150 个富有想象力的提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题感觉最有创意?",
+            "description": "感觉最有创意的主题包括混合概念、意外视角、色彩实验、写实的抽象和独创角色研究。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存创意灵感以后用吗?",
+            "description": "可以。当你找到喜欢的创意绘画灵感,点击心形图标添加到收藏。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议安全的通用主题。DrawSpark 的绘画中的创意生成器专门调整建议伸展你想象力的主题、构图和风格。创意深度嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些创意风格?",
+            "description": "DrawSpark 涵盖所有主要创意风格:实验性、抽象、超现实、混合、混合媒体、色彩研究、视角游戏等等。挑选风格筛选器聚焦你喜爱的独创美学。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的创意灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、人物、风景、物体或任何其他。生成器将你的主题与创意约束、意外角度和独创构图结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个创意绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数创意绘画灵感需要 30 分钟到 1 小时完成得很好。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合发展风格吗?",
+            "description": "是的——许多艺术家使用 DrawSpark 的创意绘画灵感发展个人风格。独创提示推动你走出舒适区,正是新风格元素被发现的地方。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的创意画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "创意绘画灵感"
+    },
+    "silly-things-to-draw": {
+      "h1Title": "傻乎乎可画之物:100+ 有趣、搞笑与荒诞素描",
+      "h1Subtitle": "想画点傻的?DrawSpark 的 AI 生成有趣、搞笑、荒诞的绘画灵感——荒谬动物、荒诞场景、傻乎乎的混合和保证让你笑的搞笑艺术。",
+      "heroCta": "生成傻乎乎绘画灵感",
+      "heroPromptHint": "预填一个傻乎乎有趣的灵感",
+      "seoTitle": "傻乎乎可画之物 — 100+ 有趣、搞笑与荒诞素描 | DrawSpark",
+      "seoDescription": "想要傻乎乎可画之物?DrawSpark 的免费 AI 生成器提供有趣、搞笑、荒诞的素描——荒谬动物、傻乎乎的混合、荒诞场景和笑出声艺术,准备好下笔。",
+      "seoKeywords": "傻乎乎可画之物,搞笑绘画灵感,傻乎乎绘画灵感,搞笑可画之物,荒诞绘画灵感,荒谬可画之物,有趣绘画灵感,傻乎乎涂鸦,傻乎乎素描",
+      "head1": {
+        "title": "DrawSpark 的傻乎乎绘画灵感生成器",
+        "description": "想画点傻的?DrawSpark 的 AI 提供有趣、搞笑、荒诞的绘画灵感——荒谬动物、傻乎乎的混合、荒诞场景和保证让你和观众微笑的搞笑艺术。",
+        "buttonText": "生成傻乎乎绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的傻乎乎绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的傻乎乎可画之物生成器,为想要有趣、搞笑、荒诞主题的艺术家打造,最大傻乎乎度直接嵌入。AI 生成傻乎乎主题灵感——荒谬动物、搞笑场景、荒诞混合、奇怪的人类行为、傻乎乎的食物、笑出声角色和荒诞日常情况——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级。生成器覆盖整个傻乎乎艺术光谱:穿衣服的动物、有脸的食物、荒诞职业、傻乎乎运动、荒谬宠物、搞笑肖像、有趣混合和荒诞场景。你可以按风格筛选聚焦卡通、可爱、简约或夸张傻乎乎风格。DrawSpark 还维护着社区傻乎乎艺术公共画廊,你可以浏览找灵感。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的傻乎乎绘画灵感生成器怎么用?",
+        "buttonText": "生成傻乎乎绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开傻乎乎绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想要有趣搞笑提示的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个搞笑傻乎乎绘画灵感",
+            "description": "DrawSpark 立即创建 5 个傻乎乎绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配看起来真正有趣搞笑荒诞的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个傻乎乎灵感开始画",
+            "description": "浏览 5 个傻乎乎灵感,挑最让你笑的,开始画。收藏喜欢的作为作品集作品,分享你的成品傻乎乎艺术,或随时重新生成获得更有趣的灵感。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的傻乎乎绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的傻乎乎可画之物适配任何需要有趣荒诞主题的艺术项目——从速写本热身到贺卡到获得笑声和分享的社交媒体艺术。",
+        "buttonText": "生成傻乎乎绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "生成搞笑动物混合",
+            "description": "找到傻乎乎的绘画灵感——穿衣服的动物、荒谬的宠物场景、搞笑生物混合、有趣的动物表情——完美适合想让观众笑出声的艺术家。",
+            "buttonText": "获取动物灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成荒诞人类场景",
+            "description": "获取人类类别的傻乎乎绘画灵感——荒诞职业、搞笑爱好、荒诞日常情况——完美适合喜欢相关幽默和笑出声潜力的艺术家。",
+            "buttonText": "获取人类灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "生成有趣食物和物体艺术",
+            "description": "发现食物和物体类别的傻乎乎绘画灵感——微笑食物、荒诞物体、拟人化东西——非常适合喜欢内置幽默和荒诞魅力的主题的艺术家。",
+            "buttonText": "获取物体灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区傻乎乎艺术",
+            "description": "探索其他艺术家分享的傻乎乎绘画灵感公共画廊。看看其他创作者在做什么有趣搞笑作品,为你的下一幅笑出声素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的傻乎乎绘画灵感生成器适合谁?",
+        "buttonText": "生成傻乎乎绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "想要笑声的无聊艺术家",
+            "description": "无聊想找点有趣的画?DrawSpark 的傻乎乎可画之物生成器给你荒诞、笑出声的提示,把任何无聊的素描会话变成保证的美好时光。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "漫画和表情包艺术家",
+            "description": "创作网络漫画、表情包或幽默插画?DrawSpark 的傻乎乎绘画灵感给你荒诞场景和荒谬角色,准备好漫画分镜、表情包格式和笑话艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "想要乐趣的爱好者",
+            "description": "厌倦了严肃艺术?DrawSpark 的傻乎乎绘画灵感给你有趣荒诞的提示,提醒你做艺术应该有趣。每一批都有纯粹的创意乐趣。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的傻乎乎绘画灵感生成器?",
+        "buttonText": "生成傻乎乎绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真傻乎乎,不是泛泛而谈",
+            "description": "大多数傻乎乎提示列表都建议通用笑话。DrawSpark 的 AI 生成具有真正荒诞性的灵感——荒谬概念、有趣场景、笑出声主题和用幽默让你惊讶的艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜傻乎乎绘画灵感——每天 150 个有趣荒诞提示,让你的速写本笑出声。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个傻乎乎绘画灵感都包含清晰的主题、有趣的风格和难度等级——所以你清楚自己将要承诺什么荒诞作品。没有“画点有趣的”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的傻乎乎绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 489 条评价",
+        "content": [
+          {
+            "title": "我的群聊就靠这个活着",
+            "description": "我每天从 DrawSpark 画一个傻乎乎的东西发给朋友群。我们已经这样做了 6 个月,聊天还在继续。荒诞提示持续带来笑声。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "凯·福斯特",
+            "ext3": "群聊艺术家"
+          },
+          {
+            "title": "网络漫画宝藏",
+            "description": "我运营每日网络漫画,DrawSpark 的傻乎乎可画之物生成器给我无穷无尽的荒诞场景提示。自从我开始用生成器寻找灵感,我的订阅者数量翻了三倍。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "米娅·张",
+            "ext3": "网络漫画创作者"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他傻乎乎列表都是相同的卡通狗画。DrawSpark 的 AI 真正提供有幽默的傻乎乎灵感——荒诞场景、荒谬角色、真正的笑出声能量。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "欧文·里德",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "减压绘画",
+            "description": "我工作上经历艰难的一年,DrawSpark 的傻乎乎绘画灵感成为我的减压方式。每晚画荒谬的穿西装的企鹅拯救了我的心理健康。有趣的艺术是真正的治疗。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "汉娜·科尔",
+            "ext3": "减压艺术家"
+          },
+          {
+            "title": "课堂互动赢家",
+            "description": "我教中学艺术,DrawSpark 的傻乎乎可画之物提示让每个学生都投入。即使我最不情愿的艺术家也以他们自豪与朋友家人分享的作品结束。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "布兰登·海斯",
+            "ext3": "中学美术教师"
+          },
+          {
+            "title": "贴纸包大热",
+            "description": "我用 DrawSpark 的绘画灵感做了一个傻乎乎贴纸包——穿衣服的动物、有脸的食物、荒诞职业——这是我 Redbubble 上的畅销产品。客户说它让他们笑。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "莱拉·彼得罗夫",
+            "ext3": "贴纸设计师"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的傻乎乎绘画灵感生成器常见问题",
+        "buttonText": "生成傻乎乎绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "什么是傻乎乎可画之物?",
+            "description": "傻乎乎可画之物包括有趣动物、荒诞场景、荒谬混合、搞笑角色、拟人化物体和笑出声日常情况。DrawSpark 的 AI 每次点击都生成新鲜荒诞提示。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个傻乎乎绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜傻乎乎绘画灵感,每批 5 个灵感。也就是说每天 150 个新有趣提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "哪些主题感觉最傻乎乎?",
+            "description": "感觉最傻乎乎的主题包括穿衣服的动物、有脸的食物、荒诞职业、傻乎乎运动、荒谬宠物和拟人化物体。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存傻乎乎灵感以后用吗?",
+            "description": "可以。当你找到喜欢的傻乎乎绘画灵感,点击心形图标添加到收藏。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通绘画提示有什么不同?",
+            "description": "大多数提示列表都建议严肃主题。DrawSpark 的傻乎乎可画之物生成器专门调整建议看起来有趣荒诞的主题、场景和风格。笑出声能量嵌入每批。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些傻乎乎风格?",
+            "description": "DrawSpark 涵盖所有主要傻乎乎风格:卡通、夸张、漫画、简单卡通、涂鸦傻乎乎、漫画式搞笑、插画荒诞等等。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的傻乎乎灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、人物、食物、物体或任何其他。生成器将你的主题与荒诞场景、有趣表情和搞笑能量结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个傻乎乎绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数傻乎乎绘画灵感需要 15 分钟到 45 分钟完成得很好。AI 包含时间估计。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合减压吗?",
+            "description": "是的——许多艺术家使用 DrawSpark 的傻乎乎绘画灵感减压和心理健康。有趣荒诞的提示把绘画变成纯粹的创意游戏,产生的作品总能让人微笑。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的傻乎乎画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的群聊中分享你的成品傻乎乎艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "傻乎乎可画之物"
+    },
+    "thigs-to-draw": {
+      "h1Title": "可画之物:100+ 适合每种心情的启发性绘画灵感",
+      "h1Subtitle": "寻找可画之物?DrawSpark 的 AI 生成启发性绘画灵感——角色、场景、动物、抽象概念和适合每种心情与技能水平的创意主题。",
+      "heroCta": "生成绘画灵感",
+      "heroPromptHint": "预填一个新鲜灵感",
+      "seoTitle": "可画之物 — 100+ 适合每种心情的启发性绘画灵感 | DrawSpark",
+      "seoDescription": "寻找可画之物?DrawSpark 的免费 AI 生成器提供启发性绘画灵感——角色、场景、动物、抽象概念和适合每种心情与技能水平的创意主题。",
+      "seoKeywords": "可画之物,绘画灵感,该画什么,绘画灵感列表,初学者绘画灵感,艺术家绘画灵感,艺术灵感,绘画灵感,thigs to draw",
+      "head1": {
+        "title": "DrawSpark 的绘画灵感生成器",
+        "description": "寻找可画之物?DrawSpark 的 AI 提供启发性绘画灵感——角色、场景、动物、抽象概念和适合每种心情与技能水平的创意主题。再也不会画无可画。",
+        "buttonText": "生成绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "DrawSpark 的绘画灵感生成器是什么?",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark 的绘画灵感生成器,为想要稳定启发、多样、新鲜主题的艺术家打造——你每天可以画的可画之物,永远不会用完。AI 生成跨每个主要主题领域的多样提示——角色、动物、风景、物体、抽象概念、场景、食物、植物、奇幻、肖像和创意探索——都匹配你的技能水平。每个灵感都包含标题、简介、主题标签、风格标签和难度等级。生成器从完整的艺术主题库中提取:可爱动物、动态角色、氛围风景、有趣物体、抽象想法、奇幻概念、日常场景和创意实验。你可以按主题、风格、难度、场景或受众筛选,精确缩小到你想要的可画之物类型。DrawSpark 还维护着社区绘画公共画廊,你可以浏览找灵感。",
+            "buttonText": "试试免费生成器",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "DrawSpark 的绘画灵感生成器怎么用?",
+        "buttonText": "生成绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "第 1 步:打开绘画灵感生成器",
+            "description": "访问这个页面并点击生成按钮。免费、即时运行、无需登录——非常适合想要随时获得新鲜可画之物的艺术家。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 2 步:获取 5 个启发性绘画灵感",
+            "description": "DrawSpark 立即从完整主题库创建 5 个绘画灵感。每个都包含标题、描述、主题标签、风格标签和难度——全部匹配值得画的主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "第 3 步:挑一个灵感开始画",
+            "description": "浏览 5 个灵感,挑你最兴奋的,开始画。收藏喜欢的以备未来素描使用,分享你的成品艺术,或随时重新生成获得新鲜的可画之物。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "DrawSpark 的绘画灵感可以用来做什么?",
+        "description": "DrawSpark 的可画之物适配任何需要启发、多样主题的艺术项目——从日常速写本练习到作品集作品到主题收藏和礼物艺术。",
+        "buttonText": "生成绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "填满你的日常速写本",
+            "description": "找到每天新鲜的可画之物——角色、动物、风景、物体、抽象概念——完美适合保持多样、启发性和永不无聊的日常速写本练习。",
+            "buttonText": "获取日常灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "建立多元作品集",
+            "description": "获取跨每个主题领域的绘画灵感——角色、动物、风景、肖像、抽象、奇幻——完美适合建立展示范围和广度的多功能作品集。",
+            "buttonText": "获取作品集灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "探索你从未尝试的主题",
+            "description": "发现舒适区外的可画之物——新主题、不同风格、意外角度——非常适合打破常规和作为艺术家跨完整艺术范围成长。",
+            "buttonText": "获取探索灵感",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "浏览社区绘画",
+            "description": "探索其他艺术家分享的绘画灵感公共画廊。看看其他创作者在画什么多样的主题,为你的下一幅多样素描寻找灵感。",
+            "buttonText": "浏览画廊",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "DrawSpark 的绘画灵感生成器适合谁?",
+        "buttonText": "生成绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "日常速写本艺术家",
+            "description": "想每天画而不会用尽灵感?DrawSpark 的绘画灵感生成器给你永不枯竭的新鲜多样主题流,完美适合日常练习和稳定成长。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "探索范围的艺术家",
+            "description": "想尝试新主题和风格?DrawSpark 的多样绘画灵感覆盖每个主要艺术领域——所以你可以广泛探索,找到你喜爱的,作为艺术家成长你的范围。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "寻找灵感的任何人",
+            "description": "需要稳定的可画之物来源?DrawSpark 的绘画灵感生成器每天提供 150 个新鲜提示,没有重复,没有填充——只是每个心情的启发主题。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "为什么选择 DrawSpark 的绘画灵感生成器?",
+        "buttonText": "生成绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "真多样,不是泛泛而谈",
+            "description": "大多数绘画灵感列表都又短又快用完。DrawSpark 的 AI 生成跨每个主要艺术领域的新鲜多样主题——角色、动物、风景、抽象、奇幻等等。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "免费、快速、无限制",
+            "description": "DrawSpark 100% 免费且无需账号。每天生成多达 30 批新鲜绘画灵感——每天 150 个启发提示。再也不会画无可画。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "具体、视觉化、可达成",
+            "description": "每个绘画灵感都包含清晰的主题、风格和难度等级——所以你清楚自己将要承诺什么。没有“画点什么”这种模糊填充。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "艺术家们如何评价 DrawSpark 的绘画灵感生成器",
+        "buttonText": "试试免费生成器",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "来自 1342 条评价",
+        "content": [
+          {
+            "title": "连续 365 天不间断",
+            "description": "我用 DrawSpark 的绘画灵感连续画了一年。多样的主题无与伦比——一天画角色,下一天画风景,再下一天画抽象。我的速写本前所未有地好。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "费利克斯·施密特",
+            "ext3": "日常素描艺术家"
+          },
+          {
+            "title": "范围爆发",
+            "description": "我以前只画肖像。自从用 DrawSpark,我画动物、风景、抽象、食物等等。我的作品集从狭窄到多才多艺只用了六个月。范围的改变者。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "尤金·田中",
+            "ext3": "范围构建艺术家"
+          },
+          {
+            "title": "击败通用列表",
+            "description": "我尝试过的其他绘画列表都是相同 30 个提示重复。DrawSpark 的 AI 真正提供多样性——不同主题每次,新鲜角度,真正用之不竭的灵感。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "布兰登·刘",
+            "ext3": "爱好艺术家"
+          },
+          {
+            "title": "课堂资源",
+            "description": "我教艺术基础,DrawSpark 的绘画灵感给我的学生跨每个主题领域的多样提示。他们的技能范围比以前的学生成长得快得多。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "黛安娜·朴",
+            "ext3": "艺术基础教师"
+          },
+          {
+            "title": "每周礼物艺术",
+            "description": "我用 DrawSpark 的灵感每周为我最好的朋友画一幅作品。我们收到过动物、角色、风景、抽象——每一份礼物都是惊喜,她珍视每一份。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "卡米尔·杜波依斯",
+            "ext3": "礼物艺术家"
+          },
+          {
+            "title": "重启我的练习",
+            "description": "我几个月来一直处于艺术瓶颈。DrawSpark 的多样绘画灵感给了我每天真正想画的新鲜主题。两周后瓶颈消失。彻底的练习复兴。",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "瑞安·阮",
+            "ext3": "瓶颈打破艺术家"
+          }
+        ]
+      },
+      "faq": {
+        "title": "DrawSpark 的绘画灵感生成器常见问题",
+        "buttonText": "生成绘画灵感",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "我可以画什么类型的东西?",
+            "description": "你可以画 DrawSpark 的 AI 建议的任何东西——角色、动物、风景、物体、抽象概念、奇幻生物、日常场景、食物、植物、肖像和跨每个主要艺术主题领域的创意探索。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这个绘画灵感生成器免费吗?",
+            "description": "是的——DrawSpark 完全免费,无需登录或信用卡。每天可生成多达 30 批新鲜绘画灵感,每批 5 个灵感。也就是说每天 150 个新启发提示,零成本。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些主题的绘画灵感?",
+            "description": "主题包括动物、人物、风景、物体、抽象想法、奇幻生物、食物、植物、肖像、日常场景和创意探索。DrawSpark 的 AI 跨所有技能水平覆盖每个主要艺术主题领域。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以保存绘画灵感以后用吗?",
+            "description": "可以。当你找到喜欢的绘画灵感,点击心形图标添加到收藏。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这和普通提示列表有什么不同?",
+            "description": "大多数提示列表都又短又快用完。DrawSpark 的绘画灵感生成器每次都提供新鲜多样的主题——跨每个主要主题领域——所以你永远画无可画。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取哪些风格?",
+            "description": "DrawSpark 涵盖每个主要艺术风格:可爱、酷炫、美学、简约、写实、黑暗、复古、极简、插画、抽象、超现实、卡通等等。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "可以获取特定主题的灵感吗?",
+            "description": "当然。使用主题筛选器聚焦动物、人物、风景、物体、奇幻或任何其他。生成器将你的主题与多样风格、新鲜角度和启发构图结合。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "完成一个绘画灵感需要多长时间?",
+            "description": "DrawSpark 的大多数绘画灵感需要 15 分钟到 1 小时完成得很好。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "这些灵感适合初学者吗?",
+            "description": "是的——每个绘画灵感都带有难度等级。初学者可以挑简单和初级水平的提示;有经验的艺术家可以挑战中级和高级。每个人都能获得匹配自己技能水平的东西。",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "我可以分享我的画吗?",
+            "description": "可以。每个灵感都有一个分享按钮,可将链接复制到剪贴板。在社交媒体、艺术社区或你的作品集中分享你的成品艺术。",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "可画之物"
     }
   }
 }
