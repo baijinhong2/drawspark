@@ -96,9 +96,25 @@ export async function Footer() {
           </div>
         </div>
 
-        {/* Bottom row: copyright + legal links */}
+        {/* Bottom row: copyright + Buildlist badge | legal links */}
         <div className="mt-10 flex flex-col items-start gap-3 border-t border-slate-200 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>{t("rights", { year })}</p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <p>{t("rights", { year })}</p>
+            <a
+              href="https://buildlist.io"
+              target="_blank"
+              rel="noopener"
+              aria-label="Featured on Buildlist"
+            >
+              <img
+                src="https://buildlist.io/badge.svg"
+                alt="Featured on Buildlist"
+                style={{ height: "32px", width: "auto" }}
+                width={120}
+                height={40}
+              />
+            </a>
+          </div>
           <div className="flex gap-4">
             <Link
               href="/privacy"
