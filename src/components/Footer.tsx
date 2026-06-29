@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { SEO_TOPIC_PAGES } from "@/lib/seo-pages";
+import { FooterTopicsColumn, type FooterTopicLink } from "@/components/FooterTopicsColumn";
 
 /**
  * Site-wide footer. Rendered by `[locale]/layout.tsx`, so it appears on every
@@ -18,7 +19,13 @@ export async function Footer() {
   // SEO long-tail topic pages. Sorted by descending search volume so the
   // top-of-list links are the highest-traffic pages, not the most-recently
   // added ones. Drained from the registry — no hardcoded link list here.
-  const topicLinks = [...SEO_TOPIC_PAGES].sort((a, b) => b.vol - a.vol);
+  // Labels resolved server-side so the Client Component stays dumb.
+  const topicLinks: FooterTopicLink[] = [...SEO_TOPIC_PAGES]
+    .sort((a, b) => b.vol - a.vol)
+    .map((p) => ({
+      slug: p.slug,
+      label: topicLabel(p.slug, p.keyword),
+    }));
 
   function topicLabel(slug: string, fallback: string): string {
     const key = `${slug}.footerLabel` as const;
@@ -82,13 +89,10 @@ export async function Footer() {
               <FooterLink href="/faq">{t("faq")}</FooterLink>
             </FooterColumn>
 
-            <FooterColumn title={t("seoTopics")}>
-              {topicLinks.map((topic) => (
-                <FooterLink key={topic.slug} href={`/topics/${topic.slug}`}>
-                  {topicLabel(topic.slug, topic.keyword)}
-                </FooterLink>
-              ))}
-            </FooterColumn>
+            <FooterTopicsColumn
+              title={t("seoTopics")}
+              topics={topicLinks}
+            />
           </div>
         </div>
 

@@ -791,7 +791,9 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",
-    "seoTopics": "Browse by Topic"
+    "seoTopics": "Browse by Topic",
+    "showMore": "Show {count} more",
+    "showLess": "Show less"
   },
   "topics": {
     "gridTitle": "Top inspirations for {topic}",
@@ -8777,6 +8779,2679 @@
         ]
       },
       "footerLabel": "Things to Draw"
+    },
+    "drawing-inspirations": {
+      "h1Title": "Drawing Inspirations: 100+ Fresh Ideas & Visual Sparks",
+      "h1Subtitle": "Need drawing inspirations? DrawSpark's AI curates fresh visual sparks — atmospheric scenes, expressive characters, bold compositions, and stunning concepts across every style to light up your sketchbook.",
+      "heroCta": "Get Drawing Inspirations",
+      "heroPromptHint": "Pre-fills an inspiring idea",
+      "seoTitle": "Drawing Inspirations — 100+ Fresh Ideas & Visual Sparks | DrawSpark",
+      "seoDescription": "Need drawing inspirations? DrawSpark's free AI generator delivers fresh visual sparks — atmospheric scenes, expressive characters, bold compositions, and stunning concepts across every style for every artist.",
+      "seoKeywords": "drawing inspirations, drawing inspiration, drawing ideas, art inspiration, drawing sparks, visual inspiration, art ideas, creative drawing inspiration, drawing prompts, sketchbook ideas",
+      "head1": {
+        "title": "DrawSpark's Drawing Inspirations Generator",
+        "description": "Out of drawing inspirations? DrawSpark's AI hands you a steady stream of fresh visual sparks — atmospheric scenes, expressive characters, bold compositions, and stunning concepts across every style to keep your sketchbook alive.",
+        "buttonText": "Get Drawing Inspirations",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Drawing Inspirations Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's drawing inspirations generator is built for artists who want a steady, varied, genuinely inspiring feed of visual sparks — never generic filler. The AI generates fresh, atmospheric prompts across every major subject area: characters with attitude, cinematic scenes, expressive portraits, moody landscapes, abstract compositions, surreal concepts, and storytelling moments. Each inspiration comes with a title, short description, subject tag, style tag, and difficulty rating so you know exactly what kind of visual you're about to chase. The generator pulls from the full library of art subjects: cute characters, dynamic poses, atmospheric environments, striking objects, abstract color studies, fantasy concepts, and everyday scenes reframed with a fresh angle. You can filter by subject, style, difficulty, scene, or audience to dial in exactly the kind of spark you need today. DrawSpark also maintains a public gallery of community art you can browse for inspiration and study the techniques other artists use.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Drawing Inspirations Generator Work?",
+        "buttonText": "Get Drawing Inspirations",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Drawing Inspirations Generator",
+            "description": "Visit this page and hit the generate button. The drawing inspirations generator is free, runs instantly, and requires no login — perfect for artists who want fresh visual sparks on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Fresh Drawing Inspirations",
+            "description": "DrawSpark instantly creates 5 drawing inspirations from across the full subject library. Each comes with a title, description, subject tag, style tag, and difficulty — all matched to genuinely inspiring visuals.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick a Spark and Start Drawing",
+            "description": "Browse the 5 inspirations, pick the one that lights you up most, and start drawing. Save favorites for future sketches, share your finished art, or regenerate for fresh inspirations anytime.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Drawing Inspirations?",
+        "description": "DrawSpark's drawing inspirations adapt to any art project that needs a fresh visual spark — from daily sketchbook practice to portfolio pieces to mood-board exploration to themed collections.",
+        "buttonText": "Get Drawing Inspirations",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Fuel Daily Sketchbook Practice",
+            "description": "Find fresh drawing inspirations every day — atmospheric scenes, expressive characters, bold compositions, abstract ideas — perfect for daily practice that stays varied, inspiring, and never runs out of steam.",
+            "buttonText": "Get Daily Inspirations",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Build a Stunning Portfolio",
+            "description": "Get drawing inspirations across every subject and style — characters, scenes, abstract, fantasy, portraits, landscapes — perfect for building a versatile portfolio that shows true range and creative depth.",
+            "buttonText": "Get Portfolio Inspirations",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Break Through Creative Blocks",
+            "description": "Stuck staring at a blank page? DrawSpark's drawing inspirations deliver unexpected angles, surprising concepts, and visual prompts that snap you out of any creative rut in seconds.",
+            "buttonText": "Get Block-Breakers",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Inspirations",
+            "description": "Explore the public gallery of drawing inspirations shared by other artists. See how diverse creators interpret the same prompts and find your own spark in their finished pieces.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Drawing Inspirations Generator For?",
+        "buttonText": "Get Drawing Inspirations",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artists in a Creative Block",
+            "description": "Staring at a blank page with nothing in mind? DrawSpark's drawing inspirations deliver fresh visual sparks that break blocks and get your pencil moving again within minutes.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Daily Sketchbook Practitioners",
+            "description": "Want to draw every day without running dry? DrawSpark's drawing inspirations feed you a never-ending stream of fresh, varied subjects matched to your current skill and mood.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artists Building Range",
+            "description": "Want to push past your comfort zone? DrawSpark's drawing inspirations cover every subject and style, so you can explore widely and grow as an artist across the full art spectrum.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Drawing Inspirations Generator?",
+        "buttonText": "Get Drawing Inspirations",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Actually Inspiring, Not Just Generic",
+            "description": "Most inspiration lists are short and exhausted fast. DrawSpark's AI generates fresh, varied, atmospheric sparks across every major art area — characters, scenes, abstract, fantasy, and more.",
+            "buttonText": "See Fresh Sparks",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of drawing inspirations per day — that's 150 inspiring prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Achievable",
+            "description": "Every drawing inspiration includes a clear subject, style, and difficulty rating so you know exactly what kind of visual you're about to chase — no vague 'draw something' filler.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Drawing Inspirations",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 1620 Reviews",
+        "content": [
+          {
+            "title": "Block-Breaker That Works",
+            "description": "I'd been staring at a blank page for three weeks. DrawSpark's drawing inspirations got me drawing again that same night. The atmospheric prompts hit differently than any list I tried before.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sienna Carter",
+            "ext3": "Block-Breaker Artist"
+          },
+          {
+            "title": "Sketchbook Stays Alive",
+            "description": "I draw every single day thanks to DrawSpark's drawing inspirations. Every morning I generate a fresh batch and pick the one I most want to render. My sketchbook has never been this full.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marco Bianchi",
+            "ext3": "Daily Sketch Artist"
+          },
+          {
+            "title": "Real Visual Sparks",
+            "description": "Other tools just give me boring prompts. DrawSpark's drawing inspirations feel curated — atmospheric, cinematic, varied. They actually spark new ideas when I'm scrolling through.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hana Yoshida",
+            "ext3": "Concept Artist"
+          },
+          {
+            "title": "Range Expansion",
+            "description": "I was stuck drawing only portraits. DrawSpark's inspirations pushed me into landscapes, abstract, fantasy, scenes. My portfolio tripled in breadth within a few months.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Daniel Roth",
+            "ext3": "Range-Building Artist"
+          },
+          {
+            "title": "Class Favorite",
+            "description": "I teach advanced art and DrawSpark's drawing inspirations give my students prompts with real depth. Their portfolios went from technical exercises to genuinely inspiring pieces.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Priya Sharma",
+            "ext3": "Advanced Art Teacher"
+          },
+          {
+            "title": "Mood-Boosting",
+            "description": "When I'm down, generating five drawing inspirations and picking one to draw grounds me every time. It's a small ritual that pulls me out of bad moods faster than anything else.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Amelia Brooks",
+            "ext3": "Therapeutic Sketcher"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Drawing Inspirations",
+        "buttonText": "Get Drawing Inspirations",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of drawing inspirations can I get?",
+            "description": "DrawSpark's drawing inspirations cover every major subject area: characters, animals, landscapes, objects, abstract concepts, fantasy creatures, everyday scenes, food, plants, portraits, atmospheric moments, and creative explorations.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the drawing inspirations generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of drawing inspirations per day, with 5 inspirations in each batch — that's 150 new sparks every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What subjects can I get inspirations for?",
+            "description": "Subjects include animals, people, landscapes, objects, abstract ideas, fantasy creatures, food, plants, portraits, everyday scenes, and creative explorations. DrawSpark's AI covers the full art subject spectrum across all skill levels.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save drawing inspirations for later?",
+            "description": "Yes. When you find a drawing inspiration you love, click the heart icon to add it to your favorites. Your saved inspirations live on the My Inspirations page — perfect for curating the sparks you want to draw later.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular prompt list?",
+            "description": "Most prompt lists are short and quickly exhausted. DrawSpark's drawing inspirations deliver fresh, atmospheric, varied sparks every time — across every major subject area — so your inspiration never runs dry.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What styles can I get inspirations in?",
+            "description": "DrawSpark covers every major art style: cute, cool, aesthetic, simple, realistic, dark, vintage, minimalist, illustrated, abstract, surreal, cartoon, and more. Pick a style filter to focus on the aesthetic you love most.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get inspirations for specific subjects?",
+            "description": "Absolutely. Use the subject filter to focus on animals, people, landscapes, objects, fantasy, or anything else. The generator combines your subject with diverse styles, fresh angles, and inspiring compositions every time.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a drawing inspiration take to complete?",
+            "description": "Most drawing inspirations from DrawSpark take 15 minutes to 1 hour to complete well. The AI includes time estimates so you can plan your session. Perfect for both quick doodles and dedicated art time.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these inspirations good for beginners?",
+            "description": "Yes — every drawing inspiration comes with a difficulty rating. Beginners can pick easy and beginner-level sparks; experienced artists can take on medium and hard. Everyone gets something matched to their skill level.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished drawings?",
+            "description": "Yes. Every inspiration has a share button that copies a link to your clipboard. Share your finished art on social media, in art communities, or in your portfolio to showcase your inspired, varied work.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Drawing Inspirations"
+    },
+    "ideas-for-drawing-anime": {
+      "h1Title": "Ideas for Drawing Anime: 100+ Anime Characters, Outfits & Scene Concepts",
+      "h1Subtitle": "Looking for ideas for drawing anime? DrawSpark's AI generates authentic anime drawing ideas — chibi characters, magical girls, mecha pilots, slice-of-life scenes, manga panels, and expressive anime art ready to draw.",
+      "heroCta": "Generate Anime Drawing Ideas",
+      "heroPromptHint": "Pre-fills an anime-style idea",
+      "seoTitle": "Ideas for Drawing Anime — 100+ Characters & Scenes | DrawSpark",
+      "seoDescription": "Looking for ideas for drawing anime? DrawSpark's free AI generator delivers authentic anime drawing ideas — chibi characters, magical girls, mecha, slice-of-life scenes, manga panels, and anime art for every skill level.",
+      "seoKeywords": "ideas for drawing anime, anime drawing ideas, anime characters to draw, manga drawing ideas, anime art ideas, anime sketch ideas, chibi drawing ideas, anime drawing prompts, anime outfit ideas",
+      "head1": {
+        "title": "DrawSpark's Anime Drawing Ideas Generator",
+        "description": "Want to draw anime that actually looks like anime? DrawSpark's AI delivers authentic ideas for drawing anime — chibi characters, manga panels, magical girls, mecha pilots, expressive poses, and slice-of-life scenes ready to sketch.",
+        "buttonText": "Generate Anime Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Anime Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's anime drawing ideas generator is built for anime artists who want authentic, varied, ready-to-sketch prompts across every genre of anime art. The AI generates anime-style concepts — chibi characters with oversized heads, full magical-girl transformations, mecha cockpit scenes, slice-of-life moments, romance spreads, action panels, school scenes, demon-slayer portraits, and cyberpunk compositions — all tailored to your skill level. Each idea comes with a title, short description, subject tag, anime-style tag, and difficulty rating so you know exactly what kind of anime art you're committing to. The generator covers the full anime spectrum: shounen action, shoujo romance, slice-of-life, isekai fantasy, magical girl, mecha, cyberpunk, horror, historical drama, sports, and chibi. You can filter by style to focus on classic anime, manga line art, kawaii chibi, or modern anime aesthetics. DrawSpark also maintains a public gallery of community anime art you can browse for inspiration and study techniques.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Anime Drawing Ideas Generator Work?",
+        "buttonText": "Generate Anime Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Anime Drawing Ideas Generator",
+            "description": "Visit this page and hit the generate button. The anime drawing ideas generator is free, runs instantly, and requires no login — perfect for anime artists who want fresh character prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Anime Drawing Ideas",
+            "description": "DrawSpark instantly creates 5 anime drawing ideas. Each comes with a title, description, subject tag, anime style tag, and difficulty — all matched to authentic anime art worth drawing.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick an Idea and Start Drawing",
+            "description": "Browse the 5 anime ideas, pick the one that excites you most, and start drawing. Save favorites for future sketches, share your finished anime art, or regenerate anytime for fresh prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Anime Drawing Ideas?",
+        "description": "DrawSpark's anime drawing ideas adapt to any anime art project that needs fresh, authentic character concepts — from chibi practice to manga panels to full character designs and outfit experiments.",
+        "buttonText": "Generate Anime Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Design Original Anime Characters",
+            "description": "Get ideas for drawing anime characters from every genre — magical girls, mecha pilots, demon slayers, school idols — perfect for OC development and full character sheet sketches.",
+            "buttonText": "Get OC Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Practice Chibi & Manga Style",
+            "description": "Find anime drawing ideas at every skill level — cute chibi figures, manga panel compositions, classic shounen poses — perfect for building anime art fundamentals and style fluency.",
+            "buttonText": "Get Chibi Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Build an Anime Portfolio",
+            "description": "Collect anime drawing ideas across every genre and difficulty — slice-of-life, isekai, cyberpunk, horror — perfect for a portfolio that shows your full anime range to fans and clients.",
+            "buttonText": "Get Portfolio Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Anime Art",
+            "description": "Explore the public gallery of anime drawing ideas shared by other artists. See how creators render the same prompts and find your own unique angle for each anime concept.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Anime Drawing Ideas Generator For?",
+        "buttonText": "Generate Anime Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Anime Art Beginners",
+            "description": "Want to learn anime art from scratch? DrawSpark's anime drawing ideas give you genre-aware prompts at every skill level — easy chibi to advanced mecha — perfect for steady anime growth.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Manga Artists in Training",
+            "description": "Practicing manga panels? DrawSpark's ideas for drawing anime deliver panel-ready compositions with action, dialogue moments, and emotional beats baked into every prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anime Character Designers",
+            "description": "Designing original anime characters for stories, games, or fandoms? DrawSpark's anime drawing ideas spark original concepts across every genre so you never run out of OC material.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Anime Drawing Ideas Generator?",
+        "buttonText": "Generate Anime Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Authentic Anime Style, Not Generic",
+            "description": "Most anime prompt lists are generic and Western-skewed. DrawSpark's anime drawing ideas are tuned for shounen, shoujo, isekai, magical girl, mecha, and chibi — every major anime genre.",
+            "buttonText": "See Anime Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of anime drawing ideas per day — that's 150 anime prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Achievable",
+            "description": "Every anime drawing idea includes a clear genre, character type, and difficulty rating — so you know exactly what kind of anime art you're committing to before you start sketching.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Anime Artists Say About DrawSpark's Anime Drawing Ideas",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 1380 Reviews",
+        "content": [
+          {
+            "title": "Genre Coverage Wins",
+            "description": "Other tools just give me generic character prompts. DrawSpark's anime drawing ideas hit every genre I love — magical girl, isekai, mecha, slice-of-life. My sketchbook feels authentically anime now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Aiko Nakamura",
+            "ext3": "Anime OC Artist"
+          },
+          {
+            "title": "Chibi Practice Gold",
+            "description": "I've wanted to draw chibis well for years. DrawSpark's anime drawing ideas give me cute chibi prompts every day. After three months my chibi style actually looks like anime chibi, not Western kids.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Theo Martin",
+            "ext3": "Chibi-Focused Artist"
+          },
+          {
+            "title": "Manga Panel Inspiration",
+            "description": "I plan a weekly one-shot manga. DrawSpark's anime drawing ideas spark the panel compositions and character moments I need. Two of my chapters came directly from prompts here.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Kenji Park",
+            "ext3": "Indie Manga Creator"
+          },
+          {
+            "title": "OC Factory",
+            "description": "I design anime OCs for friends and clients. DrawSpark's ideas for drawing anime give me unique character concepts daily. My commissions tripled once I had steady fresh material.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Lila Okonkwo",
+            "ext3": "Anime OC Designer"
+          },
+          {
+            "title": "Class Resource",
+            "description": "I teach anime art and DrawSpark's anime drawing ideas give me genre-specific weekly prompts. My students' portfolios show real anime range by the end of the term now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mei-Lin Chen",
+            "ext3": "Anime Art Teacher"
+          },
+          {
+            "title": "Genre Confidence",
+            "description": "I only drew shounen before. DrawSpark's anime drawing ideas pushed me into shoujo, magical girl, horror anime. I now feel confident in every genre and clients notice.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Owen Reid",
+            "ext3": "Multi-Genre Anime Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Anime Drawing Ideas",
+        "buttonText": "Generate Anime Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of anime ideas can I get?",
+            "description": "You can get anime drawing ideas across every major genre: shounen action, shoujo romance, isekai fantasy, magical girl, mecha, slice-of-life, cyberpunk, horror, historical, sports, and chibi. Every prompt is genre-tuned.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is this anime drawing ideas generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of anime drawing ideas per day, with 5 anime prompts in each batch — 150 every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What anime character types can I get?",
+            "description": "DrawSpark covers magical girls, mecha pilots, demon slayers, school idols, isekai heroes, cyberpunk hackers, slice-of-life classmates, chibi mascots, historical samurai, and fantasy knights across every anime type.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save anime drawing ideas for later?",
+            "description": "Yes. Click the heart icon next to any anime drawing idea to save it. Your saved anime prompts live on the My Inspirations page — perfect for curating the OCs and panels you want to draw.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular anime prompt list?",
+            "description": "Most anime prompt lists are short and quickly exhausted. DrawSpark's ideas for drawing anime deliver fresh, genre-specific concepts every time — so you never hit the same prompt twice in a row.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What anime styles can I get?",
+            "description": "DrawSpark covers classic anime, manga line art, kawaii chibi, modern anime aesthetics, retro 90s shounen, contemporary cinematic anime, watercolor anime, and ink-brush anime — every major anime style.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get ideas for specific anime genres?",
+            "description": "Absolutely. Use the genre and style filters to focus on shounen, shoujo, isekai, magical girl, mecha, or slice-of-life. The generator combines your chosen genre with fresh characters and panel compositions.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does an anime drawing idea take?",
+            "description": "Most anime drawing ideas from DrawSpark take 30 minutes to 2 hours to complete well, depending on complexity. Chibi and color studies are quicker; full scenes and mecha designs run longer. Time estimates are included.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these ideas good for anime beginners?",
+            "description": "Yes — every anime drawing idea comes with a difficulty rating. Beginners can pick easy chibi and head-shot prompts; experienced artists can take on full panels and mecha designs. Everyone gets something matched.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my anime art?",
+            "description": "Yes. Every anime drawing idea has a share button that copies a link to your clipboard. Share your finished anime art on social media, in anime communities, or in your portfolio to showcase your anime work.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Anime Drawing Ideas"
+    },
+    "christmas-card-drawing-ideas": {
+      "h1Title": "Christmas Card Drawing Ideas: 100+ Festive, Cute & Heartwarming Designs",
+      "h1Subtitle": "Need christmas card drawing ideas? DrawSpark's AI generates festive designs — cozy scenes, reindeer families, snow globes, ornaments, heartfelt card-ready illustrations, and warm holiday art ready to send.",
+      "heroCta": "Generate Christmas Card Drawing Ideas",
+      "heroPromptHint": "Pre-fills a christmas-themed idea",
+      "seoTitle": "Christmas Card Drawing Ideas — 100+ Festive Designs | DrawSpark",
+      "seoDescription": "Need christmas card drawing ideas? DrawSpark's free AI generator delivers festive designs — cozy scenes, reindeer families, snow globes, ornaments, and warm holiday card-ready illustrations for every style.",
+      "seoKeywords": "christmas card drawing ideas, christmas drawing ideas, holiday card drawings, festive drawing ideas, christmas card designs, christmas sketch ideas, holiday drawing ideas, xmas card art",
+      "head1": {
+        "title": "DrawSpark's Christmas Card Drawing Ideas Generator",
+        "description": "Designing christmas cards? DrawSpark's AI delivers festive drawing ideas — cozy fireplaces, snow-globe villages, reindeer families, ornament close-ups, and warm holiday scenes ready to render as card-ready illustrations.",
+        "buttonText": "Generate Christmas Card Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Christmas Card Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's christmas card drawing ideas generator is built for artists who want festive, card-ready, warm-hearted holiday concepts without generic holiday clip-art vibes. The AI generates christmas prompts — cozy fireplaces with hanging stockings, snow-globe villages, reindeer families in flight, ornament close-ups with sparkle, gingerbread-house scenes, holiday portraits, woodland winter creatures, and warm family moments — all tailored to your skill level. Each idea comes with a title, short description, holiday tag, style tag, and difficulty rating so you know exactly what kind of christmas card you're committing to. The generator covers the full holiday spectrum: cute kawaii christmas, classic vintage cards, modern minimal christmas, watercolor holiday, cozy cottagecore winter, and illustrative festive art. You can filter by style to focus on cute, vintage, modern, or storybook christmas aesthetics. DrawSpark also maintains a public gallery of community christmas art you can browse for card-ready inspiration and study card composition.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Christmas Card Drawing Ideas Generator Work?",
+        "buttonText": "Generate Christmas Card Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Christmas Card Drawing Ideas Generator",
+            "description": "Visit this page and hit the generate button. The christmas card drawing ideas generator is free, runs instantly, and requires no login — perfect for holiday artists who want fresh festive prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Festive Christmas Card Ideas",
+            "description": "DrawSpark instantly creates 5 christmas card drawing ideas. Each comes with a title, description, holiday tag, style tag, and difficulty — all matched to authentic festive card-ready art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick an Idea and Start Drawing",
+            "description": "Browse the 5 christmas card ideas, pick the one that warms you up most, and start drawing. Save favorites for future card designs, share your finished holiday art, or regenerate anytime.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Christmas Card Drawing Ideas?",
+        "description": "DrawSpark's christmas card drawing ideas adapt to any holiday art project that needs festive, card-ready, heartwarming concepts — from personal cards to commercial holiday designs to family traditions.",
+        "buttonText": "Generate Christmas Card Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Make Personal Holiday Cards",
+            "description": "Get christmas card drawing ideas for personal greetings — cozy fireplaces, family portraits, woodland scenes — perfect for heartfelt cards that friends and family will treasure year after year.",
+            "buttonText": "Get Card Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Design Commercial Holiday Cards",
+            "description": "Find christmas card drawing ideas for client commissions and stock art — reindeer families, snow globes, ornaments — perfect for a holiday portfolio that wins seasonal contracts.",
+            "buttonText": "Get Commercial Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Create Cozy Holiday Art",
+            "description": "Draw christmas card drawing ideas purely for the joy of the season — gingerbread cottages, hot cocoa mugs, winter wildlife — perfect for posting cozy holiday art to warm up social feeds.",
+            "buttonText": "Get Cozy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Holiday Art",
+            "description": "Explore the public gallery of christmas card drawing ideas shared by other artists. See how creators render festive scenes and find your own take on cozy, card-ready holiday illustration.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Christmas Card Drawing Ideas Generator For?",
+        "buttonText": "Generate Christmas Card Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Holiday Card Designers",
+            "description": "Designing christmas cards for family or clients? DrawSpark's christmas card drawing ideas deliver festive, card-ready, warm concepts across every holiday aesthetic — easy to render and beautiful to send.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Illustrators Building Holiday Portfolios",
+            "description": "Building a holiday illustration portfolio? DrawSpark's christmas card drawing ideas give you fresh festive concepts across every style — perfect for showing seasonal range to clients and galleries.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Who Loves Cozy Christmas Art",
+            "description": "Want to draw christmas just for the joy of it? DrawSpark's christmas card drawing ideas deliver cozy, heartwarming prompts you can render into the warmest pieces of the season.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Christmas Card Drawing Ideas Generator?",
+        "buttonText": "Generate Christmas Card Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Festive & Card-Ready, Not Generic",
+            "description": "Most holiday prompt lists are the same ten generic ideas. DrawSpark's christmas card drawing ideas deliver fresh, card-ready, warm concepts tailored to festive illustration across every aesthetic.",
+            "buttonText": "See Festive Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of christmas card drawing ideas per day — that's 150 festive prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Achievable",
+            "description": "Every christmas card drawing idea includes a clear subject, style, and difficulty rating so you know exactly what festive piece you're committing to before you start sketching.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Christmas Card Drawing Ideas",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 920 Reviews",
+        "content": [
+          {
+            "title": "Family Card Tradition",
+            "description": "Every year I make christmas cards for thirty family members. DrawSpark's christmas card drawing ideas give me a fresh, festive design every November. My family now collects them like artifacts.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Eleanor Whitfield",
+            "ext3": "Family Card Artist"
+          },
+          {
+            "title": "Stock Art Gold",
+            "description": "I sell christmas card designs on stock sites. DrawSpark's christmas card drawing ideas spark fresh festive concepts I wouldn't have thought of. My holiday revenue jumped 40% the first season I used it.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tobias Schmidt",
+            "ext3": "Holiday Stock Artist"
+          },
+          {
+            "title": "Cozy Vibe Source",
+            "description": "I just love christmas and DrawSpark's christmas card drawing ideas deliver the coziest prompts — fireplaces, hot cocoa, snow globes. Every december my sketchbook turns into pure holiday warmth.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Clara Dubois",
+            "ext3": "Cozy-Style Artist"
+          },
+          {
+            "title": "Client Wins",
+            "description": "I take holiday commissions each year. DrawSpark's christmas card drawing ideas let me mock up options for clients fast. My close rate doubled because I can show five festive concepts in minutes.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Hannah Vega",
+            "ext3": "Holiday Commission Artist"
+          },
+          {
+            "title": "Class Tradition",
+            "description": "I run a kids' holiday art class and DrawSpark's christmas card drawing ideas give me festive prompts at every skill level. My students' cards now look like real holiday illustration, not generic crafts.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marcus Bell",
+            "ext3": "Kids' Art Teacher"
+          },
+          {
+            "title": "Reignited Holiday Drawing",
+            "description": "I'd stopped drawing christmas scenes after years of repetition. DrawSpark's christmas card drawing ideas brought back the joy — fresh festive concepts I hadn't considered. I love december again.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Yumiko Sato",
+            "ext3": "Returning Holiday Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Christmas Card Drawing Ideas",
+        "buttonText": "Generate Christmas Card Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of christmas card ideas can I get?",
+            "description": "DrawSpark's christmas card drawing ideas cover cozy fireplaces, snow globes, reindeer families, ornaments, gingerbread houses, holiday portraits, woodland winter creatures, hot cocoa scenes, and warm family moments.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the christmas card generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of christmas card drawing ideas per day, with 5 festive prompts in each batch — 150 every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What christmas styles can I get?",
+            "description": "DrawSpark covers cute kawaii christmas, classic vintage cards, modern minimal christmas, watercolor holiday, cozy cottagecore winter, folk-art christmas, storybook festive art, and contemporary card illustration.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save christmas card ideas for later?",
+            "description": "Yes. Click the heart icon next to any christmas card drawing idea to save it. Your saved holiday prompts live on the My Inspirations page — perfect for planning next year's card designs.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from generic christmas prompt lists?",
+            "description": "Most christmas prompt lists recycle the same ten ideas. DrawSpark's christmas card drawing ideas deliver fresh, card-ready, festive concepts every time — across every cozy holiday aesthetic.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get ideas for cute kawaii christmas?",
+            "description": "Absolutely. Use the style filter to focus on kawaii christmas — chibi reindeer, cute ornaments, sweet gingerbread — perfect for adorable card-ready illustrations for kids and sweet-tooth fans.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a christmas card drawing idea take?",
+            "description": "Most christmas card drawing ideas take 30 minutes to 2 hours to complete well. Simple ornament close-ups are quick; full cozy scene illustrations take longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these ideas good for beginners?",
+            "description": "Yes — every christmas card drawing idea comes with a difficulty rating. Beginners can pick easy ornament and stocking prompts; experienced artists can take on full cozy winter scenes and family portraits.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I print these as cards?",
+            "description": "Yes. Once you've drawn the christmas card idea, you can export it at any resolution and print. DrawSpark's prompts are sized for typical card aspect ratios and render cleanly at print scale.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my christmas card art?",
+            "description": "Yes. Every christmas card idea has a share button that copies a link to your clipboard. Share your finished holiday art on social media, in christmas groups, or send it directly to friends and family.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Christmas Card Ideas"
+    },
+    "random-drawing-prompt": {
+      "h1Title": "Random Drawing Prompts: 100+ Wild, Weird & Inspiring Ideas",
+      "h1Subtitle": "Need a random drawing prompt? DrawSpark rolls surprise ideas — bizarre combos, mashups, first lines, and unexpected twists to break any creative block and spark art you never planned.",
+      "heroCta": "Generate Random Drawing Prompt",
+      "heroPromptHint": "Rolls a surprise prompt",
+      "seoTitle": "Random Drawing Prompts — 100+ Wild & Surprising Ideas | DrawSpark",
+      "seoDescription": "Need a random drawing prompt? DrawSpark rolls fresh, wild, surprising drawing ideas — bizarre combos, mashups, first lines, and unexpected twists to break creative blocks and spark new art.",
+      "seoKeywords": "random drawing prompt, random drawing ideas, random art prompt generator, surprise drawing prompt, weird drawing prompts, drawing prompt generator, random sketch ideas, unexpected drawing ideas",
+      "head1": {
+        "title": "DrawSpark's Random Drawing Prompt Generator",
+        "description": "Want a random drawing prompt that actually surprises you? DrawSpark rolls fresh, weird, unexpected prompts — bizarre mashups, surprise combinations, and first-line sparkers to jolt you out of any rut.",
+        "buttonText": "Generate Random Drawing Prompt",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Random Drawing Prompt Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's random drawing prompt generator is built for artists who want genuine surprise — prompts they would never think to assign themselves. The AI rolls unexpected, weird, fresh, mashup-driven concepts — a violin-playing octopus in a thunderstorm, a forgotten shelf in a haunted library, a toddler astronaut arguing with a cat, a snail-mail post office in space — all generated with fresh combinatorial creativity. Each random prompt comes with a title, short description, subject tag, style tag, and difficulty rating so you know exactly what kind of surprise you're about to render. The generator explores the full range of randomness: weird mashups, unusual perspectives, abandoned spaces, imaginary creatures, time-shifted scenes, color-driven concepts, and emotional snapshots. You can dial randomness up for chaotic surprises or down for slightly tame random prompts. DrawSpark also maintains a public gallery of community art you can browse for inspiration and see how other artists interpret the same random prompts.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Random Drawing Prompt Generator Work?",
+        "buttonText": "Generate Random Drawing Prompt",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Random Drawing Prompt Generator",
+            "description": "Visit this page and hit the generate button. The random drawing prompt generator is free, runs instantly, and requires no login — perfect for artists who want genuine surprise without lifting a finger.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Random Drawing Prompts",
+            "description": "DrawSpark instantly rolls 5 random drawing prompts. Each comes with a title, description, subject tag, style tag, and difficulty — all matched to genuinely surprising, fresh art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick a Surprise and Start Drawing",
+            "description": "Browse the 5 random prompts, pick the one that surprises you most, and start drawing. Save favorites for future sketches, share your art, or re-roll for fresh random prompts anytime.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Random Drawing Prompts?",
+        "description": "DrawSpark's random drawing prompts adapt to any art project that needs creative surprise — from block-breaking daily practice to sketch roulette with friends to one-off wild experiments.",
+        "buttonText": "Generate Random Drawing Prompt",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Break Creative Blocks",
+            "description": "Stuck on what to draw next? DrawSpark's random drawing prompts roll you a surprise you would never pick yourself. The fresh angle snaps blocks in minutes and gets you drawing again.",
+            "buttonText": "Get Block-Breakers",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Run Sketch Roulette with Friends",
+            "description": "Use DrawSpark's random drawing prompts for group sessions — roll a surprise prompt, set a timer, compare results. Friends, classrooms, and online communities love the surprise element.",
+            "buttonText": "Get Roulette Prompts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Daily Surprise Practice",
+            "description": "Pull a random drawing prompt every morning as your daily art assignment. Surprises keep practice fresh and force you out of your comfort zone across subjects and styles you would never pick alone.",
+            "buttonText": "Get Daily Surprises",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Random Art",
+            "description": "Explore the public gallery of random drawing prompts rendered by other artists. See how creatives interpret wild prompts and find your own unexpected take on each surprise.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Random Drawing Prompt Generator For?",
+        "buttonText": "Generate Random Drawing Prompt",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artists in Creative Ruts",
+            "description": "Stuck drawing the same things on repeat? DrawSpark's random drawing prompts roll surprises that force you into fresh territory and break the rut within a single session.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Sketch-Roulette Group Hosts",
+            "description": "Running group sessions or online challenges? DrawSpark's random drawing prompts give you a fresh surprise for every participant — no two artists ever get the same starting line.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Hobbyists Wanting Surprise",
+            "description": "Want to draw but bored of your own ideas? DrawSpark's random drawing prompts roll fresh, weird, unexpected concepts that make every art session feel like a small gift.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Random Drawing Prompt Generator?",
+        "buttonText": "Generate Random Drawing Prompt",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Truly Random, Not Just Generic",
+            "description": "Most random prompt tools recycle the same hundred ideas. DrawSpark's AI combines subjects, styles, and angles combinatorially for fresh surprises every roll — never the same prompt twice.",
+            "buttonText": "Roll a Surprise",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Roll up to 30 fresh batches of random drawing prompts per day — that's 150 surprise prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Surprising, Achievable",
+            "description": "Every random drawing prompt includes a clear subject, scene, and difficulty rating — so you know exactly what kind of surprise you're committing to before you start drawing.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Random Drawing Prompt Generator",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 1105 Reviews",
+        "content": [
+          {
+            "title": "Block-Breaker Magic",
+            "description": "I had been staring at a blank page for weeks. DrewSpark's random drawing prompts rolled me 'a violin-playing octopus in a thunderstorm' and I drew it that night. Block gone in one session. Genuinely magical.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Luca Romano",
+            "ext3": "Block-Breaker Artist"
+          },
+          {
+            "title": "Sketch Roulette Hit",
+            "description": "I run a weekly online sketch roulette. DrawSpark's random drawing prompts give me a fresh surprise for every participant without repeats. Sessions feel unpredictable and exciting.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Naomi Fields",
+            "ext3": "Sketch Roulette Host"
+          },
+          {
+            "title": "Comfort Zone Buster",
+            "description": "I always drew the same types of things. DrawSpark's random drawing prompts pushed me into portraits, abstract, surreal, fantasy. I discovered three genres I now love to draw.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Patrick Larsen",
+            "ext3": "Range-Building Artist"
+          },
+          {
+            "title": "Daily Surprise Joy",
+            "description": "Every morning I roll a random drawing prompt and draw it before lunch. The surprise keeps me engaged — it feels like opening a small gift. My daily practice is the strongest of my life.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ines Marquez",
+            "ext3": "Daily Surprise Sketcher"
+          },
+          {
+            "title": "Class Engagement Win",
+            "description": "I teach art foundations. Random drawing prompts from DrawSpark kicked my classroom engagement up threefold. Students stay curious because they never know what surprise is coming next.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Robert Chen",
+            "ext3": "Foundations Art Teacher"
+          },
+          {
+            "title": "Hobby Spark Returned",
+            "description": "I'd been bored with my hobby. DrawSpark's random drawing prompts brought back the spark. I never know what's coming, and that unpredictability is exactly what I needed to fall in love with drawing again.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Greta Lindqvist",
+            "ext3": "Returning Hobby Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Random Drawing Prompt Generator",
+        "buttonText": "Generate Random Drawing Prompt",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "How random are the drawing prompts?",
+            "description": "DrawSpark's random drawing prompts are generated by combining subjects, styles, scenes, and angles combinatorially — so each prompt is genuinely fresh and rarely matches another artist's prompt set.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the random prompt generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Roll up to 30 fresh batches of random drawing prompts per day, with 5 surprise prompts in each batch — 150 every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What kinds of random prompts can I get?",
+            "description": "Surprise prompts include weird mashups, unusual perspectives, abandoned spaces, imaginary creatures, time-shifted scenes, color-driven concepts, and emotional snapshots — across every subject and style.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save random prompts for later?",
+            "description": "Yes. Click the heart icon next to any random drawing prompt to save it. Your saved surprises live on the My Inspirations page — perfect for picking the wildest prompts to draw over time.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular random idea list?",
+            "description": "Most random idea lists cycle through the same hundred prompts. DrawSpark's random drawing prompts are generated fresh every time you roll — with combinatorial novelty no list can match.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I control how random the prompts are?",
+            "description": "Yes. Pick style filters to keep prompts within your favorite aesthetics, or go filterless for true random surprise. The generator respects your choices while still rolling fresh combinations.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a random drawing prompt take?",
+            "description": "Most random drawing prompts take 20 minutes to 1.5 hours to complete well. Simple mashup prompts are quick; elaborate scene prompts run longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these prompts good for beginners?",
+            "description": "Yes — every random drawing prompt comes with a difficulty rating. Beginners can pick easy and beginner-level surprises; experienced artists can take on complex mashups. Everyone gets something matched.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I reroll if I don't like a prompt?",
+            "description": "Absolutely. If none of the 5 prompts speak to you, just hit generate again. You can reroll as many times as you like within your daily 30-batch limit, no penalty, no waiting.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished random art?",
+            "description": "Yes. Every random drawing prompt has a share button that copies a link to your clipboard. Share your finished surprise art on social media, in art communities, or in your portfolio.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Random Drawing Prompts"
+    },
+    "drawing-design-ideas": {
+      "h1Title": "Drawing Design Ideas: 100+ Creative Concepts & Layouts",
+      "h1Subtitle": "Looking for drawing design ideas? DrawSpark's AI generates composition-ready concepts — posters, layouts, illustrations, and visual design prompts ready to sketch for design portfolios and personal art.",
+      "heroCta": "Generate Drawing Design Ideas",
+      "heroPromptHint": "Pre-fills a design-driven idea",
+      "seoTitle": "Drawing Design Ideas — 100+ Creative Concepts & Layouts | DrawSpark",
+      "seoDescription": "Looking for drawing design ideas? DrawSpark's free AI generator delivers composition-ready concepts — posters, layouts, illustrations, and visual design prompts ready to sketch at every skill level.",
+      "seoKeywords": "drawing design ideas, design drawing ideas, graphic design drawing ideas, layout drawing ideas, poster drawing ideas, illustration design ideas, visual design concepts, design sketch ideas",
+      "head1": {
+        "title": "DrawSpark's Drawing Design Ideas Generator",
+        "description": "Need design-driven drawing concepts? DrawSpark's AI delivers composition-ready prompts — bold posters, dynamic layouts, expressive illustrations, and visual design sparks ready to render at every skill level.",
+        "buttonText": "Generate Drawing Design Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Drawing Design Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's drawing design ideas generator is built for artists who want composition-driven, layout-aware, design-ready concepts — not just subject prompts. The AI generates visual design prompts — bold posters, dynamic layouts, expressive illustrations, brand-mark ideas, infographic scenes, editorial spreads, and storytelling compositions — all tailored to your skill level. Each idea comes with a title, short description, subject tag, style tag, layout hint, and difficulty rating so you know exactly what kind of design piece you're committing to. The generator covers the full visual design spectrum: poster illustration, magazine layout, branding art, infographic drawing, motion-composition stills, social-card design, and editorial concept art. You can filter by style to focus on minimal, bold, vintage, modern, or experimental design aesthetics. DrawSpark also maintains a public gallery of community design art you can browse for layout inspiration and study composition techniques.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Drawing Design Ideas Generator Work?",
+        "buttonText": "Generate Drawing Design Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Drawing Design Ideas Generator",
+            "description": "Visit this page and hit the generate button. The drawing design ideas generator is free, runs instantly, and requires no login — perfect for designers who want fresh composition-driven prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Drawing Design Ideas",
+            "description": "DrawSpark instantly creates 5 drawing design ideas. Each comes with a title, description, subject tag, style tag, layout hint, and difficulty — all matched to composition-ready design art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick a Design Idea and Start Drawing",
+            "description": "Browse the 5 drawing design ideas, pick the one that excites you most, and start drawing. Save favorites, share your finished layouts, or regenerate anytime for fresh design prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Drawing Design Ideas?",
+        "description": "DrawSpark's drawing design ideas adapt to any design art project that needs fresh, composition-driven concepts — from portfolio pieces to client mockups to design exercise practice.",
+        "buttonText": "Generate Drawing Design Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Build a Design Portfolio",
+            "description": "Find fresh drawing design ideas across every aesthetic — minimal, bold, vintage, modern, experimental — perfect for a portfolio that shows composition range and visual thinking depth.",
+            "buttonText": "Get Portfolio Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Mock Up Client Concepts",
+            "description": "Use drawing design ideas to mock up layouts and concepts for client pitches. Show five composition options in minutes rather than hours — and win more briefs with fast, varied options.",
+            "buttonText": "Get Client Concepts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Practice Composition Skills",
+            "description": "Train your eye for layout, balance, hierarchy, and visual flow with daily drawing design ideas. Render one a day and your composition fundamentals sharpen fast and visibly.",
+            "buttonText": "Get Practice Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Design Art",
+            "description": "Explore the public gallery of drawing design ideas rendered by other designers. See how creators solve layout problems and find your own take on composition-driven illustration.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Drawing Design Ideas Generator For?",
+        "buttonText": "Generate Drawing Design Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Design-Focused Illustrators",
+            "description": "Want to push your illustration toward design? DrawSpark's drawing design ideas deliver composition-driven prompts that train your eye for layout, balance, and visual hierarchy.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Designers Wanting Practice",
+            "description": "Practicing composition skills? DrawSpark's drawing design ideas give you fresh layout-driven prompts at every skill level — perfect for sharpening fundamental visual design thinking.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Students Building Portfolios",
+            "description": "Building a design portfolio for school or jobs? DrawSpark's drawing design ideas deliver varied, composition-ready pieces that show range across minimal, bold, vintage, and modern aesthetics.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Drawing Design Ideas Generator?",
+        "buttonText": "Generate Drawing Design Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Composition-Driven, Not Just Subject",
+            "description": "Most design prompt lists only name subjects. DrawSpark's drawing design ideas include layout hints, hierarchy notes, and balance concepts so you can practice real visual design thinking.",
+            "buttonText": "See Design Concepts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of drawing design ideas per day — that's 150 composition-ready prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Achievable",
+            "description": "Every drawing design idea includes a clear subject, layout style, and difficulty rating so you know exactly what design piece you're committing to before you start sketching.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Drawing Design Ideas",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 845 Reviews",
+        "content": [
+          {
+            "title": "Composition Trainer",
+            "description": "I'd been illustrating strong subjects but my layouts were weak. DrawSpark's drawing design ideas forced me to think about composition. After six months my portfolio looks like a designer's, not just an illustrator's.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Helena Park",
+            "ext3": "Composition-Growing Illustrator"
+          },
+          {
+            "title": "Client Pitch Win",
+            "description": "I pitch three design mockups per client meeting now, all from DrawSpark's drawing design ideas. My close rate doubled — clients love seeing fast varied options before committing to full commissions.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Quentin Reyes",
+            "ext3": "Design Pitch Artist"
+          },
+          {
+            "title": "Layout Eye Upgrade",
+            "description": "I used to default to centered compositions. DrawSpark's drawing design ideas pushed me into dynamic asymmetric layouts, golden-ratio placements, and strong negative space. My visual eye grew up.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Saoirse Walsh",
+            "ext3": "Layout-Learning Artist"
+          },
+          {
+            "title": "Design School Cram",
+            "description": "Final-year design student. DrawSpark's drawing design ideas gave me a portfolio's worth of varied layout-driven pieces during portfolio week. Two recruiters commented on my composition range specifically.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ravi Kumar",
+            "ext3": "Final-Year Design Student"
+          },
+          {
+            "title": "Editorial Practice",
+            "description": "I want to do editorial illustration. DrawSpark's drawing design ideas give me composition-ready concepts weekly. My editorial submission folder doubled in a few months.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Iris Gagnon",
+            "ext3": "Editorial-Focused Illustrator"
+          },
+          {
+            "title": "Brand Identity Wins",
+            "description": "I run a small brand identity studio. DrawSpark's drawing design ideas spark fresh brand-mark illustrations for moodboards. Clients see five composition directions in the first meeting now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mateo Dominguez",
+            "ext3": "Brand Identity Designer"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Drawing Design Ideas",
+        "buttonText": "Generate Drawing Design Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of drawing design ideas can I get?",
+            "description": "DrawSpark's drawing design ideas cover posters, magazine layouts, brand-mark illustrations, infographic scenes, editorial spreads, social-card designs, motion-composition stills, and concept art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the drawing design ideas generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of drawing design ideas per day — that's 150 composition-ready prompts every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What design styles can I get?",
+            "description": "DrawSpark covers minimal, bold, vintage, modern, experimental, swiss, art-deco, retro, contemporary, watercolor, painterly, and graphic design aesthetics. Pick a style filter to focus on the look you love.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save drawing design ideas for later?",
+            "description": "Yes. Click the heart icon next to any drawing design idea to save it. Your saved composition prompts live on the My Inspirations page — perfect for queuing layout ideas for later rendering sessions.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular subject prompt?",
+            "description": "Most prompt lists focus only on subjects. DrawSpark's drawing design ideas include layout hints, hierarchy notes, and balance concepts so you practice real visual design thinking — not just subject matter.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get ideas for specific design styles?",
+            "description": "Absolutely. Use style filters to focus on minimal, bold, vintage, modern, or experimental design aesthetics. The generator combines your chosen style with fresh subjects and composition drivers.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a design idea take to complete?",
+            "description": "Most drawing design ideas take 30 minutes to 2 hours to complete well. Simple composition studies are quick; full poster mockups run longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these ideas good for beginners?",
+            "description": "Yes — every drawing design idea comes with a difficulty rating. Beginners can pick easy layout studies; experienced designers can take on full composition mockups. Everyone gets something matched to their skill.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I use these for client work?",
+            "description": "Yes. The drawing design ideas are yours to render, modify, and use commercially. Many designers use them as starting points for client mockups and pitch concepts — just adapt the final art as you would any reference.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished design art?",
+            "description": "Yes. Every drawing design idea has a share button that copies a link to your clipboard. Share your finished layouts on social media, in design communities, or in your portfolio to showcase visual thinking.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Drawing Design Ideas"
+    },
+    "funny-drawing-ideas": {
+      "h1Title": "Funny Drawing Ideas: 100+ Silly, Absurd & Hilarious Concepts",
+      "h1Subtitle": "Want funny drawing ideas? DrawSpark delivers silly, absurd, meme-worthy concepts — ridiculous mashups, silly animal antics, and visual jokes that make people laugh and brighten any sketchbook.",
+      "heroCta": "Generate Funny Drawing Ideas",
+      "heroPromptHint": "Pre-fills a humorous idea",
+      "seoTitle": "Funny Drawing Ideas — 100+ Silly & Hilarious Concepts | DrawSpark",
+      "seoDescription": "Want funny drawing ideas? DrawSpark's free AI generator delivers silly, absurd, meme-worthy concepts — ridiculous mashups, silly animal antics, and visual jokes that make people laugh at every skill level.",
+      "seoKeywords": "funny drawing ideas, silly drawing ideas, humorous drawing prompts, absurd drawing ideas, meme drawing ideas, comedy drawing ideas, funny art prompts, ridiculous drawing ideas",
+      "head1": {
+        "title": "DrawSpark's Funny Drawing Ideas Generator",
+        "description": "Want funny drawing ideas that actually make people laugh? DrawSpark's AI delivers absurd, meme-worthy, hilarious concepts — silly animal antics, ridiculous mashups, and visual jokes ready to render and share.",
+        "buttonText": "Generate Funny Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Funny Drawing Ideas Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's funny drawing ideas generator is built for artists who want genuinely laugh-out-loud, meme-worthy, shareable humor in their art — not just generic slapstick prompts. The AI generates absurd, silly, comedic concepts — animals in ridiculous human situations, tiny things with massive attitudes, inappropriate object pairings, day-in-the-life comedies, visual punchlines, and meme-ready compositions — all tailored to your skill level. Each idea comes with a title, short description, subject tag, style tag, and difficulty rating so you know exactly what kind of comedy you're committing to. The generator covers the full humor spectrum: deadpan absurd, exaggerated slapstick, dry wit, anthropomorphic comedy, satirical punchlines, meme formats, and visual gags. You can filter by style to focus on cute, kawaii, dark humor, vintage gag-cartoon, or modern meme aesthetics. DrawSpark also maintains a public gallery of community funny art you can browse for inspiration.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Funny Drawing Ideas Generator Work?",
+        "buttonText": "Generate Funny Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Funny Drawing Ideas Generator",
+            "description": "Visit this page and hit the generate button. The funny drawing ideas generator is free, runs instantly, and requires no login — perfect for artists who want fresh laugh-out-loud prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Funny Drawing Ideas",
+            "description": "DrawSpark instantly creates 5 funny drawing ideas. Each comes with a title, description, subject tag, style tag, and difficulty — all matched to genuinely hilarious, shareable comedy art.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick a Funny Idea and Start Drawing",
+            "description": "Browse the 5 funny ideas, pick the one that makes you laugh hardest, and start drawing. Save favorites, share your comedy gold, or regenerate anytime for fresh funny prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Funny Drawing Ideas?",
+        "description": "DrawSpark's funny drawing ideas adapt to any art project that needs genuine humor — from social-feed sketches to gag gifts to classroom engagement to lightening personal portfolios.",
+        "buttonText": "Generate Funny Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Make Your Social Feed Laugh",
+            "description": "Generate funny drawing ideas for social posts that get shares and laughs. DrawSpark's comedy prompts are perfect for tiktok teasers, instagram carousel posts, and reddit-friendly one-off sketches.",
+            "buttonText": "Get Social-Comedy Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Create Gag-Gift Illustrations",
+            "description": "Find funny drawing ideas for personalized gag gifts and inside-joke art. DrawSpark's humor prompts give you a daily stream of comedic concepts friends and family will actually laugh at.",
+            "buttonText": "Get Gift Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Lighten Your Portfolio",
+            "description": "Add funny drawing ideas between serious portfolio pieces to show range and personality. Recruiters and clients love artists who can flex humor — it tells them you understand tone and audience.",
+            "buttonText": "Get Portfolio Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Funny Art",
+            "description": "Explore the public gallery of funny drawing ideas rendered by other artists. See how creators hit punchlines visually and find your own comedic timing through theirs.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Funny Drawing Ideas Generator For?",
+        "buttonText": "Generate Funny Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Comedy-Focused Cartoonists",
+            "description": "Drawing gag cartoons and need fresh ideas? DrawSpark's funny drawing ideas give you daily comedic concepts that punch visually — across deadpan, slapstick, meme, and gag styles.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Social-Feed Artists",
+            "description": "Want engagement on social? DrawSpark's funny drawing ideas give you comedic concepts tuned for share-ability. Posts rack up laughs, comments, and follows faster than serious portfolio pieces.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Who Loves a Good Laugh",
+            "description": "Just want to draw something funny? DrawSpark's funny drawing ideas roll absurd, silly, hilarious concepts that make the drawing process itself feel lighter and more fun.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Funny Drawing Ideas Generator?",
+        "buttonText": "Generate Funny Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Actually Funny, Not Just Try-Hard",
+            "description": "Most humor prompt lists feel generic and forced. DrawSpark's funny drawing ideas are trained on comedic structure so the punchlines land — absurd setups, escalating beats, visual payoffs.",
+            "buttonText": "See Funny Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of funny drawing ideas per day — that's 150 laugh-out-loud prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Comedic, Achievable",
+            "description": "Every funny drawing idea includes a clear subject, joke premise, and difficulty rating so you know exactly what kind of comedic piece you're committing to before you start sketching.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Funny Drawing Ideas",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 975 Reviews",
+        "content": [
+          {
+            "title": "Viral Post Source",
+            "description": "I posted a funny drawing idea from DrawSpark and it hit 50k likes. Now I post one comedy piece a week from the generator. My following tripled in two months.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Beatrice Long",
+            "ext3": "Viral-Comedy Artist"
+          },
+          {
+            "title": "Gag-Cartoon Freshness",
+            "description": "I've been drawing gag cartoons for ten years and they were getting stale. DrawSpark's funny drawing ideas gave me fresh comedic concepts I hadn't considered. Three made it into my weekly comic.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Marco Lindgren",
+            "ext3": "Gag-Cartoon Veteran"
+          },
+          {
+            "title": "Family Birthday Wins",
+            "description": "I make personalized gag-cartoon birthday cards for family. DrawSpark's funny drawing ideas spark fresh inside-joke art monthly. My nieces and nephews ask for them specifically now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Yuki Hoshino",
+            "ext3": "Family Gag Artist"
+          },
+          {
+            "title": "Stand-Up to Sketch Pipeline",
+            "description": "I do stand-up and DrawSpark's funny drawing ideas help me visualize jokes into single-frame sketches. Three of my set bits became illustrated posts that fans shared hard.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Daryl O'Connor",
+            "ext3": "Stand-Up-To-Sketch Artist"
+          },
+          {
+            "title": "Classroom Engagement",
+            "description": "I run a kids' art class and DrawSpark's funny drawing ideas keep my students giggling and drawing. Engagement went up immediately. The kids now ask for 'another funny one' every session.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Petra Novotna",
+            "ext3": "Kids' Comedy Art Teacher"
+          },
+          {
+            "title": "Mood Lifter",
+            "description": "I draw funny ideas from DrawSpark on bad mental-health days. The act of rendering a clever silly joke out of an absurd situation gets me laughing at my own work and lifts my mood.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tomás Ferreira",
+            "ext3": "Mood-Lift Sketcher"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Funny Drawing Ideas",
+        "buttonText": "Generate Funny Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of funny drawing ideas can I get?",
+            "description": "DrawSpark's funny drawing ideas cover deadpan absurd, exaggerated slapstick, dry wit, anthropomorphic comedy, satirical punchlines, meme formats, and visual gags across every subject area.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the funny drawing ideas generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of funny drawing ideas per day, with 5 comedic prompts in each batch — 150 every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What humor styles can I get?",
+            "description": "Styles covered include cute kawaii comedy, dark humor, vintage gag-cartoon, modern meme aesthetics, ironic deadpan, slapstick, wordplay visual jokes, and absurdist meme formats — every comedic style.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save funny drawing ideas for later?",
+            "description": "Yes. Click the heart icon next to any funny drawing idea to save it. Your saved comedy prompts live on the My Inspirations page — perfect for queuing the best punchlines to render later.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular humor prompt list?",
+            "description": "Most humor lists feel generic and forced. DrawSpark's funny drawing ideas are trained on comedic structure — absurd setups, escalating beats, visual payoffs — so the punchlines actually land.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get ideas for specific humor styles?",
+            "description": "Absolutely. Use the style filter to focus on cute kawaii comedy, dark humor, vintage gag-cartoon, modern meme, ironic deadpan, or slapstick. The generator combines your chosen style with fresh comedic subjects.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a funny drawing idea take?",
+            "description": "Most funny drawing ideas take 15 minutes to 1 hour to complete well. Simple gag concepts are quick; elaborate situational comics run longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these ideas good for beginners?",
+            "description": "Yes — every funny drawing idea comes with a difficulty rating. Beginners can pick easy gag concepts; experienced artists can take on full situational comics. Everyone gets something matched to their skill level.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I use these as meme templates?",
+            "description": "Absolutely. Many funny drawing ideas are meme-ready — single-frame setups with clear punchline structure. Render them, add a caption if needed, and share to social feeds that love visual humor.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished comedy art?",
+            "description": "Yes. Every funny drawing idea has a share button that copies a link to your clipboard. Share your finished comedy art on social media, in humor communities, or in your portfolio to show comedic range.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Funny Drawing Ideas"
+    },
+    "images-of-cool-drawings": {
+      "h1Title": "Images of Cool Drawings: 100+ Stunning Visuals & Inspiration",
+      "h1Subtitle": "Hunting images of cool drawings? DrawSpark curates a gallery of stunning visuals — striking portraits, dramatic scenes, and bold concepts that inspire your next cool art piece every time you visit.",
+      "heroCta": "Generate Cool Drawings",
+      "heroPromptHint": "Pre-fills a cool-style idea",
+      "seoTitle": "Images of Cool Drawings — 100+ Stunning Visuals & Inspiration | DrawSpark",
+      "seoDescription": "Hunting images of cool drawings? DrawSpark's free AI generator delivers stunning cool-art visuals — striking portraits, dramatic scenes, and bold concepts that inspire your next cool piece at every skill level.",
+      "seoKeywords": "images of cool drawings, cool drawings, cool drawing ideas, cool art images, stunning drawings, cool sketches, cool drawings inspiration, cool pencil drawings",
+      "head1": {
+        "title": "DrawSpark's Images of Cool Drawings Generator",
+        "description": "Hunting images of cool drawings? DrawSpark's AI curates a stunning, cool-aesthetic gallery — striking portraits, dramatic scenes, and bold concepts that inspire your next cool piece.",
+        "buttonText": "Generate Cool Drawings",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Images of Cool Drawings Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's images of cool drawings generator is built for artists who want striking, bold, cool-aesthetic visuals — not generic subject prompts. The AI curates cool-style concepts — dramatic portraits, strong silhouettes, atmospheric scenes, moody color palettes, sharp line art, urban-edge compositions, abstract cool compositions, and cinematic moments — all tailored to your skill level. Each idea comes with a title, short description, subject tag, style tag, and difficulty rating so you know exactly what kind of cool piece you're committing to. The generator covers the full cool spectrum: street-style cool, dark gothic cool, sharp minimalist cool, urban-graffiti cool, moody cinematic cool, fashion-illustration cool, and abstract expressive cool. You can filter by style to focus on cool minimalist, cool dark, cool cinematic, or cool experimental aesthetics. DrawSpark also maintains a public gallery of community cool art you can browse for inspiration and study what makes cool art land.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Images of Cool Drawings Generator Work?",
+        "buttonText": "Generate Cool Drawings",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Images of Cool Drawings Generator",
+            "description": "Visit this page and hit the generate button. The cool drawings generator is free, runs instantly, and requires no login — perfect for artists who want fresh cool-aesthetic prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Images of Cool Drawings",
+            "description": "DrawSpark instantly creates 5 cool drawing ideas. Each comes with a title, description, subject tag, style tag, and difficulty — all matched to genuinely cool, bold, striking visuals.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick a Cool Drawing and Start Drawing",
+            "description": "Browse the 5 cool drawings, pick the one that strikes you most, and start drawing. Save favorites, share your finished cool art, or regenerate anytime for fresh cool prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Images of Cool Drawings?",
+        "description": "DrawSpark's cool drawings adapt to any art project that needs a striking, bold, cool-aesthetic visual — from portfolio pieces to social posts to mood-driven explorations.",
+        "buttonText": "Generate Cool Drawings",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Build a Cool Aesthetic Portfolio",
+            "description": "Find fresh cool drawing ideas across every mood — minimalist cool, dark gothic cool, urban-graffiti cool — perfect for a portfolio that immediately signals strong visual taste and edge.",
+            "buttonText": "Get Portfolio Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Spark Social Feed Engagement",
+            "description": "Post cool drawing ideas from DrawSpark to engage your social followers. Strong silhouettes, bold color palettes, and dramatic compositions consistently outperform quiet sketches on feeds.",
+            "buttonText": "Get Social Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Practice Mood & Tone",
+            "description": "Train cool aesthetic instincts by rendering one cool drawing idea per day. After a month your mood-and-tone control grows visibly — the difference between a sketch and a statement.",
+            "buttonText": "Get Practice Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Cool Art",
+            "description": "Explore the public gallery of cool drawing ideas rendered by other artists. See how creators handle edge, mood, and silhouette — find your own take on the cool aesthetic.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Images of Cool Drawings Generator For?",
+        "buttonText": "Generate Cool Drawings",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artists With Cool Aesthetic Taste",
+            "description": "Want art that matches your visual taste for edge, mood, and minimalism? DrawSpark's cool drawing ideas deliver bold, striking concepts that feel curated — not generic subject prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Social-Feed Artists",
+            "description": "Want engagement on social? Cool drawing ideas perform — bold silhouettes and dramatic compositions stand out in feeds. DrawSpark delivers a fresh cool concept for every post.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Who Loves Cool Art",
+            "description": "Just love cool art? DrawSpark's cool drawing ideas spark fresh, striking concepts for personal projects, gifts, or just-for-fun striking pieces. The aesthetic speaks for itself.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Images of Cool Drawings Generator?",
+        "buttonText": "Generate Cool Drawings",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Cool Aesthetic, Not Generic Subject",
+            "description": "Most prompt lists only name subjects. DrawSpark's cool drawing ideas come packaged with mood, silhouette, color palette, and tone hints — so you can practice real cool visual thinking.",
+            "buttonText": "See Cool Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of cool drawings per day — that's 150 striking prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Achievable",
+            "description": "Every cool drawing idea includes a clear subject, mood, and difficulty rating so you know exactly what kind of striking piece you're committing to before you start sketching.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Images of Cool Drawings",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 1140 Reviews",
+        "content": [
+          {
+            "title": "Aesthetic Match Found",
+            "description": "I've always loved cool art but couldn't find prompts that matched my aesthetic taste. DrawSpark's cool drawing ideas nail the vibe — moody, minimalist, striking. My sketchbook finally looks like me.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Felix Wolf",
+            "ext3": "Cool-Aesthetic Artist"
+          },
+          {
+            "title": "Social Engagement Triple",
+            "description": "Switched to posting cool drawing ideas from DrawSpark and engagement tripled overnight. Bold silhouettes and moody palettes just perform better in feeds than my old generic subjects.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Mira Onishi",
+            "ext3": "Social-Engagement Artist"
+          },
+          {
+            "title": "Portfolio Recruiter Win",
+            "description": "I rebuilt my portfolio around DrawSpark's cool drawing ideas. Two recruiters specifically mentioned the mood and tone of my pieces in interviews. I landed the job.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Adrian Kostka",
+            "ext3": "Recruiter-Winning Artist"
+          },
+          {
+            "title": "Genre Discovery",
+            "description": "I only drew realism before. Cool drawing ideas from DrawSpark pushed me into minimal cool, urban-edge, and gothic styles. Three genres I now love — none I'd have found alone.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Cordelia Banks",
+            "ext3": "Genre-Discovery Artist"
+          },
+          {
+            "title": "Editorial Illustration Wins",
+            "description": "I pitch editorial illustration to magazines. DrawSpark's cool drawing ideas give me striking composition concepts weekly. Three made it into print in six months. Game changer.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Theo Vance",
+            "ext3": "Editorial Illustration Artist"
+          },
+          {
+            "title": "Mood & Tone Trainer",
+            "description": "I wanted to master mood and tone. Cool drawing ideas from DrawSpark forced me to think about silence, negative space, and dramatic composition. My visual ear grew visibly.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Esme Holloway",
+            "ext3": "Mood-Tone-Learning Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Images of Cool Drawings",
+        "buttonText": "Generate Cool Drawings",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of cool drawing ideas can I get?",
+            "description": "DrawSpark's cool drawings cover street-style cool, dark gothic cool, sharp minimalist cool, urban-graffiti cool, moody cinematic cool, fashion-illustration cool, and abstract expressive cool concepts.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the cool drawings generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of cool drawing ideas per day, with 5 cool prompts in each batch — 150 every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What cool drawing styles can I get?",
+            "description": "Styles covered include cool minimalist, cool dark, cool cinematic, cool experimental, sharp line art, dramatic ink, urban-graffiti, fashion-illustration, and abstract expressive — every cool aesthetic.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save cool drawing ideas for later?",
+            "description": "Yes. Click the heart icon next to any cool drawing idea to save it. Your saved cool prompts live on the My Inspirations page — perfect for queuing striking pieces for later sessions.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular subject prompt list?",
+            "description": "Most prompt lists only name subjects. DrawSpark's cool drawings include mood, silhouette, color palette, and tone hints — so you practice real cool visual thinking, not just subject matter.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get ideas for specific cool styles?",
+            "description": "Absolutely. Use the style filter to focus on cool minimalist, cool dark, cool cinematic, or cool experimental. The generator combines your chosen style with fresh striking subjects and compositions.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a cool drawing idea take?",
+            "description": "Most cool drawings take 30 minutes to 2 hours to complete well. Simple minimalist compositions are quick; full cinematic scenes run longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these ideas good for beginners?",
+            "description": "Yes — every cool drawing idea comes with a difficulty rating. Beginners can pick easy minimalist cool prompts; experienced artists can take on full cinematic compositions. Everyone gets something matched.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I use these as reference for finished pieces?",
+            "description": "Yes. The cool drawing ideas are yours to render at any style, level of finish, or medium. Many artists use them as starting points for full paintings, editorial pieces, or portfolio centerpieces.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished cool art?",
+            "description": "Yes. Every cool drawing idea has a share button that copies a link to your clipboard. Share your finished cool art on social media, in cool art communities, or in your portfolio to showcase striking work.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Images of Cool Drawings"
+    },
+    "objects-to-sketch": {
+      "h1Title": "Objects to Sketch: 100+ Everyday Things to Draw by Observation",
+      "h1Subtitle": "Looking for objects to sketch? DrawSpark generates observation-ready prompts — household items, tools, fruits, garments, and architectural details that level up your draftsmanship fast.",
+      "heroCta": "Get Objects to Sketch",
+      "heroPromptHint": "Pre-fills an everyday object",
+      "seoTitle": "Objects to Sketch — 100+ Everyday Things to Draw | DrawSpark",
+      "seoDescription": "Looking for objects to sketch? DrawSpark's free AI generator delivers observation-ready prompts — household items, tools, fruits, garments, and architectural details for every skill level.",
+      "seoKeywords": "objects to sketch, things to sketch, everyday objects to draw, household items to draw, observational drawing, still life drawing, sketch practice objects, easy objects to draw",
+      "head1": {
+        "title": "DrawSpark's Objects to Sketch Generator",
+        "description": "Looking for objects to sketch? DrawSpark's AI delivers observation-ready prompts — household items, tools, fruits, garments, and architectural details that sharpen your draftsmanship every single day.",
+        "buttonText": "Get Objects to Sketch",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Objects to Sketch Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's objects to sketch generator is built for artists who want observational practice, still-life accuracy, and sharp draftsmanship — by drawing real everyday things. The AI generates observation-ready prompts — kitchen utensils, hand tools, fruits and vegetables, garments, shoes, books, glassware, mechanical objects, architectural details, instruments, and natural forms — all tailored to your skill level. Each idea comes with a title, short description, object category tag, style hint, and difficulty rating so you know exactly what still-life setup you're committing to. The generator covers the full observational spectrum: simple single objects, grouped still life, dramatic lit compositions, household at scale, mechanical macro, fabric drape studies, and architectural detail practice. You can filter by category to focus on kitchen items, tools, plants, garments, instruments, or mechanical objects. DrawSpark also maintains a public gallery of community observational art you can browse for draftsmanship inspiration.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Objects to Sketch Generator Work?",
+        "buttonText": "Get Objects to Sketch",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Objects to Sketch Generator",
+            "description": "Visit this page and hit the generate button. The objects to sketch generator is free, runs instantly, and requires no login — perfect for artists who want fresh observational prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Objects to Sketch",
+            "description": "DrawSpark instantly creates 5 objects to sketch. Each comes with a title, description, object category tag, style hint, and difficulty — all matched to genuinely interesting, drawable objects.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick an Object and Start Sketching",
+            "description": "Browse the 5 objects to sketch, pick the one that draws you in most, and start drawing. Save favorites, share your finished observational art, or regenerate anytime for fresh objects.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Objects to Sketch?",
+        "description": "DrawSpark's objects to sketch adapt to any observational art project that needs everyday subjects — from daily draftsmanship practice to traditional still-life studies to portfolio fundamentals.",
+        "buttonText": "Get Objects to Sketch",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Daily Draftsmanship Practice",
+            "description": "Sketch one object from DrawSpark every day. Daily observational drawing builds accuracy, line confidence, and value control faster than any other single art habit.",
+            "buttonText": "Get Daily Practice",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Build a Still Life Portfolio",
+            "description": "Render multiple objects together into traditional still-life compositions. Pair DrawSpark's everyday objects with strong lighting to build portfolio-ready observational pieces.",
+            "buttonText": "Get Portfolio Objects",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Train Hand-Eye Coordination",
+            "description": "Use objects to sketch for hand-eye coordination drills. Five-minute sketches of simple objects sharpen observation faster than any other training method I know.",
+            "buttonText": "Get Drill Objects",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Object Sketches",
+            "description": "Explore the public gallery of objects-to-sketch rendered by other artists. See how creators handle light, proportion, and texture — find your own take on observational draftsmanship.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Objects to Sketch Generator For?",
+        "buttonText": "Get Objects to Sketch",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Foundations Art Students",
+            "description": "Practicing observational drawing fundamentals? DrawSpark's objects to sketch give you varied, interesting, everyday subjects — perfect for building draftsmanship from the ground up.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Hobbyists Sharpening Skills",
+            "description": "Want to draw better but don't know what to draw? DrawSpark's objects to sketch spark observational practice with everyday things — your draftsmanship improves fast.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Artists Working in Realism",
+            "description": "Drawing realism and want stronger observational fundamentals? DrawSpark's objects to sketch give you a daily lineup of interesting, drawable everyday things to render accurately.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Objects to Sketch Generator?",
+        "buttonText": "Get Objects to Sketch",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Actually Interesting, Not Just Generic",
+            "description": "Most object prompt lists are just 'apple, shoe, cup.' DrawSpark's objects to sketch are curated to be visually interesting — strong shapes, textures, and lighting opportunities baked in.",
+            "buttonText": "See Interesting Objects",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of objects to sketch per day — that's 150 everyday-object prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Visual, Achievable",
+            "description": "Every objects-to-sketch prompt includes a clear subject category and difficulty rating so you know exactly what kind of observational piece you're committing to before you start.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Objects to Sketch",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 760 Reviews",
+        "content": [
+          {
+            "title": "Fundamentals Reset",
+            "description": "I'd been drawing characters for years but my fundamentals were weak. DrawSpark's objects to sketch got me drawing everyday things daily. My accuracy and line confidence doubled in three months.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Margit Olsen",
+            "ext3": "Fundamentals-Reset Artist"
+          },
+          {
+            "title": "Daily Practice Made Easy",
+            "description": "I always struggled to find interesting objects to draw. DrawSpark's objects to sketch give me a fresh, interesting lineup every morning. My daily practice finally stuck.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Dilan Reyes",
+            "ext3": "Daily Practice Artist"
+          },
+          {
+            "title": "Still Life Win",
+            "description": "I take on still life commissions. DrawSpark's objects to sketch spark fresh interesting subjects for portfolio pieces and client briefs. My commission queue doubled in a year.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Inga Petersen",
+            "ext3": "Still Life Commission Artist"
+          },
+          {
+            "title": "Hand-Eye Boost",
+            "description": "I'd spent years avoiding observational work. DrawSpark's objects to sketch made it approachable — interesting everyday things, not boring apples. My hand-eye coordination jumped fast.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Reza Aslan",
+            "ext3": "Coordination-Boosting Artist"
+          },
+          {
+            "title": "Classroom Resource",
+            "description": "I teach observational drawing and DrawSpark's objects to sketch give me fresh everyday-object prompts weekly. Students engage deeper when the lineup changes daily.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Niamh Doherty",
+            "ext3": "Observational Art Teacher"
+          },
+          {
+            "title": "Texture Studies",
+            "description": "I wanted to master texture — fur, glass, fabric, metal. DrawSpark's objects to sketch gave me a curated catalog of texture-rich subjects. My material rendering visibly grew.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Oskar Berg",
+            "ext3": "Texture-Learning Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Objects to Sketch",
+        "buttonText": "Get Objects to Sketch",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "What kinds of objects can I get to sketch?",
+            "description": "DrawSpark's objects to sketch cover kitchen utensils, hand tools, fruits and vegetables, garments, shoes, books, glassware, mechanical objects, architectural details, instruments, and natural forms.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the objects to sketch generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of objects to sketch per day, with 5 prompts in each batch — 150 everyday objects every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What object categories can I filter by?",
+            "description": "Filter by kitchen, tools, fruits, garments, instruments, mechanical objects, plants, household, books, glassware, or architectural details. DrawSpark's everyday-object library covers every common observational category.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save objects to sketch for later?",
+            "description": "Yes. Click the heart icon next to any objects to sketch prompt to save it. Your saved everyday objects live on the My Inspirations page — perfect for queuing observational pieces for later sessions.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a generic object prompt list?",
+            "description": "Most object prompt lists are flat — 'apple, shoe, cup.' DrawSpark's objects to sketch are curated to be visually interesting, with strong shapes, textures, and lighting opportunities baked into each subject.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get grouped still-life setups?",
+            "description": "Yes. Some objects to sketch prompts include grouped still-life setups — multiple items with suggested lighting. Perfect for traditional still-life compositions with strong focal point and supporting objects.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does an object sketch take?",
+            "description": "Most objects to sketch take 10 minutes to 1 hour to complete well. Quick gesture-style sketches are fastest; full tonal studies run longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these objects good for beginners?",
+            "description": "Yes — every objects to sketch prompt comes with a difficulty rating. Beginners can pick simple single-object prompts; experienced artists can take on grouped still-life and detail studies. Everyone gets matched.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I set up my own still life from these?",
+            "description": "Yes. The object prompts are designed to be drawable from real life. Set the item on a table, light it well, and sketch from observation. Many artists pair the generator with reference photos for accuracy.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished observational sketches?",
+            "description": "Yes. Every objects to sketch prompt has a share button that copies a link to your clipboard. Share your finished observational sketches on social media, in art communities, or in your portfolio to show fundamentals.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Objects to Sketch"
+    },
+    "unique-drawings": {
+      "h1Title": "Unique Drawings: 100+ Original, Creative & One-of-a-Kind Ideas",
+      "h1Subtitle": "Want unique drawings nobody's sketched before? DrawSpark's AI invents original ideas — unexpected mashups, fresh perspectives, and creative concepts you won't find in any prompt list.",
+      "heroCta": "Generate Unique Drawing Ideas",
+      "heroPromptHint": "Pre-fills an original idea",
+      "seoTitle": "Unique Drawings — 100+ Original & Creative Ideas | DrawSpark",
+      "seoDescription": "Want unique drawings? DrawSpark's free AI generator delivers original, creative, one-of-a-kind ideas — unexpected mashups, fresh perspectives, and creative concepts you won't find in any prompt list.",
+      "seoKeywords": "unique drawings, unique drawing ideas, original drawing ideas, creative drawings, one of a kind drawing ideas, fresh drawing ideas, novel drawing prompts, original art ideas",
+      "head1": {
+        "title": "DrawSpark's Unique Drawings Generator",
+        "description": "Want unique drawings? DrawSpark's AI invents original, fresh, creative concepts — unexpected mashups, novel perspectives, and one-of-a-kind prompts you won't find in any standard list.",
+        "buttonText": "Generate Unique Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": ""
+      },
+      "Whatis": {
+        "title": "What Is DrawSpark's Unique Drawings Generator?",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "description": "DrawSpark's unique drawings generator is built for artists who want original, fresh, never-before-sketched concepts — not the same recycled prompts every list serves. The AI generates truly novel combinations — unexpected subject mashups, fresh angles on familiar concepts, abstract color studies, surreal compositions, and one-of-a-kind editorial moments — all tailored to your skill level. Each unique drawing idea comes with a title, short description, subject tag, style tag, and difficulty rating so you know exactly what kind of original piece you're committing to. The generator explores the full range of uniqueness: visual mashups, perspective breaks, material combinations, atmospheric reimaginings, character twists, environmental inversions, and creative exercises. You can filter by style to focus on uniquely cute, uniquely dark, uniquely minimal, or uniquely experimental aesthetics. DrawSpark also maintains a public gallery of community art you can browse for ideas.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "howToUse": {
+        "title": "How Does DrawSpark's Unique Drawings Generator Work?",
+        "buttonText": "Generate Unique Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Step 1: Open the Unique Drawings Generator",
+            "description": "Visit this page and hit the generate button. The unique drawings generator is free, runs instantly, and requires no login — perfect for artists who want original one-of-a-kind prompts on demand.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 2: Get 5 Unique Drawing Ideas",
+            "description": "DrawSpark instantly creates 5 unique drawing ideas. Each comes with a title, description, subject tag, style tag, and difficulty — all matched to genuinely original, fresh, creative prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Step 3: Pick a Unique Idea and Start Drawing",
+            "description": "Browse the 5 unique ideas, pick the one that excites you most, and start drawing. Save favorites, share your finished one-of-a-kind art, or regenerate anytime for fresh unique prompts.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "doWith": {
+        "title": "What Can You Do With DrawSpark's Unique Drawings?",
+        "description": "DrawSpark's unique drawings adapt to any art project that needs fresh, original, never-seen concepts — from portfolio centerpieces to client pitches to creative exploration.",
+        "buttonText": "Generate Unique Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Build an Original Portfolio",
+            "description": "Find fresh unique drawing ideas that genuinely stand out from typical portfolio pieces. DrawSpark's originals give you a portfolio that proves creative range and visual originality.",
+            "buttonText": "Get Portfolio Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Win Client Pitches",
+            "description": "Use unique drawing ideas to spark original concepts for client briefs. Show five fresh directions in your pitch deck — clients notice the originality, and briefs close faster.",
+            "buttonText": "Get Pitch Concepts",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Break Creative Patterns",
+            "description": "Draw in patterns without realizing it? DrawSpark's unique drawing ideas push you into genuinely novel territory. After a month your visual range visibly expands.",
+            "buttonText": "Get Pattern-Breakers",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Browse Community Originals",
+            "description": "Explore the public gallery of unique drawing ideas rendered by other artists. See how creators handle originality and find your own take on creative novelty.",
+            "buttonText": "Browse Gallery",
+            "buttonRoute": "/explore",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "Whois": {
+        "title": "Who Is DrawSpark's Unique Drawings Generator For?",
+        "buttonText": "Generate Unique Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Artists Stuck in Patterns",
+            "description": "Drawing the same things on repeat? DrawSpark's unique drawing ideas push you into genuinely novel territory — original mashups, fresh perspectives, and combinations you wouldn't think to try.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Designers Building Originality Reps",
+            "description": "Want to be known for original work? DrawSpark's unique drawing ideas spark the kind of creative thinking that wins originality reputations — visual mashups, surprising takes, fresh twists.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Anyone Who Wants Fresh Ideas",
+            "description": "Bored of the same old prompts? DrawSpark's unique drawing ideas deliver one-of-a-kind concepts every time — guaranteed not in any standard list, built from combinatorial creativity.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "youNeed": {
+        "title": "Why Choose DrawSpark's Unique Drawings Generator?",
+        "buttonText": "Generate Unique Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "Actually Unique, Not Just Generic",
+            "description": "Most prompt lists feel generic and recycled. DrawSpark's unique drawing ideas use combinatorial creativity — surprising subject, style, and angle combinations you won't find in any standard list.",
+            "buttonText": "See Unique Ideas",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Free, Fast, Limitless",
+            "description": "DrawSpark is 100% free with no account required. Generate up to 30 fresh batches of unique drawing ideas per day — that's 150 original prompts every single day at zero cost.",
+            "buttonText": "Generate Free",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Specific, Original, Achievable",
+            "description": "Every unique drawing idea includes a clear subject mashup, style hint, and difficulty rating so you know exactly what kind of original piece you're committing to before you start sketching.",
+            "buttonText": "Try Free Generator",
+            "buttonRoute": "/generate",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "realVoices": {
+        "title": "What Artists Say About DrawSpark's Unique Drawings",
+        "buttonText": "Try Free Generator",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "ext1": "4.9",
+        "ext2": "From 870 Reviews",
+        "content": [
+          {
+            "title": "Pattern Breaker Worked",
+            "description": "I'd been drawing portraits for years and they all looked the same. DrawSpark's unique drawing ideas pushed me into visual mashups and fresh perspectives. My portfolio tripled in originality.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Sven Johansson",
+            "ext3": "Pattern-Breaker Artist"
+          },
+          {
+            "title": "Originality Reputation",
+            "description": "I rebuilt my whole portfolio around DrawSpark's unique drawing ideas. Two clients specifically hired me for being 'the original one.' My work pipeline tripled.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Ada Reyes",
+            "ext3": "Originality-Reputation Artist"
+          },
+          {
+            "title": "Concept Art Win",
+            "description": "I pitch concept art for indie games. DrawSpark's unique drawing ideas spark original character and environment mashups my clients love. Three games shipped with my concepts in the credits.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Linnea Holm",
+            "ext3": "Indie Concept Artist"
+          },
+          {
+            "title": "Editorial Standout",
+            "description": "I submit to literary magazines. DrawSpark's unique drawing ideas spark fresh visual concepts tied to themes I never could have thought of. Three pieces published in six months.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Tomás Rivera",
+            "ext3": "Editorial Illustration Artist"
+          },
+          {
+            "title": "Mashup Magic",
+            "description": "I love visual mashups and DrawSpark's unique drawing ideas are pure mashup magic — surprising combinations I'd never assemble alone. My sketchbook got three times more interesting.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Yara Habib",
+            "ext3": "Mashup-Enthusiast Artist"
+          },
+          {
+            "title": "Range Expansion",
+            "description": "I was stuck in one genre. DrawSpark's unique drawing ideas pushed me into visual combinations across genres. Range visible. Clients comment on the variety now.",
+            "photo": "",
+            "photoThumbnail": "",
+            "ext1": "5",
+            "ext2": "Henrik Kowalski",
+            "ext3": "Range-Expansion Artist"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions About DrawSpark's Unique Drawings",
+        "buttonText": "Generate Unique Drawing Ideas",
+        "buttonRoute": "/generate",
+        "photo": "",
+        "photoThumbnail": "",
+        "content": [
+          {
+            "title": "How does DrawSpark generate unique drawing ideas?",
+            "description": "DrawSpark's unique drawings use combinatorial creativity — combining subjects, styles, and angles in surprising ways so each prompt is genuinely fresh and rarely matches another artist's lineup.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Is the unique drawings generator free?",
+            "description": "Yes — DrawSpark is completely free with no login or credit card required. Generate up to 30 fresh batches of unique drawing ideas per day, with 5 original prompts in each batch — 150 every day at zero cost.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "What kinds of unique drawings can I get?",
+            "description": "DrawSpark's unique drawing ideas cover visual mashups, perspective breaks, material combinations, atmospheric reimaginings, character twists, environmental inversions, and creative exercises.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I save unique drawing ideas for later?",
+            "description": "Yes. Click the heart icon next to any unique drawing idea to save it. Your saved original prompts live on the My Inspirations page — perfect for queuing one-of-a-kind ideas for later sessions.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How is this different from a regular prompt list?",
+            "description": "Most prompt lists cycle through the same hundred ideas. DrawSpark's unique drawing ideas are generated fresh every time, with combinatorial novelty no standard list can match.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I get ideas for specific unique styles?",
+            "description": "Absolutely. Use the style filter to focus on uniquely cute, uniquely dark, uniquely minimal, or uniquely experimental aesthetics. The generator combines your style with surprising mashup subjects and angles.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "How long does a unique drawing idea take?",
+            "description": "Most unique drawing ideas take 30 minutes to 2 hours to complete well. Simple mashups are quick; elaborate mashup compositions run longer. Time estimates are included with each prompt.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Are these ideas good for beginners?",
+            "description": "Yes — every unique drawing idea comes with a difficulty rating. Beginners can pick easy mashup prompts; experienced artists can take on complex perspective breaks. Everyone gets something matched.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I reroll if I want a different unique idea?",
+            "description": "Absolutely. If the 5 unique ideas don't speak to you, hit generate again. Reroll as many times as you like within your daily 30-batch limit, no penalty, no waiting.",
+            "photo": "",
+            "photoThumbnail": ""
+          },
+          {
+            "title": "Can I share my finished unique art?",
+            "description": "Yes. Every unique drawing idea has a share button that copies a link to your clipboard. Share your finished one-of-a-kind art on social media, in art communities, or in your portfolio.",
+            "photo": "",
+            "photoThumbnail": ""
+          }
+        ]
+      },
+      "footerLabel": "Unique Drawings"
     }
   },
   "auth": {
